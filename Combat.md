@@ -92,6 +92,8 @@ Kick: Roll a **Close Combat** skill test against an enemy within 1 meter. On a h
 ### Grapple
 Select an enemy of equal or lesser size in an adjacent square. Roll an opposed **Athletics** test against them. If you win, The creature is *restrained* and now occupies the same square as you while *restrained* in this way. Whenever you move, make an **Athletics** test with a +10 penalty for every 50 kilograms the grappled target weighs. On a success, you can move half your movement (rounded down).
 
+As a combat action, a grappled creature can attempt to break free, making an opposed **Athletics** test against the grappler. On a success, they break free.
+
 #### Multi-Weapon Fighting
 When wielding more than 1 weapon, you can make a number of melee attacks equal to the number of wielded weapons instead of just 1. If you elect to do so, all melee attacks made have a penalty equal to +(number of attacks * 10). You cannot wield more weapons than you have arms and hands.
 
@@ -121,6 +123,9 @@ When you succeed a Dodge test, you MUST move at least 1 meter and at most 1/2 yo
 
 ### Parry
 The parry reaction can only be taken when its determined a melee attack has hit you and before the damage has been rolled. Make a **Close Combat** test with a +10 penalty, opposing the opponent's attack roll. If you win, you take no damage from the attack and can make your own melee attack against the opponent in turn as long as they are within your melee range. You can parry attacks made as part of the parry reaction.
+
+### Make an Opportunity Attack
+When a creature moves from inside your melee range to outside your melee range, you may make a melee attack as an attack of opportunity. If you make an unarmed attack, it may not be a kicking attack.
 
 ### Trigger a Held Action
 When the trigger you specified upon holding a combat action occurs, you may take this reaction to use said action.
@@ -190,7 +195,7 @@ When you sleep, you regain 1 hit point for every hour spent sleeping.
 ## Status Effects
 
 ### Ablaze
-A creature with the *ablaze* condition is completely engulfed in flames. An *ablaze* creature cannot have or gain the *burning* condition. At the start of each of their turns, the creature takes 15 heat damage directly to their hit points. At the end of each of their turns, they must succeed a **Perseverance** test or else fall unconscious. When being negated by a [**Shield**] Gu, consider damage dealt by the *ablaze* condition to be of the rank of the Gu that applied the *ablaze* condition, or rank 1 if the fire was natural. Being submerged in water removes the *ablaze* condition.
+A creature with the *ablaze* condition is completely engulfed in flames. An *ablaze* creature cannot have or gain the *burning* condition. At the start of each of their turns, the creature takes 15 heat damage directly to their hit points. If a creature takes heat damage to their hit points on a turn from the *ablaze* condition, at the end of the turn they must succeed a **Perseverance** test or else fall unconscious. For creatures invulnerable to heat damage, consider damage dealt by the *ablaze* condition to be of the rank of the Gu that applied the *ablaze* condition, or rank 1 if the fire was natural. Being submerged in water removes the *ablaze* condition.
 
 ### Bleeding X
 *Bleeding* creatures take 1 damage directly to their hit points at the start of each of their turns for every stack of *bleeding*. This damage has no type and cannot be reduced by Gu. Levels of *bleeding* can stack additively from the same or different sources. Remove 1 *bleeding* stack for every hitpoint you restore.

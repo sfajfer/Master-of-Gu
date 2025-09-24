@@ -43,7 +43,7 @@ Health: 22
 
 Food: 3 liters of blood
 
-Effect: Your body shudders as a hundred wounds appear all over it. You take 2d6 rending damage directly to your hit points, and your blood streaks out like swords; all creatures within range must attempt a *Dodge* test. They take 80 rending damage on a failure, and 40 on a success. If damage is dealt to a creature's hit points in this way, they gain *bleeding 2*.
+Effect: Your body shudders as a hundred wounds appear all over it. You take 8 unmitigatable rending damage directly to your hit points, and your blood streaks out like swords; all creatures within range must attempt a *Dodge* test. They take 100 rending damage on a failure, and 50 on a success. If damage is dealt to a creature's hit points in this way, they gain *bleeding 2*.
 
 ### Blood Brother Gu
 *Rank 3 Carver*
@@ -296,9 +296,24 @@ Range: Touch
 
 Health: 9
 
-Food: 5 cubic centimeterrs of skin
+Food: 5 cubic centimeters of skin
 
-Effect: Touch a creature. For 1 hour, they are immune to the *bleeding* status effect and cannot bleed.
+Effect: Remove the *bleeding* condition from a creature you touch.
+
+### Thick Blood Gu
+*Rank 1 Carver*
+
+Cost: 25 portions
+
+Range: Self
+
+Health: 6
+
+Food: 
+
+Keywords: [**Expendable**], [**Dao**]
+
+Effect: Your blood is permanently modified to coagulate much quicker than normal. Whenever you gain the *bleeding* condition, reduce the number of stacks of *bleeding* you receive by 1. At the end of each of your turns, reduce the number of stacks of *bleeding* you have by 1.
 
 ### Vein Burst Gu
 *Rank 2 Attack*
@@ -507,7 +522,7 @@ Food:
 
 Keywords: [**Sustained**], [**Medium**]
 
-Effect: While sustained, a shield of obsidian and magma appears in a square adjacent to you. If a projectile passes through the shield's square, the shield negates the attack entirely, taking the damage of the attack to its hit points (if the attack deals damage). If the projectile was created by a Gu of rank 3 or higher, the shield is destroyed and does not negate the attack. The shield has 20 hit points and is immune to heat damage.
+Effect: While sustained, a shield of obsidian and magma appears in a square adjacent to you. If a projectile passes through the shield's square, the shield negates the attack entirely, taking the damage of the attack to its hit points (if the attack deals damage). If the projectile was created by a Gu of rank 3 or higher, the shield is destroyed and does not negate the attack. The shield has 20 hit points and is invulnerable to heat damage.
 
 ### Clearing Heat Gu
 *Rank 2 Tonic*
@@ -769,6 +784,21 @@ Keywords: [**Sustained**]
 
 Effect: A thin veil of flame surrounds you. While sustained, reduce all heat damage dealt to your hit points by 10, to a minimum of 0.
 
+### Immolate Gu
+*Rank 2 Attack*
+
+Cost: 10 portions
+
+Range: Touch
+
+Health: 
+
+Food: 
+
+Keywords: 
+
+Effect: A creature you touch gains the *ablaze* condition.
+
 ### Kerosene Gu
 *Rank 1 Manifestation*
 
@@ -898,15 +928,30 @@ Effect: If your rank is the same as the rank of this Gu, and you are currently a
 
 Cost: 40 portions
 
-Range:
+Range: Touch
 
-Health:
+Health: 16
 
 Food:
 
 Keywords: [**Small**]
 
 Effect: You touch a creature and their body chills to subzero temperatures. They fall *unconscious* and Hibernation Gu curls up and goes to sleep. After a day, the creature in hibernation fully restores its hit points. After a week, all the target's ailments caused by Gu of rank 3 or lower are cleansed as well. You may reactivate this Gu at any time to awaken the target. If you are the target, the only action you may take while unconscious is to activate Hibernation Gu and wake yourself up. A target under the effects of Hibernation Gu remains loosely aware of their surroundings. If Hibernation Gu dies, the target awakens immediately.
+
+### Ice Muscles Gu
+*Rank 2 Carver*
+
+Cost: 50 portions
+
+Range: Self
+
+Health: 9
+
+Food: 
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: You are assailed with a piercing pain for 1 hour while your muscles are transfigured into ice muscles. For the duration, you can take no actions except to speak. When the ritual completes, you are permanently immune to the *Fatigued* condition if it is being applied to you by an Ice Path Gu. Additionally, your Strength attribute is permanently increased by 10, and any rending or force damage dealt to your hit points is reduced by 5.
 
 :::
 \newpage
@@ -1127,13 +1172,13 @@ Effect: Your luck point maximum is increased by 1.
 ### Copper Tendons Gu
 *Rank 1 Carver*
 
-Cost: 
+Cost: 20 portions
 
-Range: 
+Range: Self
 
-Health: 
+Health: 10
 
-Food: 
+Food: 100 g copper ore (1/2 primeval stone)
 
 Keywords: [**Dao**], [**Expendable**]
 
@@ -1148,7 +1193,7 @@ Range: Self
 
 Health: 24
 
-Food: A handful of sharpened iron shards
+Food: A handful of sharpened iron shards (1/4 primeval stone)
 
 Keywords: [**Sustained**], [**Large**]
 
@@ -1163,7 +1208,7 @@ Range: Self
 
 Health: 14
 
-Food: 
+Food: 1 golden phoenix feather (20 primeval stones)
 
 Keywords: [**Sustained**]
 
@@ -1174,9 +1219,9 @@ Effect: While sustained, you are surrounded by a shimmering golden aurora and ha
 
 Cost: 90 portions
 
-Range: 
+Range: 25 meters
 
-Health: 
+Health: 12
 
 Food: 
 
@@ -1212,10 +1257,10 @@ Food: 1 kilogram of dirt
 
 Keywords: [**Defensive**], [**Sustained**]
 
-Effect: While sustained and standing on solid ground, negate shock damage dealt to any creature or Gu within range.
+Effect: While sustained and standing on solid ground, creatures and Gu within range gain invulnerability to shock damage.
 
 ### Heatsink Gu
-*Rank 1 Guard*
+*Rank 1-2 Guard*
 
 Cost: 8 portions
 
@@ -1223,27 +1268,26 @@ Range: Self
 
 Health: 10
 
-Food:
+Food: 1 kg copper ore, heated to at least 100 degrees
 
 Keywords: [**Defensive**], [**Sustained**]
 
-Effect: Negate all heat damage dealt to your hit points. While sustained, this Gu stores all damage negated by it, to a maximum of 20. If you hit a creature with a punching or kicking attack, deal heat damage equal to the damage stored inside Heatsink Gu to the target. When you stop sustaining Heatsink Gu, its stored damage reverts to 0.
+Effect: While sustained, this Gu negates and stores all heat damage dealt to your hit points, to a maximum of {20, 50}. If you hit a creature with a punching or kicking attack, deal additional heat damage equal to the damage stored inside Heatsink Gu to the target. When you stop sustaining Heatsink Gu, its stored damage reverts to 0.
 
 ### Iron Hook Silver Slash Gu
-
 *Rank 5 Attack*
 
-Cost: 
+Cost: 8 portions
 
-Range: 
+Range: 25 meters
 
-Health: 
+Health: 12
 
 Food: 
 
-Keywords: 
+Keywords: [**Piercing**]
 
-Effect: You launch 3 silver and 3 steel blades at any number of targets within range. On a hit, silver blades deal 80 rending damage, and steel blades deal 40 rending damage directly to the target's hit points..
+Effect: You launch a silver and a steel blade, each at a target within range. On a hit, silver blades deal 140 rending damage, and steel blades deal 70 rending damage directly to the target's hit points.
 
 ### Iron Needle Gu
 *Rank 1 Attack*
@@ -1258,7 +1302,7 @@ Food: 200 grams of needles (1 primeval stone)
 
 Keywords: [**Piercing**]
 
-Effect: A cloud of needles bursts from your hand towards a creature within range. Make an attack roll. On a hit, deal 6 force damage.
+Effect: A cloud of needles bursts from your hand towards a creature within range. Make an attack roll. On a hit, deal 2d10 force damage.
 
 ### Iron Veins Gu
 *Rank 2 Carver*
@@ -1291,20 +1335,21 @@ Keywords: [**Dao**], [**Expendable**]
 Effect: You are assailed with a horrendous pain for 1 hour while your skin molts and is replaced with {iron, steel, titanium}. You are incapable of taking any actions except to speak for the entire duration. When the process is complete, your skin is permanently transmuted into a flexible membrane as strong as the respective metal. Whenever you take damage to your hit points, except shock or sonic, reduce it by {5, 12, 25}, to a minimum of 0. Whenever you take shock damage to your hit points, multiply it by 2.
 
 ### Polished Gold Gu
+*As is the case with most cultivation improving Gu, Polished Gold Gu is exceptionally valuable. Despite only being rank 3, Polished Gold Gu's refinement recipe requires the sacrifice of a precious rank 4 Relic Gu.*
 
 *Rank 3 Carver*
 
-Cost: 
+Cost: 40 portions
 
-Range: 
+Range: Self
 
-Health: 
+Health: 5
 
-Food: 
+Food: 1 kg of solid gold (5 primeval stones)
 
 Keywords: [**Expendable**]
 
-Effect: Your aptitude is permanently increased by 2%.
+Effect: Your aptitude is permanently increased by 5%.
 
 #### Upgrade Tree: Silver Lining Gu
 *Silver Lining Gu can be refined into several different rank 2 Gu. Quicksilver Lining Gu provides a speed boost, Steel Lining Gu provides physical defense, and Resurgence Gu pivots to Wood Path to provide additional healing to surrounding allies.*
@@ -1627,7 +1672,7 @@ Effect: Your Strength attribute is increased by 100 for 3 turns.
 
 *Rank 2-4 Catalyst*
 
-Cost: 12 portions
+Cost: 8 portions
 
 Range: Self
 
@@ -1642,7 +1687,7 @@ Effect: While sustained, your Strength attribute is increased by {5, 10, 25} * y
 ### Brute Force Longbeetle Gu
 *Rank 1 Catalyst*
 
-Cost: 20 portions
+Cost: 30 portions
 
 Range: Self
 
@@ -1652,33 +1697,35 @@ Food:
 
 Effect: Until the end of your next turn, your Strength attribute is increased by 100. If your Fortitude attribute is lower than 40, your Strength attribute is permanently reduced by 5 at the end of this effect.
 
+### Crocodile Jaw Gu 
+*Rank 1 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 9
+
+Food: 1 kg crushed crocodile teeth (1 primeval stone)
+
+Keywords: [**Dao**]
+
+Effect: Your jaw muscles are permanently infused with the strength of a crocodile. Whenever you make an unarmed attack, you gain the following option:
+
+**Bite:** You viciously bite the target. Roll a **Close Combat** skill test. On a hit, deal 2 rending damage, +1 damage for every 10 points you have in Strength. The target gains a number of stacks of *bleeding* equal to 20% of the damage dealt to their hit points, rounded down (minimum 1).
+
 ### Exert Strength Gu
 *Rank 2 Catalyst*
 
 Cost: 10
 
-Range: 5 meters
+Range: 10 meters
 
 Health: 15
 
 Food: 
 
-Effect: You may make an **Athletics** test to lift, push, or pull an object within range.
-
-### Ice Muscles Gu
-*Rank 2 Carver*
-
-Cost: 50 portions
-
-Range: Self
-
-Health: 
-
-Food: 
-
-Keywords: [**Dao**], [**Expendable**]
-
-Effect: You are assailed with a piercing pain for 1 hour while your muscles are transfigured into ice muscles. For the duration, you can take no actions except to speak. When the ritual completes, you are permanently immune to the *Fatigued* condition if it is being applied to you by an Ice Path Gu. Additionally, your Strength attribute is permanently increased by 10, and any rending or force damage dealt to your hit points is reduced by 5.
+Effect: You immediately make an **Athletics** test to lift, push, or pull an object within range, or you immediately make a **Grapple** combat action against a creature within range.
 
 ### Ivory Armor Gu
 
