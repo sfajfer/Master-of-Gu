@@ -5,6 +5,8 @@ geometry:
     - bottom=2.5cm
     - left=2.5cm
     - right=2.5cm
+header-includes:
+    - \usepackage{graphicx}
 ---
 
 # The System
@@ -29,7 +31,9 @@ At higher ranks, your primeval essence is significantly more potent than even pe
 As a bonus action, you may leak the aura of your primeval essence. Any creature within 10 meters of you can sense this aura and immediately identify the rank and stage of your primeval essence.
 
 ## Primeval Stones
-![](Primeval_Stone.png)
+\begin{center}
+\includegraphics{./images/Primeval_Stone.png}
+\end{center}
 
 Small, smooth stones naturally formed from primeval essence, primeval stones are the main currency in the Gu world. On your turn, you can absorb the essence of a number of primeval stones equal to the amount of hands you have as a **Combat Action** . You must have one hand free for each stone being absorbed.
 
