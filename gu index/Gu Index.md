@@ -1428,7 +1428,7 @@ A creature can expend its combat action to doff the armor.
 \newpage
 
 ## $\centerline{Refinement Path}$
-*Improves any aspect of gu refinement. Refinement path gu masters are often well respected, since they act as factories producing Gu for the clan. Cultivators can often be hired to produce Gu for a significant price.*
+*Improves any aspect of gu refinement. Refinement path Gu Masters are often well respected, since they act as factories producing Gu for the clan. Cultivators can often be hired to produce Gu for a significant price.*
 
 ::: columns
 
@@ -1615,7 +1615,7 @@ Effect: For {1 hour, 1 day}, a {20, 50} meter cube, centered on the square you a
 :::
 \newpage
 ## $\centerline{Strength Path}$
-*Strength Path is a dying path, with little advancement being made as time passes. Despite it being a bit weaker than other paths at higher ranks, many Gu Masters choose to cultivate it due to its relatively cheap cost. Gu masters that are skilled at hand-to-hand combat will typically get the most out of strength path, but some longer-range methods do exist.*
+*Strength Path is a dying path, with little advancement being made as time passes. Despite it being a bit weaker than other paths at higher ranks, many Gu Masters choose to cultivate it due to its relatively cheap cost. Gu Masters that are skilled at hand-to-hand combat will typically get the most out of strength path, but some longer-range methods do exist.*
 
 ::: columns
 
@@ -2026,7 +2026,7 @@ Effect: A silver triangle tattoo appears on your chest. Your body and aperture n
 \newpage
 
 ## $\centerline{Transformation Path}$
-*Changing the users body temporarily. Transformation path gu masters rely on acquiring a full set of Gu for a particular transformation. When using all component Gu together, they form a killer move that the gu master does not need to deduce. Transformation path is very balanced, but each transformation has strengths and weaknesses.*
+*Changing the users body temporarily. Transformation path Gu Masters rely on acquiring a full set of Gu for a particular transformation. When using all component Gu together, they form a killer move that the Gu Master does not need to deduce. Transformation path is very balanced, but each transformation has strengths and weaknesses.*
 
 ### Frog Legs Gu
 *Rank 1 Carver*
@@ -2200,7 +2200,7 @@ Range: 5 meters
 
 Health: 8
 
-Food: Battle Thoughts (Gu master must think about fighting for 1 hour)
+Food: Battle Thoughts (Gu Master must think about fighting for 1 hour)
 
 Effect: All creatures within range, including yourself, become agitated and more prone to violence, and gain a -30 bonus to Perseverance tests for 10 minutes.
 
