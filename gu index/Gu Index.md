@@ -1555,9 +1555,6 @@ A creature can expend its combat action to doff the armor.
 
 ::: columns
 
-:::
-\newpage
-
 ### [Path] Refinement Gu
 *Rank 1-5 Catalyst*
 
@@ -1585,9 +1582,9 @@ Effect: When following a Gu refinement recipe for a rank {1, 2, 3, 4, 5} Gu of [
 
 Cost:  portions
 
-Range:
+Range: <!-- TODO ->
 
-Health:
+Health: <!-- TODO ->
 
 Food: 1 cubic millimeter of gold
 
@@ -1600,9 +1597,9 @@ Effect: Change the range of your next Gu activation to a millimeter. Has no effe
 
 Cost:  portions
 
-Range:
+Range: <!-- TODO ->
 
-Health:
+Health: <!-- TODO ->
 
 Food: <!-- TODO ->
 
@@ -1625,9 +1622,6 @@ Keywords: [**Supplementary**]
 
 Effect: Change the range of your next Gu activation to 100 meters. Has no effect on Gu with a range of *self*.
 
-:::
-\newpage
-
 ### Sacrifice Gu
 *Rank 4 Catalyst*
 
@@ -1635,13 +1629,16 @@ Cost: 40 portions
 
 Range: Self
 
-Health: 
+Health: <!-- TODO ->
 
 Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
 Effect: Can only be activated as a reaction to yourself using an [**Expendable**] Gu. That [**Expendable**] Gu is not destroyed in the process of activation.
+
+:::
+\newpage
 
 ## $\centerline{Soul Path}$
 *Difficult to cultivate, soul path methods power is largely reliant on the user's soul strength. Stronger offensively, with few options when it comes to support.*
