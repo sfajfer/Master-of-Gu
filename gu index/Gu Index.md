@@ -1170,6 +1170,7 @@ Effect: Light bends around your body, making you invisible.
 
 ## $\centerline{Lightning Path}$
 *An offensive path with focus on high speed attacks.*
+
 ::: columns
 
 ### Thunderdome Gu
