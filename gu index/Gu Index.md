@@ -422,7 +422,7 @@ Food: 20 grams of talc
 Effect: As long as your aperture is of the same rank as the Stone Aperture Gu, your aperture walls shatter and are replaced with an unbreakable stone wall. Your cultivation immediately rises to peak stage, but you can no longer raise your rank through cultivation.
 
 ### Thousand-Li Earthwolf Spider Gu
-*Rank 5 Manifestation*
+*Rank 5 Celerity*
 
 Cost: 2 portions
 
@@ -501,11 +501,11 @@ Cost: 60
 
 Range: Self
 
-Health: 
+Health: 6
 
 Food: 
 
-Keywords: 
+Keywords: [**Expendable 3**]
 
 Effect: The dao marks carved into your body by Gu with the [**Dao**] keyword are set ablaze. For 1 hour, you are assailed with a burning pain and have a +40 penalty to all skill tests. When the duration elapses, you lose all permanent effects granted by Gu with the [**Dao**] keyword, unless that Dao belongs to Water Path or Ice Path. 
 
@@ -522,7 +522,7 @@ Food:
 
 Keywords: [**Sustained**], [**Medium**]
 
-Effect: While sustained, a shield of obsidian and magma appears in a square adjacent to you. If a projectile passes through the shield's square, the shield negates the attack entirely, taking the damage of the attack to its hit points (if the attack deals damage). If the projectile was created by a Gu of rank 3 or higher, the shield is destroyed and does not negate the attack. The shield has 20 hit points and is invulnerable to heat damage.
+Effect: While sustained, a shield of obsidian and magma appears in an unoccupied square adjacent to you. If a projectile passes through the shield's square, the shield negates the attack entirely, taking the damage of the attack to its hit points (if the attack deals damage). If the projectile was created by a Gu of rank 3 or higher, the shield is destroyed and does not negate the attack. The shield has 20 hit points and is invulnerable to heat damage.
 
 ### Clearing Heat Gu
 *Rank 2 Tonic*
@@ -561,7 +561,7 @@ Cost: 11 portions
 
 Range: Self  
 
-Health: 150  
+Health: 80
 
 Food:
 
@@ -743,6 +743,85 @@ Keywords: [**Sustained**]
 
 Effect: Manifest a swarm of fiery fireflies in a square within range while sustained. The swarm gives off bright light for 25 meters. You can move the swarm up to 10 meters to a point within range as a bonus action on your turn.
 
+[**Upgrade Path: Five Door Fire Pagoda Gu**]
+
+### Charcoal Gu
+*Rank 1 Manifestation*
+
+Cost: 2 portions
+
+Range: Self
+
+Health: 12
+
+Food: 1 kg charcoal
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, you radiate a comfortable heat in a 1 meter radius around you.
+
+### Double Decker Stove Gu
+*Rank 2 Attack*
+
+Cost: 10 portions
+
+Range: 2 meters
+
+Health: 15
+
+Food: 10 kg charcoal (1/2 primeval stone)
+
+Keywords: [**Sustained**], [**Defensive**]
+
+Effect: While sustained, you take 10 heat damage at the start of each of your turns, and heat damage dealt to you is negated and stored inside Double Decker Stove Gu. At the end of each of your turns, some stored heat bursts from your body, dealing 1/2 the stored damage (rounded down) to all creatures within range. Double Decker Stove Gu can store up to 100 heat damage. When you stop activating Double Decker Stove Gu, the stored damage reverts to 0.
+
+### Three Door Fire Hut Gu
+*Rank 3 Attack*
+
+Cost: 10 portions
+
+Range: 10 meters
+
+Health: 15
+
+Food: 1 kg ever-burning coals (300 primeval stones)
+
+Keywords: [**Sustained**]
+
+Effect: A blazing hut with 3 closed doors manifests around you. While sustained, a door opens at the start of each of your turns. You may use an activation to unleash a wave of heat from an open door at a target within range. On a hit, deal heat damage equal to 20 times the number of open doors and apply the *burning* condition. Each door can only attack once per turn.
+
+### Four Door Fire Tower Gu
+*Rank 4 Attack*
+
+Cost: 10 portions
+
+Range: 20 meters
+
+Health: 15
+
+Food: 10 kg ever-burning coals (300 primeval stones)
+
+Keywords: [**Sustained**]
+
+Effect: A translucent tower with a door on each side manifests around you. While sustained, a door opens at the start of each of your turns. You may use an activation to unleash a wave of heat from an open door at a target within range. On a hit, deal heat damage equal to 40 times the number of open doors and apply the *burning* condition. Each door can only attack once per turn.
+
+### Five Door Fire Pagoda Gu
+*Rank 5 Attack*
+
+Cost: 25 portions
+
+Range: 50 meters
+
+Health: 15
+
+Food: 100 g imperial phoenix feathers (15,000 primeval stones)
+
+Keywords: [**Sustained**], [**Undodgeable**]
+
+Effect: While sustained, a magnificent pagoda with 5 doors manifests around you. At the start of each of your turns, target a creature within range. A door opens, and that creature is engulfed in flame, taking heat damage equal to 100 times the number of open doors and gaining the *ablaze* condition. While all 5 doors are open, multiply all heat damage you deal by 2.
+
+[**END**]
+
 ### Flame Binding Gu
 *Rank 2 Attack*
 
@@ -791,11 +870,9 @@ Cost: 10 portions
 
 Range: Touch
 
-Health: 
+Health: 11
 
 Food: 
-
-Keywords: 
 
 Effect: A creature you touch gains the *ablaze* condition.
 
@@ -869,6 +946,21 @@ Food:
 Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
 Effect: A cloak of smoldering embers surrounds you. Any creature that hits you with a melee attack takes 8 heat damage and gains the *burning* condition. Heat damage dealt to Smoldering Cloak Gu is reduced by 10, to a minimum of 0.
+
+### Sprinting Drake Gu
+*Rank 3 Attack*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 80
+
+Food: 1 kg ever-burning coals (30 primeval stones)
+
+Keywords: [**Steed**], [**Medium**]
+
+Effect: This Gu has a speed of 8 meters. While riding it, you can move through hostile creatures' space (but cannot end your turn in their space). If you do, they take 20 heat damage and gain the *burning* condition. When you activate Sprinting Drake Gu, . Its heat damage is increased to 80, and it inflicts *ablaze* instead of *burning*.
 
 :::
 \newpage
@@ -1121,15 +1213,13 @@ While you sustain Lightning Eye Gu, your lightning eye can see through obscuring
 
 *Rank 2 Catalyst*
 
-Cost: 
+Cost: 20 portions
 
 Range: 3 meters
 
-Health: 
+Health: 10
 
 Food: 
-
-Keywords: [**Expendable**]
 
 Effect: Can only be activated as a reaction to you or another creature within range expending a luck point on a skill test. If the luck point was used to force a reroll, the target gains advantage on the reroll. If the luck point was used to give a -50 bonus on the skill test, it is instead made with a -80 bonus.
 
@@ -1149,7 +1239,7 @@ Effect: Can only be activated as a reaction to succeeding a skill test after exp
 ### Luck Cauldron Gu
 *Rank 2 Carver*
 
-Cost: 
+Cost: 10
 
 Range: Self
 
@@ -1168,6 +1258,21 @@ Effect: Your luck point maximum is increased by 1.
 *Similar to Earth Path, but with much more focus on defensive and especially offensive methods.*
 
 ::: columns
+
+### Bullet Gu
+*Rank 1 Attack*
+
+Cost: 10 portions
+
+Range: 25 meters
+
+Health: 9 
+
+Food: 100 g of smoldering stone (1 primeval stone)
+
+Keywords: [**Unreactable**]
+
+Effect: You fire a small orb at incredibly high speed at a target within range. On a hit, deal 4 force damage. If this damage is dealt to the target's hit points, they gain *bleeding 1*.
 
 ### Copper Tendons Gu
 *Rank 1 Carver*
@@ -1311,7 +1416,7 @@ Cost: 30 portions
 
 Range: Self
 
-Health: 
+Health: 12
 
 Food: 
 
@@ -1350,6 +1455,22 @@ Food: 1 kg of solid gold (5 primeval stones)
 Keywords: [**Expendable**]
 
 Effect: Your aptitude is permanently increased by 5%.
+
+### Silver Bullet Gu
+
+*Rank 2 Attack*
+
+Cost: 20 portions
+
+Range: 25 meters
+
+Health: 5
+
+Food: 
+
+Keywords: [**Unreactable**]
+
+Effect: You launch a silver orb at incredibly high speeds. This attack always hits. Deal 10 force damage on a hit. If this damage is dealt to the creature's hitpoints, they gain *bleeding 1*.
 
 #### Upgrade Tree: Silver Lining Gu
 *Silver Lining Gu can be refined into several different rank 2 Gu. Quicksilver Lining Gu provides a speed boost, Steel Lining Gu provides physical defense, and Resurgence Gu pivots to Wood Path to provide additional healing to surrounding allies.*
@@ -1508,7 +1629,7 @@ Effect: Change the range of your next Gu activation to 100 meters. Has no effect
 ### Sacrifice Gu
 *Rank 4 Catalyst*
 
-Cost: 120 portions
+Cost: 40 portions
 
 Range: Self
 
@@ -1564,7 +1685,7 @@ Health: 12
 
 Food: 
 
-Effect: Your Strength attribute is permanently reduced by 5. Your maximum Soul is permanently increased by 5. If your Strength attribute is reduced below 0, you die.
+Effect: Your Strength attribute is permanently reduced by 5. Your maximum Soul is permanently increased by 5. If your Strength attribute is reduced to 0, you die.
 
 :::
 \newpage
@@ -1808,7 +1929,7 @@ Effect: Immediately regain hit points equal to 5% of your Strength attribute, ro
 ### Aegis Gu
 *Rank 2-3 Guard*
 
-Cost: 22 portions
+Cost: 20 portions
 
 Range: Self
 
@@ -1874,7 +1995,7 @@ Health:
 
 Food:
 
-Effect: Carves sword dao into a weapon or Gu that deals rending damage. If an attack made with the weapon or Gu is blocked by a Gu of rank {4, 5} or less with the [**Shield**] Keyword, the defending [**Shield**] Gu takes rending damage equal to its hit points before the damage of the attack goes through. After 24 hours, the weapon or Gu affected by Sole Sword Gu crumbles into dust.
+Effect: Carves sword dao into a weapon or Gu that deals rending damage. If an attack made with the weapon or Gu is blocked by a Gu of rank {4, 5} or less with the [**Shield**] Keyword, the defending [**Shield**] Gu takes rending damage equal to its hit points before the damage of the attack is assigned. After 24 hours, the weapon or Gu affected by Sole Sword Gu crumbles into dust.
 
 [**Upgrade Path: Split Mountain Gu**]
 
@@ -1962,7 +2083,7 @@ Food:
 
 Keywords: [**Expendable**]
 
-Effect: Carves sword dao into a weapon or Gu that deals rending damage. If an attack made with the weapon or Gu is blocked by a Gu of rank {2, 3, 4, 5} or less with the [**Shield**] Keyword, the defending [**Shield**] Gu takes rending damage equal to its hit points before the damage of the attack goes through. If this Gu is used on a weapon, the effect is permanent. If used on a Gu, the effect lasts until the next time you activate the Gu.
+Effect: Carves sword dao into a weapon or Gu that deals rending damage. If an attack made with the weapon or Gu is blocked by a Gu of rank {2, 3, 4, 5} or less with the [**Shield**] Keyword, the defending [**Shield**] Gu takes rending damage equal to its hit points before the damage of the attack is assigned. If this Gu is used on a weapon, the effect is permanent. If used on a Gu, the effect lasts until the next time you activate the Gu.
 
 ### Sword Sheath Gu
 *Rank 2-4 Guard*
@@ -2050,7 +2171,7 @@ Cost: 8 portions
 
 Range: Self
 
-Health: {30, 60, 120, 300, 1000}
+Health: {30, 80, 180, 425, 1000}
 
 Food: {1, 4, 9, 16, 25} jade stones
 
@@ -2303,7 +2424,7 @@ Cost: 15 portions
 
 Range: Self
 
-Health: {15, 30, 90, 250, 1000}
+Health: {8, 25, 60, 150, 400}
 
 Food: 5 hours of intense thinking; the thoughts are consumed and cannot be used for deductions.
 

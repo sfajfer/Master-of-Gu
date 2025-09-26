@@ -63,7 +63,7 @@ If a creature is only partially obscured by cover, they are a viable target but 
 ## Combat Actions
 
 ### Use Activations
-Your Activations can be used to activate Gu as well as to utilize the lingering effects of many Gu, such as directing manifestations. You may activate a number of Gu equal to your **Activations** attribute. You may activate each at any time during your turn, including in the middle of movement, but you cannot activate a Gu when it is not your turn. You may activate the same Gu multiple times, unless you are sustaining it. Using up your activations does not prevent you from activating Gu using one of your reactions.
+Your Activations can be used to activate Gu as well as to utilize the lingering effects of many Gu, such as directing manifestations. You may activate a number of Gu equal to your **Activations** attribute. You may activate each at any time during your turn, including in the middle of movement, but you cannot activate a Gu when it is not your turn. You may activate the same Gu multiple times, unless you are sustaining it. Using up your activations does not prevent you from activating Gu using your reactions.
 
 ### Activate a Killer Move
 Pick a killer move for which you have all the Gu and enough primeval essence for all activations. For every activation in the killer move over your **Activations** attribute, take 1 damage to your soul. The killer move activates, applying its effect. If the killer move has the [**Sustained**] keyword, you take 1 damage to your soul any time you activate a Gu while also sustaining the killer move.
@@ -109,9 +109,13 @@ You can react to most actions around you at any time other than during your turn
 Unless specified otherwise by the Gu, shield Gu can be activated as a reaction, including after its determined an attack has hit you, but only before the damage has been rolled.
 
 ### Dodge
-The dodge reaction can only be taken when its determined an attack has hit you and before the damage has been rolled. Make a **Dodge** test opposing the opponent's attack roll. If you win, you successfully dodge the attack and take no damage. If you lose, you are hit and take the full damage of the attack.
+The dodge reaction can be taken when its determined an attack has hit you and before the damage has been rolled. Make a **Dodge** test, opposing the opponent's attack roll if the attack required one. If you succeed, you successfully dodge the attack and take no damage. If you fail, you are hit and take the full damage of the attack.
 
 When you succeed a Dodge test, you MUST move at least 1 meter and at most 1/2 your movement (rounded down) in any direction. If you are unable to move, you are also unable to take the dodge reaction. If 1/2 of your movement is insufficient to escape an area of effect attack, you are struck by the attack regardless.
+
+If you use a reaction to dodge for any trigger except an attack hitting you, you immediately move at least 1 meter and at most 1/2 your movement in any direction.
+
+Dodging provokes opportunity attacks.
 
 ### Parry
 The parry reaction can only be taken when its determined a melee attack has hit you and before the damage has been rolled. Make a **Close Combat** test with a +10 penalty, opposing the opponent's attack roll. If you win, you take no damage from the attack and can make your own melee attack against the opponent in turn as long as they are within your melee range. You can parry attacks made as part of the parry reaction.
@@ -172,6 +176,7 @@ When a creature takes damage to their hit points greater than or equal to half t
 | 2 - Broken Leg | -4 movement |
 | 3 - Internal Bleeding | *Bleeding 1* |
 | 4 - Concussion | *Dazed* |
+
 - Rending: *Bleeding 1*
 
 - Cold: *Fatigued*
