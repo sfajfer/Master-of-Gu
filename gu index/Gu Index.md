@@ -44,7 +44,7 @@ Health: 22
 
 Food: 3 liters of blood
 
-Effect: Your body shudders as a hundred wounds appear all over it. You take 8 unmitigatable rending damage directly to your hit points, and your blood streaks out like swords; all creatures within range must attempt a *Dodge* test. They take 100 rending damage on a failure, and 50 on a success. If damage is dealt to a creature's hit points in this way, they gain *bleeding 2*.
+Effect: Your body shudders as a hundred wounds appear all over it. You take 8 unmitigatable rending damage directly to your hit points, and your blood streaks out like swords; all creatures within range must attempt a **Dodge** test. They take 100 rending damage on a failure, and 50 on a success. If damage is dealt to a creature's hit points in this way, they gain *bleeding 2*.
 
 ### Blood Brother Gu
 *Rank 3 Carver*
@@ -1756,10 +1756,10 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, whenever you roll to activate a beast phantom from a [Beast] Strength Gu of rank {1, 2, 3, 4, 5} or lower, you may forego the roll and trigger the beast phantom automatically.
+Effect: While sustained, whenever you roll to activate a beast phantom from a Strength Path Gu of rank {1, 2, 3, 4, 5} or lower, you may forego the roll and trigger the beast phantom automatically.
 
 ### [Beast] Strength Gu
-*Rank 1-3 Carver*
+*Rank 1-2 Carver*
 
 Cost: 40 portions
 
@@ -1771,9 +1771,9 @@ Food: 10 kilograms of [Beast] flesh
 
 Keywords: [**Dao**]
 
-Effect: Your strength attribute permanently increases by {5, 10, 25}. For 24 hours, you cannot gain strength from [Beast] Strength Gu. Once you've gained {25, 50, 125} strength from [Beast] Strength Gu (including from lower ranks), activating [Beast] Strength Gu further has no effect on you, but you permanently gain the following feature:
+Effect: Your strength attribute permanently increases by {5, 10}. For 24 hours, you cannot gain strength from [Beast] Strength Gu. Once you've gained {25, 50} strength from [Beast] Strength Gu (including from lower ranks), activating [Beast] Strength Gu further has no effect on you, but you permanently gain the following feature:
 
-Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a [Beast] phantom appears behind you, increasing the damage of the attack by {10, 25, 80} force damage.
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a [Beast] phantom appears behind you, increasing the damage of the attack by {10, 25} force damage.
 
 ### Big Strength Gu
 *Rank 2 Catalyst*
@@ -1954,7 +1954,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, your movement is increased by 6 meters and you gain a -40 bonus to Dodge tests. You may forego your movement to instead fly in a straight line of up to 30 meters. If you move through an occupied square, that creature must succeed a Dodge test with a +40 penalty or else take 120 rending damage.
+Effect: While sustained, your movement is increased by 8 meters and you gain a -40 bonus to **Dodge** tests. You may forego your movement to instead fly in a straight line of up to 30 meters. If you move through an occupied square, that creature takes 120 rending damage. **Dodge** tests made to avoid this attack are made with a +40 penalty.
 
 ### Pierce Gu
 *Rank 1-3 Attack*
@@ -2038,7 +2038,7 @@ Health: 7
 
 Food: 1 kg of sharpened blades of any size (1/2 primeval stone)
 
-Effect: You throw a 2 meter wide curved blade in a 20 meter long line. All creatures in the area take 60 rending damage. Dodge tests to avoid this attack are made with a +10 penalty.
+Effect: You throw a 2 meter wide curved blade in a 20 meter long line. All creatures in the area take 60 rending damage. **Dodge** tests to avoid this attack are made with a +10 penalty.
 
 ### Split Hill Gu
 *Rank 4 Attack*
@@ -2051,7 +2051,7 @@ Health: 9
 
 Food: 10 Slash Gu
 
-Effect: You throw a 5 meter wide blade of supercondensed sword qi in a 100 meter long line. All creatures in the area take 200 rending damage. Dodge tests to avoid this attack are made with a +20 penalty.
+Effect: You throw a 5 meter wide blade of supercondensed sword qi in a 100 meter long line. All creatures in the area take 200 rending damage. **Dodge** tests to avoid this attack are made with a +20 penalty.
 
 ### Split Mountain Gu
 *Rank 5 Attack*
@@ -2064,7 +2064,7 @@ Health: 11
 
 Food: 50 Rend Gu
 
-Effect: You launch an enormous burst of sword qi; select an area 10 meters wide, 10 meters tall, and 500 meters long. All creatures in the area take 800 rending damage. Dodge tests to avoid this attack are made with a +40 penalty.
+Effect: You launch an enormous burst of sword qi; select an area 10 meters wide, 10 meters tall, and 500 meters long. All creatures in the area take 800 rending damage. **Dodge** tests to avoid this attack are made with a +40 penalty.
 
 *Discovered by Lord of Swords Jin Chang, Split Mountain Gu is named for his sundering of Mount Cao. To this day, a great ravine splits the mountain in two, with the Jin and Cao clans living on either side.*
 
@@ -2379,7 +2379,7 @@ Health: 9
 
 Food: 10 grams of clear minded jade (150 primeval stones)
 
-Effect: If activated during a deduction, your deduction benefits from the combined knowledge of all humans and variant humans within range instead of just information available to you personally. Can also be used outside of deductions to read the thoughts of all humans and variant humans within range until the start of your next turn. While active, you may react to other creature's thoughts, including the activation of Gu, even if they are [**Unreactable**]. Additionally, you gain a -50 bonus to all parry, dodge, and attack rolls made against a creature within range.
+Effect: If activated during a deduction, your deduction benefits from the combined knowledge of all humans and variant humans within range instead of just information available to you personally. Can also be used outside of deductions to read the thoughts of all humans and variant humans within range until the start of your next turn. While active, you may react to other creature's thoughts, including the activation of Gu, even if they are [**Unreactable**]. Additionally, you gain a -50 bonus to all tests made to parry, dodge, or attack creatures within range.
 
 ### Little Will Gu
 *Rank 1-3 Catalyst*
