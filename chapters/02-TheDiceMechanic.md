@@ -1,4 +1,4 @@
-# The Dice Mechanic
+## The Dice Mechanic
 
 ## Skill Tests
 Skill tests are rolled when a character would like to do an action that:

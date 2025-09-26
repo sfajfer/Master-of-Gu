@@ -1,4 +1,4 @@
-# Skills
+## Skills
 
 Your character's Skills represent their learned abilities and proficiencies, whether that be in combat, dialogue, or cultivation. The base value of the skill is dependent on what attribute(s) it is derived from, shown in the parenthesis. Remember to increase your skill values whenever you purchase points in the corresponding attribute.
 

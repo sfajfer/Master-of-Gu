@@ -1,4 +1,4 @@
-# Enslavement Path
+## Enslavement Path
 
 Enslavement path Gu Masters are a huge asset to a clan. In battle, a single enslavement path Gu Master can be worth many other Gu Masters of the same rank, as they use Enslavement Gu to dominate the minds of beasts and even other Gu Masters to be used as a personal army. Enslavement path is an uncommon one to follow, however, as it costs a great deal of resources to maintain an army of beasts.
 
@@ -35,11 +35,11 @@ As long as you have at least one beast or Gu Master under your control and withi
 ### Direct (*Combat Action*)
 You give up to one order to each of your hordes. At the end of your turn, you take 1d12 damage to your soul for every order given this way.
 
-#### Orders
+### Orders
 
-### Defend
+#### Defend
 
-### Attack
-The horde
+#### Attack
+
 
 \newpage

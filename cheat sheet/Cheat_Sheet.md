@@ -8,7 +8,7 @@ geometry:
 
 ::: columns
 
-## Dice & Skill Tests
+# Cheat Sheet
 
 - **Skill Test:** Roll d100
   - 99 or 100 = Fumble (auto-fail).  

@@ -1,4 +1,4 @@
-# Character Creation
+## Character Creation
 
 In this game, you will create and play a Gu Master. Gu Masters are human beings who have awakened their aperture, a kind of extradimensional space within the stomach that can contain Gu and primeval essence. The first thing you ought to mark down is your starting rank. For first-time players, it is recommended to start at rank 1 initial stage. You, your group, and the game master should also determine if you want to follow the righteous path, living and working with a clan, or if you'd like to tread the demonic path, living free in the world with no masters. Your path can always be changed later on, as demonic Gu Masters seek safety and resources, and righteous Gu Masters grow disillusioned and yearn for freedom.
 

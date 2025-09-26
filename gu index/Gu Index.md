@@ -1,11 +1,12 @@
 ---
-title: "Gu Index"
 geometry:
     - top=2cm
     - bottom=2.5cm
     - left=1.5cm
     - right=1.5cm
 ---
+
+# $\centerline{Gu Index}$
 
 \centerline{Gu are listed alphabetically by the path they belong to.}
 
@@ -209,7 +210,7 @@ Range: 6 meters
 
 Health: 13
 
-Food:
+Food: <!-- TODO ->
 
 Effect: Up to 50 liters of blood within range is pulled in a vortex towards you. It condenses into a tattered bloody robe around your body. Activate this Gu again to destroy the robe, releasing the stored blood all around you.
 
@@ -226,7 +227,7 @@ Range: 10 meters
 
 Health: 13
 
-Food:
+Food: <!-- TODO ->
 
 Effect: Up to 50 liters of blood within range is pulled in a vortex towards you. It condenses into a bloody robe around your body that defends you from attacks. For every point of damage you take, the robe expends 100 milliliters of blood and you instead take no damage. If you activate the Gu while already wearing a robe created by Bloody Visage Gu, it can only pull in enough blood to restore itself to the maximum of 50 liters.
 
@@ -243,7 +244,7 @@ Range: 25 meters
 
 Health: 13
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -270,7 +271,8 @@ Food: {4, 9, 16, 25} liters of blood from widowed women
 
 Effect: A 1 meter radius sphere of rotating blood surrounds you. For 10 minutes, all creatures inside the sphere become undetectable to **Divination** Gu of rank {2, 3, 4, 5} or less. They are still visible, but make no sound.
 
-<!-- ### Man-Beast Life Burial Gu
+<!-- TODO
+### Man-Beast Life Burial Gu
 *Man-Beast Life Burial Gu is very useful for a rank 2 Gu Master wanting to reach rank 3. Unfortunately, its refinement recipe involves the feeding of a virgin female Gu Master to a beast through the use of Beast Enslavement Gu.*
 
 *Rank 2 Catalyst*
@@ -309,7 +311,7 @@ Range: Self
 
 Health: 6
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Expendable**], [**Dao**]
 
@@ -324,7 +326,7 @@ Range: 2 meters
 
 Health: 9
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: Target creature within range has some of their blood vessels burst, taking 8 rending damage directly to their hit points.
 
@@ -363,7 +365,7 @@ Range: Self
 
 Health: 11
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -379,15 +381,15 @@ Effect: If your current rank is equal to or below the rank of Breath Concealment
 
 ### Quake Step Gu
 
-*Rank *
+*Rank * <!-- TODO ->
 
-Cost: 
+Cost: <!-- TODO ->
 
-Range: 
+Range: <!-- TODO ->
 
-Health: 
+Health: <!-- TODO ->
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: 
 
@@ -478,7 +480,7 @@ Range: Touch
 
 Health: 4
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
@@ -503,7 +505,7 @@ Range: Self
 
 Health: 6
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Expendable 3**]
 
@@ -518,7 +520,7 @@ Range: Self
 
 Health: 14  
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**], [**Medium**]
 
@@ -533,7 +535,7 @@ Range: Self
 
 Health: 
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: 
 
@@ -548,7 +550,7 @@ Range: 20 meters
 
 Health: 12  
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -563,7 +565,7 @@ Range: Self
 
 Health: 80
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
@@ -589,9 +591,9 @@ Cost: 70 portions
 
 Range: 10 meters
 
-Health: 
+Health: <!-- TODO ->
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: All creatures within range with the *burning* condition immediately take 10 heat damage directly to their hit points and gain the *ablaze* condition. 
 
@@ -606,7 +608,7 @@ Range: 12 meters
 
 Health: 11 
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Piercing**]
 
@@ -621,7 +623,7 @@ Range: 8 meters
 
 Health: 20  
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -651,7 +653,7 @@ Range: 5 meters
 
 Health: 16  
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Piercing**]
 
@@ -666,7 +668,7 @@ Range: 8 meters
 
 Health: 13  
 
-Food:
+Food: <!-- TODO ->
 
 Effect: Release a pulse of fire in a straight line. All creatures in a 1 meter wide, 8 meter long line take 10 heat damage and gain the *burning* condition.
 
@@ -679,7 +681,7 @@ Range: 5 meters
 
 Health: 7  
 
-Food:
+Food: <!-- TODO ->
 
 Effect: You shoot a small spark of fire at a target within range. Make an attack roll; on a hit, deal 8 heat damage. Ignites flammable objects it hits.
 
@@ -692,7 +694,7 @@ Range: Self
 
 Health: 9  
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -724,7 +726,7 @@ Range: Touch
 
 Health: 10  
 
-Food:
+Food: <!-- TODO ->
 
 Effect: Carve fire path dao into a weapon or creature. The weapon (or the creature's fists) catches fire and deals an additional 10 heat damage on a successful melee attack as well as inflicting the *burning* condition. This effect lasts for 1 hour.
 
@@ -737,7 +739,7 @@ Range: 25 meters
 
 Health: 8  
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -803,12 +805,12 @@ Food: 10 kg ever-burning coals (300 primeval stones)
 
 Keywords: [**Sustained**]
 
-Effect: A translucent tower with a door on each side manifests around you. While sustained, a door opens at the start of each of your turns. You may use an activation to unleash a wave of heat from an open door at a target within range. On a hit, deal heat damage equal to 40 times the number of open doors and apply the *burning* condition. Each door can only attack once per turn.
+Effect: A translucent square tower with a closed door on each side manifests around you. While sustained, a door opens at the start of each of your turns. You may use an activation to unleash a wave of heat from an open door at a target within range. On a hit, deal heat damage equal to 40 times the number of open doors and apply the *burning* condition. Each door can only attack once per turn.
 
 ### Five Door Fire Pagoda Gu
 *Rank 5 Attack*
 
-Cost: 25 portions
+Cost: 20 portions
 
 Range: 50 meters
 
@@ -818,7 +820,7 @@ Food: 100 g imperial phoenix feathers (15,000 primeval stones)
 
 Keywords: [**Sustained**], [**Undodgeable**]
 
-Effect: While sustained, a magnificent pagoda with 5 doors manifests around you. At the start of each of your turns, target a creature within range. A door opens, and that creature is engulfed in flame, taking heat damage equal to 100 times the number of open doors and gaining the *ablaze* condition. While all 5 doors are open, multiply all heat damage you deal by 2.
+Effect: While sustained, a magnificent pagoda with 5 doors manifests around you. If at least one door is unopened, target a creature within range at the start of each of your turns. A door opens, and that creature is engulfed in flame, taking heat damage equal to 200 times the number of open doors and gaining the *ablaze* condition. While all 5 doors are open, multiply heat damage you deal from any source by 2.
 
 [**END**]
 
@@ -831,7 +833,7 @@ Range: 3 meters
 
 Health: 10  
 
-Food:
+Food: <!-- TODO ->
 
 Effect: You attack with a whip of fire. Make an attack roll; on a hit, deal 16 heat damage and the target gains the *burning* and *restrained* conditions. As a bonus action on their turn, the affected creature can make an **Athletics** test with a -10 bonus. On a success, they lose both conditions applied by this Gu.
 
@@ -844,7 +846,7 @@ Range: 5 meters
 
 Health: 15  
 
-Food:
+Food: <!-- TODO ->
 
 Effect: You lash out with a tongue of flame. Make an attack roll; on a hit, deal 30 heat damage and the target gains the *burning* condition.
 
@@ -857,7 +859,7 @@ Range: Self
 
 Health: 10
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -872,7 +874,7 @@ Range: Touch
 
 Health: 11
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: A creature you touch gains the *ablaze* condition.
 
@@ -883,9 +885,9 @@ Cost: 15 portions
 
 Range: 5m
 
-Health: 
+Health: <!-- TODO ->
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: 
 
@@ -900,7 +902,7 @@ Range: Touch
 
 Health: 4
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Unreactable**]
 
@@ -915,7 +917,7 @@ Range: Self
 
 Health: 25
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: Lightning Charged Potato Mother Gu sprouts, creating X Rank 2 Lightning Charged Potato Gu.
 
@@ -928,7 +930,7 @@ Range: Touch
 
 Health: 12  
 
-Food:
+Food: <!-- TODO ->
 
 Effect: Your palm ignites with intense heat. Make an unarmed attack against a creature within range; on a hit, deal the damage of the attack plus 10 heat damage.
 
@@ -941,7 +943,7 @@ Range: Self
 
 Health: 20
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
@@ -1024,7 +1026,7 @@ Range: Touch
 
 Health: 16
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Small**]
 
@@ -1039,7 +1041,7 @@ Range: Self
 
 Health: 9
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
@@ -1062,7 +1064,7 @@ Range: Touch
 
 Health: 11
 
-Food:
+Food: <!-- TODO ->
 
 Effect: Carves a message or image into a surface, up to a square meter in area. Can be used on living beings to inflict great pain and scar the image into tissue. The image can be of anything you've seen or imagined, but will have less detail if you do not remember the scene perfectly.
 
@@ -1097,21 +1099,21 @@ Range: Touch
 
 Health: 8
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: Bright Pearl Gu flies around a Gu of rank {1, 2, 3} or lower that you touch, sealing it. While sealed by Bright Pearl Gu, the Gu's feeding threshold does not tick down. If the seal is attacked, the Gu inside is destroyed. Any Gu Master can infuse 1 portion of primeval essence into the seal to deactivate it. The Bright Pearl Gu remains under the original Gu Master's ownership.
 
 ### Flash Blink Gu
 
-*Rank *
+*Rank * <!-- TODO ->
 
-Cost: 
+Cost: <!-- TODO ->
 
-Range: 
+Range: <!-- TODO ->
 
-Health: 
+Health: <!-- TODO ->
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Expendable**], [**Unreactable**]
 
@@ -1140,9 +1142,9 @@ Cost: 4 portions
 
 Range: Self
 
-Health: 
+Health: <!-- TODO ->
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -1153,11 +1155,11 @@ Effect: While sustained, you can see footprints where any creature has stepped i
 
 Cost: 3 portions
 
-Range:
+Range: Self
 
-Health:
+Health: <!-- TODO ->
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -1179,7 +1181,7 @@ Range: 20 meters
 
 Health: 18
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -1194,7 +1196,7 @@ Range: 1 kilometer
 
 Health: 14
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -1219,7 +1221,7 @@ Range: 3 meters
 
 Health: 10
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: Can only be activated as a reaction to you or another creature within range expending a luck point on a skill test. If the luck point was used to force a reroll, the target gains advantage on the reroll. If the luck point was used to give a -50 bonus on the skill test, it is instead made with a -80 bonus.
 
@@ -1230,9 +1232,9 @@ Cost: 10 portions
 
 Range: Self
 
-Health:
+Health: <!-- TODO ->
 
-Food:
+Food: <!-- TODO ->
 
 Effect: Can only be activated as a reaction to succeeding a skill test after expending a Luck Point to reroll it. You may reroll your next failed skill test before the end of your next turn.
 
@@ -1243,9 +1245,9 @@ Cost: 10
 
 Range: Self
 
-Health: 
+Health: <!-- TODO ->
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
@@ -1313,7 +1315,7 @@ Range: Self
 
 Health: 14
 
-Food: 1 golden phoenix feather (20 primeval stones)
+Food: 10g golden phoenix feather (20 primeval stones)
 
 Keywords: [**Sustained**]
 
@@ -1328,7 +1330,7 @@ Range: 25 meters
 
 Health: 12
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -1343,7 +1345,7 @@ Range: 15 meters
 
 Health: 9
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Piercing**]
 
@@ -1388,7 +1390,7 @@ Range: 25 meters
 
 Health: 12
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Piercing**]
 
@@ -1418,7 +1420,7 @@ Range: Self
 
 Health: 12
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
@@ -1466,7 +1468,7 @@ Range: 25 meters
 
 Health: 5
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Unreactable**]
 
@@ -1497,7 +1499,7 @@ Range: Self
 
 Health: 16
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: Can only be activated as a reaction to getting hit by an attack or missing an attack against another creature. Regain 8 hit points. Until the end of your next turn, your movement is increased by 2 meters and you gain a -10 bonus to all **Dodge** tests.
 
@@ -1508,9 +1510,9 @@ Cost: 5 portions
 
 Range: Self
 
-Health: 
+Health: 12
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: Can only be activated as a reaction to getting hit by an attack or missing an attack against another creature. Regain 10 hit points. Until the start of your next turn, your body is covered in a metallic sheen. Reduce any damage except mental or poison dealt to your hit points by 15, to a minimum of 0.
 
@@ -1602,7 +1604,7 @@ Range:
 
 Health:
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Supplementary**]
 
@@ -1617,7 +1619,7 @@ Range:
 
 Health:
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Supplementary**]
 
@@ -1635,7 +1637,7 @@ Range: Self
 
 Health: 
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
@@ -1683,7 +1685,7 @@ Range: Self
 
 Health: 12
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: Your Strength attribute is permanently reduced by 5. Your maximum Soul is permanently increased by 5. If your Strength attribute is reduced to 0, you die.
 
@@ -1752,7 +1754,7 @@ Range: Self
 
 Health: 15
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -1784,7 +1786,7 @@ Range: Self
 
 Health: 
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: Your Strength attribute is increased by 100 for 3 turns.
 
@@ -1799,7 +1801,7 @@ Range: Self
 
 Health: 
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -1814,7 +1816,7 @@ Range: Self
 
 Health: 15
 
-Food:
+Food: <!-- TODO ->
 
 Effect: Until the end of your next turn, your Strength attribute is increased by 100. If your Fortitude attribute is lower than 40, your Strength attribute is permanently reduced by 5 at the end of this effect.
 
@@ -1844,7 +1846,7 @@ Range: 10 meters
 
 Health: 15
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: You immediately make an **Athletics** test to lift, push, or pull an object within range, or you immediately make a **Grapple** combat action against a creature within range.
 
@@ -1858,7 +1860,7 @@ Range: Self
 
 Health: {40, 100, 350}
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Shield**], [**Sustained**]
 
@@ -1881,9 +1883,9 @@ Range: Self
 
 Health: 9
 
-Food: 
+Food: <!-- TODO ->
 
-Keywords: 
+Keywords: [**Unreactable**]
 
 Effect: Can be activated as a reaction to dealing damage with a punching attack. The force of the target's body that would resist your punch is instead redirected back towards the target. Double the damage dealt by the triggering attack.
 
@@ -1898,7 +1900,7 @@ Range: Self
 
 Health: 
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Supplementary**]
 
@@ -1915,7 +1917,7 @@ Range: Self
 
 Health: 16
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: Immediately regain hit points equal to 5% of your Strength attribute, rounded down.
 
@@ -1935,7 +1937,7 @@ Range: Self
 
 Health: {20, 50}
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
@@ -1950,7 +1952,7 @@ Range: Self
 
 Health: 11
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -1965,7 +1967,7 @@ Range: {5, 10} meters
 
 Health: 6
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Piercing**]
 
@@ -1980,7 +1982,7 @@ Range: Touch
 
 Health:
 
-Food:
+Food: <!-- TODO ->
 
 Effect: Splits an inanimate object of up to 1 cubic meter in volume perfectly in half. You can pick what direction it splits as long as splitting it that way would create 2 halves of equal volume.
 
@@ -1993,7 +1995,7 @@ Range: Touch
 
 Health:
 
-Food:
+Food: <!-- TODO ->
 
 Effect: Carves sword dao into a weapon or Gu that deals rending damage. If an attack made with the weapon or Gu is blocked by a Gu of rank {4, 5} or less with the [**Shield**] Keyword, the defending [**Shield**] Gu takes rending damage equal to its hit points before the damage of the attack is assigned. After 24 hours, the weapon or Gu affected by Sole Sword Gu crumbles into dust.
 
@@ -2079,7 +2081,7 @@ Range: Touch
 
 Health: 11
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
@@ -2094,7 +2096,7 @@ Range: 3 meters
 
 Health: 12
 
-Food: 
+Food: <!-- TODO ->
 
 Whenever you are targeted by an attack from a sword-path Gu or a physical weapon within range, you may activate this Gu as a reaction to cover the Gu or weapon in a formless sheath, negating the triggering attack. The Gu or weapon cannot be forced out or used and the sheath has {10, 30, 120} hit points. It remains sheathed until the sheath is broken.
 
@@ -2110,15 +2112,15 @@ Whenever you are targeted by an attack from a sword-path Gu or a physical weapon
 ### Steal Luck Gu
 *Rank 1 attack*
 
-Cost: 
+Cost: <!-- TODO ->
 
-Range: 
+Range: <!-- TODO ->
 
-Health: 
+Health: <!-- TODO ->
 
-Food: 
+Food: <!-- TODO ->
 
-Keywords: 
+Keywords: [**Unreactable**]
 
 Effect: Choose a target you can see within range. If the target currently has a luck point and your luck points are below their maximum, you steal 1 luck point from the target.
 
@@ -2137,7 +2139,7 @@ Range: Self
 
 Health: 3
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
@@ -2224,7 +2226,7 @@ Range: Self
 
 Health: 10
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: 5 liters of fresh water pours from your fingertip.
 
@@ -2237,7 +2239,7 @@ Range: 50 meters
 
 Health: 12
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: All earth, soil, and stone within range is transmuted into an equal volume of water.
 
@@ -2251,13 +2253,13 @@ Effect: All earth, soil, and stone within range is transmuted into an equal volu
 
 *Rank 2 Catalyst*
 
-Cost: 
+Cost: <!-- TODO ->
 
 Range: Self
 
-Health: 
+Health: <!-- TODO ->
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -2273,7 +2275,7 @@ Range: 500 meters
 
 Health: 14
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: Galeforce winds begin spinning within range. While sustained, all attack rolls made within range are made with a +30 penalty. If the attack rolls originates from a Gu of wind path, it instead gains a -30 bonus. If used in conjunction with large volumes of water, such as over a lake or using a Gu that produces large amounts of water, that water is spread over the area causing flooding.
 
@@ -2343,11 +2345,11 @@ Effect: Brain Explosion Gu flies towards a creature within range. This can be re
 
 Cost:  portions
 
-Range:
+Range: Self
 
 Health: 7
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
@@ -2360,9 +2362,9 @@ Cost: 30 portions
 
 Range: Touch
 
-Health:
+Health: <!-- TODO ->
 
-Food:
+Food: <!-- TODO ->
 
 Effect: Make an attack roll against a creature within range. On a hit, the creature feels a strong bond of love between themselves and you. The affected creature cannot make any attacks against you, and will try its best to protect you, even risking its own life. If you are being attacked by the creature's allies, the creature will try to protect you without harming either side. At the end of each of its turns, the affected creature can make an **Insight** test, ending the effect on a success.
 
@@ -2390,7 +2392,7 @@ Range: Self
 
 Health: 6
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords [**Expendable**]
 
@@ -2411,7 +2413,7 @@ Range: Self
 
 Health: 15
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -2441,7 +2443,7 @@ Range: Self
 
 Health: 12
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords:
 
@@ -2487,9 +2489,9 @@ Cost: 15 portions
 
 Range: Self
 
-Health: 
+Health: spectral blue
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -2498,17 +2500,17 @@ Effect: While sustained you can sustain an additional number of Gu every turn eq
 ### Vajra Arms Gu
 *Rank 2 Manifestation*
 
-Cost: 
+Cost: <!-- TODO ->
 
-Range: 
+Range: Self
 
-Health: 
+Health: <!-- TODO ->
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you have an additional two spectral blue arms sprouting from your waist.
+Effect: While sustained, you have an additional two arms sprouting from your waist. They are a spectral blue color, and punching attacks made with them deal an additional 1 damage to the targets soul.
 
 ### Vajra Thought Gu
 *Rank 1-5 Manifestation*
@@ -2576,7 +2578,7 @@ Range: Self
 
 Health: 14
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -2591,7 +2593,7 @@ Range: Self
 
 Health: 14
 
-Food: 10 g of Ancestral Phoenix feathers
+Food: 10 g of Imperial Phoenix feathers (1,500 primeval stones)
 
 Keywords: [**Sustained**]
 
@@ -2604,11 +2606,9 @@ Cost: 75 portions
 
 Range: Self
 
-Health: 
+Health: <!-- TODO ->
 
-Food: 
-
-Keywords: 
+Food: <!-- TODO ->
 
 Effect: 4 huge wooden wings sprout from your back. They each have 25 hit points and vulnerability to rending damage. You gain a flying speed equal to 2 times the number of wooden wings you have. As a bonus action, you can quickly sprout a branch from one at a creature within 3 meters. If the creature is unwilling, make an attack roll. On a hit, the branch fuses with their spine or sternum, and you carry the creature with you while flying. Creature's attached to your wings this way have a +30 penalty to all attack rolls and are *restrained*.
 
@@ -2625,7 +2625,7 @@ Range: Self
 
 Health: 18
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]           
 
@@ -2642,9 +2642,9 @@ Cost: 15 portions
 
 Range: Touch
 
-Health:
+Health: <!-- TODO ->
 
-Food:
+Food: <!-- TODO ->
 
 Effect: A creamy orange sap is secreted by your fingertips. You can rub it into a creature's wounds as a bonus action. Doing so heals them 6 hit points and cures them of the *bleeding* condition.
 
@@ -2685,9 +2685,9 @@ Cost:  portions
 
 Range: Touch
 
-Health:
+Health: <!-- TODO ->
 
-Food:
+Food: <!-- TODO ->
 
 Effect: A large daisy grow out of a chunk of soil or stone that you touch, emitting a powerful fragrance in a 1 km circle centered on the daisy. All **Awareness** tests and investigative Gu that rely on smelling automatically fail if used within the area. Nothing inside the area can be located by scent either, except for the daisy emitting the fragrance. The daisy has a 20 hit points, and if it is killed or uprooted the effect ends. The fragrance does not cling to creatures that leave the area.
 
@@ -2702,7 +2702,7 @@ Range: Self
 
 Health: 14
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: Passively sprouts 50 primeval essence stones every day. Cannot be activated. Up to 50 primeval stones can remain attached to Heavenly Essence Treasure Lotus Gu at a time.
 
@@ -2715,7 +2715,7 @@ Range: 3 meters
 
 Health: 11
 
-Food:
+Food: <!-- TODO ->
 
 Effect: Choose a creature within range. That creature regrows a single severed limb {over 1 hour, instantly}.
 
@@ -2730,7 +2730,7 @@ Range: 3 meters
 
 Health: 12
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: Can only be activated as a reaction to getting hit by an attack or missing an attack against another creature. You and any number of creatures of your choice within range regain 15 hit points.
 
@@ -2743,7 +2743,7 @@ Range: 3 meters
 
 Health: 22
 
-Food:
+Food: <!-- TODO ->
 
 Effect: Target a corpse or undead creature within range. If it is a corpse, it quickly spoils and rots before the skin and flesh sloughs off the bones and the skeleton disintegrates. If an undead creature is targeted, it rots at a slower rate, and takes 1/3 of its hit points (rounded up) in force damage directly to its hit points. While sustained, the target takes another 1/3 of its hit points (rounded up) at the start of your turn.
 
@@ -2752,11 +2752,11 @@ Effect: Target a corpse or undead creature within range. If it is a corpse, it q
 
 Cost: 14 portions
 
-Range: 
+Range: <!-- TODO ->
 
-Health:
+Health: <!-- TODO ->
 
-Food:
+Food: <!-- TODO ->
 
 Effect: Select a 2 meter radius circle within range. Roots and vines burst forth from the ground, and creatures in the area must succeed an **Athletics** test with a +20 penalty or else be *restrained* for 1 minute. A *restrained* creature can remake the test as a *Combat Action* on its turn to free itself.
 
@@ -2776,15 +2776,15 @@ Effect: A cloud of thorns bursts from your outstretched hand in a 5 meter long c
 ### Wardrobe Gu
 *Rank 2 Container*
 
-Cost: 
+Cost: <!-- TODO ->
 
-Range: 
+Range: <!-- TODO ->
 
-Health: 
+Health: <!-- TODO ->
 
-Food: 
+Food: <!-- TODO ->
 
-Keywords: 
+Keywords: <!-- TODO ->
 
 Effect: Can store up to 50 kg of clothes and armor. Upon activation, a set of clothes of your choice replace whatever you are wearing, while the clothes you were wearing are stored within Wardrobe Gu. If you do not choose an outfit, you merely store the clothes you are wearing.
 
@@ -2795,9 +2795,9 @@ Cost: 2 portions
 
 Range: Self
 
-Health:
+Health: <!-- TODO ->
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Sustained**]
 
@@ -2814,9 +2814,9 @@ Cost: 25 portions
 
 Range: Self
 
-Health:
+Health: <!-- TODO ->
 
-Food:
+Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 

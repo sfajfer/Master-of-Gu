@@ -1,4 +1,4 @@
-# Running the Game
+## Running the Game
 
 
 *"Today I step on grass; later I shall step on mountains and rivers!”*

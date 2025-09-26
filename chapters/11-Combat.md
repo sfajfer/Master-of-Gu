@@ -1,15 +1,15 @@
 # Chapter 4: Combat
 
-### Initiative
+## Initiative
 At the beginning of combat, an initiative is rolled. If an enemy is within 3 meters of you, roll **Close Combat**. If not, roll **Ranged Combat**. The player with the most degrees of success goes first. In the case of ties, the lower number on the die goes first. If this is still tied, creatures controlled by a player go before non player characters. If the tied creatures are all player characters, they decide amongst themselves who goes first; if all are NPCs, the GM chooses. Continue this process for the rest of the combatants. 
 
-## Surprise
+### Surprise
 Surprised creatures have a +20 penalty to their initiative roll and cannot take reactions until the start of their first turn.
 
 ### Stealth
 There is no stealth skill in the game. Many Gu render your personal sneaking skills worthless, and so most Gu Masters that wish to walk unobserved will use concealment Gu to do so. In the case either party is not using these Gu, the creature you are trying to sneak past makes an awareness check with a penalty or bonus determined by the GM for the circumstance, including the stealthing party's measures to hide themselves.
 
-# The Turn
+## The Turn
 One turn lasts 10 seconds. Gu Masters recover primeval essence at the beginning of each of their turns.
 
 ### Start and End of Turn Effects
@@ -52,10 +52,10 @@ Make a **Flying** test. On a success, all skill tests made to hit you with an at
 #### Land
 You land on solid ground. If executed at the end of a dive or atop *Uneven Terrain*, you must succeed a **Flying** test or else land *prone*.
 
-### Climbing
+#### Climbing
 When climbing a surface, your movement is reduced by 4. If the surface does not have easy handholds like a ladder the GM may call you to make an **Athletics** test or else fall.
 
-### Cover
+#### Cover
 If a creature is totally obscured by cover from the attacker, they are typically not a viable target for their attacks. If the attacker uses a Gu with the [**Piercing**] keyword, however, they can make an attack against an obscured target with a +20 penalty.
 
 If a creature is only partially obscured by cover, they are a viable target but attacks made against them are made with a +10 penalty.
@@ -74,6 +74,9 @@ Melee attacks made against a target incapable of moving automatically succeed.
 #### Weapon Attack
 Roll a **Close Combat** skill test against an enemy within your weapon's range. On a hit, deal the damage of the weapon, +1 damage for every 20 points you have in Strength.
 
+**Multi-Weapon Fighting**
+When wielding more than 1 weapon, you can make a number of melee attacks equal to the number of wielded weapons instead of just 1. If you elect to do so, all melee attacks made have a penalty equal to +(number of attacks * 10). You cannot wield more weapons than you have arms and hands.
+
 #### Unarmed Strike
 When you make an unarmed strike, you may make a number of punching attacks equal to the number of arms you have. Alternatively, you may kick once.
 
@@ -85,9 +88,6 @@ Kick: Roll a **Close Combat** skill test against an enemy within 1 meter. On a h
 Select an enemy of equal or lesser size in an adjacent square. Roll an opposed **Athletics** test against them. If you win, The creature is *restrained* and now occupies the same square as you while *restrained* in this way. Whenever you move, make an **Athletics** test with a +10 penalty for every 50 kilograms the grappled target weighs. On a success, you can move half your movement (rounded down).
 
 As a combat action, a grappled creature can attempt to break free, making an opposed **Athletics** test against the grappler. On a success, they break free.
-
-#### Multi-Weapon Fighting
-When wielding more than 1 weapon, you can make a number of melee attacks equal to the number of wielded weapons instead of just 1. If you elect to do so, all melee attacks made have a penalty equal to +(number of attacks * 10). You cannot wield more weapons than you have arms and hands.
 
 ### Absorb Primeval Stones
 On your turn, you can absorb the essence of a number of primeval stones equal to the number of hands you have. You must have one hand free for each stone being absorbed.
@@ -132,7 +132,7 @@ As a reaction or for free at any time during their turn, a Gu Master can self-de
 ## Bonus Actions
 Bonus actions are generally fast and low-effort, such as stowing/taking a Gu from your aperture, opening an unlocked door, or pulling a lever.
 
-# Damage
+## Damage
 When you take damage, subtract that amount from your current Hit Points, to a minimum of 0. When you hit 0 Hit Points, make a **Perseverance** test. On a failure, you are *Dying*. On a success, you enter *Final Stand*.
 
 ### Damage Types

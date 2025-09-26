@@ -1,4 +1,4 @@
-# Talents
+## Talents
 
 ### Combat Absorption
 *Cost:* 60 experience
