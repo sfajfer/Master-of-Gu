@@ -7,6 +7,7 @@ Your character's Skills represent their learned abilities and proficiencies, whe
 **Ranged Combat (Cog)** - If an enemy is further than 2 meters from you, your non-melee attacks will be made with the Ranged Combat skill.
 
 **Athletics (1/2 Str + 1/2 Agi)** - Athletics is used for strength related actions such as pushing a boulder, climbing a steep cliff, or swimming.
+
 #### Pushing, Pulling, and Lifting
 You can push or pull any weight under 100kg without making a test, halving your movement (rounded down) if the weight is over 50kg. Above 100kg you must make an **Athletics** test with a -40 bonus, increased by +10 for every 50kg over 100.
 
@@ -39,12 +40,13 @@ Intimidation can only be used on non-player characters.
 Haggle can only be used on non-player characters. Difficulty is based on the target's feelings towards you, and grants a discount on a purchase of 5% for every degree of success on the test. A critical counts as an additional degree of success.
 
 ### **Insight (Wis)**
-Used to judge a character's body language and intonation.
+Used to judge a character's body language and intonation. A successful insight test involves learning a character's intention and scrutinizing their body language, and in most cases will not straight up say whether a character is lying or not.
 
 ### **Awareness (Wis)**
+Your ability to notice hidden objects. If you're meticulously searching an area, use deduction, but to notice an out of place detail while walking past a building you would use awareness.
 
 ### **Cultivation (Wis)**
-The higher your cultivation, the less damage you will take to your soul during cultivation, and the quicker your cultivation will increase.
+The higher your cultivation skill, the less damage you will take to your soul during cultivation, and the quicker your cultivation will increase.
 
 ### **Knowledge (Cog)**
 Knowledge is separated into a few categories:

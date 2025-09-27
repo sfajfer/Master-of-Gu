@@ -60,6 +60,9 @@ People without an awakened aperture cannot use Gu. Their status is very low, and
 ### Righteous and Demonic
 Gu Masters identify as part of either the demonic path or righteous path. Demonic does not necessarily mean evil, just that the Gu Master does not follow the rigid systems of community. Of course, many demonic path Gu Masters ARE evil and more than willing to hurt the innocent to further their own goals. Similarly, righteous path Gu Masters are not necessarily good, they just follow the rules of society. While many have ideals of justice and virtue, the more powerful righteous path Gu Masters exploit this societal responsibility for their own gain, and are often willing to commit evil deeds to further their goals, just in more subtle ways than the demonic path.
 
+### Inheritances
+Inheritances are a common aspect of the Gu World's culture; a Gu Master's ideals can live on long after their death by leaving an inheritance of Gu, refinement recipes, and information to be found in the future. Some inheritances are frought with difficulty, fully capable of killing those that seek to claim them. Others are safe but with measures to ensure the inheritor is someone worthy of the prize. Sometimes a Gu Master just leaves some Gu in a cave with food and hopes for the best.
+
 ### Setting
 Given the size of the world and the fact that each region has its own local gu, flora, and fauna, I've chosen to localize this system to the Southern Border. You can certainly design a campaign in one of the other regions using this system as a framework though.
 

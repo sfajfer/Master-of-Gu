@@ -1262,6 +1262,27 @@ Effect: Your luck point maximum is increased by 1.
 
 ::: columns
 
+### Aperture Lock Gu
+*Three golden locks linked together, with their shackles open until the Gu is used. The first locks the aperture walls, preventing cultivation progression. The second locks their Human Qi, preventing the recovery of primeval essence. The last locks the aperture, disabling their use of Gu.*
+
+*Rank 3 Carver*
+
+Cost: 75 portions
+
+Range: Touch
+
+Health: 14
+
+Food: 150 portions of primeval essence. Once attached, feeds off the target's primeval essence.
+
+Effect: You touch a Gu Master with the *restrained* condition, and Aperture Lock Gu hovers above the target's chest. At the end of each of your turns, a lock snaps shut. If the target loses the *restrained* condition at any point, Aperture Lock Gu deactivates and takes 7 damage as backlash.
+
+When the third lock closes, Aperture Lock Gu burrows into the target's aperture, and the target gains the following features while Aperture Lock Gu remains attached.
+
+- Their aperture walls become indestructible.
+- Their primeval essence recovery is reduced to 0.
+- They cannot activate or refine Gu.
+
 ### Bullet Gu
 *Rank 1 Attack*
 
@@ -1275,7 +1296,7 @@ Food: 100 g of smoldering stone (1 primeval stone)
 
 Keywords: [**Unreactable**]
 
-Effect: You fire a small orb at incredibly high speed at a target within range. On a hit, deal 4 force damage. If this damage is dealt to the target's hit points, they gain *bleeding 1*.
+Effect: You fire a small orb at incredibly high speed at a target within range. Make an attack roll with advantage. On a hit, deal 4 force damage. If this damage is dealt to the target's hit points, they gain *bleeding 1*.
 
 ### Copper Tendons Gu
 *Rank 1 Carver*
@@ -1460,7 +1481,6 @@ Keywords: [**Expendable**]
 Effect: Your aptitude is permanently increased by 5%.
 
 ### Silver Bullet Gu
-
 *Rank 2 Attack*
 
 Cost: 20 portions

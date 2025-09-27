@@ -9,6 +9,9 @@
 #### Wan Cheng Peak
 Wan Cheng Peak is less than 10 kilometers from Tie Clan, and atop it is built the Demon Suppression Tower. Demon Suppression Tower is a prison hundreds of meters tall and houses thousands of demonic path Gu Masters. It has metal path Gu formations protecting it from attacks. Most prisoners are subdued with the rank 3 Aperture Lock Gu, but rank 4 and even rank 5 Gu Masters are suppressed through an assortment of different methods.
 
+#### San Cha Mountain
+San Cha Mountain is a collection of 3 peaks that rise into the sky like a pitchfork, with the middle mountain being the tallest. The area has some resources, and is often fought over by the Zuo and Che Clans. Unbeknownst to anyone, it is also the site of a combined inheritance belonging to three rank 5 Gu Masters, the Three Kings Inheritance. When the inheritance activates, pillars of light visible from across Southern Border shoot into the sky periodically from each peak, transporting potential inheritors from the peaks into the inheritance.
+
 ### The Three Rivers
 
 ## Super Clans
