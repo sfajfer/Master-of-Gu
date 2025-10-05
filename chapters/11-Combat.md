@@ -198,7 +198,7 @@ A creature with the *ablaze* condition is completely engulfed in flames. An *abl
 *Bleeding* creatures take 1 damage directly to their hit points at the start of each of their turns for every stack of *bleeding*. This damage has no type and cannot be reduced by Gu. Levels of *bleeding* can stack additively from the same or different sources. Remove 1 *bleeding* stack for every hitpoint you restore.
 
 ### Blinded
-*Blinded* creatures cannot see and have a +50 penalty to **Close Combat** and **Ranged Combat** tests. Divination Gu that rely on vision cannot be used by a *blinded* creature.
+*Blinded* creatures cannot see and have a +50 penalty to **Close Combat** and **Ranged Combat** tests. Gu that rely on vision, including divinations that augment your sight, cannot be used by a *blinded* creature.
 
 ### Burning
 *Burning* creatures take 4 heat damage directly to their hit points at the start of each of their turns. When being negated by a [**Shield**] Gu, consider this damage to be of the rank of the Gu that applied the *burning* condition, or rank 1 if the fire was natural. Being submerged in water removes the *burning* condition. A creature can use their combat action to roll around on the ground, removing the *burning* condition.

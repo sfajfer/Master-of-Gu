@@ -19,6 +19,8 @@ geometry:
 ::: columns
 
 ### Blood Battle Gu
+*One of the lesser inheritances of the Blood Sea Ancestor contains Blood Battle Gu. Repeated use can cull a whole battlefield.*
+
 *Rank 5 Attack*
 
 Cost: 150 portions
@@ -30,8 +32,6 @@ Health: 48
 Food: A 100,000 liter pond of human blood in a hole dug in Hemmorhage Soil
 
 Effect: You rupture the hearts of all *bleeding* creatures within range. They have a chance to react before they instantly die. Immediately following, make 3 attack rolls for each creature affected. The range of these attacks is 15 meters, measured from the original target or the square they were in when they died. On a hit, deal 50 rending damage. If damage is dealt to a creature's hit points in this way, they gain *bleeding 5*. If the damage kills the target, you may make an additional 3 attack rolls with the same properties and measured from the square the target was in when they died.
-
-*One of the lesser inheritances of the Blood Sea Ancestor contains Blood Battle Gu. Repeated use can cull a whole battlefield.*
 
 ### Blood Blade Gu
 *Rank 3 Attack*
@@ -195,7 +195,7 @@ Range: Self
 
 Health: 7
 
-Food: 100 grams of dried blood
+Food: 100 g of dried blood
 
 Effect: You create 10 liters of black blood around your feet that can be manipulated as if it were real blood by other Gu.
 
@@ -311,7 +311,7 @@ Range: Self
 
 Health: 6
 
-Food: <!-- TODO ->
+Food: 100 g dried blood
 
 Keywords: [**Expendable**], [**Dao**]
 
@@ -365,11 +365,11 @@ Range: Self
 
 Health: 11
 
-Food: <!-- TODO ->
+Food: 1 hour of direct sunlight
 
 Keywords: [**Sustained**]
 
-Effect: If your current rank is equal to or below the rank of Breath Concealment Gu, the aura of your primeval essence is suppressed to a rank and stage of your choosing, as long as the target cultivation is below your own. Your primeval essence's outward appearance remains as it was, however, so effects that glimpse inside your aperture will see your true cultivation.
+Effect: If your current rank is equal to or below the rank of Breath Concealment Gu, the aura of your primeval essence is suppressed to a rank and stage of your choosing below your own cultivation while sustained. Your primeval essence's outward appearance remains as it was, however, so effects that glimpse inside your aperture will see your true cultivation. Sustaining this Gu does not count towards your number of currently sustained Gu.
 
 :::
 \newpage
@@ -380,20 +380,17 @@ Effect: If your current rank is equal to or below the rank of Breath Concealment
 ::: columns
 
 ### Quake Step Gu
+*Rank 1 Attack*
 
-*Rank * <!-- TODO ->
+Cost: 5 portions
 
-Cost: <!-- TODO ->
+Range: 2 meters
 
-Range: <!-- TODO ->
+Health: 11
 
-Health: <!-- TODO ->
+Food: 1 kg mound stone (2 primeval stones)
 
-Food: <!-- TODO ->
-
-Keywords: 
-
-Effect: While sustained, your movement is reduced to 1 meter. Whenever you move, all creatures within 10 meters of you must succeed an **Athletics** test or else be knocked *prone*.
+Effect: You stomp, and the ground quakes; all creatures standing on solid ground within range of you must succeed an **Athletics** test with a +10 penalty or else be knocked *prone*.
 
 ### Stealth Rock Gu
 *Rank 1 Concealment*
@@ -404,7 +401,7 @@ Range: Self
 
 Health: 18
 
-Food: 100 grams of hard stone (1/4 primeval stone)
+Food: 100 g of hard stone (1/4 primeval stone)
 
 Keywords: [**Sustained**]
 
@@ -419,14 +416,14 @@ Range: Self
 
 Health: 16
 
-Food: 20 grams of talc
+Food:{1kg, 10kg, 100kg} of talc ({1, 10, 100} primeval stones)
 
 Effect: As long as your aperture is of the same rank as the Stone Aperture Gu, your aperture walls shatter and are replaced with an unbreakable stone wall. Your cultivation immediately rises to peak stage, but you can no longer raise your rank through cultivation.
 
 ### Thousand-Li Earthwolf Spider Gu
 *Rank 5 Celerity*
 
-Cost: 2 portions
+Cost: 1 portion
 
 Range: Self
 
@@ -1010,8 +1007,7 @@ Effect: If your rank is the same as the rank of this Gu, and you are currently a
 \newpage
 ## $\centerline{Ice Path}$
 
-*Chilling and freezing enemies is of course included, but the true use of Ice Path is to control and move heat. Most methods deal cold damage and apply fatigued, but a few Gu deal heat damage and can even set people on fire. Blend of offense and defense.
-*
+*Chilling and freezing enemies is of course included, but the true use of Ice Path is to control and move heat. Most methods deal cold damage and apply fatigued, but a few Gu deal heat damage and can even set people on fire. Blend of offense and defense.*
 
 ::: columns
 
@@ -1105,13 +1101,13 @@ Effect: Bright Pearl Gu flies around a Gu of rank {1, 2, 3} or lower that you to
 
 ### Flash Blink Gu
 
-*Rank * <!-- TODO ->
+*Rank 1 attack*
 
-Cost: <!-- TODO ->
+Cost: 2 portions
 
-Range: <!-- TODO ->
+Range: Self
 
-Health: <!-- TODO ->
+Health: 14
 
 Food: <!-- TODO ->
 
@@ -1149,6 +1145,19 @@ Food: <!-- TODO ->
 Keywords: [**Sustained**]
 
 Effect: While sustained, you can see footprints where any creature has stepped in the last hour. Different creature's footsteps appear as different colors.
+
+**Moonlight Gu**
+*Rank 1 Attack*
+
+Cost: 5 portions
+
+Range: 10 meters
+
+Health: 10
+
+Food: 3 moon orchid petals (3 primeval stones)
+
+Effect: You hurl a flat, crescent-shaped beam of light. Make an attack roll with a -10 bonus. On a hit, deal 6 rending damage.
 
 ### Shimmer Gu
 *Rank 2 Concealment*
@@ -1193,7 +1202,7 @@ Effect: A sphere of electricity is formed in a 20 meter radius centered on you. 
 
 Cost: 1 portion
 
-Range: 1 kilometer
+Range: Self
 
 Health: 14
 
@@ -1203,7 +1212,7 @@ Keywords: [**Sustained**]
 
 Effect: To activate Lightning Eye Gu, the user must remove their eye and place Lightning Eye Gu in the socket. Upon activation, Lightning Eye Gu replaces the lost eye permanently, and you can see out of it with perfect vision whether or not it is activated. 
 
-While you sustain Lightning Eye Gu, your lightning eye can see through obscuring effects such as smoke and illusions produced by Gu of the same or lower rank, and can see any object within 150 meters in fine detail. Your lightning eye becomes immune to the *blinded* condition, and you can react to [**Unreactable**] Gu so long as the Gu Master is within your line of sight.
+While you sustain Lightning Eye Gu, your lightning eye can see through obscuring effects such as smoke and illusions produced by Gu of the same or lower rank, and can see any object within 150 meters in fine detail. You become immune to the *blinded* condition, and you can react to [**Unreactable**] Gu so long as the Gu Master is within your line of sight.
 
 :::
 \newpage
@@ -1427,11 +1436,11 @@ Range: 10 meters
 
 Health: 21
 
-Food: 200 grams of needles (1 primeval stone)
+Food: 200 g of needles (1 primeval stone)
 
 Keywords: [**Piercing**]
 
-Effect: A cloud of needles bursts from your hand towards a creature within range. Make an attack roll. On a hit, deal 2d10 force damage.
+Effect: A cloud of needles bursts from your hand towards a creature within range. Make an attack roll with a -10 bonus. On a hit, deal 2d10 force damage.
 
 ### Iron Veins Gu
 *Rank 2 Carver*
@@ -1457,7 +1466,7 @@ Range: Self
 
 Health: 16
 
-Food: 10 grams of {iron, steel, titanium} soaked in blood
+Food: 10 g of {iron, steel, titanium} soaked in blood
 
 Keywords: [**Dao**], [**Expendable**]
 
@@ -1507,7 +1516,7 @@ Range: Self
 
 Health: 16
 
-Food: 5 grams of silver soaked in tears (1 primeval stone)
+Food: 5 g of silver soaked in tears (1 primeval stone)
 
 Effect: Can only be activated as a reaction to getting hit by an attack or missing an attack against another creature. Regain 4 hit points.
 
@@ -1730,6 +1739,19 @@ Keywords: [**Low Vitality**] (Must play music or sing for 1 hour per hit point)
 
 Effect: While sustained, your hearing grows extremely sensitive. You can hear all noises made within range and judge their exact location. If you take sonic damage to your hit points, multiply it by 2.
 
+### Copper Warhorn Gu
+*Rank 1 Manifestation*
+
+Cost: 4 portions
+
+Range: 1 km
+
+Health: 10
+
+Food: 
+
+Effect: The deafening sound of a horn fills the area within range for a few seconds. The sound is harmless.
+
 :::
 \newpage
 
@@ -1739,7 +1761,7 @@ Effect: While sustained, your hearing grows extremely sensitive. You can hear al
 ::: columns
 
 ### Dimensional Lock Gu
-*Rank 4-5*
+*Rank 4-5 Manifestation*
 
 Cost: 200 portions
 
@@ -1749,7 +1771,7 @@ Health: 24
 
 Food: {10, 100} kg Emptiness Iron ({250, 2500} primeval stones)
 
-Effect: For {1 hour, 1 day}, a {20, 50} meter cube, centered on the square you activated this Gu on, becomes dimensionally locked. Creatures cannot teleport to any space inside the cube from outside of it. Creatures inside the cube cannot teleport at all. The cube is barely visible, and awareness checks made to see its edges have a +40 penalty.
+Effect: For {1 hour, 1 day}, a {5, 15} meter cube, centered on the square you activated this Gu on, becomes dimensionally locked. Creatures cannot teleport to any space inside the cube from outside of it. Creatures inside the cube cannot teleport at all. The cube is barely visible, and awareness checks made to see its edges have a +30 penalty.
 
 *One of the signature methods of space path, the Dimensional Lock Gu is very effective at preventing escapes and attacks. No teleportation Gu below rank 6 can pierce its effects. It appears as a floating glass box containing within the starry sky of black heaven.*
 
@@ -2022,7 +2044,7 @@ Effect: Carves sword dao into a weapon or Gu that deals rending damage. If an at
 ### Cut Gu
 *Rank 1 Attack*
 
-Cost: 20 portions
+Cost: 10 portions
 
 Range: 3 meters
 
@@ -2030,9 +2052,7 @@ Health: 2
 
 Food: A handful of ordinary grass
 
-Keywords: [**Unreactable**]
-
-Effect: You throw an invisible and sharp crescent at a creature within range. Make an attack roll. On a hit, deal 15 rending damage. 
+Effect: You throw an invisible and sharp crescent at a creature within range. Make an attack roll. On a hit, deal 5 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 1*. **Dodge** tests to avoid this attack are made with a +20 penalty.
 
 ### Slash Gu
 *Rank 2 Attack*
@@ -2045,7 +2065,7 @@ Health: 5
 
 Food: 1 kg of shattered glass (1/4 primeval stone)
 
-Effect: You throw a 1 meter wide curved blade in an 8 meter long line. All creatures in the area take 20 rending damage.
+Effect: You throw a 1 meter wide curved blade in an 8 meter long line. All creatures in the area take 15 rending damage.
 
 ### Rend Gu
 *Rank 3 attack*
@@ -2076,7 +2096,7 @@ Effect: You throw a 5 meter wide blade of supercondensed sword qi in a 100 meter
 ### Split Mountain Gu
 *Rank 5 Attack*
 
-Cost: 25 portions
+Cost: 40 portions
 
 Range: 500 meters
 
@@ -2093,7 +2113,7 @@ Effect: You launch an enormous burst of sword qi; select an area 10 meters wide,
 ### Sharpen Gu
 *Rank 2-5 Carver*
 
-Cost: 24 portions
+Cost: 35 portions
 
 Range: Touch
 
@@ -2103,7 +2123,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
-Effect: Carves sword dao into a weapon or Gu that deals rending damage. If an attack made with the weapon or Gu is blocked by a Gu of rank {2, 3, 4, 5} or less with the [**Shield**] Keyword, the defending [**Shield**] Gu takes rending damage equal to its hit points before the damage of the attack is assigned. If this Gu is used on a weapon, the effect is permanent. If used on a Gu, the effect lasts until the next time you activate the Gu.
+Effect: Carves sword dao into a weapon or Gu that deals rending damage. If damage from an attack made with the weapon or Gu is assigned to a Gu of rank {2, 3, 4, 5} or less with the [**Shield**] Keyword, the defending [**Shield**] Gu takes rending damage equal to its hit points before the damage of the attack is assigned. If this Gu is used on a weapon, the effect is permanent. If used on a Gu, the effect lasts until the next time you activate the Gu.
 
 ### Sword Sheath Gu
 *Rank 2-4 Guard*
@@ -2197,7 +2217,7 @@ Food: {1, 4, 9, 16, 25} jade stones
 
 Keywords: [**Sustained**], [**Defensive**], [**Shield**]
 
-Effect: Your body is shrouded in jade. Foreign objects are blocked from entering as well. 
+Effect: Your body is shrouded in jade while sustained. Foreign objects are blocked from entering as well. 
 
 ### Longarm Gu
 *Rank 1 Catalyst*
@@ -2212,7 +2232,7 @@ Food: 5 kg of monkey flesh (1 primeval stone)
 
 Keywords: [**Sustained**]
 
-Effect: Your arms grow dramatically in length, increasing the range of all your melee attacks by 1 meter. Your touch range also increases by 1 meter.
+Effect: Your arms grow dramatically in length, increasing the range of all your melee attacks by 1 meter while sustained. Your touch range also increases by 1 meter.
 
 :::
 \newpage
@@ -2281,8 +2301,22 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, your movement makes no sound, including jumping, climbing, and sprinting. You also fall at a rate of 10 meters per turn and take no damage from falling. If you have a flying speed greater than 10 meters, it is reduced to 10 meters.
+Effect: While sustained, your movement makes no sound, including jumping, climbing, and sprinting. You also fall at a rate of 10 meters per turn (at the start of each of your turns) and take no damage from falling. If you have a flying speed greater than 10 meters, it is reduced to 10 meters.
 
+### Feather Step Gu
+*Rank 1 Celerity*
+
+Cost: 2 portions
+
+Range: Self
+
+Health: 8
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, your movement makes no sound.
 
 ### Hurricane Gu
 *Rank 3 Manifestation*
@@ -2356,7 +2390,7 @@ Health: 12
 
 Food: 1 Human Brain
 
-Effect: Brain Explosion Gu flies towards a creature within range. This can be reacted to and attacked, with attack rolls against it being made with a +30 penalty. If the Brain Explosion Gu successfully reaches the target, it burrows into their mind and becomes dormant, no longer requiring food to sustain itself. If the creature makes a Cultivation, Deduction, Knowledge, or Refinement test, the Brain Explosion Gu detonates, instantly killing Brain Explosion Gu and the creature. If the creature is forced by some other effect to make one of these tests, they may elect to automatically fumble it and not detonate the Brain Explosion Gu.
+Effect: Brain Explosion Gu flies towards a creature within range. This can be reacted to and attacked. If Brain Explosion Gu successfully reaches the target, it burrows into their mind and becomes dormant, no longer requiring food to sustain itself. If the creature makes a Cultivation, Deduction, Knowledge, or Refinement test, the Brain Explosion Gu detonates, instantly killing Brain Explosion Gu and the creature. If the creature is forced by some other effect to make one of these tests, they may elect to automatically fumble it and not detonate the Brain Explosion Gu.
 
 ### Careful Gu
 *Rank 3 Catalyst*
@@ -2397,7 +2431,7 @@ Range: {1, 5, 20} meters
 
 Health: 9
 
-Food: 10 grams of clear minded jade (150 primeval stones)
+Food: 10 g of clear minded jade (150 primeval stones)
 
 Effect: If activated during a deduction, your deduction benefits from the combined knowledge of all humans and variant humans within range instead of just information available to you personally. Can also be used outside of deductions to read the thoughts of all humans and variant humans within range until the start of your next turn. While active, you may react to other creature's thoughts, including the activation of Gu, even if they are [**Unreactable**]. Additionally, you gain a -50 bonus to all tests made to parry, dodge, or attack creatures within range.
 

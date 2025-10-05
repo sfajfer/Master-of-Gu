@@ -14,6 +14,12 @@ San Cha Mountain is a collection of 3 peaks that rise into the sky like a pitchf
 
 ### The Three Rivers
 
+#### Jade Dragon River
+
+#### Red Dragon River
+
+#### Yellow Dragon River
+
 ## Super Clans
 
 ### Ba Clan
@@ -28,6 +34,9 @@ San Cha Mountain is a collection of 3 peaks that rise into the sky like a pitchf
 *“Our Tie clan, since it was established, had been world-renowned for our bravery, unswerving determination and our iron-cold justice. For many generations, Tie clansmen had been upholding justice and striking down on criminals, in this course, countless people have shed blood and sacrificed their lives. The youths that have died here won’t be the first and also won’t be the last."* - Tie Mu Bai, Ch. 370
 
 Tie Clan stands as a central pillar to the Southern Border righteous path. Their investigators are deployed to solve crimes across the entire continent, and thousands of demonic path Gu Masters guilty of vicious crimes are locked up in Tie Clan's **Demon Suppression Tower** atop Wan Cheng Peak.
+
+### Wu Clan
+Wu clan is known as the top force in Southern Border, led by rank 5 Strength Path Gu Master Empress Wu Ji.
 
 ## Goods
 
