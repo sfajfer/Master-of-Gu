@@ -36,9 +36,11 @@ As a bonus action, you may leak the aura of your primeval essence. Any creature 
 \includegraphics{./images/Primeval_Stone.png}
 \end{center}
 
-Small, smooth stones naturally formed from primeval essence, primeval stones are the main currency in the Gu world. On your turn, you can absorb the essence of a number of primeval stones equal to the amount of hands you have as a **Combat Action** . You must have one hand free for each stone being absorbed.
+Small, smooth stones naturally formed from primeval essence, primeval stones are the main currency in the Gu world. On your turn, you can absorb the essence of a number of primeval stones equal to the number of hands you have as a **Combat Action** . You must have one hand free for each stone being absorbed.
 
-For each primeval stone being absorbed, you gain 5 portions of primeval essence, and the stone is destroyed in the process, crumbling into dust.
+For each primeval stone being absorbed, you gain {5, 4, 3, 2, 1}¹ portion(s) of primeval essence, and the stone is destroyed in the process, crumbling into dust. 
+
+¹ *When you see curly brace notation, it represents your rank, or the rank of the Gu if it appears in a Gu's description. In this case, it means expending a primeval stone restores 5 primeval essence if you are rank 1, 4 if you are rank 2, and so on.*
 
 ## Refinement
 Gu can be created out of materials and other Gu in a process called refinement. See the *Gu* chapter for more details.

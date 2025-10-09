@@ -959,7 +959,7 @@ Food: 1 kg ever-burning coals (30 primeval stones)
 
 Keywords: [**Steed**], [**Medium**]
 
-Effect: This Gu has a speed of 8 meters. While riding it, you can move through hostile creatures' space (but cannot end your turn in their space). If you do, they take 20 heat damage and gain the *burning* condition. When you activate Sprinting Drake Gu, . Its heat damage is increased to 80, and it inflicts *ablaze* instead of *burning*.
+Effect: This Gu has a speed of 4 meters. While riding it, you can move through hostile creatures' space (but cannot end your turn in their space). If you do, they take 20 heat damage and gain the *burning* condition. When you activate Sprinting Drake Gu while riding it, it immediately sprints up to 20 meters in a straight line; moving through a creature's space with this movement deals 80 heat damage instead of 20 and applies *ablaze* instead of *burning*.
 
 :::
 \newpage
@@ -1748,9 +1748,24 @@ Range: 1 km
 
 Health: 10
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: The deafening sound of a horn fills the area within range for a few seconds. The sound is harmless.
+
+### Tripwire Gu
+*An infinitesmally thin worm that attaches itself to the wall and alerts the user when a creature passes through. Its biggest weakness is that there is no way to know which one was tripped if the user has multiple Tripwire Gu set up.*
+
+*Rank 1 Divination*
+
+Cost: 10 portions
+
+Range: Touch
+
+Health: 10
+
+Food: <!-- TODO ->
+
+Effect: You attach one end of Tripwire Gu to a wall, and the other end to another wall within 1 meter, forming a tripwire. Tripwire Gu becomes invisible and intangible, and if a creature passes through it you hear the sound of a bell in your head that wakes you up if you are sleeping.
 
 :::
 \newpage
@@ -1981,7 +1996,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
-Effect: While sustained, a spectral sword and shield manifest in front of you. Whenever a creature makes a **Close Combat** roll against you, you may use a reaction to attack them with the sword, dealing {35, 80} rending damage on a hit. Rending damage dealt to Aegis Gu's hitpoints are reduced by {5, 15}. 
+Effect: While sustained, a spectral sword and shield manifest in front of you. Whenever a creature makes a **Close Combat** roll against you, you may use a reaction to have the sword swing at the attacker, dealing {35, 80} rending damage on a hit. Rending damage dealt to Aegis Gu's hitpoints are reduced by {5, 15}. 
 
 ### Flash Sword Gu
 *Rank 4 Celerity*
@@ -2758,6 +2773,38 @@ Food: <!-- TODO ->
 
 Effect: Passively sprouts 50 primeval essence stones every day. Cannot be activated. Up to 50 primeval stones can remain attached to Heavenly Essence Treasure Lotus Gu at a time.
 
+### Liquor Worm Gu
+*Rank 1-3 Catalyst*
+
+Cost: 5 portions
+
+Range: Self
+
+Health: 7
+
+Food: 1 kg wine (1/4 primeval stone)
+
+Effect: This Gu has no effect unless you have rank {1, 2, 3} initial stage, middle stage, or upper stage cultivation. You immediately gain one refined portion of primeval essence of the stage above your own. Keep track of your current refined portions separately from your other portions of primeval essence. The sum of your natural and refined primeval essence can never exceed your maximum primeval essence.
+
+Expending 1 portion of refined primeval essence is equivalent to expending 4 portions of unrefined primeval essence.
+
+If your cultivation increases while you have refined primeval essence, it becomes unrefined primeval essence.
+
+### Paper Tiger Gu
+*Rank 2 Concealment*
+
+Cost: None
+
+Range: Self
+
+Health: 3
+
+Food: 1 kg wood pulp (1/4 primeval stone)
+
+Keywords: [**Sustained**]
+
+Effect: As long as you are rank 2, the aura of your primeval essence is increased to rank 3 and a stage of your choice while sustained. Your primeval essence's outward appearance remains as it was, however, so effects that glimpse inside your aperture will see your true cultivation. Sustaining this Gu does not count towards your number of currently sustained Gu.
+
 ### Regrowth Gu
 *Rank 1-2 Tonic*
 
@@ -2804,9 +2851,9 @@ Effect: Target a corpse or undead creature within range. If it is a corpse, it q
 
 Cost: 14 portions
 
-Range: <!-- TODO ->
+Range: 5 meters
 
-Health: <!-- TODO ->
+Health: 14
 
 Food: <!-- TODO ->
 
@@ -2862,11 +2909,11 @@ As long as you have 9 or fewer **Wood Charm Tokens**, every month you go without
 ### Wood Origin Gu
 *Rank 3 Carver*
 
-Cost: 25 portions
+Cost: 50 portions
 
 Range: Self
 
-Health: <!-- TODO ->
+Health: 15
 
 Food: <!-- TODO ->
 
