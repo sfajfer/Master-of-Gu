@@ -56,9 +56,9 @@ You land on solid ground. If executed at the end of a dive or atop *Uneven Terra
 When climbing a surface, your movement is reduced by 4. If the surface does not have easy handholds like a ladder the GM may call you to make an **Athletics** test or else fall.
 
 #### Cover
-If a creature is totally obscured by cover from the attacker, they are typically not a viable target for their attacks. If the attacker uses a Gu with the [**Piercing**] keyword, however, they can make an attack against an obscured target with a +20 penalty.
+If a creature is completely hidden behind cover from the attacker, they have full cover and typically are not a viable target for attacks. If the attacker uses a Gu with the [**Piercing**] keyword, however, they can make an attack against an obscured target with a +20 penalty. Divinations that reveal the exact location of a target remove this penalty.
 
-If a creature is only partially obscured by cover, they are a viable target but attacks made against them are made with a +10 penalty.
+If a creature is only partially obscured by cover, they have partial cover; they are a viable target, but attacks made against them are made with a +10 penalty. If the attacker uses a Gu with the [**Piercing**] keyword, however, there is no penalty to the attack roll.
 
 ## Combat Actions
 

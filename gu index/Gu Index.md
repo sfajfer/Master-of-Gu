@@ -379,6 +379,21 @@ Effect: If your current rank is equal to or below the rank of Breath Concealment
 
 ::: columns
 
+### Crystal Ladybug  Gu
+*Rank 1 Container*
+
+Cost: 7 portions
+
+Range: Touch
+
+Health: 12
+
+Food: <!-- TODO ->
+
+Effect: Crystal Ladybug Gu drinks up to 10 liters of liquid it is submerged in, filling its crystal belly. 
+
+Pushing your finger into Crystal Ladybug Gu's head causes it to expel any amount of stored liquid (depending on how hard you press).
+
 ### Quake Step Gu
 *Rank 1 Attack*
 
@@ -1000,7 +1015,7 @@ Keywords: [**Expendable**]
 Effect: Your lifespan is increased by {50, 100, 300, 500, 1000} years.
 
 ### Relic Gu
-*A star shaped polyhedron that glints in the light. The color of Relic Gu corresponds to the color of primeval essence of the same rank: Green copper, red steel, white silver, yellow gold, and purple crystal*
+*A star shaped polyhedron that glints in the light. The color of Relic Gu corresponds to the color of primeval essence of the same rank: Green copper, red steel, white silver, yellow gold, and purple crystal. Relic Gu are extremely valuable, allowing for rapid advancement in cultivation for a significant monetary cost.*
 
 *Rank 1-5 Catalyst*
 
@@ -1091,6 +1106,23 @@ Food: 1 kg of wood pulp (1/4 primeval stone)
 
 Effect: Summon a paper crane. Speak a message of up to 50 words. The paper crane records the spoken words before flying up to 10 kilometers in a direction of your choice.
 
+### Photo-audio Gu
+*Rank 2 Manifestation*
+
+Cost: 2 portions
+
+Range: 5 meters
+
+Health: 9
+
+Food: Light and sound
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, Photo-audio Gu records the surroundings within range. When you stop sustaining this Gu, the recorded scene is stored within Photo-audio Gu permanently. While sustaining a Photo-audio Gu with a stored recording, the recording is projected onto the wall in front of you.
+
+The camera angle of the stored scene is always angled from above and behind the user.
+
 :::
 \newpage
 ## $\centerline{Light Path}$
@@ -1162,7 +1194,7 @@ Effect: While sustained, you can see footprints where any creature has stepped i
 **Moonlight Gu**
 *Rank 1 Attack*
 
-Cost: 5 portions
+Cost: 7 portions
 
 Range: 10 meters
 
@@ -2343,17 +2375,30 @@ Food: <!-- TODO ->
 Effect: 5 liters of fresh water pours from your fingertip.
 
 ### Land Becomes Sea Gu
-*Rank 3 Manifestation*
+*Rank 3-4 Manifestation*
 
 Cost: 160 portions
 
-Range: 50 meters
+Range: {15, 50} meters
 
 Health: 12
 
 Food: <!-- TODO ->
 
 Effect: All earth, soil, and stone within range is transmuted into an equal volume of water.
+
+### Stream Gu
+*Rank 1 Attack*
+
+Cost: 2 portions
+
+Range: Self 
+
+Health: 7
+
+Food: <!-- TODO ->
+
+Effect: You fire a pressurized stream of water from your index finger at a target within range. Make an attack roll with a -30 bonus. On a hit, deal 3 force damage.
 
 :::
 \newpage
@@ -2904,6 +2949,21 @@ Health: 22
 Food: <!-- TODO ->
 
 Effect: Target a corpse or undead creature within range. If it is a corpse, it quickly spoils and rots before the skin and flesh sloughs off the bones and the skeleton disintegrates. If an undead creature is targeted, it rots at a slower rate, and takes 1/3 of its hit points (rounded up) in force damage directly to its hit points. While sustained, the target takes another 1/3 of its hit points (rounded up) at the start of your turn.
+
+### Scarecrow Gu
+*Rank 1 Manifestation*
+
+Cost: 15 portions
+
+Range: 1 meter
+
+Health: 12
+
+Food: <!-- TODO ->
+
+Effect: A 1 meter tall scarecrow manifests in an unoccupied square adjacent to you. The scarecrow has 50 hit points and regains 10 hit points at the start of each of your turns. Hiding behind it counts as partial cover.
+
+If within a 2x2 area there are 3 or more scarecrows, hiding behind them instead counts as full cover.
 
 ### Stranglewood Gu
 *Rank 2 Attack*
