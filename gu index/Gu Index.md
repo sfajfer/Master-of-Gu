@@ -392,6 +392,19 @@ Food: 1 kg mound stone (2 primeval stones)
 
 Effect: You stomp, and the ground quakes; all creatures standing on solid ground within range of you must succeed an **Athletics** test with a +10 penalty or else be knocked *prone*.
 
+### Rice Pouch Grass Gu
+*Rank 1 Manifestation*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 15
+
+Food: 1 kg water
+
+Effect: Rice Pouch Grass Gu fills iteself with 5 kg of long blades of rice.
+
 ### Stealth Rock Gu
 *Rank 1 Concealment*
 
@@ -1159,6 +1172,19 @@ Food: 3 moon orchid petals (3 primeval stones)
 
 Effect: You hurl a flat, crescent-shaped beam of light. Make an attack roll with a -10 bonus. On a hit, deal 6 rending damage.
 
+### Moonshadow Gu
+*Rank 4 Attack*
+
+Cost: 40 portions
+
+Range: 3 meters
+
+Health: 9
+
+Food: <!-- TODO ->
+
+Effect: Make an attack roll against a Gu Master within range. On a hit, their primeval sea is tainted and has only a quarter effectiveness, costing them 4 times as many portions to activate Gu as normal. To remove this effect, the defending Gu Master must empty their primeval sea completely.
+
 ### Shimmer Gu
 *Rank 2 Concealment*
 
@@ -1576,6 +1602,39 @@ A creature can expend its combat action to doff the armor.
 *Applies debilitating conditions to enemies. They may just deal damage or cause extreme symptoms. Some can even spread between creatures.*
 
 ::: columns
+
+[**Single Gate Poison Gu**]
+
+### Close Gate Gu
+
+*Rank 3 Catalyst*
+
+Cost: None
+
+Range: Touch
+
+Health: 10
+
+Food: None
+
+Effect: A creature you touch has the *posioned* condition removed if it was inflicted by Single Gate Poison Gu.
+
+### Single Gate Poison Gu
+*When Single Gate Poison Gu is successfully refined, a rank 3 Close Gate Gu is also refined. This Gu costs no primeval essence and has no effect other than to remove the poisoned condition inflicted by Single Gate Poison Gu.*
+
+*Rank 3 Attack*
+
+Cost: 30 portions
+
+Range: Touch
+
+Health: 11
+
+Food: <!-- TODO ->
+
+Effect: You touch a creature and they gain the *poisoned* condition. If this condition remains on them for 7 days, the target dies.
+
+[**END**]
 
 :::
 \newpage
@@ -2886,6 +2945,19 @@ Food: <!-- TODO ->
 Keywords: <!-- TODO ->
 
 Effect: Can store up to 50 kg of clothes and armor. Upon activation, a set of clothes of your choice replace whatever you are wearing, while the clothes you were wearing are stored within Wardrobe Gu. If you do not choose an outfit, you merely store the clothes you are wearing.
+
+### Wine Sack Flower Gu
+*Rank 1 Manifestation*
+
+Cost: 15 portions
+
+Range: Self
+
+Health: 9
+
+Food: 1 kg rice (1/4 primeval stone)
+
+Effect: Wine Sack Flower Gu blooms, forming a bowl made of petals containing 3 kg of rice wine.
 
 ### Wood Charm Gu
 *Rank 3 Carver*
