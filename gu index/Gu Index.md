@@ -1217,6 +1217,21 @@ Food: <!-- TODO ->
 
 Effect: Make an attack roll against a Gu Master within range. On a hit, their primeval sea is tainted and has only a quarter effectiveness, costing them 4 times as many portions to activate Gu as normal. To remove this effect, the defending Gu Master must empty their primeval sea completely.
 
+### One-stretch Golden Light Gu
+*Rank 1 Guard*
+
+Cost: 2 portions
+
+Range: Self
+
+Health: 12
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, a 1 meter radius sphere of light surrounds you and blocks attacks and objects from entering. When an attack from outside the sphere hits a creature inside the sphere, the sphere takes the damage instead, though the defender can still dodge the attack. For every point of damage the sphere takes, you lose 1 portion of primeval essence. If the sphere takes more than 20 damage from a single attack, it breaks, the remainder of the damage is dealt to the defender, and One-stretch Golden Light Gu takes 2d6 damage as backlash. The sphere does not block sonic damage.
+
 ### Shimmer Gu
 *Rank 2 Concealment*
 
@@ -1409,6 +1424,21 @@ Food: 10g golden phoenix feather (20 primeval stones)
 Keywords: [**Sustained**]
 
 Effect: While sustained, you are surrounded by a shimmering golden aurora and have a flying speed of 10 meters.
+
+### Golden Bell Gu
+*Rank 1 Guard*
+
+Cost: 30 portions
+
+Range: 2 meters
+
+Health: 9
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**]
+
+Effect: A bell rings, and all creatures within range are surrounded in golden light until the start of your next turn. All damage dealt to affected creatures except for sonic is reduced by 4.
 
 ### Golden Breeze Gu
 *Rank 4 Tonic*
@@ -1888,7 +1918,6 @@ Effect: For {1 hour, 1 day}, a {5, 15} meter cube, centered on the square you ac
 
 ::: columns
 
-
 ### All Out Effort Gu
 *A Rhinocerous Beetle with a long, black carapace, All Out Effort Gu is an extinct Gu from the Olden Antiquity Era, when Strength Path flourished. Now, only a few still exist in the world.*
 
@@ -1906,8 +1935,28 @@ Keywords: [**Sustained**]
 
 Effect: While sustained, whenever you roll to activate a beast phantom from a Strength Path Gu of rank {1, 2, 3, 4, 5} or lower, you may forego the roll and trigger the beast phantom automatically.
 
-### [Beast] Strength Gu
-*Rank 1-2 Carver*
+[**Beast Strength**]
+*Many Gu of Strength Path belong to the beast strength archetype; Gu that, over many uses, permanently grant the user the strength of a particular beast. Here are some of the more common Gu of this archetype in Southern Border.*
+
+### Bear Strength Gu
+*Rank 1 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 11
+
+Food: 10 kilograms of bear flesh
+
+Keywords: [**Dao**]
+
+Effect: Your strength attribute permanently increases by 10. For 24 hours, you cannot gain strength from Bear Strength Gu. Once you've gained 50 strength from Bear Strength Gu, activating Bear Strength Gu further has no effect on you, but you permanently gain the following feature:
+
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a bear phantom appears behind you, increasing the damage of the attack by 10 force damage.
+
+### Boar Strength Gu
+*Rank 1 Carver*
 
 Cost: 40 portions
 
@@ -1915,13 +1964,78 @@ Range: Self
 
 Health: 9
 
-Food: 10 kilograms of [Beast] flesh
+Food: 10 kilograms of boar flesh
 
 Keywords: [**Dao**]
 
-Effect: Your strength attribute permanently increases by {5, 10}. For 24 hours, you cannot gain strength from [Beast] Strength Gu. Once you've gained {25, 50} strength from [Beast] Strength Gu (including from lower ranks), activating [Beast] Strength Gu further has no effect on you, but you permanently gain the following feature:
+Effect: Your strength attribute permanently increases by 5. For 24 hours, you cannot gain strength from Boar Strength Gu. Once you've gained 25 strength from Boar Strength Gu, activating Boar Strength Gu further has no effect on you, but you permanently gain the following features:
 
-Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a [Beast] phantom appears behind you, increasing the damage of the attack by {10, 25} force damage.
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a boar phantom appears behind you, increasing the damage of the attack by 5 force damage.
+
+You may make a *charge* unarmed strike against a creature. To do so, you must move at least 3 meters in a straight line towards them, and have enough movement to put yourself into a square adjacent to the target. You and the target make an opposed **Close Combat** test. If you win, the target takes 1 force damage, +1 damage for every 10 points you have in Strength, and the target is knocked *prone*.
+
+### Crocodile Strength Gu
+*Rank 1 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 9
+
+Food: 10 kilograms of crocodile flesh
+
+Keywords: [**Dao**]
+
+Effect: Your strength attribute permanently increases by 5. For 24 hours, you cannot gain strength from Crocodile Strength Gu. Once you've gained 25 strength from Crocodile Strength Gu, activating Crocodile Strength Gu further has no effect on you, but you permanently gain the following features:
+
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a crocodile phantom appears behind you, increasing the damage of the attack by 5 force damage.
+
+You may make a *charge* unarmed strike against a creature. To do so, you must move at least 3 meters in a straight line towards them, and have enough movement to put yourself into a square adjacent to the target. You and the target make an opposed **Close Combat** test. If you win, the target takes 1 force damage, +1 damage for every 10 points you have in Strength, and the target is knocked *prone*.
+
+When you make an unarmed attack, you gain the following option:
+
+**Bite:** You viciously bite the target. Roll a **Close Combat** skill test. On a hit, deal 2 rending damage, +1 damage for every 10 points you have in Strength. The target is inflicted with *bleeding X*, where X is equal to 20% of the damage dealt to their hit points, rounded down (minimum 0).
+
+### Deer Strength Gu
+*Rank 1 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 9
+
+Food: 10 kilograms of deer flesh
+
+Keywords: [**Dao**]
+
+Effect: Your strength attribute permanently increases by 4. For 24 hours, you cannot gain strength from Deer Strength Gu. Once you've gained 20 strength from Deer Strength Gu, activating Deer Strength Gu further has no effect on you, but you permanently gain the following features:
+
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a deer phantom appears behind you, increasing the damage of the attack by 3 force damage.
+
+Your movement is increased by 2 meters.
+
+### Wolf Strength Gu
+*Rank 1 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 9
+
+Food: 10 kilograms of wolf flesh
+
+Keywords: [**Dao**]
+
+Effect: Your strength attribute permanently increases by 5. For 24 hours, you cannot gain strength from Wolf Strength Gu. Once you've gained 25 strength from Wolf Strength Gu, activating Wolf Strength Gu further has no effect on you, but you permanently gain the following features:
+
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a wolf phantom appears behind you, increasing the damage of the attack by 5 force damage.
+
+Your movement is increased by 1 meter.
+
+[**END**]
 
 ### Big Strength Gu
 *Rank 2 Catalyst*
@@ -1934,7 +2048,7 @@ Health:
 
 Food: <!-- TODO ->
 
-Effect: Your Strength attribute is increased by 100 for 3 turns.
+Effect: Your Strength attribute is increased by 50 for 3 turns.
 
 ### Bitter Strength Gu
 *Bitter Strength Gu is a beetle with a oval and palm-sized body. Lumps grow on its back*
@@ -1965,23 +2079,6 @@ Health: 15
 Food: <!-- TODO ->
 
 Effect: Until the end of your next turn, your Strength attribute is increased by 100. If your Fortitude attribute is lower than 40, your Strength attribute is permanently reduced by 5 at the end of this effect.
-
-### Crocodile Jaw Gu 
-*Rank 1 Carver*
-
-Cost: 40 portions
-
-Range: Self
-
-Health: 9
-
-Food: 1 kg crushed crocodile teeth (1 primeval stone)
-
-Keywords: [**Dao**]
-
-Effect: Your jaw muscles are permanently infused with the strength of a crocodile. Whenever you make an unarmed attack, you gain the following option:
-
-**Bite:** You viciously bite the target. Roll a **Close Combat** skill test. On a hit, deal 2 rending damage, +1 damage for every 10 points you have in Strength. The target gains a number of stacks of *bleeding* equal to 20% of the damage dealt to their hit points, rounded down (minimum 1).
 
 ### Exert Strength Gu
 *Rank 2 Catalyst*
