@@ -75,7 +75,7 @@ Effect: The roots of the blood demon flower pierce your flesh and wind around yo
 
 While sustained, you gain the following effects:
 
-Your maximum hit points are increased by 100. When you first activate this Gu, regain 100 hit points.
+Your maximum hit points are increased by 100. When you start sustaining this Gu, regain 100 hit points.
 
 Your movement is reduced by 4 meters, to a minimum of 1 meter.
 
@@ -271,23 +271,22 @@ Food: {4, 9, 16, 25} liters of blood from widowed women
 
 Effect: A 1 meter radius sphere of rotating blood surrounds you. For 10 minutes, all creatures inside the sphere become undetectable to **Divination** Gu of rank {2, 3, 4, 5} or less. They are still visible, but make no sound.
 
-<!-- TODO
 ### Man-Beast Life Burial Gu
-*Man-Beast Life Burial Gu is very useful for a rank 2 Gu Master wanting to reach rank 3. Unfortunately, its refinement recipe involves the feeding of a virgin female Gu Master to a beast through the use of Beast Enslavement Gu.*
+*Man-Beast Life Burial Gu is very useful for a rank 2 Gu Master wanting to reach rank 3. Unfortunately, its refinement recipe involves feeding a maiden Gu Master to a beast through the use of Beast Enslavement Gu.*
 
 *Rank 2 Catalyst*
 
-Cost: 
+Cost: 5 portions
 
-Range: 
+Range: Self
 
-Health: 
+Health: 5
 
-Food: 
+Food: 2 liters of virgin blood
 
-Keywords: 
+Effect: Immediately convert 100 portions of your primeval essence into an equal number of portions of black steel primeval essence. Keep track of your current black steel primeval essence portions separately from your other portions of primeval essence. The sum of your natural and black steel primeval essence can never exceed your maximum primeval essence.
 
-Effect: Immediately convert 100 portions of your primeval essence into 100 portions of black steel primeval essence. Black steel primeval essence cannot be used to activate Gu, but each portion counts as 10 portions of primeval essence when used to attack the aperture walls. -->
+Black steel primeval essence cannot be used for any purpose other than to attack rank 2 aperture walls; each portion counts as 10 portions of primeval essence when used to cultivate. Every day at midnight, if you still have at least 1 portion of black steel primeval essence, your aptitude is decreased by 1%.
 
 ### Staunch Bleeding Gu
 *Rank 1 Tonic*
@@ -340,6 +339,21 @@ Effect: Target creature within range has some of their blood vessels burst, taki
 *Subtle; the best concealments belong to Dark path. Marginally better defense than offense.*
 
 ::: columns
+
+### Shadow Bond Gu
+*Rank 2 Guard*
+
+Cost: 15 portions
+
+Range: 1 meter
+
+Health: 
+
+Food: 
+
+Keywords: [**Defensive**], [**Sustained**]
+
+Effect: While sustained, whenever you take damage to your hit points from a creature within range, they take the same damage directly to their hit points.
 
 ### Shadow Follower Gu
 *Rank 2 Concealment*
@@ -1991,11 +2005,9 @@ Effect: Your strength attribute permanently increases by 5. For 24 hours, you ca
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a crocodile phantom appears behind you, increasing the damage of the attack by 5 force damage.
 
-You may make a *charge* unarmed strike against a creature. To do so, you must move at least 3 meters in a straight line towards them, and have enough movement to put yourself into a square adjacent to the target. You and the target make an opposed **Close Combat** test. If you win, the target takes 1 force damage, +1 damage for every 10 points you have in Strength, and the target is knocked *prone*.
-
 When you make an unarmed attack, you gain the following option:
 
-**Bite:** You viciously bite the target. Roll a **Close Combat** skill test. On a hit, deal 2 rending damage, +1 damage for every 10 points you have in Strength. The target is inflicted with *bleeding X*, where X is equal to 20% of the damage dealt to their hit points, rounded down (minimum 0).
+**Bite:** You viciously bite the target. Roll a **Close Combat** skill test. On a hit, deal 2 rending damage, +1 damage for every 5 points you have in Strength. The target is inflicted with *bleeding X*, where X is equal to 20% of the damage dealt to their hit points, rounded down (minimum 0).
 
 ### Deer Strength Gu
 *Rank 1 Carver*
@@ -2350,6 +2362,21 @@ Whenever you are targeted by an attack from a sword-path Gu or a physical weapon
 
 ::: columns
 
+### Plunder Gu
+*Rank 2 Attack*
+
+Cost: 5 portions
+
+Range: 4 meters
+
+Health: 8
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, you attempt to pull a random Gu from the aperture of a Gu Master within range at the start of each of your turns. You and the target make an opposed **Agility** test. If you win, you pull a random Gu from their aperture and into your own. If you leave your current square for any reason while sustaining this Gu, it deactivates and takes 1d4 damage.
+
 ### Steal Luck Gu
 *Rank 1 attack*
 
@@ -2436,6 +2463,315 @@ Food: 5 kg of monkey flesh (1 primeval stone)
 Keywords: [**Sustained**]
 
 Effect: Your arms grow dramatically in length, increasing the range of all your melee attacks by 1 meter while sustained. Your touch range also increases by 1 meter.
+
+[**Upgrade Path: Flying Zombie Gu**] <!-- TODO ->
+
+### Roaming Zombie Gu
+
+*Rank 2 Carver*
+
+Cost: 10 portions
+
+Range: Self
+
+Health: 
+
+Food: 
+
+Keywords: [**Dao**], [**Sustained**]
+
+Effect: While sustained, your body transforms into that of a roaming zombie, granting you the following effects:
+
+Your maximum hit points are increased by 50. When you start sustaining this Gu, regain 50 hit points.
+
+You regain 8 hit points at the start of each of your turns.
+
+Your brain becomes your only vital organ. 
+
+You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
+
+You gain vulnerability to heat and shock damage.
+
+While exposed to direct light, you suffer a +20 penalty to all skill tests.
+
+At the start of each of your turns, make a *Perseverance* test. On a failure, you gain a **Roaming Zombie Token**. If you ever have 10 **Roaming Zombie Tokens**, your body is permanently transformed into a mindless zombie and you die.
+
+As long as you have 9 or fewer **Roaming Zombie Tokens**, every month you go without activating Roaming Zombie Gu reduces the number of **Roaming Zombie Tokens** you have by 1.
+
+### Hairy Zombie Gu
+
+*Rank 3 Carver*
+
+Cost: 10 portions
+
+Range: Self
+
+Health: 
+
+Food: 
+
+Keywords: [**Dao**], [**Sustained**]
+
+Effect: While sustained, your body transforms into that of a hairy zombie, granting you the following effects:
+
+Your maximum hit points are increased by 100. When you start sustaining this Gu, regain 100 hit points.
+
+You regain 15 hit points at the start of each of your turns.
+
+Your brain becomes your only vital organ. 
+
+You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
+
+You gain vulnerability to heat and shock damage.
+
+While exposed to direct light, you suffer a +20 penalty to all skill tests.
+
+At the start of each of your turns, make a *Perseverance* test. On a failure, you gain a **Hairy Zombie Token**. If you ever have 10 **Hairy Zombie Tokens**, your body is permanently transformed into a hairy zombie. Your natural primeval essence recovery rate is reduced to 0.
+
+As long as you have 9 or fewer **Hairy Zombie Tokens**, every month you go without activating Hairy Zombie Gu reduces the number of **Hairy Zombie Tokens** you have by 1.
+
+### Hopping Zombie Gu
+
+*Rank 4 Carver*
+
+Cost: 
+
+Range: Self
+
+Health: 
+
+Food: 
+
+Keywords: [**Dao**], [**Sustained**]
+
+Effect: While sustained, your body transforms into that of a hopping zombie, granting you the following effects:
+
+Your maximum hit points are increased by 250. When you start sustaining this Gu, regain 250 hit points.
+
+You regain 25 hit points at the start of each of your turns.
+
+Your jumping distance is doubled.
+
+Your brain becomes your only vital organ. 
+
+You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
+
+You gain vulnerability to heat and shock damage.
+
+While exposed to direct light, you suffer a +20 penalty to all skill tests.
+
+At the start of each of your turns, make a *Perseverance* test. On a failure, you gain a **Hopping Zombie Token**. If you ever have 10 **Hopping Zombie Tokens**, your body is permanently transformed into a hopping zombie. Your natural primeval essence recovery rate is reduced to 0.
+
+As long as you have 9 or fewer **Hopping Zombie Tokens**, every month you go without activating Hopping Zombie Gu reduces the number of **Hopping Zombie Tokens** you have by 1.
+
+### Asura Zombie Gu
+
+*Rank 5 Carver*
+
+Cost: 
+
+Range: Self
+
+Health: 
+
+Food: 
+
+Keywords: [**Dao**], [**Sustained**]
+
+Effect: While sustained, your body transforms into that of an Asura Zombie, granting you the following effects:
+
+Your maximum hit points are increased by 500. When you start sustaining this Gu, regain 500 hit points.
+
+You regain 50 hit points at the start of each of your turns.
+
+Your brain becomes your only vital organ. 
+
+You gain a flying speed of 10 meters.
+
+You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
+
+You gain vulnerability to heat and shock damage.
+
+While exposed to direct light, you suffer a +20 penalty to all skill tests.
+
+At the start of each of your turns, make a *Perseverance* test. On a failure, you gain an **Asura Zombie Token**. If you ever have 10 **Asura Zombie Tokens**, your body is permanently transformed into an Asura Zombie. Your natural primeval essence recovery rate is reduced to 0.
+
+As long as you have 9 or fewer **Asura Zombie Tokens**, every month you go without activating Asura Zombie Gu reduces the number of **Asura Zombie Tokens** you have by 1.
+
+### Blood Wight Zombie Gu
+
+*Rank 5 Carver*
+
+Cost: 
+
+Range: Self
+
+Health: 
+
+Food: 
+
+Keywords: [**Dao**], [**Sustained**]
+
+Effect: While sustained, your body transforms into that of a Blood Wight Zombie, granting you the following effects:
+
+Your maximum hit points are increased by 500. When you start sustaining this Gu, regain 500 hit points.
+
+You regain 100 hit points at the start of each of your turns.
+
+Your brain becomes your only vital organ. 
+
+You gain a flying speed of 10 meters.
+
+You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
+
+You gain vulnerability to heat and shock damage.
+
+While exposed to direct light, you suffer a +20 penalty to all skill tests.
+
+At the start of each of your turns, make a *Perseverance* test. On a failure, you gain a **Blood Wight Zombie Token**. If you ever have 10 **Blood Wight Zombie Tokens**, your body is permanently transformed into a Blood Wight Zombie.
+
+As long as you have 9 or fewer **Blood Wight Zombie Tokens**, every month you go without activating Blood Wight Zombie Gu reduces the number of **Blood Wight Zombie Tokens** you have by 1.
+
+### Earth Chief Zombie Gu
+
+*Rank 5 Carver*
+
+Cost: 
+
+Range: Self
+
+Health: 
+
+Food: 
+
+Keywords: [**Dao**], [**Sustained**]
+
+Effect: While sustained, your body transforms into that of an Earth Chief Zombie, granting you the following effects:
+
+Your maximum hit points are increased by 1000. When you start sustaining this Gu, regain 1000 hit points.
+
+You regain 30 hit points at the start of each of your turns.
+
+Your brain becomes your only vital organ. 
+
+You gain a flying speed of 10 meters.
+
+You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions and cannot be knocked prone.
+
+You gain vulnerability to heat damage.
+
+While exposed to direct light, you suffer a +20 penalty to all skill tests.
+
+At the start of each of your turns, make a *Perseverance* test. On a failure, you gain an **Earth Chief Zombie Token**. If you ever have 10 **Earth Chief Zombie Tokens**, your body is permanently transformed into an Earth Chief Zombie.
+
+As long as you have 9 or fewer **Earth Chief Zombie Tokens**, every month you go without activating Earth Chief Zombie Gu reduces the number of **Earth Chief Zombie Tokens** you have by 1.
+
+### Heavenly Demon Zombie Gu
+
+*Rank 5 Carver*
+
+Cost: 
+
+Range: Self
+
+Health: 
+
+Food: 
+
+Keywords: [**Dao**], [**Sustained**]
+
+Effect: While sustained, your body transforms into that of a Heavenly Demon Zombie, granting you the following effects:
+
+Your maximum hit points are increased by 250. When you start sustaining this Gu, regain 250 hit points.
+
+You regain 30 hit points at the start of each of your turns.
+
+Your brain becomes your only vital organ. 
+
+You gain a flying speed of 25 meters.
+
+You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
+
+You gain vulnerability to heat and shock damage.
+
+While exposed to direct light, you gain a -10 bonus on all **Dodge**, **Flying**, **Close Combat** and **Ranged Combat** skill tests.
+
+While not exposed to direct light, you gain a -10 bonus on all **Awareness**, **Cultivation**, **Deduction**, and **Refinement** tests.
+
+At the start of each of your turns, make a *Perseverance* test. On a failure, you gain a **Heavenly Demon Zombie Token**. If you ever have 10 **Heavenly Demon Zombie Tokens**, your body is permanently transformed into a Heavenly Demon Zombie.
+
+As long as you have 9 or fewer **Heavenly Demon Zombie Tokens**, every month you go without activating Heavenly Demon Zombie Gu reduces the number of **Heavenly Demon Zombie Tokens** you have by 1.
+
+### Nightmare Zombie Gu
+*Rank 5 Carver*
+
+Cost: 
+
+Range: Self
+
+Health: 
+
+Food: 
+
+Keywords: [**Dao**], [**Sustained**]
+
+Effect: While sustained, your body transforms into that of a Nightmare Zombie, granting you the following effects:
+
+Your maximum hit points are increased by 150. When you start sustaining this Gu, regain 150 hit points.
+
+You regain 30 hit points at the start of each of your turns.
+
+Your brain becomes your only vital organ. 
+
+You gain a flying speed of 15 meters.
+
+You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
+
+You gain vulnerability to heat and shock damage.
+
+While exposed to direct light, you suffer a +20 penalty to all skill tests.
+
+When you hit a creature with a melee attack, they take 50 damage to their soul.
+
+At the start of each of your turns, make a *Perseverance* test. On a failure, you gain a **Nightmare Zombie Token**. If you ever have 10 **Nightmare Zombie Tokens**, your body is permanently transformed into a Nightmare Zombie.
+
+As long as you have 9 or fewer **Nightmare Zombie Tokens**, every month you go without activating Nightmare Zombie Gu reduces the number of **Nightmare Zombie Tokens** you have by 1.
+
+### Plague Zombie Gu
+*Rank 5 Carver*
+
+Cost: 
+
+Range: Self
+
+Health: 20
+
+Food: 
+
+Keywords: [**Dao**], [**Sustained**]
+
+Effect: While sustained, your body transforms into that of a Plague Zombie, granting you the following effects:
+
+You regain 30 hit points at the start of each of your turns.
+
+Your brain becomes your only vital organ. 
+
+You gain a flying speed of 5 meters.
+
+You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
+
+You gain vulnerability to heat and shock damage.
+
+While exposed to direct light, you suffer a +20 penalty to all skill tests.
+
+If a creature starts their turn within 15 meters of you, they gain the **posioned** condition. While **posioned** in this way, they take 50 poison damage directly to their hit points at the end of each of their turns.
+
+At the start of each of your turns, make a *Perseverance* test. On a failure, you gain a **Plague Zombie Token**. If you ever have 10 **Plague Zombie Tokens**, your body is permanently transformed into a Plague Zombie.
+
+As long as you have 9 or fewer **Plague Zombie Tokens**, every month you go without activating Plague Zombie Gu reduces the number of **Plague Zombie Tokens** you have by 1.
+
+
+[**END**]
 
 :::
 \newpage
@@ -2583,7 +2919,7 @@ Keywords: [**Deductive**]
 Effect: A cloud of thoughts rumbles above your head, granting you Advantage on a Deduction skill test.
 
 ### Battle Will Gu
-*Rank 3 Divination*
+*Rank 3 Catalyst*
 
 Cost: 15 portions
 
@@ -2664,7 +3000,7 @@ Food: <!-- TODO ->
 
 Keywords [**Expendable**]
 
-Effect: You take {1, 2, 6} damage to your soul and create {2, 8, 30} Little Wills. Little Wills are linked to you psychically and can help you multitask. When you take the Use Activations combat action, you may consume any number of Little Wills to gain 1 Activation per Little Will consumed in this way.
+Effect: You take {1, 2, 6} damage to your soul and create {2, 8, 30} Little Wills. Little Wills are linked to you psychically and can help you multitask. When you take the [Activate Gu](../Chapters.pdf) combat action, you may consume any number of Little Wills to gain 1 Activation per Little Will consumed in this way.
 
 When you activate or sustain a Gu with the [**Sustained**] keyword, you may expend a Little Will. The Gu will remain sustained until the start of your next turn and does not count towards your current number of sustained Gu.
 
@@ -2700,7 +3036,7 @@ Food: 5 hours of intense thinking; the thoughts are consumed and cannot be used 
 
 Keywords: [**Defensive**], [**Shield**], [**Sustained**]
 
-Effect: While sustained, if an effect would manipulate your thoughts, emotions, or will, and originates from a source of equal or lower rank than this Gu, it is negated on you. This Gu cannot block any damage. Whenever you take damage to your soul, you may instead assign that damage to Mind Fortress Gu. This Gu can be activated as a reaction to taking damage to your soul, with the triggering damage being redirected to Mind Fortress Gu.
+Effect: While sustained, if an effect would manipulate your thoughts, emotions, or will, and originates from a source of equal or lower rank than this Gu, it is negated on you. This Gu cannot block any damage. Whenever you take damage to your soul while sustained, you may instead assign that damage to Mind Fortress Gu. This Gu can be activated as a reaction to taking damage to your soul, with the triggering damage being redirected to Mind Fortress Gu.
 
 ### One Mind Gu
 *Rank 2 Catalyst*

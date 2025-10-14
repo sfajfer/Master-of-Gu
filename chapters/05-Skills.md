@@ -17,7 +17,7 @@ When you succeed a Dodge test, you MUST move at least 1 meter and at most 1/2 yo
 
 **Flying (Agi)** - A Gu Master may live his entire life without taking to the skies, but to those that do, this skill is a necessity. Without a decent flying skill, a Gu Master can be easier to hit in the air than they would be on the ground.
 
-The source of your flight tells you how many meters you can move per turn. When flying, unless otherwise stated by the flight source, you 
+The source of your flight tells you how many meters you can move per turn.
 
 ### **Refinement (Wis)**
 Even with a complete recipe, refining Gu is an arduous process, requiring precision and constant vigilance. When refinement fails it triggers a backlash which can hurt or even kill you and your Gu. Your refinement skill determines how complex of recipes you can follow, and how often your refinement fails.

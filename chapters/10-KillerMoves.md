@@ -31,6 +31,6 @@ The combined primeval essence cost of all Gu in the recipe. This number assumes 
 To deduce a killer move, you must have the *Fundamental [Path] Attainment* talent in the paths of all Core Gu. You should prepare the killer move with the gamemaster first, making sure both of you agree on the Gu used and the final effect. Once you have the killer move prepared, your character has to then spend time experimenting to create the killer move. This takes a 
 
 ### Activating a Killer Move
-Killer moves can be activated with the **Activate a Killer Move** combat action, but can be quite taxing on the soul depending on their complexity.
+Killer moves can be activated with the **Activate a Killer Move** combat action, but can be quite taxing on the soul depending on their complexity. Pick a killer move for which you have all the Gu and enough primeval essence for all activations. For every activation in the killer move over your **Activations** attribute, take 1 damage to your soul. The killer move activates, applying its effect. If the killer move has the [**Sustained**] keyword, you take 1 damage to your soul any time you activate a Gu while sustaining the killer move.
 
 \newpage

@@ -30,7 +30,7 @@ Jumping costs half of your movement in meters, rounded up. If your movement is 0
 From rest, you can jump a maximum of 10% of your athletics skill (rounded down to a minimum of 1) in meters upwards, or 2 meters forwards.
 
 #### Long Jump
-If you move at least 1 meter in the direction of your jump before jumping, your forward jumping distance is equal to the remainder of your movement.
+If you move at least 1 meter in the direction of your jump before jumping, your forward jumping distance is equal to half your movement, rounded up.
 
 ### Maneuvers
 You may only execute a Maneuver if you have a flying speed. With the exception of *Take Flight*, you must be *airborne* to execute a maneuver. While *airborne*, you make **Dodge** skill tests with your **Flying** skill until you return to the ground, and use your flying speed when dodging.
@@ -62,11 +62,11 @@ If a creature is only partially obscured by cover, they have partial cover; they
 
 ## Combat Actions
 
-### Use Activations
+### Activate Gu
 Your Activations can be used to activate Gu as well as to utilize the lingering effects of many Gu, such as directing manifestations. You may activate a number of Gu equal to your **Activations** attribute. You may activate each at any time during your turn, including in the middle of movement, but you cannot activate a Gu when it is not your turn. You may activate the same Gu multiple times, unless you are sustaining it. Using up your activations does not prevent you from activating Gu using your reactions.
 
 ### Activate a Killer Move
-Pick a killer move for which you have all the Gu and enough primeval essence for all activations. For every activation in the killer move over your **Activations** attribute, take 1 damage to your soul. The killer move activates, applying its effect. If the killer move has the [**Sustained**] keyword, you take 1 damage to your soul any time you activate a Gu while also sustaining the killer move.
+Pick a killer move for which you have all the Gu and enough primeval essence for all activations. For every activation in the killer move over your **Activations** attribute, take 1 damage to your soul. The killer move activates, applying its effect. If the killer move has the [**Sustained**] keyword, you take 1 damage to your soul any time you activate a Gu while sustaining the killer move.
 
 ### Melee Attack
 Melee attacks made against a target incapable of moving automatically succeed.
@@ -95,7 +95,7 @@ On your turn, you can absorb the essence of a number of primeval stones equal to
 For each primeval stone being absorbed, you gain 5 portions of primeval essence, and the stone is destroyed in the process, crumbling into dust.
 
 ### Hold an Action
-You can choose to hold your Combat Action, specifying an action and a trigger for it to occur. When the trigger happens, you may use a reaction to take that Combat Action. If you are reacting to an opponent's actions, you must make an opposed skill test to see whose action occurs first, with the skill in question being **Close Combat** if within 3 meters of each other, or **Ranged Combat** if not. If you hold the **Use Activations** action, you may only specify a single activation.
+You can choose to hold your Combat Action, specifying an action and a trigger for it to occur. When the trigger happens, you may use a reaction to take that Combat Action. If you are reacting to an opponent's actions, you must make an opposed skill test to see whose action occurs first, with the skill in question being **Close Combat** if within 3 meters of each other, or **Ranged Combat** if not. If you hold the **Activate Gu** action, you may only specify a single activation.
 
 Triggers can be specific or broad, ranging from "when the opponent uses Fire Pellet Gu" to "when a creature makes any hostile moves".
 
@@ -130,7 +130,7 @@ When the trigger you specified upon holding a combat action occurs, you may take
 As a reaction or for free at any time during their turn, a Gu Master can self-detonate any Gu owned and refined by them with a single thought. The Gu Master must be conscious to do so, and can detonate as many or as few Gu as they want, from any distance. If the Gu is being suppressed, for example by the land spirit of a blessed land, the Gu Master cannot self-detonate it. Otherwise, the chosen Gu instantly die, with no other effects. If the Gu has a self-detonation ability, it does not trigger, since the Gu was not activated.
 
 ## Bonus Actions
-Bonus actions are generally fast and low-effort, such as stowing/taking a Gu from your aperture, opening an unlocked door, or pulling a lever.
+Bonus actions are generally fast and low-effort, such as giving a creature a Gu from your aperture, opening an unlocked door, or pulling a lever.
 
 ## Damage
 When you take damage, subtract that amount from your current Hit Points, to a minimum of 0. When you hit 0 Hit Points, make a **Perseverance** test. On a failure, you are *Dying*. On a success, you enter *Final Stand*.
@@ -152,6 +152,9 @@ If a source says you take damage to your soul, that number is subtracted from yo
 If a creature or object is vulnerable to a damage type, multiply any damage of that type dealt to their hit points by 2. If they have resistance, halve the damage dealt to their hit points, rounding down. If they are invulnerable to a damage type, they do not take the damage at all.
 
 Resistance and invulnerability granted by a Gu can be ignored by Gu of higher ranks. When you take damage of that type from a Gu of higher rank than the one granting invulnerability, you instead are treated as if you had resistance. Similarly, if you only had resistance, you now do not reduce the damage dealt at all.
+
+### Immunity
+If a creature is immune to a condition, it cannot be applied to them regardless of the rank of the source.
 
 ### Instant Death
 If you take an amount of damage equal to double your maximum Hit Points from a single source, you instantly die, and do not get to roll to see if you enter *Final Stand*.
