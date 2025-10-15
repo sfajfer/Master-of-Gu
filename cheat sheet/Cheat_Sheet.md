@@ -88,7 +88,7 @@ geometry:
 - **Steed:** Can be ridden.
 - **Supplementary:** Alters subsequent activations.
 - **Sustained:** Pay cost each turn; soul damage if # sustained > Activations.
-- **Unreactable:** Cannot react to effect.
+- **Unreactable:** Reactions delayed until after effect.
 - **Vital:** If it dies, the owner dies.
 
 :::

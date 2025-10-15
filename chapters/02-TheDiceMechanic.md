@@ -27,14 +27,16 @@ Penalties and bonuses are a number added or subtracted from the number you roll 
 |      -40       | Simple (Identifying poisonous plants around your clan's walls) |
 |      -60       | Trivial (Haggling a merchant to take a few primeval stones off a large price) |
 
-### Advantage
-There is no disadvantage in this system, but many Gu will grant advantage on certain checks. If you have advantage, roll an additional td10 and take the lower of the two. You can stack advantages as long as they come from different sources.
+### Advantage and Disadvantage
+If you have advantage on a test, roll an additional td10 and take the lower of the two. You can stack advantages as long as they come from different sources. Disadvantage works the same way, but you take the higher of the td10 rolls.
 
 ### Degrees of Success/Failure
 For every 10 you roll above/below your skill value, you gain a degree of failure/success, respectively. Some skill tests, such as an opposed Deception/Insight roll, do not take degrees of success into account; they're either deceived or they aren't. Many tests, however, will have different effects based on the degrees of success or failure.
 
 ### Critical
 When you roll at or under 1/10 of your skill's value (rounded down) on the die, you've landed a critical. Criticals are automatic successes, though degrees of success are still calculated like normal. Some skills have a critical success effect built into them, though the GM can always add a special additional success to any test you critically succeed.
+
+If you score a critical with an attack roll, the attack deals double the damage it normally would.
 
 ### Fumble
 Fumbles occur when 99-100 is rolled on the die for a skill test. If your skill value is above 99, you only fumble on a roll of 100 for that skill. Fumbles are an automatic failure, though degrees of failure are still calculated like normal.

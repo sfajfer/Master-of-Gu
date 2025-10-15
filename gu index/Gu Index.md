@@ -814,7 +814,7 @@ Food: 10 kg charcoal (1/2 primeval stone)
 
 Keywords: [**Sustained**], [**Defensive**]
 
-Effect: While sustained, you take 10 heat damage at the start of each of your turns, and heat damage dealt to you is negated and stored inside Double Decker Stove Gu. At the end of each of your turns, some stored heat bursts from your body, dealing 1/2 the stored damage (rounded down) to all creatures within range. Double Decker Stove Gu can store up to 100 heat damage. When you stop activating Double Decker Stove Gu, the stored damage reverts to 0.
+Effect: While sustained you take 10 heat damage directly to your hit points at the start of each of your turns, and heat damage dealt to you is negated and stored inside Double Decker Stove Gu. At the end of each of your turns, some stored heat bursts from your body, dealing 1/2 the stored damage (rounded down) to all creatures within range. Double Decker Stove Gu can store up to 100 heat damage. When you stop activating Double Decker Stove Gu, the stored damage reverts to 0.
 
 ### Three Door Fire Hut Gu
 *Rank 3 Attack*
@@ -986,7 +986,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
-Effect: A cloak of smoldering embers surrounds you. Any creature that hits you with a melee attack takes 8 heat damage and gains the *burning* condition. Heat damage dealt to Smoldering Cloak Gu is reduced by 10, to a minimum of 0.
+Effect: A cloak of smoldering embers surrounds you. Any creature that hits you with a melee attack takes 8 heat damage and gains the *burning* condition. You gain immunity to the *burning* and *ablaze* conditions, and any heat damage dealt to Smoldering Cloak Gu is reduced by 10, to a minimum of 0.
 
 ### Sprinting Drake Gu
 *Rank 3 Attack*
@@ -1037,7 +1037,7 @@ Cost: 5 portions
 
 Range: Self
 
-Health: (Rank * 5)
+Health: 5
 
 Food: (Rank) portions of primeval essence
 
@@ -1452,7 +1452,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**]
 
-Effect: A bell rings, and all creatures within range are surrounded in golden light until the start of your next turn. All damage dealt to affected creatures except for sonic is reduced by 4.
+Effect: A bell rings, and all creatures within range are surrounded in golden light until the start of your next turn. All non-sonic damage dealt to affected creatures is reduced by 4.
 
 ### Golden Breeze Gu
 *Rank 4 Tonic*
@@ -1512,7 +1512,7 @@ Food: 1 kg copper ore, heated to at least 100 degrees
 
 Keywords: [**Defensive**], [**Sustained**]
 
-Effect: While sustained, this Gu negates and stores all heat damage dealt to your hit points, to a maximum of {20, 50}. If you hit a creature with a punching or kicking attack, deal additional heat damage equal to the damage stored inside Heatsink Gu to the target. When you stop sustaining Heatsink Gu, its stored damage reverts to 0.
+Effect: While sustained, this Gu negates and stores all heat damage dealt to your hit points, to a maximum of {20, 50}. If you hit a creature with an unarmed melee attack, deal additional heat damage equal to the damage stored inside Heatsink Gu to the target. When you stop sustaining Heatsink Gu, its stored damage reverts to 0.
 
 ### Iron Hook Silver Slash Gu
 *Rank 5 Attack*
@@ -3049,9 +3049,9 @@ Health: 12
 
 Food: <!-- TODO ->
 
-Keywords:
+Keywords: [**Expendable**]
 
-Effect: You gain X activations until the end of your turn. Once you use an activation on your turn, your subsequent activations must be used for the same effect, i.e. activating the same Gu.
+Effect: You gain X activations until the end of your turn. Once you use an activation before the end of your turn, your subsequent activations must be used for the same effect, i.e. activating the same Gu.
 
 ### Sharp Intent Gu
 *Rank 3-4 Manifestation*
@@ -3083,7 +3083,7 @@ Food: {1, 4, 9, 16, 25} cubic meters of Phantom Soil
 
 Keywords: [**Deductive**]
 
-Effect: Your thoughts appear as bubbles above your head, and you gain a -(Rank * 10) bonus Deduction tests made to create a refinement recipe, so long as you have access to the Gu whose recipe you're attempting to deduce. You also gain a -(Rank * 10) bonus on Knowledge (Gu) tests made to identify a Gu. Space thoughts vanish after 1 hour.
+Effect: Your thoughts appear as bubbles above your head, and you gain a {-10, -20, -30, -40, -50} bonus Deduction tests made to create a refinement recipe, so long as you have access to the Gu whose recipe you're attempting to deduce. You also gain a {-10, -20, -30, -40, -50} bonus on Knowledge (Gu) tests made to identify a Gu. Space thoughts vanish after 1 hour.
 
 ### {Two, Three, Four, Five} Tasks at Once Gu
 
@@ -3093,7 +3093,7 @@ Cost: 15 portions
 
 Range: Self
 
-Health: spectral blue
+Health: 10
 
 Food: <!-- TODO ->
 
@@ -3104,17 +3104,17 @@ Effect: While sustained you can sustain an additional number of Gu every turn eq
 ### Vajra Arms Gu
 *Rank 2 Manifestation*
 
-Cost: <!-- TODO ->
+Cost: 5 portions
 
 Range: Self
 
-Health: <!-- TODO ->
+Health: 11
 
-Food: <!-- TODO ->
+Food: 1 hour of thoughts related to punching or souls.
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you have an additional two arms sprouting from your waist. They are a spectral blue color, and punching attacks made with them deal an additional 1 damage to the targets soul.
+Effect: While sustained, you have an additional two arms sprouting from your waist. They are a spectral blue color, and punching attacks made with them deal an additional 2 damage to the target's soul.
 
 ### Vajra Thought Gu
 *Rank 1-5 Manifestation*
@@ -3343,17 +3343,17 @@ Keywords: [**Sustained**]
 Effect: As long as you are rank 2, the aura of your primeval essence is increased to rank 3 and a stage of your choice while sustained. Your primeval essence's outward appearance remains as it was, however, so effects that glimpse inside your aperture will see your true cultivation. Sustaining this Gu does not count towards your number of currently sustained Gu.
 
 ### Regrowth Gu
-*Rank 1-2 Tonic*
+*Rank 1 Tonic*
 
-Cost: 40 portions
+Cost: 60 portions
 
-Range: 3 meters
+Range: Touch
 
 Health: 11
 
 Food: <!-- TODO ->
 
-Effect: Choose a creature within range. That creature regrows a single severed limb {over 1 hour, instantly}.
+Effect: Touch a creature within range. That creature regrows a single severed limb instantaneously and regains 20 hit points.
 
 ### Resurgence Gu
 *Refined from Rank 1 Silver Lining Gu*

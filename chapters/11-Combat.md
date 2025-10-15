@@ -52,10 +52,16 @@ Make a **Flying** test. On a success, all skill tests made to hit you with an at
 #### Land
 You land on solid ground. If executed at the end of a dive or atop *Uneven Terrain*, you must succeed a **Flying** test or else land *prone*.
 
-#### Climbing
+### Climbing
 When climbing a surface, your movement is reduced by 4. If the surface does not have easy handholds like a ladder the GM may call you to make an **Athletics** test or else fall.
 
-#### Cover
+### Swimming
+Non-aquatic creatures consider water to be difficult terrain. A creature can hold its breath for a number of minutes equal to 10% of their Fortitude attribute (rounded down) before falling unconscious. If the creature remains unable to breath for the same period of time after passing out, they die.
+
+### Difficult Terrain
+If a creature is standing in difficult terrain, it costs 2 meters of movement instead of 1 to move to another square.
+
+### Cover
 If a creature is completely hidden behind cover from the attacker, they have full cover and typically are not a viable target for attacks. If the attacker uses a Gu with the [**Piercing**] keyword, however, they can make an attack against an obscured target with a +20 penalty. Divinations that reveal the exact location of a target remove this penalty.
 
 If a creature is only partially obscured by cover, they have partial cover; they are a viable target, but attacks made against them are made with a +10 penalty. If the attacker uses a Gu with the [**Piercing**] keyword, however, there is no penalty to the attack roll.
@@ -69,7 +75,7 @@ Your Activations can be used to activate Gu as well as to utilize the lingering 
 Pick a killer move for which you have all the Gu and enough primeval essence for all activations. For every activation in the killer move over your **Activations** attribute, take 1 damage to your soul. The killer move activates, applying its effect. If the killer move has the [**Sustained**] keyword, you take 1 damage to your soul any time you activate a Gu while sustaining the killer move.
 
 ### Melee Attack
-Melee attacks made against a target incapable of moving automatically succeed.
+Melee attacks made against a target incapable of moving automatically hit.
 
 #### Weapon Attack
 Roll a **Close Combat** skill test against an enemy within your weapon's range. On a hit, deal the damage of the weapon, +1 damage for every 20 points you have in Strength.
@@ -78,14 +84,14 @@ Roll a **Close Combat** skill test against an enemy within your weapon's range. 
 When wielding more than 1 weapon, you can make a number of melee attacks equal to the number of wielded weapons instead of just 1. If you elect to do so, all melee attacks made have a penalty equal to +(number of attacks * 10). You cannot wield more weapons than you have arms and hands.
 
 #### Unarmed Strike
-When you make an unarmed strike, you may make a number of punching attacks equal to the number of arms you have. Alternatively, you may kick once.
+When you make an unarmed strike, you may make a punching attack for each arm you have. Alternatively, you may kick once.
 
 Punching Attack: Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 1 force damage, +1 damage for every 10 points you have in Strength. For every 5 damage dealt, even if it is reduced, you take 1 force damage directly to your hit points. Gu such as Metal Skin Gu and Copper Tendons Gu are typically used to prevent your own strikes from hurting you.
 
-Kick: Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 1 force damage, +1 damage for every 5 points you have in Strength. The target is knocked backwards a number of meters equal to 10% of your Strength attribute (rounded down, minimum 1).
+Kick: Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 1 force damage, +1 damage for every 5 points you have in Strength. The target is knocked backwards a number of meters equal to 1% of your Strength attribute (rounded down, minimum 1) and lands *prone*.
 
 ### Grapple
-Select an enemy of equal or lesser size in an adjacent square. Roll an opposed **Athletics** test against them. If you win, The creature is *restrained* and now occupies the same square as you while *restrained* in this way. Whenever you move, make an **Athletics** test with a +10 penalty for every 50 kilograms the grappled target weighs. On a success, you can move half your movement (rounded down).
+Select an enemy of equal or lesser size in an adjacent square. Roll an opposed **Athletics** test against them. If you win, The creature is *restrained* and now occupies the same square as you while *restrained* in this way. While you are grappling a creature, you may not make kicking attacks and the number of punching attacks you can make using the **Melee Attack** action is reduced by 1. You may expend your movement to make an **Athletics** test, with a +10 penalty for every 50 kilograms the grappled target weighs. On a success, you can move up to half your movement (rounded down).
 
 As a combat action, a grappled creature can attempt to break free, making an opposed **Athletics** test against the grappler. On a success, they break free.
 
@@ -115,7 +121,7 @@ When you succeed a Dodge test, you MUST move at least 1 meter and at most 1/2 yo
 
 If you use a reaction to dodge for any trigger except an attack hitting you, you immediately move at least 1 meter and at most 1/2 your movement in any direction.
 
-Dodging provokes opportunity attacks.
+Dodging provokes opportunity attacks, but they are made with disadvantage.
 
 ### Parry
 The parry reaction can only be taken when its determined a melee attack has hit you and before the damage has been rolled. Make a **Close Combat** test with a +10 penalty, opposing the opponent's attack roll. If you win, you take no damage from the attack and can make your own melee attack against the opponent in turn as long as they are within your melee range. You can parry attacks made as part of the parry reaction.
