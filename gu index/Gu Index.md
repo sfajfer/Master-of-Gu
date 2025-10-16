@@ -565,6 +565,21 @@ Keywords: [**Sustained**], [**Medium**]
 
 Effect: While sustained, a shield of obsidian and magma appears in an unoccupied square adjacent to you. If a projectile passes through the shield's square, the shield negates the attack entirely, taking the damage of the attack to its hit points (if the attack deals damage). If the projectile was created by a Gu of rank 3 or higher, the shield is destroyed and does not negate the attack. The shield has 20 hit points and is invulnerable to heat damage.
 
+### Burning Heart Gu
+*Rank 2 Carver*
+
+Cost: 10 portions
+
+Range: Self 
+
+Health: 12
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: You permanently etch fire path dao into your heart. You no longer suffer ill effects from cold temperatures and are invulnverable to cold damage. Whenever you take heat damage to your hit points, reduce it by 15.
+
 ### Clearing Heat Gu
 *Rank 2 Tonic*
 
@@ -585,7 +600,7 @@ Effect: Immediately remove all instances of the *poisoned* condition from yourse
 
 Cost: 8 portions  
 
-Range: 20 meters  
+Range: {5, 15, 50} meters  
 
 Health: 12  
 
@@ -608,7 +623,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
-Effect: Armor of embers covers your body. Fire and rending damage dealt to Ember Armor Gu is reduced by 30, to a minimum of 0. 
+Effect: A flaming carapace covers your body. While sustained, you are immune to the *burning* and *ablaze* conditions. Fire and rending damage dealt to Ember Armor Gu are reduced by 30, to a minimum of 0. 
 
 ### Ember Butterfly Gu
 *Rank 1 Attack*
@@ -668,7 +683,7 @@ Keywords: [**Sustained**]
 
 Effect: Manifest a wall of fire up to 8 meters long and 2 meters high. Creatures starting their turn in or passing through the fire take 25 heat damage and gain the *ablaze* condition.
 
-### Fire Discharge Gu
+### Fire Discharge Gu1
 *Rank 1-2 Celerity*
 
 Cost: 20 portions 
@@ -767,7 +782,7 @@ Health: 10
 
 Food: <!-- TODO ->
 
-Effect: Carve fire path dao into a weapon or creature. The weapon (or the creature's fists) catches fire and deals an additional 10 heat damage on a successful melee attack as well as inflicting the *burning* condition. This effect lasts for 1 hour.
+Effect: Carve fire path dao into a weapon or creature for 1 hour. The weapon (or the creature's fists) catches fire and deals an additional 10 heat damage on a successful melee attack as well as inflicting the *burning* condition.
 
 ### Firefly Swarm Gu
 *Rank 1 Manifestation*
@@ -782,14 +797,14 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Manifest a swarm of fiery fireflies in a square within range while sustained. The swarm gives off bright light for 25 meters. You can move the swarm up to 10 meters to a point within range as a bonus action on your turn.
+Effect: Manifest a swarm of fireflies in 2x2 square area within range while sustained. The swarm gives off bright light for 25 meters, and can occupy the space of other creatures. If a creature is in the same square as the swarm, they have a +10 penalty to all skill tests. You can move the swarm up to 10 meters to a point within range as a bonus action on your turn.
 
 [**Upgrade Path: Five Door Fire Pagoda Gu**]
 
 ### Charcoal Gu
 *Rank 1 Manifestation*
 
-Cost: 2 portions
+Cost: 1 portion
 
 Range: Self
 
@@ -1003,6 +1018,21 @@ Keywords: [**Steed**], [**Medium**]
 
 Effect: This Gu has a speed of 4 meters. While riding it, you can move through hostile creatures' space (but cannot end your turn in their space). If you do, they take 20 heat damage and gain the *burning* condition. When you activate Sprinting Drake Gu while riding it, it immediately sprints up to 20 meters in a straight line; moving through a creature's space with this movement deals 80 heat damage instead of 20 and applies *ablaze* instead of *burning*.
 
+### Temper Soul Gu
+*Rank 3 Carver*
+
+Cost: 25 portions
+
+Range: Self
+
+Health: 7
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Your maximum soul is permanently increased by 5.
+
 :::
 \newpage
 ## $\centerline{Human Path}$
@@ -1028,8 +1058,23 @@ Keywords: [**Expendable**]
 
 Effect: Your lifespan is increased by {50, 100, 300, 500, 1000} years.
 
+### Primeval Elder Gu
+*Primeval Elder Gu appears to be an old man sitting on a cloud meditating. When it contains few primeval stones, it has a frown that slowly grows into a smile as stones are added.*
+
+*Rank 3-4 Container*
+
+Cost: None
+
+Range: Self
+
+Health: 10
+
+Food: <!-- TODO ->
+
+Effect: You take or stow any number of primeval stones into or out of Primeval Elder Gu. Primeval Elder Gu can hold up to {100,000, 1,000,000} primeval stones.
+
 ### Relic Gu
-*A star shaped polyhedron that glints in the light. The color of Relic Gu corresponds to the color of primeval essence of the same rank: Green copper, red steel, white silver, yellow gold, and purple crystal. Relic Gu are extremely valuable, allowing for rapid advancement in cultivation for a significant monetary cost.*
+*A star shaped polyhedron that glints in the light. The color of Relic Gu corresponds to the color of primeval essence of the same rank: Green copper, red steel, white silver, yellow gold, and purple crystal. Relic Gu are extremely valuable, allowing for rapid advancement in cultivation.*
 
 *Rank 1-5 Catalyst*
 
@@ -1208,7 +1253,7 @@ Effect: While sustained, you can see footprints where any creature has stepped i
 **Moonlight Gu**
 *Rank 1 Attack*
 
-Cost: 7 portions
+Cost: 6 portions
 
 Range: 10 meters
 
@@ -1253,7 +1298,7 @@ Cost: 3 portions
 
 Range: Self
 
-Health: <!-- TODO ->
+Health: 7
 
 Food: <!-- TODO ->
 
@@ -1268,6 +1313,36 @@ Effect: Light bends around your body, making you invisible.
 *An offensive path with focus on high speed attacks.*
 
 ::: columns
+
+### Chain Lightning Gu
+*Rank 3 Attack*
+
+Cost: 25 portions
+
+Range: 10 meters
+
+Health: 10
+
+Food: <!-- TODO ->
+
+Keywords: [**Undodgeable**]
+
+Effect: A bolt of lightning streaks from your outstretched hand towards a creature within range. Make an attack roll; on a hit, deal 80 shock damage. The lightning then chains to the closest creature within 3 meters for 40 shock damage. Finally, it chains to another creature within 3 meters (this can be the first target again), dealing 20 shock damage.
+
+### Jolt Gu
+*Rank 1 Attack*
+
+Cost: 10 portions
+
+Range: 10 meters
+
+Health: 10
+
+Food: <!-- TODO ->
+
+Keywords: [**Unreactable**]
+
+Effect: You shoot a thin beam of electricity at a creature within range. Make an attack roll; On a hit, deal 8 shock damage.
 
 ### Thunderdome Gu
 *Rank 4 Manifestation*
@@ -1986,7 +2061,9 @@ Effect: Your strength attribute permanently increases by 5. For 24 hours, you ca
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a boar phantom appears behind you, increasing the damage of the attack by 5 force damage.
 
-You may make a *charge* unarmed strike against a creature. To do so, you must move at least 3 meters in a straight line towards them, and have enough movement to put yourself into a square adjacent to the target. You and the target make an opposed **Close Combat** test. If you win, the target takes 1 force damage, +1 damage for every 10 points you have in Strength, and the target is knocked *prone*.
+If you have enough movement to put yourself into a square adjacent to a target at least 3 meters away, you gain the following unarmed attack option:
+
+**Charge:** You move at least 2 meters in a straight line towards a target. You and the target make an opposed **Close Combat** test. If you win, the target takes 1 force damage, +1 damage for every 10 points you have in Strength, and the target is knocked *prone*.
 
 ### Crocodile Strength Gu
 *Rank 1 Carver*
@@ -2411,7 +2488,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
-Effect: A silver triangle tattoo appears on your chest. Your body and aperture now flow 3 times as quickly down the River of Time. Your natural primeval essence recovery speed is tripled, the required time to break through large realms through cultivation is divided by 3 (rounded up), and every year that passes, your remaining lifespan is reduced by 3 years. 
+Effect: A silver triangle tattoo permanently appears on your chest. Your body and aperture now flow 3 times as quickly down the River of Time. Your natural primeval essence recovery speed is tripled, the required time to break through large realms through cultivation is divided by 3 (rounded up), and every year that passes, your remaining lifespan is reduced by 3 years. 
 
 :::
 \newpage
@@ -2564,7 +2641,7 @@ At the start of each of your turns, make a *Perseverance* test. On a failure, yo
 
 As long as you have 9 or fewer **Hopping Zombie Tokens**, every month you go without activating Hopping Zombie Gu reduces the number of **Hopping Zombie Tokens** you have by 1.
 
-### Asura Zombie Gu
+### Asura Zombie Gu <!-- TODO ->
 
 *Rank 5 Carver*
 
@@ -2656,7 +2733,7 @@ Your brain becomes your only vital organ.
 
 You gain a flying speed of 10 meters.
 
-You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions and cannot be knocked prone.
+You gain immunity to the *bleeding*, *dazed*, *fatigued*, *posioned*, and *stunned* conditions and cannot be knocked prone.
 
 You gain vulnerability to heat damage.
 
@@ -2694,9 +2771,9 @@ You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
 
 You gain vulnerability to heat and shock damage.
 
-While exposed to direct light, you gain a -10 bonus on all **Dodge**, **Flying**, **Close Combat** and **Ranged Combat** skill tests.
+While exposed to direct light, you gain a -20 bonus on all **Dodge**, **Flying**, **Close Combat** and **Ranged Combat** skill tests.
 
-While not exposed to direct light, you gain a -10 bonus on all **Awareness**, **Cultivation**, **Deduction**, and **Refinement** tests.
+While not exposed to direct light, you gain a -20 bonus on all **Awareness**, **Cultivation**, **Deduction**, and **Refinement** tests.
 
 At the start of each of your turns, make a *Perseverance* test. On a failure, you gain a **Heavenly Demon Zombie Token**. If you ever have 10 **Heavenly Demon Zombie Tokens**, your body is permanently transformed into a Heavenly Demon Zombie.
 
@@ -2751,6 +2828,8 @@ Food:
 Keywords: [**Dao**], [**Sustained**]
 
 Effect: While sustained, your body transforms into that of a Plague Zombie, granting you the following effects:
+
+Your maximum hit points are increased by 250. When you start sustaining this Gu, regain 250 hit points.
 
 You regain 30 hit points at the start of each of your turns.
 
@@ -2962,7 +3041,7 @@ Effect: Activate before rolling the failure die of a refinement recipe. Increase
 ### Enamor Gu
 *Rank 2 Attack*
 
-Cost: 30 portions
+Cost: 25 portions
 
 Range: Touch
 
@@ -3000,7 +3079,7 @@ Food: <!-- TODO ->
 
 Keywords [**Expendable**]
 
-Effect: You take {1, 2, 6} damage to your soul and create {2, 8, 30} Little Wills. Little Wills are linked to you psychically and can help you multitask. When you take the [Activate Gu](../Chapters.pdf) combat action, you may consume any number of Little Wills to gain 1 Activation per Little Will consumed in this way.
+Effect: You take {1, 2, 6} damage to your soul and create {2, 8, 30} Little Wills. Little Wills are linked to you psychically and can help you multitask. When you take the *Activate Gu* combat action, you may consume any number of Little Wills to gain 1 Activation per Little Will consumed in this way.
 
 When you activate or sustain a Gu with the [**Sustained**] keyword, you may expend a Little Will. The Gu will remain sustained until the start of your next turn and does not count towards your current number of sustained Gu.
 
@@ -3263,7 +3342,7 @@ Health: 12
 
 Food: 5 kilograms of moss
 
-Effect: You or a creature you touch sprout a thick moss that blends in with forestry. While in a wooded or grassy area, they are invisible.
+Effect: You or a creature you touch sprout a thick moss for 1 hour that blends in with forestry. While in a wooded or grassy area, they are invisible.
 
 ### Earth Communication Ear Grass Gu
 *Rank 1 Divination*
@@ -3308,7 +3387,7 @@ Health: 14
 
 Food: <!-- TODO ->
 
-Effect: Passively sprouts 50 primeval essence stones every day. Cannot be activated. Up to 50 primeval stones can remain attached to Heavenly Essence Treasure Lotus Gu at a time.
+Effect: Passively sprouts 50 primeval essence stones every day at midnight. Cannot be activated. Up to 50 primeval stones can remain attached to Heavenly Essence Treasure Lotus Gu at a time.
 
 ### Liquor Worm Gu
 *Rank 1-3 Catalyst*

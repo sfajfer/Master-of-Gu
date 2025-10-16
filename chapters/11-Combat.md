@@ -157,7 +157,7 @@ If a source says you take damage to your soul, that number is subtracted from yo
 ### Vulnerability
 If a creature or object is vulnerable to a damage type, multiply any damage of that type dealt to their hit points by 2. If they have resistance, halve the damage dealt to their hit points, rounding down. If they are invulnerable to a damage type, they do not take the damage at all.
 
-Resistance and invulnerability granted by a Gu can be ignored by Gu of higher ranks. When you take damage of that type from a Gu of higher rank than the one granting invulnerability, you instead are treated as if you had resistance. Similarly, if you only had resistance, you now do not reduce the damage dealt at all.
+Resistance and invulnerability granted by a Gu can be reduced by Gu of higher ranks. When you take damage of that type from a Gu of higher rank than the one granting invulnerability, you instead are treated as if you had resistance. Similarly, if you only had resistance, you now do not reduce the damage dealt at all.
 
 ### Immunity
 If a creature is immune to a condition, it cannot be applied to them regardless of the rank of the source.
