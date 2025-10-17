@@ -271,6 +271,19 @@ Food: {4, 9, 16, 25} liters of blood from widowed women
 
 Effect: A 1 meter radius sphere of rotating blood surrounds you. For 10 minutes, all creatures inside the sphere become undetectable to **Divination** Gu of rank {2, 3, 4, 5} or less. They are still visible, but make no sound.
 
+### Flesh Bone Gu
+*Rank 3 Tonic*
+
+Cost: 80 portions
+
+Range: Touch
+
+Health: 9
+
+Food: <!-- TODO ->
+
+Effect: You touch a creature or corpse and its body instantly regenerates all missing body parts. If it is alive, it regains 30 hit points.
+
 ### Man-Beast Life Burial Gu
 *Man-Beast Life Burial Gu is very useful for a rank 2 Gu Master wanting to reach rank 3. Unfortunately, its refinement recipe involves feeding a maiden Gu Master to a beast through the use of Beast Enslavement Gu.*
 
@@ -286,7 +299,23 @@ Food: 2 liters of virgin blood
 
 Effect: Immediately convert 100 portions of your primeval essence into an equal number of portions of black steel primeval essence. Keep track of your current black steel primeval essence portions separately from your other portions of primeval essence. The sum of your natural and black steel primeval essence can never exceed your maximum primeval essence.
 
-Black steel primeval essence cannot be used for any purpose other than to attack rank 2 aperture walls; each portion counts as 10 portions of primeval essence when used to cultivate. Every day at midnight, if you still have at least 1 portion of black steel primeval essence, your aptitude is decreased by 1%.
+Black steel primeval essence cannot be used for any purpose other than to attack rank 2 aperture walls; each portion counts as 10 portions of primeval essence when used to cultivate. Every day at midnight, if you still have at least 1 portion of black steel primeval essence, your aptitude is permanently decreased by 1%.
+
+### Rising Dead Gu
+
+*Rank 4 Tonic*
+
+Cost: 250 portions
+
+Range: Touch
+
+Health: 9
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable**]
+
+Effect: You touch the fully intact corpse of a creature dead for no longer than 14 hours. The dead creature is returned to life.
 
 ### Staunch Bleeding Gu
 *Rank 1 Tonic*
@@ -407,6 +436,20 @@ Food: <!-- TODO ->
 Effect: Crystal Ladybug Gu drinks up to 10 liters of liquid it is submerged in, filling its crystal belly. 
 
 Pushing your finger into Crystal Ladybug Gu's head causes it to expel any amount of stored liquid (depending on how hard you press).
+
+### Life-retaining Jade Coffin Gu
+
+*Rank 5 Manifestation*
+
+Cost: 80 portions
+
+Range: Self
+
+Health: 15
+
+Food: <!-- TODO ->
+
+Effect: A jade coffin appears around you, sealing you inside. It cannot move on its own and weighs 500 kg in addition to your weight. Damage dealt to you is dealt to the coffin instead. The coffin has 2000 hit points, and all damage dealt to it is reduced by 100. You cannot move or activate Gu while inside, but can still speak. Your lifespan is not consumed over time while inside the coffin, and pushing the lid off the coffin from the inside ends the effect.
 
 ### Quake Step Gu
 *Rank 1 Attack*
@@ -1924,7 +1967,22 @@ Health: 12
 
 Food: <!-- TODO ->
 
-Effect: Your Strength attribute is permanently reduced by 5. Your maximum Soul is permanently increased by 5. If your Strength attribute is reduced to 0, you die.
+Keywords: [**Dao**]
+
+Effect: Your Strength attribute is permanently reduced by 5. Your maximum Soul is permanently increased by 20. If your Strength attribute is reduced to 0, you die.
+
+### Spirit Incubating Flea Gu
+*Rank 3 Catalyst*
+
+Cost: 5 portions
+
+Range: Self
+
+Health: 9
+
+Food:  <!-- TODO ->
+
+Effect: You transfer your soul into Spirit Incubating Flea Gu. Your body enters a catatonic state and effectively dies. If another Gu Master places Spirit Incubating Flea Gu into their aperture, you may converse with them in their head.
 
 :::
 \newpage
@@ -2571,6 +2629,8 @@ You gain vulnerability to heat and shock damage.
 
 While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
+Your lifespan is not consumed over time.
+
 At the start of each of your turns, make a *Perseverance* test. On a failure, you gain a **Roaming Zombie Token**. If you ever have 10 **Roaming Zombie Tokens**, your body is permanently transformed into a mindless zombie and you die.
 
 As long as you have 9 or fewer **Roaming Zombie Tokens**, every month you go without activating Roaming Zombie Gu reduces the number of **Roaming Zombie Tokens** you have by 1.
@@ -2602,6 +2662,8 @@ You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
 You gain vulnerability to heat and shock damage.
 
 While exposed to direct light, you suffer a +20 penalty to all skill tests.
+
+Your lifespan is not consumed over time.
 
 At the start of each of your turns, make a *Perseverance* test. On a failure, you gain a **Hairy Zombie Token**. If you ever have 10 **Hairy Zombie Tokens**, your body is permanently transformed into a hairy zombie. Your natural primeval essence recovery rate is reduced to 0.
 
@@ -2637,6 +2699,8 @@ You gain vulnerability to heat and shock damage.
 
 While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
+Your lifespan is not consumed over time.
+
 At the start of each of your turns, make a *Perseverance* test. On a failure, you gain a **Hopping Zombie Token**. If you ever have 10 **Hopping Zombie Tokens**, your body is permanently transformed into a hopping zombie. Your natural primeval essence recovery rate is reduced to 0.
 
 As long as you have 9 or fewer **Hopping Zombie Tokens**, every month you go without activating Hopping Zombie Gu reduces the number of **Hopping Zombie Tokens** you have by 1.
@@ -2670,6 +2734,8 @@ You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
 You gain vulnerability to heat and shock damage.
 
 While exposed to direct light, you suffer a +20 penalty to all skill tests.
+
+Your lifespan is not consumed over time.
 
 At the start of each of your turns, make a *Perseverance* test. On a failure, you gain an **Asura Zombie Token**. If you ever have 10 **Asura Zombie Tokens**, your body is permanently transformed into an Asura Zombie. Your natural primeval essence recovery rate is reduced to 0.
 
@@ -2705,6 +2771,8 @@ You gain vulnerability to heat and shock damage.
 
 While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
+Your lifespan is not consumed over time.
+
 At the start of each of your turns, make a *Perseverance* test. On a failure, you gain a **Blood Wight Zombie Token**. If you ever have 10 **Blood Wight Zombie Tokens**, your body is permanently transformed into a Blood Wight Zombie.
 
 As long as you have 9 or fewer **Blood Wight Zombie Tokens**, every month you go without activating Blood Wight Zombie Gu reduces the number of **Blood Wight Zombie Tokens** you have by 1.
@@ -2738,6 +2806,8 @@ You gain immunity to the *bleeding*, *dazed*, *fatigued*, *posioned*, and *stunn
 You gain vulnerability to heat damage.
 
 While exposed to direct light, you suffer a +20 penalty to all skill tests.
+
+Your lifespan is not consumed over time.
 
 At the start of each of your turns, make a *Perseverance* test. On a failure, you gain an **Earth Chief Zombie Token**. If you ever have 10 **Earth Chief Zombie Tokens**, your body is permanently transformed into an Earth Chief Zombie.
 
@@ -2775,6 +2845,8 @@ While exposed to direct light, you gain a -20 bonus on all **Dodge**, **Flying**
 
 While not exposed to direct light, you gain a -20 bonus on all **Awareness**, **Cultivation**, **Deduction**, and **Refinement** tests.
 
+Your lifespan is not consumed over time.
+
 At the start of each of your turns, make a *Perseverance* test. On a failure, you gain a **Heavenly Demon Zombie Token**. If you ever have 10 **Heavenly Demon Zombie Tokens**, your body is permanently transformed into a Heavenly Demon Zombie.
 
 As long as you have 9 or fewer **Heavenly Demon Zombie Tokens**, every month you go without activating Heavenly Demon Zombie Gu reduces the number of **Heavenly Demon Zombie Tokens** you have by 1.
@@ -2810,6 +2882,8 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 When you hit a creature with a melee attack, they take 50 damage to their soul.
 
+Your lifespan is not consumed over time.
+
 At the start of each of your turns, make a *Perseverance* test. On a failure, you gain a **Nightmare Zombie Token**. If you ever have 10 **Nightmare Zombie Tokens**, your body is permanently transformed into a Nightmare Zombie.
 
 As long as you have 9 or fewer **Nightmare Zombie Tokens**, every month you go without activating Nightmare Zombie Gu reduces the number of **Nightmare Zombie Tokens** you have by 1.
@@ -2842,6 +2916,8 @@ You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
 You gain vulnerability to heat and shock damage.
 
 While exposed to direct light, you suffer a +20 penalty to all skill tests.
+
+Your lifespan is not consumed over time.
 
 If a creature starts their turn within 15 meters of you, they gain the **posioned** condition. While **posioned** in this way, they take 50 poison damage directly to their hit points at the end of each of their turns.
 
