@@ -1256,7 +1256,7 @@ Range: Self
 
 Health: 14
 
-Food: <!-- TODO ->
+Food: Natural light
 
 Keywords: [**Expendable**], [**Unreactable**]
 
@@ -1381,7 +1381,7 @@ Range: 10 meters
 
 Health: 10
 
-Food: <!-- TODO ->
+Food: 100 grams of combustion leaves (1 primeval stone)
 
 Keywords: [**Unreactable**]
 
@@ -1859,6 +1859,23 @@ Effect: When following a Gu refinement recipe for a rank {1, 2, 3, 4, 5} Gu of [
 *Very uncommon, rule path Gu have very narrow use cases but can be very helpful for augmenting killer moves.*
 
 ::: columns
+
+### Aura Filter Gu
+
+*Rank 4-5 Guard*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 9
+
+Food: 100 portions of rank {4, 5} primeval essence
+
+Keywords: [**Sustained**]
+
+Effect: Upon activation, choose any number of ranks {4, 5} or below. While sustained, you are surrounded by an invisible 2 meter radius sphere. Gu Masters of the chosen ranks cannot pass through the bounds of the sphere either way, but attacks can still pass through like normal.
+
 
 ### Millimeter Gu
 *Rank 1 Catalyst*
@@ -2515,11 +2532,11 @@ Effect: While sustained, you attempt to pull a random Gu from the aperture of a 
 ### Steal Luck Gu
 *Rank 1 attack*
 
-Cost: <!-- TODO ->
+Cost: 30 portions
 
-Range: <!-- TODO ->
+Range: 10 meters
 
-Health: <!-- TODO ->
+Health: 8
 
 Food: <!-- TODO ->
 
@@ -2725,6 +2742,8 @@ Your maximum hit points are increased by 500. When you start sustaining this Gu,
 
 You regain 50 hit points at the start of each of your turns.
 
+You gain 6 additional arms.
+
 Your brain becomes your only vital organ. 
 
 You gain a flying speed of 10 meters.
@@ -2927,6 +2946,22 @@ As long as you have 9 or fewer **Plague Zombie Tokens**, every month you go with
 
 
 [**END**]
+
+### Wide Knuckle Gu
+*Rank 1 Catalyst*
+
+Cost: 7 portions
+
+Range: Self
+
+Health: 12
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, your hands grow to double their original size. You gain a -10 bonus to **Close Combat** tests on punching attacks and your punching attacks deal an additional 2 force damage.
+
 
 :::
 \newpage
@@ -3365,9 +3400,9 @@ Cost: 75 portions
 
 Range: Self
 
-Health: <!-- TODO ->
+Health: 9
 
-Food: <!-- TODO ->
+Food: 10 portions of rank 2 primeval essence
 
 Effect: 4 huge wooden wings sprout from your back. They each have 25 hit points and vulnerability to rending damage. You gain a flying speed equal to 2 times the number of wooden wings you have. As a bonus action, you can quickly sprout a branch from one at a creature within 3 meters. If the creature is unwilling, make an attack roll. On a hit, the branch fuses with their spine or sternum, and you carry the creature with you while flying. Creature's attached to your wings this way have a +30 penalty to all attack rolls and are *restrained*.
 

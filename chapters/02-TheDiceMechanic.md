@@ -23,7 +23,7 @@ Penalties and bonuses are a number added or subtracted from the number you roll 
 |      +40       | High Difficulty (Convincing a Wisdom Path master to change their plans) |
 |      +20       | Difficult (Cultivating with minor distractions) |
 |       0        | Challenging (Cultivating in a secret room) |
-|      -20       | Small Challenge (Refining a common Gu) |
+|      -20       | Slightly Challenging (Refining a common Gu) |
 |      -40       | Simple (Identifying poisonous plants around your clan's walls) |
 |      -60       | Trivial (Haggling a merchant to take a few primeval stones off a large price) |
 

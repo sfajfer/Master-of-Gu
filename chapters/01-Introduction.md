@@ -18,7 +18,7 @@ The aperture is a sort of extra-dimensional space located in a Gu Master's stoma
 
 The aperture is a simple sphere bounded by walls and filled with a sea of primeval essence, a resource used to activate Gu as well as to cultivate. Cultivation consists of attacking your aperture walls with this primeval essence, eventually breaking them and moving on to a new realm. Gu Masters begin at rank 1 and can cultivate to rank 5. Each rank is considered a large realm, and are subdivided into 4 small realms: initial stage, middle stage, upper stage, and peak stage. After rank 5, there are still ranks 6 through 9, but that is the realm of Gu Immortals and the rules change massively. In this system, the maximum rank attainable is rank 5 peak stage.
 
-You can store Gu in your aperture no matter their size, and there is no limit to the number of Gu that can be stored in your aperture.
+You can store Gu in your aperture no matter their size, and there is no limit to the number of Gu that can be stored in your aperture. The aperture is accessible to its owner at any time through their thoughts, but other creatures can only access someone else's aperture after they are dead or through the use of special Gu.
 
 ## Primeval Essence
 Primeval essence is the main resource used by Gu masters to activate and refine Gu as well as cultivate to increase their strength. The representation of primeval essence you see here is an approximation, as the resource quickly becomes quite complex when factoring in the rank and realm of the user alongside the rank of the Gu.

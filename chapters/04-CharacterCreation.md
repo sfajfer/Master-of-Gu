@@ -3,7 +3,7 @@
 In this game, you will create and play a Gu Master. Gu Masters are human beings who have awakened their aperture, a kind of extradimensional space within the stomach that can contain Gu and primeval essence. The first thing you ought to mark down is your starting rank. For first-time players, it is recommended to start at rank 1 initial stage. You, your group, and the game master should also determine if you want to follow the righteous path, living and working with a clan, or if you'd like to tread the demonic path, living free in the world with no masters. Your path can always be changed later on, as demonic Gu Masters seek safety and resources, and righteous Gu Masters grow disillusioned and yearn for freedom.
 
 ## Experience
-You start with 500 experience to spend on character creation. Any experience left over afterwards is removed from the game, so that you start your first session with 0 experience. Experience can be spent to increase your Attributes and Skills. At character creation, attributes cannot be raised above 50 and skills cannot be increased above 80. Talents cannot be purchased by rank 1 Gu Masters.
+You start with 500 experience to spend on character creation. Any experience left over afterwards is removed from the game, so that you start your first session with 0 experience. Experience can be spent to increase your Attributes and Skills. At character creation, attributes cannot be raised above 50 and skills cannot be increased above 80. Talents cannot be purchased at character creation.
 
 - 1 point in any attribute costs 10 experience to increase up to 50, and 15 experience thereafter.
 - 1 point in any skill (except Knowledge) costs 2 experience to increase.
