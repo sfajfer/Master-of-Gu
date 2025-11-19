@@ -437,6 +437,21 @@ Effect: Crystal Ladybug Gu drinks up to 10 liters of liquid it is submerged in, 
 
 Pushing your finger into Crystal Ladybug Gu's head causes it to expel any amount of stored liquid (depending on how hard you press).
 
+### Granite Bones Gu
+*Rank 2 Carver*
+
+Cost: 30 portions
+
+Range: Self
+
+Health: 15
+
+Food: 1 kg granite (2 primeval stones)
+
+Keywords: [**Dao**]
+
+Effect: You are assailed with a horrendous pain for 1 hour. You are incapable of taking any actions except to speak for the entire duration. When the process is complete, your bones are permanently transmuted into granite. Your bones can no longer be broken by damage or effects originating from a Gu of Rank 2 or lower. Additionally, reduce all force damage dealt to your hit points by 1.
+
 ### Life-retaining Jade Coffin Gu
 
 *Rank 5 Manifestation*
@@ -504,6 +519,23 @@ Health: 16
 Food:{1kg, 10kg, 100kg} of talc ({1, 10, 100} primeval stones)
 
 Effect: As long as your aperture is of the same rank as the Stone Aperture Gu, your aperture walls shatter and are replaced with an unbreakable stone wall. Your cultivation immediately rises to peak stage, but you can no longer raise your rank through cultivation.
+
+### Tremor Sense Gu
+
+*Rank 1-3 Divination*
+
+Cost: 2 portions
+
+Range: {5, 10, 20} meters
+
+Health: 12
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, you can sense the exact square a creature within range moves to.
+
 
 ### Thousand-Li Earthwolf Spider Gu
 *Rank 5 Celerity*
@@ -578,6 +610,19 @@ If your current soul value is less than or equal to the Gu Master's, you fail to
 
 ::: columns
 
+### Boiling Blood Gu
+*Rank 2 Tonic*
+
+Cost: 10 portions
+
+Range: Self
+
+Health: 8
+
+Food: 1 liter of blood from a fire path beast
+
+Effect: You immediately regain 10 hit points and 2 soul strength.
+
 ### Blazing Lotus Gu
 *Rank 3 Carver*
 
@@ -587,7 +632,7 @@ Range: Self
 
 Health: 6
 
-Food: <!-- TODO ->
+Food: 1 blazing lotus petal (150 primeval stones)
 
 Keywords: [**Expendable 3**]
 
@@ -705,7 +750,7 @@ Range: 12 meters
 
 Health: 11 
 
-Food: <!-- TODO ->
+Food: 1 liter of pitch (2 primeval stones)
 
 Keywords: [**Piercing**]
 
@@ -1332,7 +1377,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, a 1 meter radius sphere of light surrounds you and blocks attacks and objects from entering. When an attack from outside the sphere hits a creature inside the sphere, the sphere takes the damage instead, though the defender can still dodge the attack. For every point of damage the sphere takes, you lose 1 portion of primeval essence. If the sphere takes more than 20 damage from a single attack, it breaks, the remainder of the damage is dealt to the defender, and One-stretch Golden Light Gu takes 2d6 damage as backlash. The sphere does not block sonic damage.
+Effect: While sustained, a 1 meter radius sphere of light surrounds you and blocks attacks, creatures, and objects from entering (but not exiting). When an attack from outside the sphere hits a creature inside the sphere, the sphere takes the damage instead, though the defender can still dodge the attack. For every point of damage the sphere takes, you lose 1 portion of primeval essence. If the sphere takes more than 20 damage from a single attack, it breaks, the remainder of the damage is dealt to the defender, and One-stretch Golden Light Gu takes 2d6 damage as backlash. The sphere does not block sonic damage.
 
 ### Shimmer Gu
 *Rank 2 Concealment*
@@ -1348,6 +1393,21 @@ Food: <!-- TODO ->
 Keywords: [**Sustained**]
 
 Effect: Light bends around your body, making you invisible.
+
+### Two-stretch Golden Light Gu
+*Rank 2 Guard*
+
+Cost: 2 portions
+
+Range: Self
+
+Health: 12
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, a 3 meter radius sphere of light surrounds you and blocks attacks, creatures, and objects from entering (but not exiting). When an attack from outside the sphere hits a creature inside the sphere, the sphere takes the damage instead, though the defender can still dodge the attack. For every 2 points of damage the sphere takes, you lose 1 portion of primeval essence. If the sphere takes more than 50 damage from a single attack, it breaks, the remainder of the damage is dealt to the defender, and Two-stretch Golden Light Gu takes 2d6 damage as backlash. The sphere does not block sonic damage.
 
 :::
 \newpage
@@ -1973,6 +2033,21 @@ Food: 1 pound of the respective beast's flesh
 
 Effect: Variants exist for most types of beasts; Wolf Soul Gu, Bear Soul Gu, etc. Your soul requires 1 day between activations. When activated, slightly refines the soul and transforms it into a beast soul. After 15 activations, you have the beast soul, and henceforth take only half the regular damage to your soul when enslaving or controlling beasts of the same type as your soul. Additionally, you may now safely increase your soul's maximum hit points beyond 1,000.
 
+### Soul Sense Gu
+
+*Rank 3 Divination*
+
+Cost: 2 primeval essence
+
+Range: Self
+
+Health: 11
+
+Food: 5 maximum soul strength from a creature with a soul
+
+Effect: You immediately sense the precise location of any creature with a soul, so long as the creature is within {creature's current soul strength} meters of you.
+
+
 ### Soul Strength Gu
 *Rank 2 Carver*
 
@@ -2215,7 +2290,7 @@ Food: <!-- TODO ->
 Effect: Your Strength attribute is increased by 50 for 3 turns.
 
 ### Bitter Strength Gu
-*Bitter Strength Gu is a beetle with a oval and palm-sized body. Lumps grow on its back*
+*Bitter Strength Gu is a beetle with a oval and palm-sized body. Lumps grow on its back.*
 
 *Rank 2-4 Catalyst*
 
@@ -2997,6 +3072,21 @@ Food: <!-- TODO ->
 
 Effect: 5 liters of fresh water pours from your fingertip.
 
+### Flow Gu
+*Rank 2-4 Celerity*
+
+Cost: 3 portions
+
+Range: Self
+
+Health: 10
+
+Food: 1 liter of distilled water
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, your movement is increased by {2, 5, 10} meters. You no longer consider swimming in water to be difficult terrain.
+
 ### Land Becomes Sea Gu
 *Rank 3-4 Manifestation*
 
@@ -3243,6 +3333,19 @@ Keywords: [**Expendable**]
 
 Effect: You gain X activations until the end of your turn. Once you use an activation before the end of your turn, your subsequent activations must be used for the same effect, i.e. activating the same Gu.
 
+### Placebo Gu
+*Rank 1 Tonic*
+
+Cost: 5 portions
+
+Range: 2 meters
+
+Health: 8
+
+Food: 
+
+Effect: A creature of your choice that you can see within range regains 2 hit points.
+
 ### Sharp Intent Gu
 *Rank 3-4 Manifestation*
 
@@ -3361,7 +3464,7 @@ Health: 12
 
 Food: Direct sunlight for 1 hour
 
-Effect: Can only be activated while in direct sunlight. At the end of each of your turns, you regain 12 hit points. This effect only ends if you take damage to your hit points or leave direct sunlight. Photosynthesizing for 1 hour a day replaces your need to eat.
+Effect: Can only be activated while in direct sunlight. At the end of each of your turns, you regain 12 hit points. This effect ends if you take damage to your hit points or leave direct sunlight. Photosynthesizing for 1 hour a day replaces your need to eat.
 
 ### Clorophyl Armor Gu
 *Rank 3 Tonic*
@@ -3436,7 +3539,7 @@ Cost: 15 portions
 
 Range: Touch
 
-Health: <!-- TODO ->
+Health: 8
 
 Food: <!-- TODO ->
 
@@ -3532,6 +3635,21 @@ Keywords: [**Sustained**]
 
 Effect: As long as you are rank 2, the aura of your primeval essence is increased to rank 3 and a stage of your choice while sustained. Your primeval essence's outward appearance remains as it was, however, so effects that glimpse inside your aperture will see your true cultivation. Sustaining this Gu does not count towards your number of currently sustained Gu.
 
+### Primeval Tree Heart Gu
+*Rank 1-5 Catalyst*
+
+Cost: None
+
+Range: Self
+
+Health: 7
+
+Food: Natural primeval essence (none)
+
+Keywords: [**Expendable**]
+
+Effect: You immediately regain 50 primeval essence. This essence is of the same rank as this Gu; if that rank is below your own, you instead gain only 1 primeval essence. If that rank is above your own, multiply the amount of primeval essence gained by 4 for each rank above your own.
+
 ### Regrowth Gu
 *Rank 1 Tonic*
 
@@ -3543,7 +3661,7 @@ Health: 11
 
 Food: <!-- TODO ->
 
-Effect: Touch a creature within range. That creature regrows a single severed limb instantaneously and regains 20 hit points.
+Effect: Touch a creature within range. That creature regrows a single severed limb instantaneously and regains 10 hit points.
 
 ### Resurgence Gu
 *Refined from Rank 1 Silver Lining Gu*
@@ -3649,9 +3767,9 @@ Cost: 2 portions
 
 Range: Self
 
-Health: <!-- TODO ->
+Health: 8
 
-Food: <!-- TODO ->
+Food: Natural primeval essence (none)
 
 Keywords: [**Dao**], [**Sustained**]
 
