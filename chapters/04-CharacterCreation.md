@@ -40,9 +40,9 @@ Your body's physical power. Strength is often overlooked by Gu Masters, as even 
 Your Perseverance is your ability to endure great pain and stress, and is equal to the sum of your Fortitude and 1/2 of your Attitude, rounded down. Perseverance is rolled when you hit 0 Hit Points.
 
 ### Soul
-Your Soul score is a literal representation of the strength of your soul. Your starting Soul value is 10. Refining Gu, cultivating, and controlling beast groups all drain the strength of your soul, while sleeping restores it. Many soul-path Gu also use the strength of your soul to determine their strength when activated. If your current soul ever hits 0 points, you die. When you sleep, your soul recovers 10% of its maximum (rounded down) for every hour spent sleeping. Sleeping for at least 10 hours fully rejuvenates your soul, regardless of rounding.
+Your Soul score is a literal representation of the strength of your soul. Your starting Soul value is 10. Refining Gu, cultivating, and controlling beast groups all drain the strength of your soul, while sleeping restores it. Many Soul Path Gu also use the strength of your soul to determine their strength when activated. If your current soul ever hits 0 points, you die. When you sleep, your soul recovers 10% of its maximum (rounded down) for every hour spent sleeping. Sleeping for at least 10 hours fully rejuvenates your soul, regardless of rounding.
 
-Your soul begins at 10, the single-man soul. Many soul-path Gu can strengthen your soul and increase this value. Whenever your soul takes 1/2 or more of its maximum value in soul damage on a single turn, roll 1d6 and reduce the maximum value of your soul by that amount.
+Your soul begins at 10, the single-man soul. Many Soul Path Gu can strengthen your soul and increase this value. Whenever your soul takes 1/2 or more of its maximum value in soul damage (rounded down) on a single turn, roll 1d6 and reduce the maximum value of your soul by that amount.
 
 When your soul reaches strength 100, you have the ten-man soul. It has the proper strength to sustain damage; you no longer lose maximum soul when you take more than 1/2 of your souls maximum in soul damage.
 

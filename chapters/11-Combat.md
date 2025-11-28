@@ -90,6 +90,17 @@ Punching Attack: Roll a **Close Combat** skill test against an enemy within 1 me
 
 Kick: Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 1 force damage, +1 damage for every 5 points you have in Strength. The target is knocked backwards a number of meters equal to 1% of your Strength attribute (rounded down, minimum 1) and lands *prone*.
 
+### Called Shot
+When you make an attack roll against a creature, you can choose to pick a particular body part, worn or carried item, or manifested body parts like wings as the target of your attack. A called attack roll is made with a penalty based on the size of the target; for an average person, their hands would be tiny, arms and the head are small, and the torso is medium.
+
+| Size | Modifier to Hit |
+| ----- | ----- |
+| Tiny | +40 |
+| Small | +20 |
+| Medium | 0 |
+| Large | -20 |
+| Huge | -40 |
+
 ### Grapple
 Select an enemy of equal or lesser size in an adjacent square. Roll an opposed **Athletics** test against them. If you win, The creature is *restrained* and now occupies the same square as you while *restrained* in this way. While you are grappling a creature, you may not make kicking attacks and the number of punching attacks you can make using the **Melee Attack** action is reduced by 1. You may expend your movement to make an **Athletics** test, with a +10 penalty for every 50 kilograms the grappled target weighs. On a success, you can move up to half your movement (rounded down).
 
@@ -182,9 +193,9 @@ When a creature takes damage to their hit points greater than or equal to half t
 | d4 | Effect |
 | ----- | ----- |
 | 1 - Broken Arm | Unusable limb |
-| 2 - Broken Leg | -4 movement |
+| 2 - Broken Leg | -4 movement. -4 movement. If both legs are broken, your movement is reduced to 0. |
 | 3 - Internal Bleeding | *Bleeding 1* |
-| 4 - Concussion | *Dazed* |
+| 4 - Concussion | *Dazed*. Cognition reduced by 15 for 3 days. |
 
 - Rending: *Bleeding 1*
 
@@ -194,6 +205,19 @@ When a creature takes damage to their hit points greater than or equal to half t
 
 - Shock: *Dazed*
 
+#### Called Shot Injuries
+When you make a called shot and successfully hit a specific body part, if damage is dealt to the creature's hit point they take a corresponding injury.
+
+- Arm: Broken Limb; Unusable
+- Torso: Internal Bleeding; *Bleeding 1*.
+- Leg: Broken Leg; -4 movement. If both legs are broken, your movement is reduced to 0.
+- Head
+| d4 | Effect |
+| ----- | ----- |
+| 1 - Brain Damage | Maximum Soul permanently reduced by 50% (rounded down) |
+| 2 - Blinded | *Blinded* until the end of their next turn |
+| 3 - Hemorrhage | *Bleeding 5* |
+| 4 - Concussion | *Dazed*. Cognition reduced by 15 for 3 days. |
 
 ### Natural Recovery
 When you sleep, you regain 1 hit point for every hour spent sleeping.

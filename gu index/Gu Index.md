@@ -204,13 +204,15 @@ Effect: You create 10 liters of black blood around your feet that can be manipul
 ### Bloody Fabric Gu
 *Rank 3 Container*
 
+Next Rank: Bloody Visage Gu
+
 Cost: 10 portions
 
 Range: 6 meters
 
 Health: 13
 
-Food: <!-- TODO ->
+Food: 10 kg of silk soaked in blood (10 primeval stones)
 
 Effect: Up to 50 liters of blood within range is pulled in a vortex towards you. It condenses into a tattered bloody robe around your body. Activate this Gu again to destroy the robe, releasing the stored blood all around you.
 
@@ -221,13 +223,17 @@ If a *bleeding* creature is within range when you activate this Gu, it takes 25 
 ### Bloody Visage Gu
 *Rank 4 Guard*
 
+Previous Rank: Bloody Fabric Gu
+
+Next Rank: Bloodstained Robe Gu
+
 Cost: 30 portions
 
 Range: 10 meters
 
 Health: 13
 
-Food: <!-- TODO ->
+Food: 10 kg of thousand beast king bloodsucker moth silk
 
 Effect: Up to 50 liters of blood within range is pulled in a vortex towards you. It condenses into a bloody robe around your body that defends you from attacks. For every point of damage you take, the robe expends 100 milliliters of blood and you instead take no damage. If you activate the Gu while already wearing a robe created by Bloody Visage Gu, it can only pull in enough blood to restore itself to the maximum of 50 liters.
 
@@ -244,7 +250,7 @@ Range: 25 meters
 
 Health: 13
 
-Food: <!-- TODO ->
+Food: 10 kg of ten thousand beast king bloodsucker moth silk
 
 Keywords: [**Sustained**]
 
@@ -432,6 +438,8 @@ Range: Touch
 Health: 12
 
 Food: <!-- TODO ->
+
+Keywords: [**Small**]
 
 Effect: Crystal Ladybug Gu drinks up to 10 liters of liquid it is submerged in, filling its crystal belly. 
 
@@ -771,7 +779,7 @@ Keywords: [**Sustained**]
 
 Effect: Manifest a wall of fire up to 8 meters long and 2 meters high. Creatures starting their turn in or passing through the fire take 25 heat damage and gain the *ablaze* condition.
 
-### Fire Discharge Gu1
+### Fire Discharge Gu
 *Rank 1-2 Celerity*
 
 Cost: 20 portions 
@@ -892,6 +900,8 @@ Effect: Manifest a swarm of fireflies in 2x2 square area within range while sust
 ### Charcoal Gu
 *Rank 1 Manifestation*
 
+Next Rank: Double Decker Stove Gu
+
 Cost: 1 portion
 
 Range: Self
@@ -907,6 +917,10 @@ Effect: While sustained, you radiate a comfortable heat in a 1 meter radius arou
 ### Double Decker Stove Gu
 *Rank 2 Attack*
 
+Previous Rank: Charcoal Gu
+
+Next Rank: Three Door Fire Hut Gu
+
 Cost: 10 portions
 
 Range: 2 meters
@@ -917,10 +931,14 @@ Food: 10 kg charcoal (1/2 primeval stone)
 
 Keywords: [**Sustained**], [**Defensive**]
 
-Effect: While sustained you take 10 heat damage directly to your hit points at the start of each of your turns, and heat damage dealt to you is negated and stored inside Double Decker Stove Gu. At the end of each of your turns, some stored heat bursts from your body, dealing 1/2 the stored damage (rounded down) to all creatures within range. Double Decker Stove Gu can store up to 100 heat damage. When you stop activating Double Decker Stove Gu, the stored damage reverts to 0.
+Effect: While sustained you take 10 heat damage directly to your hit points at the start of each of your turns, and heat damage dealt to you is negated and stored inside Double Decker Stove Gu. At the end of each of your turns, some stored heat bursts from your body, dealing 1/2 the stored damage (rounded down) to all creatures within range. Double Decker Stove Gu can store up to 100 heat damage, but negates heat damage dealt to you even if it is full. When you stop sustaining Double Decker Stove Gu, the stored damage reverts to 0.
 
 ### Three Door Fire Hut Gu
 *Rank 3 Attack*
+
+Previous Rank: Double Decker Stove Gu
+
+Next Rank: Four Door Fire Tower Gu
 
 Cost: 10 portions
 
@@ -937,6 +955,10 @@ Effect: A blazing hut with 3 closed doors manifests around you. While sustained,
 ### Four Door Fire Tower Gu
 *Rank 4 Attack*
 
+Previous Rank: Three Door Fire Hut Gu
+
+Next Rank: Five Door Fire Pagoda Gu
+
 Cost: 10 portions
 
 Range: 20 meters
@@ -952,6 +974,8 @@ Effect: A translucent square tower with a closed door on each side manifests aro
 ### Five Door Fire Pagoda Gu
 *Rank 5 Attack*
 
+Previous Rank: Four Door Fire Tower Gu
+
 Cost: 20 portions
 
 Range: 50 meters
@@ -962,7 +986,7 @@ Food: 100 g imperial phoenix feathers (15,000 primeval stones)
 
 Keywords: [**Sustained**], [**Undodgeable**]
 
-Effect: While sustained, a magnificent pagoda with 5 doors manifests around you. If at least one door is unopened, target a creature within range at the start of each of your turns. A door opens, and that creature is engulfed in flame, taking heat damage equal to 200 times the number of open doors and gaining the *ablaze* condition. While all 5 doors are open, multiply heat damage you deal from any source by 2.
+Effect: While sustained, a magnificent pagoda with 5 closed doors manifests around you. If at least one door is unopened, target a creature within range at the start of each of your turns. A door opens, and that creature is engulfed in flame, taking heat damage equal to 200 times the number of open doors and gaining the *ablaze* condition. While all 5 doors are open, multiply heat damage you deal from any source by 5.
 
 [**END**]
 
@@ -1186,6 +1210,21 @@ Effect: If your rank is the same as the rank of this Gu, and you are currently a
 
 ::: columns
 
+### Heat Sap Gu
+*Rank 3 Attack*
+
+Cost: 10 portions
+
+Range: 10 meters
+
+Health: 8
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, you sap the heat of nearby creatures; if a creature starts its turn within range, it takes 20 cold damage. If this damage was dealt to their hit points, they gain the *fatigued* condition.
+
 ### Hibernation Gu
 *Hibernation Gu is a 1 foot tall bear. If it is sleeping, that means someone is under its effects.*
 
@@ -1217,6 +1256,117 @@ Food: <!-- TODO ->
 Keywords: [**Dao**], [**Expendable**]
 
 Effect: You are assailed with a piercing pain for 1 hour while your muscles are transfigured into ice muscles. For the duration, you can take no actions except to speak. When the ritual completes, you are permanently immune to the *Fatigued* condition if it is being applied to you by an Ice Path Gu. Additionally, your Strength attribute is permanently increased by 10, and any rending or force damage dealt to your hit points is reduced by 5.
+
+[**Upgrade Tree: Icicle Gu**] <!-- TODO ->
+*The signature attack of Ice Path. Rank 1 Icicle Gu launches a sharp chunk of ice at an enemy that deals damage and saps heat from the target. It can be upgraded to the devastating single-target Spiral Ice Lance Gu or to the crowd-slaughtering Spiral Icicle Storm Gu*
+
+### Icicle Gu
+
+*Rank 1 Attack*
+
+Next Rank: Spiral Icicle Gu
+
+Cost: 15 portions
+
+Range: 5 meters
+
+Health: 8
+
+Food: <!-- TODO ->
+
+Effect: You launch a sharp icicle at a target within range. Make an attack roll; on a hit, deal 5 force damage and 5 cold damage. If this damage is dealt to the target's hit points, they gain the *fatigued* condition.
+
+### Spiral Icicle Gu
+
+*Rank 2 Attack*
+
+Previous Rank: Icicle Gu
+
+Next Rank: Spiral Icicle Spear Gu, Spiral Icicle Swarm Gu
+
+Cost: 10 portions
+
+Range: 10 meters
+
+Health: 8
+
+Food: <!-- TODO ->
+
+Effect: You launch a spinning icicle at a target within range. Make an attack roll; on a hit, deal 10 force damage and 10 cold damage. If this damage is dealt to the target's hit points, they gain the *fatigued* condition.
+
+### Spiral Ice Spear Gu
+
+*Rank 3 Attack*
+
+Previous Rank: Spiral Icicle Gu
+
+Next Rank: Spiral Ice Lance Gu
+
+Cost: 15 portions
+
+Range: 25 meters
+
+Health: 10
+
+Food: <!-- TODO ->
+
+Effect: You launch a spear made of ice at a target within range. Make an attack roll; on a hit, deal 30 force damage and 20 cold damage. If this damage is dealt to the target's hit points, they gain the *fatigued* condition. As long as the target is smaller than [**Large**], they are pushed backward 3 meters. If they collide with a wall, they are pinned to it and *restrained*. The spear can be removed by a creature as a combat action with a successful **Athletics** test.
+
+### Spiral Ice Lance Gu
+
+*Rank 4 Attack*
+
+Previous Rank: Spiral Ice Spear Gu
+
+Cost: 10 portions
+
+Range: 50 meters
+
+Health: 10
+
+Food: <!-- TODO ->
+
+Effect: You launch a large lance of ice at a target within range. Make an attack roll; on a hit, deal 100 force damage and 50 cold damage. If this damage is dealt to the target's hit points, they gain the *fatigued* condition. The target is pushed backward 10 meters. If they collide with a wall, they are pinned to it and *restrained*. The lance can be removed by a creature as a combat action with a successful **Athletics** test.
+
+### Spiral Icicle Swarm Gu
+
+*Rank 3 Attack*
+
+Previous Rank: Spiral Icicle Gu
+
+Next Rank: Spiral Icicle Storm Gu
+
+Cost: 10 portions
+
+Range: 10 meters
+
+Health: 8
+
+Food: <!-- TODO ->
+
+Effect: You launch 5 spinning icicles, each at a creature of your choice within range. Make an attack roll for each; on a hit, deal 10 force damage and 10 cold damage.
+
+### Spiral Icicle Storm Gu
+
+*Rank 4 Attack*
+
+Previous Rank: Spiral Icicle Swarm Gu
+
+Cost: 10 portions
+
+Range: 15 meters
+
+Health: 8
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: Pick a square that you can see within range. A storm of razor sharp icicles and cutting winds manifests around it. Any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage.
+
+
+
+[**END**]
 
 :::
 \newpage
@@ -1556,6 +1706,20 @@ When the third lock closes, Aperture Lock Gu burrows into the target's aperture,
 - Their aperture walls become indestructible.
 - Their primeval essence recovery is reduced to 0.
 - They cannot activate or refine Gu.
+  
+### Bleeding Bismuth Gu
+
+*Rank 2 Attack*
+
+Cost: 10 portions
+
+Range: Touch
+
+Health: 10
+
+Food: 100 g of bismuth (3 primeval stones)
+
+Effect: Make an attack roll against a creature within range. On a hit, cubes of bismuth pierce their flesh and skin from inside their body, dealing 8 force damage directly to their hit points. If this damage is dealt to their hit points, they gain *bleeding 4*.
 
 ### Bullet Gu
 *Rank 1 Attack*
@@ -1778,17 +1942,19 @@ Range: 25 meters
 
 Health: 5
 
-Food: <!-- TODO ->
+Food: 100 g of silver (10 primeval stones)
 
 Keywords: [**Unreactable**]
 
 Effect: You launch a silver orb at incredibly high speeds. This attack always hits. Deal 10 force damage on a hit. If this damage is dealt to the creature's hitpoints, they gain *bleeding 1*.
 
-#### Upgrade Tree: Silver Lining Gu
+[**Upgrade Tree: Silver Lining Gu**]
 *Silver Lining Gu can be refined into several different rank 2 Gu. Quicksilver Lining Gu provides a speed boost, Steel Lining Gu provides physical defense, and Resurgence Gu pivots to Wood Path to provide additional healing to surrounding allies.*
 
 ### Silver Lining Gu
 *Rank 1 Tonic*
+
+Next Rank: Quicksilver Lining Gu, Resurgence Gu, Steel Lining Gu
 
 Cost: 5 portions
 
@@ -1803,18 +1969,22 @@ Effect: Can only be activated as a reaction to getting hit by an attack or missi
 ### Quicksilver Lining Gu
 *Rank 2 Tonic*
 
+Previous Rank: Silver Lining Gu
+
 Cost: 5 portions
 
 Range: Self
 
 Health: 16
 
-Food: <!-- TODO ->
+Food: 5 g of silver soaked in mercury (10 primeval stones)
 
 Effect: Can only be activated as a reaction to getting hit by an attack or missing an attack against another creature. Regain 8 hit points. Until the end of your next turn, your movement is increased by 2 meters and you gain a -10 bonus to all **Dodge** tests.
 
 ### Steel Lining Gu
 *Rank 2 Tonic*
+
+Previous Rank: Silver Lining Gu
 
 Cost: 5 portions
 
@@ -1822,7 +1992,7 @@ Range: Self
 
 Health: 12
 
-Food: <!-- TODO ->
+Food: Rank 1 Metal Skin Gu
 
 Effect: Can only be activated as a reaction to getting hit by an attack or missing an attack against another creature. Regain 10 hit points. Until the start of your next turn, your body is covered in a metallic sheen. Reduce any damage except mental or poison dealt to your hit points by 15, to a minimum of 0.
 
@@ -2393,15 +2563,15 @@ Effect: If the next Gu you activate before the end of your turn belongs [Path], 
 
 *Rank 1-3 Tonic*
 
-Cost: {40, 20, 10} portions
+Cost: 30 portions
 
 Range: Self
 
 Health: 16
 
-Food: <!-- TODO ->
+Food: Natural primeval essence (none)
 
-Effect: Immediately regain hit points equal to 5% of your Strength attribute, rounded down.
+Effect: Immediately regain hit points equal to {2, 5, 10}% of your Strength attribute, rounded down.
 
 :::
 \newpage
@@ -2486,6 +2656,8 @@ Effect: Carves sword dao into a weapon or Gu that deals rending damage. If an at
 ### Cut Gu
 *Rank 1 Attack*
 
+Next Rank: Slash Gu
+
 Cost: 10 portions
 
 Range: 3 meters
@@ -2499,6 +2671,10 @@ Effect: You throw an invisible and sharp crescent at a creature within range. Ma
 ### Slash Gu
 *Rank 2 Attack*
 
+Previous Rank: Cut Gu
+
+Next Rank: Rend Gu
+
 Cost: 10 portions
 
 Range: 8 meters
@@ -2507,10 +2683,14 @@ Health: 5
 
 Food: 1 kg of shattered glass (1/4 primeval stone)
 
-Effect: You throw a 1 meter wide curved blade in an 8 meter long line. All creatures in the area take 15 rending damage.
+Effect: You throw a 1 meter wide curved blade in an 8 meter long line. All creatures in the area take 15 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 2*.
 
 ### Rend Gu
 *Rank 3 attack*
+
+Previous Rank: Slash Gu
+
+Next Rank: Split Hill Gu
 
 Cost: 10 portions
 
@@ -2520,10 +2700,14 @@ Health: 7
 
 Food: 1 kg of sharpened blades of any size (1/2 primeval stone)
 
-Effect: You throw a 2 meter wide curved blade in a 20 meter long line. All creatures in the area take 60 rending damage. **Dodge** tests to avoid this attack are made with a +10 penalty.
+Effect: You throw a 2 meter wide curved blade in a 20 meter long line. All creatures in the area take 60 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 3*. **Dodge** tests to avoid this attack are made with a +10 penalty.
 
 ### Split Hill Gu
 *Rank 4 Attack*
+
+Previous Rank: Rend Gu
+
+Next Rank: Split Mountain Gu
 
 Cost: 15 portions
 
@@ -2533,10 +2717,12 @@ Health: 9
 
 Food: 10 Slash Gu
 
-Effect: You throw a 5 meter wide blade of supercondensed sword qi in a 100 meter long line. All creatures in the area take 200 rending damage. **Dodge** tests to avoid this attack are made with a +20 penalty.
+Effect: You throw a 5 meter wide blade of supercondensed sword qi in a 100 meter long line. All creatures in the area take 200 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 5*. **Dodge** tests to avoid this attack are made with a +20 penalty.
 
 ### Split Mountain Gu
 *Rank 5 Attack*
+
+Previous Rank: Split Hill Gu
 
 Cost: 40 portions
 
@@ -2546,7 +2732,7 @@ Health: 11
 
 Food: 50 Rend Gu
 
-Effect: You launch an enormous burst of sword qi; select an area 10 meters wide, 10 meters tall, and 500 meters long. All creatures in the area take 800 rending damage. **Dodge** tests to avoid this attack are made with a +40 penalty.
+Effect: You launch an enormous burst of sword qi; select an area 10 meters wide, 10 meters tall, and 500 meters long. All creatures in the area take 800 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 20*. **Dodge** tests to avoid this attack are made with a +40 penalty.
 
 *Discovered by Lord of Swords Jin Chang, Split Mountain Gu is named for his sundering of Mount Cao. To this day, a great ravine splits the mountain in two, with the Jin and Cao clans living on either side.*
 
@@ -2578,14 +2764,14 @@ Health: 12
 
 Food: <!-- TODO ->
 
-Whenever you are targeted by an attack from a sword-path Gu or a physical weapon within range, you may activate this Gu as a reaction to cover the Gu or weapon in a formless sheath, negating the triggering attack. The Gu or weapon cannot be forced out or used and the sheath has {10, 30, 120} hit points. It remains sheathed until the sheath is broken.
+Whenever you are targeted by an attack from a Sword Path Gu or a physical weapon within range, you may activate this Gu as a reaction to cover the Gu or weapon in a formless sheath, negating the triggering attack. The Gu or weapon cannot be forced out or used and the sheath has {10, 30, 120} hit points. It remains sheathed until the sheath is broken.
 
 :::
 \newpage
 
 ## $\centerline{Theft Path}$
 
-*Theft path was invented by Thieving Heaven Demon Venerable, and contains great profundities of heaven. Mortal theft-path methods are dangerous and hard to counter, but in return theft path has poor offensive capabilities.*
+*Theft path was invented by Thieving Heaven Demon Venerable, and contains great profundities of heaven. Mortal Theft Path methods are dangerous and hard to counter, but in return theft path has poor offensive capabilities.*
 
 ::: columns
 
@@ -2697,6 +2883,8 @@ Effect: Your arms grow dramatically in length, increasing the range of all your 
 
 *Rank 2 Carver*
 
+Next Rank: Hairy Zombie Gu
+
 Cost: 10 portions
 
 Range: Self
@@ -2731,6 +2919,10 @@ As long as you have 9 or fewer **Roaming Zombie Tokens**, every month you go wit
 
 *Rank 3 Carver*
 
+Previous Rank: Roaming Zombie Gu
+
+Next Rank: Hopping Zombie Gu
+
 Cost: 10 portions
 
 Range: Self
@@ -2764,6 +2956,10 @@ As long as you have 9 or fewer **Hairy Zombie Tokens**, every month you go witho
 ### Hopping Zombie Gu
 
 *Rank 4 Carver*
+
+Previous Rank: Hairy Zombie Gu
+
+Next Rank: Asura Zombie Gu, Blood Wight Zombie Gu, Earth Chief Zombie Gu, Heavenly Demon Zombie Gu, Nightmare Zombie Gu, Plague Zombie Gu
 
 Cost: 
 
@@ -2847,7 +3043,7 @@ Health:
 
 Food: 
 
-Keywords: [**Dao**], [**Sustained**]
+Keywords: [**Dao: Blood**], [**Sustained**]
 
 Effect: While sustained, your body transforms into that of a Blood Wight Zombie, granting you the following effects:
 
@@ -2883,7 +3079,7 @@ Health:
 
 Food: 
 
-Keywords: [**Dao**], [**Sustained**]
+Keywords: [**Dao: Earth**], [**Sustained**]
 
 Effect: While sustained, your body transforms into that of an Earth Chief Zombie, granting you the following effects:
 
@@ -2919,7 +3115,7 @@ Health:
 
 Food: 
 
-Keywords: [**Dao**], [**Sustained**]
+Keywords: [**Dao: Light**], [**Sustained**]
 
 Effect: While sustained, your body transforms into that of a Heavenly Demon Zombie, granting you the following effects:
 
@@ -2956,7 +3152,7 @@ Health:
 
 Food: 
 
-Keywords: [**Dao**], [**Sustained**]
+Keywords: [**Dao: Dark**], [**Sustained**]
 
 Effect: While sustained, your body transforms into that of a Nightmare Zombie, granting you the following effects:
 
@@ -2993,7 +3189,7 @@ Health: 20
 
 Food: 
 
-Keywords: [**Dao**], [**Sustained**]
+Keywords: [**Dao: Poison**], [**Sustained**]
 
 Effect: While sustained, your body transforms into that of a Plague Zombie, granting you the following effects:
 
@@ -3451,51 +3647,6 @@ Keywords: [**Sustained**]
 
 Effect: While sustained, you skin grows a thick bark as strong as stone. When you take rending or force damage to your hit points, reduce the amount of damage taken by 3, to a minimum of 0. Additionally, reduce any amount of damage taken from the *bleeding* condition by 1, to a minimum of 0. When you take heat damage to your hit points, multiply it by 2.
 
-[**Upgrade Path: Burning Canopy Blessing Gu**]
-
-### Photosynthesis Gu
-*Rank 2 Tonic*
-
-Cost: 14 portions
-
-Range: Self
-
-Health: 12
-
-Food: Direct sunlight for 1 hour
-
-Effect: Can only be activated while in direct sunlight. At the end of each of your turns, you regain 12 hit points. This effect ends if you take damage to your hit points or leave direct sunlight. Photosynthesizing for 1 hour a day replaces your need to eat.
-
-### Clorophyl Armor Gu
-*Rank 3 Tonic*
-
-Cost: 6 portions
-
-Range: Self
-
-Health: 14
-
-Food: <!-- TODO ->
-
-Keywords: [**Sustained**]
-
-Effect: A scaly green armor covers your body. While sustained, you regain 15 hit points at the end of each of your turns as long as you're in direct sunlight. Force and rending damage are dealt to the armor instead of your hit points. The armor has 80 hit points, and once it is broken, the effect ends.
-
-### Phoenix Mantle Gu
-*Rank 4 Tonic*
-
-Cost: 8 portions
-
-Range: Self
-
-Health: 14
-
-Food: 10 g of Imperial Phoenix feathers (1,500 primeval stones)
-
-Keywords: [**Sustained**]
-
-Effect: A shawl of light wraps around your head, shedding sunlight in a 30 foot radius. While sustained, if you would hit 0 hit points, instead the shawl bursts into flames and your hit points are restored to their maximum. Phoenix Mantle Gu takes 13 damage and becomes unusable for 24 hours.
-
 ### Branching Wings Gu
 *Rank 2 Manifestation*
 
@@ -3513,8 +3664,65 @@ Branching Wings Gu can carry 1 [**Medium**] or smaller creatures on each wing. I
 
 Creatures have to be cut off their branch as a combat action to be freed (or it can be destroyed as part of an attack, with 1 hit point). This leaves a wooden cap attached to the body that can be safely cut away over the course of an hour.
 
+[**Upgrade Path: Burning Canopy Blessing Gu**]
+
+### Photosynthesis Gu
+*Rank 2 Tonic*
+
+Next Rank: Clorophyl Armor Gu
+
+Cost: 14 portions
+
+Range: Self
+
+Health: 12
+
+Food: Direct sunlight for 1 hour
+
+Effect: Can only be activated while in direct sunlight. At the end of each of your turns, you regain 12 hit points. This effect ends if you take damage to your hit points or leave direct sunlight. Photosynthesizing for 1 hour a day replaces your need to eat.
+
+### Clorophyl Armor Gu
+*Rank 3 Tonic*
+
+Previous Rank: Photosynthesis Gu
+
+Next Rank: Phoenix Mantle Gu
+
+Cost: 6 portions
+
+Range: Self
+
+Health: 14
+
+Food: Direct sunlight for 8 hours
+
+Keywords: [**Sustained**]
+
+Effect: A scaly green armor covers your body. While sustained, you regain 15 hit points at the end of each of your turns as long as you're in direct sunlight. Force and rending damage are dealt to the armor instead of your hit points. The armor has 80 hit points, and once it is broken, the effect ends.
+
+### Phoenix Mantle Gu
+*Rank 4 Tonic*
+
+Previous Rank: Clorophyl Armor Gu
+
+Next Rank: Burning Canopy Blessing Gu
+
+Cost: 8 portions
+
+Range: Self
+
+Health: 14
+
+Food: 10 g of Imperial Phoenix feathers (1,500 primeval stones)
+
+Keywords: [**Sustained**]
+
+Effect: A shawl of light wraps around your head, shedding sunlight in a 30 foot radius. While sustained, if your hit points would be reduced to 0, instead the shawl bursts into flames and your hit points are restored to their maximum. Phoenix Mantle Gu takes 13 damage and becomes unusable for 24 hours.
+
 ### Burning Canopy Blessing Gu
 *Rank 5 Tonic*
+
+Previous Rank: Phoenix Mantle Gu
 
 Cost: 40 portions
 
@@ -3522,11 +3730,11 @@ Range: Self
 
 Health: 18
 
-Food: <!-- TODO ->
+Food: Direct sunlight for 6 months
 
 Keywords: [**Sustained**]           
 
-Effect: A miniature sun manifests 5 meters above your head, illuminating a 250 kilometer sphere around it. The light does not pierce objects, but it is extremely bright. All creatures (including you) within 10 meters of the sun are *blinded*. All creatures within 1 kilometer of the sun are *blinded* while it is within their line of sight.
+Effect: A miniature sun manifests 5 meters above your head, illuminating a 250 kilometer sphere around it. The light does not pierce objects, but it is extremely bright. All creatures within 10 meters of the sun are *blinded*. All creatures within 1 kilometer of the sun are *blinded* while it is within their line of sight.
 
 While sustained, you return to your maximum hit points, heal all diseases, and regenerate all missing body parts at the end of each of your turns. You are also immune to rending and force damage.
 
@@ -3543,7 +3751,7 @@ Health: 8
 
 Food: <!-- TODO ->
 
-Effect: A creamy orange sap is secreted by your fingertips. You can rub it into a creature's wounds as a bonus action. Doing so heals them 6 hit points and cures them of the *bleeding* condition.
+Effect: A creamy orange sap is secreted by your fingertips. You can rub it into a creature's wounds as a bonus action. Doing so heals them 6 hit points and removes the *bleeding* condition.
 
 ### Dark Moss Gu
 *Rank 1 Concealment*
@@ -3559,6 +3767,8 @@ Food: 5 kilograms of moss
 Effect: You or a creature you touch sprout a thick moss for 1 hour that blends in with forestry. While in a wooded or grassy area, they are invisible.
 
 ### Earth Communication Ear Grass Gu
+*A large ear with roots growing from the eardrum. After a Gu Master replaces one of their ears with it, Earth Communication Ear Grass Gu slowly shrinks to fit their face and become more unassuming.*
+
 *Rank 1 Divination*
 
 Cost: 2 portions
@@ -3573,12 +3783,10 @@ Keywords: [**Sustained**]
 
 Effect: Before being activated, the user of Earth Communication Ear Grass Gu must cut off one of their ears and allow Earth Communication Ear Grass Gu to take its place. While sustained, roots extend from the replaced ear and allow you to hear all noises, big or small, made within range. If you put the ear to the ground, the roots connect to it and extend the range to 100 meters, with the limitation being that you can only hear things on top of or in the earth.
 
-*A large ear with roots growing from the eardrum. After a Gu Master replaces one of their ears with it, Earth Communication Ear Grass Gu slowly shrinks to fit their face and become more unassuming.*
-
 ### Fragrant Daisy Gu
 *Rank 3 Concealment*
 
-Cost:  portions
+Cost: 10 portions
 
 Range: Touch
 
@@ -3586,7 +3794,20 @@ Health: <!-- TODO ->
 
 Food: <!-- TODO ->
 
-Effect: A large daisy grow out of a chunk of soil or stone that you touch, emitting a powerful fragrance in a 1 km circle centered on the daisy. All **Awareness** tests and investigative Gu that rely on smelling automatically fail if used within the area. Nothing inside the area can be located by scent either, except for the daisy emitting the fragrance. The daisy has a 20 hit points, and if it is killed or uprooted the effect ends. The fragrance does not cling to creatures that leave the area.
+Effect: A large daisy grow out of a chunk of soil or stone that you touch, emitting a powerful fragrance in a 1 km circle centered on the daisy. All **Awareness** tests and divination Gu that rely on smelling automatically fail if used within the area. Nothing inside the area can be located by scent either, except for the daisy emitting the fragrance. The daisy has a 20 hit points, and if it is killed or uprooted the effect ends. The fragrance does not cling to creatures that leave the area.
+
+### Healing Sprout Gu
+*Rank 1 Tonic*
+
+Cost: 7 portions
+
+Range: Self
+
+Health: 7
+
+Food: 
+
+Effect: Healing Sprout Gu sprouts a healing leaf. The leaf can be plucked from Healing Sprout Gu. A creature can eat a healing leaf as a bonus action to regain 4 hit points.
 
 ### Heavenly Essence Treasure Lotus Gu
 *To refine the Heavenly Essence Treasure Lotus Gu, a Gu Master must use 3 fresh spirit springs as refinement materials. Spirit springs produce vast amounts of primeval stones, so few are willing to make that sacrifice.*
@@ -3599,9 +3820,9 @@ Range: Self
 
 Health: 14
 
-Food: <!-- TODO ->
+Food: Natural primeval essence (none)
 
-Effect: Passively sprouts 50 primeval essence stones every day at midnight. Cannot be activated. Up to 50 primeval stones can remain attached to Heavenly Essence Treasure Lotus Gu at a time.
+Effect: Cannot be activated. Passively sprouts 50 primeval essence stones every day at midnight. Up to 50 primeval stones can remain attached to Heavenly Essence Treasure Lotus Gu at a time.
 
 ### Liquor Worm Gu
 *Rank 1-3 Catalyst*
@@ -3616,7 +3837,7 @@ Food: 1 kg wine (1/4 primeval stone)
 
 Effect: This Gu has no effect unless you have rank {1, 2, 3} initial stage, middle stage, or upper stage cultivation. You immediately gain one refined portion of primeval essence of the stage above your own. Keep track of your current refined portions separately from your other portions of primeval essence. The sum of your natural and refined primeval essence can never exceed your maximum primeval essence.
 
-Expending 1 portion of refined primeval essence is equivalent to expending 4 portions of unrefined primeval essence.
+Expending 1 portion of refined primeval essence is equivalent to expending 2 portions of unrefined primeval essence.
 
 If your cultivation increases while you have refined primeval essence, it becomes unrefined primeval essence.
 
@@ -3664,9 +3885,10 @@ Food: <!-- TODO ->
 Effect: Touch a creature within range. That creature regrows a single severed limb instantaneously and regains 10 hit points.
 
 ### Resurgence Gu
-*Refined from Rank 1 Silver Lining Gu*
 
 *Rank 2 Tonic*
+
+Previous Rank: Silver Lining Gu
 
 Cost: 15 portions
 
@@ -3689,7 +3911,7 @@ Health: 22
 
 Food: <!-- TODO ->
 
-Effect: Target a corpse or undead creature within range. If it is a corpse, it quickly spoils and rots before the skin and flesh sloughs off the bones and the skeleton disintegrates. If an undead creature is targeted, it rots at a slower rate, and takes 1/3 of its hit points (rounded up) in force damage directly to its hit points. While sustained, the target takes another 1/3 of its hit points (rounded up) at the start of your turn.
+Effect: Target a corpse or undead creature within range. If it is a corpse, it quickly spoils and rots before the skin and flesh sloughs off the bones and the skeleton disintegrates. If an undead creature is targeted, it rots at a slower rate, and takes 1/3 of its maximum hit points (rounded up) in force damage directly to its hit points. While sustained, the target takes another 1/3 of its maximum hit points (rounded up) at the start of your turn.
 
 ### Scarecrow Gu
 *Rank 1 Manifestation*
@@ -3735,17 +3957,15 @@ Effect: A cloud of thorns bursts from your outstretched hand in a 5 meter long c
 ### Wardrobe Gu
 *Rank 2 Container*
 
-Cost: <!-- TODO ->
+Cost: 1 portion
 
-Range: <!-- TODO ->
+Range: Self
 
-Health: <!-- TODO ->
+Health: 25
 
-Food: <!-- TODO ->
+Food: 1 kg of silk (5 primeval stones)
 
-Keywords: <!-- TODO ->
-
-Effect: Can store up to 50 kg of clothes and armor. Upon activation, a set of clothes of your choice replace whatever you are wearing, while the clothes you were wearing are stored within Wardrobe Gu. If you do not choose an outfit, you merely store the clothes you are wearing.
+Effect: Can store up to 50 kg of clothes and armor. Upon activation, a set of clothes stored inside Wardrobe Gu of your choice replaces whatever you are wearing, while the clothes you were wearing are stored within Wardrobe Gu. If you do not choose an outfit, you merely store the clothes you are wearing.
 
 ### Wine Sack Flower Gu
 *Rank 1 Manifestation*
