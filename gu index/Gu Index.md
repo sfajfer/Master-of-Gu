@@ -100,7 +100,7 @@ Food: 120 severed hands soaked in the blood of a hundred beast king
 
 Keywords: [**Sustained**]
 
-Effect: You manifest a [**Large**] 2 meter tall hand made of blood mist at an unoccupied space within range. As a bonus action, you may move the hand up to 10 meters through occupied or unoccupied spaces. Any creatures in the space moved through by the hand take 200 force damage. If this damage is dealt to their hit points and they have blood in their body, they turn into a puddle of blood and die.
+Effect: You manifest a [**Large**] 2 meter tall hand made of blood mist in an unoccupied space that you can see within range. As a bonus action, you may move the hand up to 10 meters through occupied or unoccupied spaces. Any creatures in the space moved through by the hand take 200 force damage. If this damage is dealt to their hit points and they have blood in their body, they turn into a puddle of blood and die.
 
 ### Blood Pouch Gu
 *Rank 1-5 Container*
@@ -334,7 +334,7 @@ Health: 9
 
 Food: 5 cubic centimeters of skin
 
-Effect: Remove the *bleeding* condition from a creature you touch.
+Effect: Reduce the number of *bleeding* stacks from a creature you touch by 3.
 
 ### Thick Blood Gu
 *Rank 1 Carver*
@@ -349,7 +349,7 @@ Food: 100 g dried blood
 
 Keywords: [**Expendable**], [**Dao**]
 
-Effect: Your blood is permanently modified to coagulate much quicker than normal. Whenever you gain the *bleeding* condition, reduce the number of stacks of *bleeding* you receive by 1. At the end of each of your turns, reduce the number of stacks of *bleeding* you have by 1.
+Effect: Your blood is permanently modified to coagulate much quicker than normal. Whenever you gain the *bleeding* condition, reduce the number of stacks of *bleeding* you receive by 1, to a minimum of 0. At the end of each of your turns, reduce the number of stacks of *bleeding* you have by 1, to a minimum of 0.
 
 ### Vein Burst Gu
 *Rank 2 Attack*
@@ -375,20 +375,63 @@ Effect: Target creature within range has some of their blood vessels burst, taki
 
 ::: columns
 
+### Dark Toss Gu
+
+*Rank 1-5 Concealment*
+
+Cost: 10 portions
+
+Range: Touch
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Effect: You touch a Gu and Dark Toss Gu wraps itself around it. That Gu cannot be detected by divination Gu at or below the rank of Dark Toss Gu. Dark Toss Gu can be deactivated by touching it and expending 1 portion of primeval essence.
+
+### Multiple Sword Shadow Gu
+
+*Rank 4 Attack*
+
+Cost: 15 portions
+
+Range: 10 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: A fan of shadow swords fly sporadically in a line 6 meters wids and 10 meters long. Creatures in the area take 100 rending damage. Creatures have a +30 penalty on dodge tests made to avoid this attack. If this damage was dealt to their hit points, they gain *bleeding 6*.
+
+### Overlapping Shadow Gu
+*Rank 4 Catalyst*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Supplementary**]
+
+Effect: The next time you activate a Dark Path attack Gu before the end of your turn, it deals double the damage it normally would.
+
 ### Shadow Bond Gu
 *Rank 2 Guard*
 
 Cost: 15 portions
 
-Range: 1 meter
+Range: 3 meter
 
-Health: 
+Health: 2
 
 Food: 
 
 Keywords: [**Defensive**], [**Sustained**]
 
-Effect: While sustained, whenever you take damage to your hit points from a creature within range, they take the same damage directly to their hit points.
+Effect: Choose a creature within range. While sustained, whenever you take damage to your hit points that creature takes the same damage directly to their hit points. If the creature leaves range, Shadow Bond Gu remains active and connected to the target but no longer reflects damage.
 
 ### Shadow Follower Gu
 *Rank 2 Concealment*
@@ -397,13 +440,29 @@ Cost: 10 portions
 
 Range: Self
 
-Health: 9
+Health: 2
 
 Food: 2 eyeballs from any creature (1/4 primeval stone)
 
 Keywords: [**Sustained**]
 
-Effect: You are enveloped in an inky darkness. As long as you are not in direct light, you are invisible and cannot be visually detected by Gu of rank 2 or lower while sustaining this Gu.
+Effect: While sustained, you are enveloped in an inky darkness. As long as you are not in direct light, you are invisible and cannot be visually detected by Gu of rank 2 or lower.
+
+### Split Shadow Gu
+
+*Rank 2-5 Manifestation*
+
+Cost: 2 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: A clone of yourself appearing like a black cloud splits from your body to an unoccupied square within 1 meter of you. When it splits from you, you can give it up to {1, 2, 3, 5} Gu from your aperture and any number of portions of primeval essence. The clone goes directly after you in initiative and is controlled by you. The clone shares all of your statistics, except that it has no soul or strength attributes, has {1, 2, 3, 5} activations, and cannot physically interact with anything in the world. When you stop sustaining this Gu, the Gu carried by your clone drop to the ground and you lose whatever primeval essence the clone still had.
 
 ### Breath Concealment Gu
 *Rank 3-5 Concealment*
@@ -412,7 +471,7 @@ Cost: None
 
 Range: Self
 
-Health: 11
+Health: 5
 
 Food: 1 hour of direct sunlight
 
@@ -458,7 +517,7 @@ Food: 1 kg granite (2 primeval stones)
 
 Keywords: [**Dao**]
 
-Effect: You are assailed with a horrendous pain for 1 hour. You are incapable of taking any actions except to speak for the entire duration. When the process is complete, your bones are permanently transmuted into granite. Your bones can no longer be broken by damage or effects originating from a Gu of Rank 2 or lower. Additionally, reduce all force damage dealt to your hit points by 1.
+Effect: You are assailed with a horrendous pain for 1 hour. You are incapable of taking any actions except to speak for the entire duration. When the process is complete, your bones are permanently transmuted into granite. Your bones can no longer be broken by damage or effects originating from a Gu of Rank 2 or lower. Additionally, reduce all force damage dealt to your hit points by 3.
 
 ### Life-retaining Jade Coffin Gu
 
@@ -556,7 +615,7 @@ Health: 500
 
 Food: 1000 kg of ordinary soil
 
-Keywords: [**Large**] [**Steed**] [**Sustained**]
+Keywords: [**Large**], [**Steed**], [**Sustained**]
 
 Effect: Thousand-Li Earthwolf Spider Gu has a base movement of 10 meters and can climb on walls and ceilings without making an **Athletics** test. Additionally, Thousand-Li Earthwolf Spider Gu has a digging speed of 3 meters in stone or soil. While sustained, Thousand-Li Earthwolf Spider Gu's movement becomes 50 meters and its digging speed becomes 15 meters.
 
@@ -676,6 +735,21 @@ Keywords: [**Dao**], [**Expendable**]
 
 Effect: You permanently etch fire path dao into your heart. You no longer suffer ill effects from cold temperatures and are invulnverable to cold damage. Whenever you take heat damage to your hit points, reduce it by 15.
 
+### Changbai Clouds Gu
+*Rank 2 Manifestation*
+
+Cost: 6 portions
+
+Range: 6 meters
+
+Health: 3
+
+Food: 1 kg of obsidian (1/2 primeval stone)
+
+Effect: Choose a square that you can see within range. All squares within 2 meters of the chosen square are covered in a scalding, dense, unbreathable smog. Creatures cannot see through the smog, and attacks made against creatures hidden by smog are made with disadvantage. If a creature starts its turn inside the clouds, they take 8 heat damage.
+
+At the start of each of your turns, the smog spreads to nearby squares, increasing its radius by 2 meters, to a maximum of 10. When the radius reaches 10 meters, the smog no longer deals damage. The smog dissipates over the course of 10 minutes, and strong winds can disperse the smog early.
+
 ### Clearing Heat Gu
 *Rank 2 Tonic*
 
@@ -683,11 +757,9 @@ Cost: 40 portions
 
 Range: Self
 
-Health: 
+Health: 4
 
 Food: <!-- TODO ->
-
-Keywords: 
 
 Effect: Immediately remove all instances of the *poisoned* condition from yourself inflicted by a Gu of rank 2 or lower. You may activate this Gu as a reaction to gaining the *poisoned* condition.
 
@@ -1057,7 +1129,7 @@ Food: <!-- TODO ->
 
 Keywords: 
 
-Effect: You lob a ball of kerosene to a square within range. Creatures within 1 meter of the square become splattered in oil until it gets washed off. If a creature covered in oil is ignited or gains the *burning* condition, it instead gains the *ablaze* condition.
+Effect: You lob a ball of kerosene to a square within range. Creatures within 1 meter of the square become splattered in oil until it gets washed off. If a creature covered in oil takes heat damage or gains the *burning* condition, it gains the *ablaze* condition.
 
 ### Lightning Charged Potato Gu
 *Rank 2 Attack*
@@ -1072,7 +1144,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Unreactable**]
 
-Effect: Lightning Charged Potato Gu must be buried in some kind of soil before activation. It sprouts roots into the nearby earth and becomes firmly lodged in place. After 1 minute of growth, Lightning Charged Potato Gu is armed. If any creature, including you, steps on a square within 1 meter of Lightning Charged Potato Gu, Lightning Charged Potato Gu explodes, instantly dying and dealing 10 heat damage and 10 shock damage to creatures within 2 meters of Lightning Charged Potato Gu, increased to 20 heat damage and 20 shock damage to creatures within 1 meter.
+Effect: Lightning Charged Potato Gu must be buried in any kind of soil before activation. It sprouts roots into the nearby earth and becomes firmly lodged in place. After 1 minute of growth, Lightning Charged Potato Gu is armed. If any creature, including you, steps on a square within 1 meter of Lightning Charged Potato Gu, Lightning Charged Potato Gu explodes, instantly dying and dealing 10 force damage, 10 heat damage, and 10 shock damage to creatures within 2 meters of Lightning Charged Potato Gu, increased to 20 force damage, 20 heat damage and 20 shock damage to creatures within 1 meter.
 
 ### Lightning Charged Potato Mother Gu
 *Rank 3 Manifestation*
@@ -1113,7 +1185,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
-Effect: A cloak of smoldering embers surrounds you. Any creature that hits you with a melee attack takes 8 heat damage and gains the *burning* condition. You gain immunity to the *burning* and *ablaze* conditions, and any heat damage dealt to Smoldering Cloak Gu is reduced by 10, to a minimum of 0.
+Effect: While sustained, a cloak of smoldering embers surrounds you. Any creature that hits you with a melee attack takes 8 heat damage and gains the *burning* condition. You gain immunity to the *burning* and *ablaze* conditions, and any heat damage dealt to Smoldering Cloak Gu is reduced by 10, to a minimum of 0.
 
 ### Sprinting Drake Gu
 *Rank 3 Attack*
@@ -1240,7 +1312,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Small**]
 
-Effect: You touch a creature and their body chills to subzero temperatures. They fall *unconscious* and Hibernation Gu curls up and goes to sleep. After a day, the creature in hibernation fully restores its hit points. After a week, all the target's ailments caused by Gu of rank 3 or lower are cleansed as well. You may reactivate this Gu at any time to awaken the target. If you are the target, the only action you may take while unconscious is to activate Hibernation Gu and wake yourself up. A target under the effects of Hibernation Gu remains loosely aware of their surroundings. If Hibernation Gu dies, the target awakens immediately.
+Effect: You touch a willing creature and their body chills to subzero temperatures. They fall *unconscious* and Hibernation Gu curls up and goes to sleep. After 24 hours, the creature in hibernation fully restores its hit points, and all of the target's ailments caused by Gu of rank 3 or lower are cleansed. You may reactivate this Gu at any time to awaken the target. If you are the target, the only action you may take while unconscious is to activate Hibernation Gu and wake yourself up. A target under the effects of Hibernation Gu remains loosely aware of their surroundings. If Hibernation Gu dies, the target awakens immediately.
 
 ### Ice Muscles Gu
 *Rank 2 Carver*
@@ -1257,7 +1329,7 @@ Keywords: [**Dao**], [**Expendable**]
 
 Effect: You are assailed with a piercing pain for 1 hour while your muscles are transfigured into ice muscles. For the duration, you can take no actions except to speak. When the ritual completes, you are permanently immune to the *Fatigued* condition if it is being applied to you by an Ice Path Gu. Additionally, your Strength attribute is permanently increased by 10, and any rending or force damage dealt to your hit points is reduced by 5.
 
-[**Upgrade Tree: Icicle Gu**] <!-- TODO ->
+[**Upgrade Tree: Icicle Gu**]
 *The signature attack of Ice Path. Rank 1 Icicle Gu launches a sharp chunk of ice at an enemy that deals damage and saps heat from the target. It can be upgraded to the devastating single-target Spiral Ice Lance Gu or to the crowd-slaughtering Spiral Icicle Storm Gu*
 
 ### Icicle Gu
@@ -1362,7 +1434,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Pick a square that you can see within range. A storm of razor sharp icicles and cutting winds manifests around it. Any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage.
+Effect: Pick a square that you can see within range. While sustained, a storm of razor sharp icicles and cutting winds is manifested around it. Any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage.
 
 
 
@@ -1480,7 +1552,7 @@ Cost: 4 portions
 
 Range: Self
 
-Health: <!-- TODO ->
+Health: 3
 
 Food: <!-- TODO ->
 
@@ -1495,7 +1567,7 @@ Cost: 6 portions
 
 Range: 10 meters
 
-Health: 10
+Health: 2
 
 Food: 3 moon orchid petals (3 primeval stones)
 
@@ -1521,7 +1593,7 @@ Cost: 2 portions
 
 Range: Self
 
-Health: 12
+Health: 3
 
 Food: <!-- TODO ->
 
@@ -1542,7 +1614,23 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Light bends around your body, making you invisible.
+Effect: Light bends around your body, making you invisible while sustained.
+
+### Sunspot Gu
+
+*Rank 3 Attack*
+
+Cost: 10 portions
+
+Range: 8 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: This Gu must be activated outdoors. While sustained, a sunbeam envelopes a 2 meter square within range. If a creature starts its turn within the area, it takes 40 heat damage. You may move the sunbeam up to 5 meters to another area within range as a bonus action.
 
 ### Two-stretch Golden Light Gu
 *Rank 2 Guard*
@@ -1570,6 +1658,8 @@ Effect: While sustained, a 3 meter radius sphere of light surrounds you and bloc
 ### Chain Lightning Gu
 *Rank 3 Attack*
 
+Previous Rank: Self Strike Gu
+
 Cost: 25 portions
 
 Range: 10 meters
@@ -1580,7 +1670,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Undodgeable**]
 
-Effect: A bolt of lightning streaks from your outstretched hand towards a creature within range. Make an attack roll; on a hit, deal 80 shock damage. The lightning then chains to the closest creature within 3 meters for 40 shock damage. Finally, it chains to another creature within 3 meters (this can be the first target again), dealing 20 shock damage.
+Effect: A bolt of lightning streaks from your outstretched hand towards a creature within range. Make an attack roll; on a hit, deal 80 shock damage. The lightning then chains to the closest creature within 3 meters for 40 shock damage. It chains again to the closest creature within 3 meters of the second target (this can be the first target again), dealing 20 shock damage.
 
 ### Jolt Gu
 *Rank 1 Attack*
@@ -1589,13 +1679,47 @@ Cost: 10 portions
 
 Range: 10 meters
 
-Health: 10
+Health: 2
 
 Food: 100 grams of combustion leaves (1 primeval stone)
 
 Keywords: [**Unreactable**]
 
 Effect: You shoot a thin beam of electricity at a creature within range. Make an attack roll; On a hit, deal 8 shock damage.
+
+### Lightning Eye Gu
+*Rank 3 Divination*
+
+Cost: 1 portion
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: To activate Lightning Eye Gu, the user must remove their eye and place Lightning Eye Gu in the socket. Upon activation, Lightning Eye Gu replaces the lost eye permanently, and you can see out of it with perfect vision whether or not it is activated. 
+
+While you sustain Lightning Eye Gu, your lightning eye can see through obscuring effects such as smoke and illusions produced by Gu of the same or lower rank, and can see any object within 150 meters in fine detail. You become immune to the *blinded* condition, and you can react to [**Unreactable**] Gu so long as the Gu Master is within your line of sight.
+
+### Self Strike Gu
+*Rank 2 Attack*
+
+Next Rank: Chain Lightning Gu
+
+Cost: 20 portions
+
+Range: 6 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Unreactable**]
+
+Effect: Choose a creature you can see within range. That creature takes 20 shock damage, and a streak of lightning shoots from them to the nearest creature within 2 meters of the target, dealing 10 shock damage. This process repeats from the second and each subsequent target, dealing 5 shock damage, then 2, and finally 1 before the attack ends (for a total of 5 unique targets). If the attack is not able to chain to a target that has not yet been struck by this activation of Self Strike Gu, it instead chains to you, regardless of distance.
 
 ### Thunderdome Gu
 *Rank 4 Manifestation*
@@ -1610,24 +1734,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: A sphere of electricity is formed in a 20 meter radius centered on you. Creatures inside remain trapped while you sustain Thunderdome Gu. Creatures trapped inside can still act as normal, but the effects of Gu of equal or lesser rank cannot permeate outside the barrier. A creature that touches the sides takes 250 shock damage and can leave the sphere.
-
-### Lightning Eye Gu
-*Rank 3 Divination*
-
-Cost: 1 portion
-
-Range: Self
-
-Health: 14
-
-Food: <!-- TODO ->
-
-Keywords: [**Sustained**]
-
-Effect: To activate Lightning Eye Gu, the user must remove their eye and place Lightning Eye Gu in the socket. Upon activation, Lightning Eye Gu replaces the lost eye permanently, and you can see out of it with perfect vision whether or not it is activated. 
-
-While you sustain Lightning Eye Gu, your lightning eye can see through obscuring effects such as smoke and illusions produced by Gu of the same or lower rank, and can see any object within 150 meters in fine detail. You become immune to the *blinded* condition, and you can react to [**Unreactable**] Gu so long as the Gu Master is within your line of sight.
+Effect: A sphere of electricity is formed in a 10 meter radius centered on you. Creatures inside remain trapped while you sustain Thunderdome Gu. Creatures trapped inside can still act as normal, but the effects of Gu of equal or lesser rank cannot permeate outside the barrier. A creature that touches the sides takes 250 shock damage and can leave the sphere.
 
 :::
 \newpage
@@ -1644,7 +1751,7 @@ Cost: 20 portions
 
 Range: 3 meters
 
-Health: 10
+Health: 2
 
 Food: <!-- TODO ->
 
@@ -1657,7 +1764,7 @@ Cost: 10 portions
 
 Range: Self
 
-Health: <!-- TODO ->
+Health: 2
 
 Food: <!-- TODO ->
 
@@ -1670,7 +1777,7 @@ Cost: 10
 
 Range: Self
 
-Health: <!-- TODO ->
+Health: 3
 
 Food: <!-- TODO ->
 
@@ -1824,7 +1931,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Piercing**]
 
-Effect: A cloud of golden needles shoots from your sleeve in a line 15 meters long and 3 meters wide. Creatures in the area take 10 force damage. If this damage is dealt to their hit points, they gain the *bleeding* condition.
+Effect: A cloud of golden needles shoots from your sleeve in a line 15 meters long and 3 meters wide. Creatures in the area take 10 force damage. If this damage is dealt to their hit points, they gain *bleeding 1*.
 
 ### Grounded Beetle Gu
 *Rank 1-3 Guard*
@@ -1914,7 +2021,7 @@ Food: 10 g of {iron, steel, titanium} soaked in blood
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: You are assailed with a horrendous pain for 1 hour while your skin molts and is replaced with {iron, steel, titanium}. You are incapable of taking any actions except to speak for the entire duration. When the process is complete, your skin is permanently transmuted into a flexible membrane as strong as the respective metal. Whenever you take damage to your hit points, except shock or sonic, reduce it by {5, 12, 25}, to a minimum of 0. Whenever you take shock damage to your hit points, multiply it by 2.
+Effect: You are assailed with a horrendous pain for 1 hour while your skin molts and is replaced with {iron, steel, titanium}. You are incapable of taking any actions except to speak for the entire duration. When the process is complete, your skin is permanently transmuted into a flexible membrane as strong as the respective metal. Whenever you take damage to your hit points, except shock or sonic, reduce it by {5, 12, 25}, to a minimum of 0. You have vulnerability to shock damage.
 
 ### Polished Gold Gu
 *As is the case with most cultivation improving Gu, Polished Gold Gu is exceptionally valuable. Despite only being rank 3, Polished Gold Gu's refinement recipe requires the sacrifice of a precious rank 4 Relic Gu.*
@@ -2267,7 +2374,7 @@ Food: 100 g Autumn Voice Grass (4 primeval stones)
 
 Keywords: [**Low Vitality**] (Must play music or sing for 1 hour per hit point)
 
-Effect: While sustained, your hearing grows extremely sensitive. You can hear all noises made within range and judge their exact location. If you take sonic damage to your hit points, multiply it by 2.
+Effect: While sustained, your hearing grows extremely sensitive. You can hear all noises made within range and judge their exact location. You have vulnerability to sonic damage.
 
 ### Copper Warhorn Gu
 *Rank 1 Manifestation*
@@ -2319,6 +2426,22 @@ Food: {10, 100} kg Emptiness Iron ({250, 2500} primeval stones)
 Effect: For {1 hour, 1 day}, a {5, 15} meter cube, centered on the square you activated this Gu on, becomes dimensionally locked. Creatures cannot teleport to any space inside the cube from outside of it. Creatures inside the cube cannot teleport at all. The cube is barely visible, and awareness checks made to see its edges have a +30 penalty.
 
 *One of the signature methods of space path, the Dimensional Lock Gu is very effective at preventing escapes and attacks. No teleportation Gu below rank 6 can pierce its effects. It appears as a floating glass box containing within the starry sky of black heaven.*
+
+### Formless Space Gu
+
+*A hand-sized bowl made of wood. Looking inside reveals an inky black expanse.*
+
+*Rank 1-4 Container*
+
+Cost: None
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: Formless Space Gu cannot be activated. Items smaller than 50 cubic centimers can be placed inside Formless Space Gu, shrinking to fit if they are larger than the bowl. Formless Space Gu can contain up to {2, 5, 15, 40} kilograms of items. When a creature reaches inside Formless Space Gu, they immediately know exactly what items are inside and can withdraw an item as a bonus action.
 
 :::
 \newpage
@@ -2404,7 +2527,7 @@ Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. 
 
 When you make an unarmed attack, you gain the following option:
 
-**Bite:** You viciously bite the target. Roll a **Close Combat** skill test. On a hit, deal 2 rending damage, +1 damage for every 5 points you have in Strength. The target is inflicted with *bleeding X*, where X is equal to 20% of the damage dealt to their hit points, rounded down (minimum 0).
+**Bite:** You viciously bite the target. Roll a **Close Combat** skill test. On a hit, deal 2 rending damage, +1 damage for every 5 points you have in Strength. The target is inflicted with *bleeding X*, where X is equal to 20% of the damage dealt to their hit points, rounded down (to a minimum of 0).
 
 ### Deer Strength Gu
 *Rank 1 Carver*
@@ -2468,7 +2591,7 @@ Cost: 8 portions
 
 Range: Self
 
-Health: 
+Health: 4
 
 Food: <!-- TODO ->
 
@@ -2483,7 +2606,7 @@ Cost: 30 portions
 
 Range: Self
 
-Health: 15
+Health: 7
 
 Food: <!-- TODO ->
 
@@ -2539,18 +2662,18 @@ Food: <!-- TODO ->
 
 Keywords: [**Unreactable**]
 
-Effect: Can be activated as a reaction to dealing damage with a punching attack. The force of the target's body that would resist your punch is instead redirected back towards the target. Double the damage dealt by the triggering attack.
+Effect: Can be activated as a reaction to dealing damage with a punching or kicking attack. The force of the target's body that would resist your attack is instead redirected back towards the target. Double the damage dealt by the triggering attack. If the triggering attack was a kicking attack, the distance the target is knocked backwards is doubled.
 
 ### [Path] Strength Gu
 *A series of Gu worms that exists for most paths, save for Human and Heaven. Used to augment attacks from other paths with your own strength.*
 
 *Rank 3 Catalyst*
 
-Cost: 
+Cost: 10 portions
 
 Range: Self
 
-Health: 
+Health: 4
 
 Food: <!-- TODO ->
 
@@ -2572,6 +2695,22 @@ Health: 16
 Food: Natural primeval essence (none)
 
 Effect: Immediately regain hit points equal to {2, 5, 10}% of your Strength attribute, rounded down.
+
+### Toughen Up Gu
+*Rank 3 Carver*
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Your maximum hit points are increased by 25.
+
 
 :::
 \newpage
@@ -3645,7 +3784,7 @@ Food: 5 kg of bark
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you skin grows a thick bark as strong as stone. When you take rending or force damage to your hit points, reduce the amount of damage taken by 3, to a minimum of 0. Additionally, reduce any amount of damage taken from the *bleeding* condition by 1, to a minimum of 0. When you take heat damage to your hit points, multiply it by 2.
+Effect: While sustained, you skin grows a thick bark as strong as stone. When you take rending or force damage to your hit points, reduce the amount of damage taken by 3, to a minimum of 0. Additionally, reduce any amount of damage taken from the *bleeding* condition by 1, to a minimum of 0. You have vulnerability to heat damage.
 
 ### Branching Wings Gu
 *Rank 2 Manifestation*
@@ -3953,6 +4092,58 @@ Health: 28
 Food: 500 g of roses
 
 Effect: A cloud of thorns bursts from your outstretched hand in a 5 meter long cone. Creatures in the area take 6 force damage.
+
+[**Upgrade Path: Three Star Cave Gu**]
+*This Gu appears to be an acorn of brown color at rank 1, getting darker as it is upgraded. Rank 3 Three Star Cave Gu is pitch black.*
+
+### One Star Cave Gu
+
+*Rank 1 Container*
+
+Cost: 50 portions
+
+Range: Self
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Effect: One Star Cave Gu must be planted in any kind of soil to be activated. A 3 meter radius tree containing a single room is manifested above One Star Cave Gu. It has a door on one side of your choice. The owner of One Star Cave Gu can touch any part of the tree and spend 1 portion of primeval essence as an activation to instantly revert One Star Cave Gu back to its original form.
+
+The tree has 50 hit points and vulnerability to heat and rending damage. If the tree is reduced to 0 hit points, this effect ends.
+
+### Two Star Cave Gu
+
+*Rank 2 Container*
+
+Cost: 50 portions
+
+Range: Self
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Effect: Two Star Cave Gu must be planted in any kind of soil to be activated. A two-story tall, 3 meter radius tree is manifested above Two Star Cave Gu. It has a door on one side of your choice and a ladder leading to the second floor. Each floor has a single room, furnished in a manner of your choice. Two Star Cave Gu can only manifest basic wooden furniture such as tables, chairs, and cabinets. The owner of Two Star Cave Gu can touch any part of the tree and spend 1 portion of primeval essence as an activation to instantly revert One Star Cave Gu back to its original form.
+
+The tree has 250 hit points and vulnerability to heat and rending damage. If the tree is reduced to 0 hit points, this effect ends.
+
+
+### Three Star Cave Gu
+
+*Rank 3 Container*
+
+Cost: 50 portions
+
+Range: Self
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Effect: Three Star Cave Gu must be planted in any kind of soil to be activated. A three-story tall, 5 meter radius tree is manifested above Three Star Cave Gu. It has a door on one side and a staircase leading to the second and third floors. Each floor has a single room, furnished in a manner of your choice. Three Star Cave Gu can manifest wood, cloth, and stone furniture such as counters, chairs, and beds. The owner of Three Star Cave Gu can touch any part of the tree and spend 1 portion of primeval essence as an activation to instantly revert One Star Cave Gu back to its original form.
+
+The tree has 1000 hit points and vulnerability to heat and rending damage. If the tree is reduced to 0 hit points, this effect ends.
 
 ### Wardrobe Gu
 *Rank 2 Container*

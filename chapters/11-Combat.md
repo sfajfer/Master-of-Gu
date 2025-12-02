@@ -120,7 +120,7 @@ Triggers can be specific or broad, ranging from "when the opponent uses Fire Pel
 Taking the sprint action triples your non-flying movement until the end of your turn.
 
 ## Reactions
-You can react to most actions around you at any time other than during your turn. An exception is that you cannot react to someone activating a Gu, but you can react to them making a ranged attack with one, manifesting an object with it, or applying any other effect. If a Gu has the [**Unreactable**] keyword, you cannot use a reaction in response to its effect. You cannot use multiple reactions to the same trigger, for example, dodging and activating a shield Gu when an attack hits you.
+You can react to most actions around you at any time other than during your turn. An exception is that you cannot react to someone activating a Gu, but you can react to them making an attack with one, manifesting an object with it, or applying any other effect. If a Gu has the [**Unreactable**] keyword, you cannot use a reaction in response to its effect. You cannot use multiple reactions to the same trigger, for example, dodging and activating a shield Gu when an attack hits you.
 
 ### Activate a Shield Gu
 Unless specified otherwise by the Gu, shield Gu can be activated as a reaction, including after its determined an attack has hit you, but only before the damage has been rolled.
@@ -240,7 +240,7 @@ A creature with the *ablaze* condition is completely engulfed in flames. An *abl
 A *dazed* creature's activations stat is reduced by 2. At the end of their turn, they lose the *dazed* condition.
 
 ### Fatigued
-A *fatigued* creature's movement is reduced by 3 meters and makes all **Dodge** tests with a +20 penalty. The *fatigued* condition lasts until the creature rests for at least an hour.
+A *fatigued* creature's movement is reduced by 3 meters and makes all **Dodge** and **Athletics** tests with a +20 penalty. The *fatigued* condition lasts until the creature rests for at least an hour.
 
 ### Poisoned
 Poison can have any number of effects, and a creature can gain multiple instances of the *poisoned* condition so long as each is unique. 
@@ -253,5 +253,14 @@ A *restrained* creature's movement is 0. A *restrained* creature automatically f
 
 ### Stunned
 A *stunned* creature cannot move or take any actions or reactions. At the end of their turn, they lose the *stunned* condition and gain the *dazed* condition.
+
+## Area of Effect Attacks
+When a creature is caught in an area of effect, they can dodge as a reaction, escaping the area of effect if they succeed and can move outside the area of effect.
+
+### Line
+Lines are really a horizontal cylinder, and will have a width and a length, with their height being the same as the width.
+
+### Radius
+Circular area of effects will originate from a source square and have a radius. If an area of effect has a radius of 5 meters, it will effect the source square and any square that could be reached using 5 meters of movement from the source square.
 
 \newpage
