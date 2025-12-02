@@ -4,7 +4,7 @@ Your character's Skills represent their learned abilities and proficiencies, whe
 
 **Close Combat (1/2 Agi + 1/2 Cog)** - Close Combat does not only include fighting hand-to-hand, it relates to any fighting that occurs within 2 meters of you. Many attack Gu can be used at range or in close combat, and this skill represents your ability to make attacks at a close range. Melee attacks are always made with your close combat skill.
 
-**Ranged Combat (Cog)** - If an enemy is further than 2 meters from you, your non-melee attacks will be made with the Ranged Combat skill.
+**Ranged Attack (Cog)** - If an enemy is further than 3 meters from you, your non-melee attacks will be made with the Ranged Attack skill.
 
 **Athletics (1/2 Str + 1/2 Agi)** - Athletics is used for strength related actions such as pushing a boulder, climbing a steep cliff, or swimming.
 

@@ -650,6 +650,8 @@ Effect: Target a [Beast] that you can see within range. This Gu flies from your 
 
 You and the target have a battle of souls. If your current soul value is greater than the beast's, subtract the beast's current soul value from your own and you successfully permanently enslave it. You can now control its actions with your mind from a distance of up to (Maximum Soul) meters, as long as you can see it.
 
+If the target is willing to be enslaved, they fail the battle of souls automatically and your soul takes no damage.
+
 If your current soul value is less than or equal to the beast's, you fail to enslave it, the beast's current soul value is reduced by your current soul value, and then your current soul value is reduced to 1.
 
 **Slavery Gu**
@@ -666,6 +668,8 @@ Food: <!-- TODO ->
 Keywords: [**Expendable**]
 
 Effect: Touch a Gu Master of rank {1, 2, 3, 4, 5} or less. You both have a battle of souls. If your current soul value is greater than the Gu Master's, subtract the Gu Master's current soul value from your own and you successfully permanently enslave them. You can now directly control their actions with your mind from a distance of up to (Maximum Soul) meters, as long as you can see them. They are still the same person, retaining their memories and general personality, but become wholly devoted to you, willing to do whatever you command to the highest possible standard. While directly controlling them, you can choose to take the target's turns for them; otherwise they act in whatever way they think is most helpful to you.
+
+If the target is willing to be enslaved, they fail the battle of souls automatically and your soul takes no damage.
 
 If your current soul value is less than or equal to the Gu Master's, you fail to enslave it, the Gu Master's current soul value is reduced by your current soul value, and then your current soul value is reduced to 1.
 
@@ -1963,6 +1967,23 @@ Keywords: [**Defensive**], [**Sustained**]
 
 Effect: While sustained, this Gu negates and stores all heat damage dealt to your hit points, to a maximum of {20, 50}. If you hit a creature with an unarmed melee attack, deal additional heat damage equal to the damage stored inside Heatsink Gu to the target. When you stop sustaining Heatsink Gu, its stored damage reverts to 0.
 
+### Iron Hand Grappling Gu
+*Rank 2 Manifestation*
+
+Cost: 3 portions
+
+Range: Self
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, your hands are made entirely of a dense and hard iron. They are incredibly durable; if you would take damage to your hit points and that damage is being dealt specifically to your hands (a called shot, or touching something very hot, for example), reduce the damage taken by 80.
+
+You have advantage on **Athletics** tests resulting from the **Grapple** combat action, and your punching attacks deal an additional 5 force damage.
+
 ### Iron Hook Silver Slash Gu
 *Rank 5 Attack*
 
@@ -2151,7 +2172,7 @@ Food: None
 Effect: A creature you touch has the *posioned* condition removed if it was inflicted by Single Gate Poison Gu.
 
 ### Single Gate Poison Gu
-*When Single Gate Poison Gu is successfully refined, a rank 3 Close Gate Gu is also refined. This Gu costs no primeval essence and has no effect other than to remove the poisoned condition inflicted by Single Gate Poison Gu.*
+*When Single Gate Poison Gu is successfully refined, a rank 3 Close Gate Gu is also refined. Close Gate Gu costs no primeval essence and has no effect other than to remove the poisoned condition inflicted by Single Gate Poison Gu.*
 
 *Rank 3 Attack*
 
@@ -3270,7 +3291,7 @@ You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
 
 You gain vulnerability to heat and shock damage.
 
-While exposed to direct light, you gain a -20 bonus on all **Dodge**, **Flying**, **Close Combat** and **Ranged Combat** skill tests.
+While exposed to direct light, you gain a -20 bonus on all **Dodge**, **Flying**, **Close Combat** and **Ranged Attack** skill tests.
 
 While not exposed to direct light, you gain a -20 bonus on all **Awareness**, **Cultivation**, **Deduction**, and **Refinement** tests.
 
@@ -4078,7 +4099,7 @@ Health: 14
 
 Food: <!-- TODO ->
 
-Effect: Select a 2 meter radius circle within range. Roots and vines burst forth from the ground, and creatures in the area must succeed an **Athletics** test with a +20 penalty or else be *restrained* for 1 minute. A *restrained* creature can remake the test as a *Combat Action* on its turn to free itself.
+Effect: Select a 2 meter radius circle within range. Roots and vines burst forth from the ground, and creatures in the area must succeed an **Athletics** test with a +20 penalty or else be *restrained* for 1 minute. A *restrained* creature can remake the test as a combat action on its turn to free itself.
 
 ### Thorn Burst Gu
 *Rank 1 Attack*

@@ -17,7 +17,7 @@ There are an uncountable number of different beast species across Southern Borde
 | Skills | |
 | ----- | ----- |
 | Close Combat | 45 |
-| Ranged Combat | 10 |
+| Ranged Attack | 10 |
 | Athletics | 44 |
 | Dodge | 55 |
 | Awareness | 30 |
@@ -41,7 +41,7 @@ There are an uncountable number of different beast species across Southern Borde
 | Skills | |
 | ----- | ----- |
 | Close Combat | 45 |
-| Ranged Combat | 10 |
+| Ranged Attack | 10 |
 | Athletics | 44 |
 | Dodge | 55 |
 | Awareness | 30 |

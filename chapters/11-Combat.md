@@ -1,7 +1,7 @@
 # Chapter 4: Combat
 
 ## Initiative
-At the beginning of combat, an initiative is rolled. If an enemy is within 3 meters of you, roll **Close Combat**. If not, roll **Ranged Combat**. The player with the most degrees of success goes first. In the case of ties, the lower number on the die goes first. If this is still tied, creatures controlled by a player go before non player characters. If the tied creatures are all player characters, they decide amongst themselves who goes first; if all are NPCs, the GM chooses. Continue this process for the rest of the combatants. 
+At the beginning of combat, an initiative is rolled. If an enemy is within 3 meters of you, roll **Close Combat**. If not, roll **Ranged Attack**. The player with the most degrees of success goes first. In the case of ties, the lower number on the die goes first. If this is still tied, creatures controlled by a player go before non player characters. If the tied creatures are all player characters, they decide amongst themselves who goes first; if all are NPCs, the GM chooses. Continue this process for the rest of the combatants. 
 
 ### Surprise
 Surprised creatures have a +20 penalty to their initiative roll and cannot take reactions until the start of their first turn.
@@ -112,7 +112,7 @@ On your turn, you can absorb the essence of a number of primeval stones equal to
 For each primeval stone being absorbed, you gain 5 portions of primeval essence, and the stone is destroyed in the process, crumbling into dust.
 
 ### Hold an Action
-You can choose to hold your Combat Action, specifying an action and a trigger for it to occur. When the trigger happens, you may use a reaction to take that Combat Action. If you are reacting to an opponent's actions, you must make an opposed skill test to see whose action occurs first, with the skill in question being **Close Combat** if within 3 meters of each other, or **Ranged Combat** if not. If you hold the **Activate Gu** action, you may only specify a single activation.
+You can choose to hold your Combat Action, specifying an action and a trigger for it to occur. When the trigger happens, you may use a reaction to take that Combat Action. If you are reacting to an opponent's actions, you must make an opposed skill test to see whose action occurs first, with the skill in question being **Close Combat** if within 3 meters of each other, or **Ranged Attack** if not. If you hold the **Activate Gu** action, you may only specify a single activation.
 
 Triggers can be specific or broad, ranging from "when the opponent uses Fire Pellet Gu" to "when a creature makes any hostile moves".
 
@@ -231,7 +231,7 @@ A creature with the *ablaze* condition is completely engulfed in flames. An *abl
 *Bleeding* creatures take 1 damage directly to their hit points at the start of each of their turns for every stack of *bleeding*. This damage has no type and cannot be reduced by Gu. Levels of *bleeding* can stack additively from the same or different sources. For every hit point a *bleeding* creature restores, reduce the number of *bleeding* stacks they have by 1.
 
 ### Blinded
-*Blinded* creatures cannot see and have a +50 penalty to **Close Combat** and **Ranged Combat** tests. Gu that rely on vision, including divinations that augment their sight, cannot be used by a *blinded* creature.
+*Blinded* creatures cannot see and have a +50 penalty to **Close Combat** and **Ranged Attack** tests. Gu that rely on vision, including divinations that augment their sight, cannot be used by a *blinded* creature.
 
 ### Burning
 *Burning* creatures take 4 heat damage directly to their hit points at the start of each of their turns. When being negated by a [**Shield**] Gu, consider this damage to be of the rank of the Gu that applied the *burning* condition, or rank 1 if the fire was natural. Being submerged in water removes the *burning* condition. A creature can use their combat action to roll around on the ground, removing the *burning* condition.
@@ -246,7 +246,7 @@ A *fatigued* creature's movement is reduced by 3 meters and makes all **Dodge** 
 Poison can have any number of effects, and a creature can gain multiple instances of the *poisoned* condition so long as each is unique. 
 
 ### Prone
-A *prone* creature has a +30 penalty to all skill tests. **Close Combat** tests made to hit a *prone* creature gain a -10 bonus. **Ranged Combat** tests made to hit a *prone* creature gain a +10 penalty. A creature can expend half their movement to stand up.
+A *prone* creature has a +30 penalty to all skill tests. **Close Combat** tests made to hit a *prone* creature gain a -10 bonus. **Ranged Attack** tests made to hit a *prone* creature gain a +10 penalty. A creature can expend half their movement to stand up.
 
 ### Restrained
 A *restrained* creature's movement is 0. A *restrained* creature automatically fails all **Dodge** and **Flying** tests.

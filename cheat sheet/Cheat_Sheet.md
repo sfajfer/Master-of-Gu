@@ -26,7 +26,7 @@ geometry:
 
 ## Combat
 
-- **Initiative:** Roll Close Combat (if enemy <= 3m) or Ranged Combat. Most degrees of success acts first. In the case of ties, the lower number on the die goes first.
+- **Initiative:** Roll Close Combat (if enemy <= 3m) or Ranged Attack. Most degrees of success acts first. In the case of ties, the lower number on the die goes first.
 - **Turn:** 10 seconds.  
   - Actions: 1 Combat Action, 2 Reactions, 1 Bonus Action, Movement.
 - **Movement:** Move meters = movement stat. Jumping costs half movement.
@@ -55,7 +55,7 @@ geometry:
 - **Dazed:** 2 fewer activations per turn. Removed at the end of your turn.
 - **Restrained:** Movement 0, auto-fail Dodge/Flying.
 - **Stunned:** No actions or reactions. Is removed at the end of your turn and replaced with *dazed*
-- **Prone:** +30 penalty to all skill tests. **Close Combat** tests made to hit a *prone* creature gain a -10 bonus. **Ranged Combat** tests made to hit a *prone* creature gain a +10 penalty. Expend half movement to stand up.
+- **Prone:** +30 penalty to all skill tests. **Close Combat** tests made to hit a *prone* creature gain a -10 bonus. **Ranged Attack** tests made to hit a *prone* creature gain a +10 penalty. Expend half movement to stand up.
 - **Poisoned:** Poison can have any number of effects, and a creature can gain multiple instances of the *poisoned* condition so long as each is unique. 
 - **Final Stand:** Can only activate Gu or hold action. Any damage = Dying.
 - **Dying:** Unconscious. Perseverance test each turn; 3 Perseverance Tokens (successes) = Final Stand, 3 Predicament Tokens (fails) = Death.
