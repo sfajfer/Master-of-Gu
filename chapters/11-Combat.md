@@ -102,7 +102,7 @@ When you make an attack roll against a creature, you can choose to pick a partic
 | Huge | -40 |
 
 ### Grapple
-Select an enemy of equal or lesser size in an adjacent square. Roll an opposed **Athletics** test against them. If you win, The creature is *restrained* and now occupies the same square as you while *restrained* in this way. While you are grappling a creature, you may not make kicking attacks and the number of punching attacks you can make using the **Melee Attack** action is reduced by 1. You may expend your movement to make an **Athletics** test, with a +10 penalty for every 50 kilograms the grappled target weighs. On a success, you can move up to half your movement (rounded down).
+Select an enemy of equal or lesser size in an adjacent square. Roll an opposed **Athletics** test against them. If you win, The creature is *restrained* and now occupies the same square as you while *restrained* in this way. While you are grappling a creature, you may not make kicking attacks and the number of free hands you can make punching attacks with using the **Melee Attack** action is reduced by 1. You may expend your movement to make an **Athletics** test, with a +10 penalty for every 50 kilograms the grappled target weighs. On a success, you can move up to half your movement (rounded down).
 
 As a combat action, a grappled creature can attempt to break free, making an opposed **Athletics** test against the grappler. On a success, they break free.
 

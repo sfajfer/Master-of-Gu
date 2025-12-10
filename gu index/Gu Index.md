@@ -102,6 +102,22 @@ Keywords: [**Sustained**]
 
 Effect: You manifest a [**Large**] 2 meter tall hand made of blood mist in an unoccupied space that you can see within range. As a bonus action, you may move the hand up to 10 meters through occupied or unoccupied spaces. Any creatures in the space moved through by the hand take 200 force damage. If this damage is dealt to their hit points and they have blood in their body, they turn into a puddle of blood and die.
 
+### Blood Hatred Gu
+
+*Rank 3 Carver*
+
+Cost: 15 portions
+
+Range: 10 meters
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Effect: This Gu must be submerged in the blood of a single creature to be activated. All creatures within range must succeed a **Perseverance** test or else gain a **Hatred Token**. Affected creatures have a dislike for the family line of the creature whose blood was used to activate Blood Hatred Gu. A creature with 3 tokens will refuse to consort with any members of the bloodline, while a creature with 5 tokens will seek to kill them on sight.
+
+A creature can have up to 5 **Hatred Tokens** for a single bloodline, and the hatred grows stronger the closer a person is to the creature whose blood was used to activate Blood Hatred Gu.
+
 ### Blood Pouch Gu
 *Rank 1-5 Container*
 
@@ -148,7 +164,7 @@ Effect: Dense red clouds manifest high above you in the sky. Blood pours from th
 
 Cost: 12 portions
 
-Range: {10, 20, 100, 1,000} meters
+Range: {1, 10, 100, 1000} kilometers
 
 Health: 14
 
@@ -504,6 +520,86 @@ Effect: Crystal Ladybug Gu drinks up to 10 liters of liquid it is submerged in, 
 
 Pushing your finger into Crystal Ladybug Gu's head causes it to expel any amount of stored liquid (depending on how hard you press).
 
+[**Upgrade Path: Diaoyu Fortress Gu**]
+
+### Stoneflesh Gu
+
+*Rank 1 Guard*
+
+*Next Rank:* Stoneheart Gu
+
+Cost: 5 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**], [**Sustained**]
+
+Effect: While sustained, your flesh is transmuted into a dense bedrock. You cannot move or be moved from your square, and whenever you take damage to your hit points, reduce the damage dealt by 15.
+
+### Stoneskin Gu
+
+*Rank 2 Guard*
+
+*Previous Rank:* Stoneflesh Gu
+
+*Next Rank:* Mountain Pass Gu
+
+Cost: 12 portions
+
+Range: Self
+
+Health: 80
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**], [**Shield**], [**Sustained**]
+
+Effect: While sustained, your skin is transmuted into a dense bedrock. Stoneskin Gu has invulnerability to rending damage and cannot block sonic damage. Reduce all force damage dealt to Stoneskin Gu by 15.
+
+### Mountain Pass Gu
+
+*Rank 3 Guard*
+
+*Previous Rank:* Stoneskin Gu
+
+*Next Rank:* Diaoyu Fortress Gu
+
+Cost: 70 portions
+
+Range: 10 meters
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Effect: Choose two 10 meter long, 1 meter wide lines. Large stones burst from the ground in the lines; any creatures that do not dodge are knocked *prone* to a random side of the line. The rocks are 5 meters tall and creatures have a +40 penalty to **Athletics** tests made to climb them. Dealing 50 hit points worth of damage to a square filled with rocks destroys them in that square, and the rocks have all damage dealt to them except sonic reduced by 100.
+
+While you remain within 2 meters of the square you originally activated this Gu, reduce all damage dealt to your hit points by 50. The rocks are permanent but the effect ends after 1 hour.
+
+### Diaoyu Fortress Gu
+
+*Rank 4 Guard*
+
+*Previous Rank:* Mountain Pass Gu
+
+Cost: 120 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**], [**Shield**]
+
+Effect: Dense stone walls rise in a 5 meter by 5 meter square perimeter, centered on your square. Any creatures occupying a square the walls rise in that do not dodge are knocked *prone* to a random side of the wall. The walls are 3 meters high and **Athletics** tests made to climb them are made with a -10 bonus. While you are within the perimeter, including on top of the walls, you have resistance to all damage and reduce all damage dealt to your hit points by 75. The walls are permanent but the effect ends after 1 day.
+
+[**END**]
+
 ### Granite Bones Gu
 *Rank 2 Carver*
 
@@ -601,8 +697,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you can sense the exact square a creature within range moves to.
-
+Effect: While sustained, you can sense the exact square a creature within range moves to as long as they are touching the ground.
 
 ### Thousand-Li Earthwolf Spider Gu
 *Rank 5 Celerity*
@@ -1192,19 +1287,19 @@ Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 Effect: While sustained, a cloak of smoldering embers surrounds you. Any creature that hits you with a melee attack takes 8 heat damage and gains the *burning* condition. You gain immunity to the *burning* and *ablaze* conditions, and any heat damage dealt to Smoldering Cloak Gu is reduced by 10, to a minimum of 0.
 
 ### Sprinting Drake Gu
-*Rank 3 Attack*
+*Rank 2-3 Attack*
 
 Cost: 20 portions
 
 Range: Self
 
-Health: 80
+Health: {25, 80}
 
 Food: 1 kg ever-burning coals (30 primeval stones)
 
 Keywords: [**Steed**], [**Medium**]
 
-Effect: This Gu has a speed of 4 meters. While riding it, you can move through hostile creatures' space (but cannot end your turn in their space). If you do, they take 20 heat damage and gain the *burning* condition. When you activate Sprinting Drake Gu while riding it, it immediately sprints up to 20 meters in a straight line; moving through a creature's space with this movement deals 80 heat damage instead of 20 and applies *ablaze* instead of *burning*.
+Effect: This Gu has a speed of 4 meters. While riding it, you can move through hostile creatures' space (but cannot end your turn in their space). If you do, they take 10 heat damage and gain the *burning* condition. When you activate Sprinting Drake Gu while riding it, it immediately sprints up to {5, 20} meters in a straight line; moving through a creature's space with this movement deals 20 heat damage instead of 10 and applies *ablaze* instead of *burning*.
 
 ### Temper Soul Gu
 *Rank 3 Carver*
@@ -1967,8 +2062,28 @@ Keywords: [**Defensive**], [**Sustained**]
 
 Effect: While sustained, this Gu negates and stores all heat damage dealt to your hit points, to a maximum of {20, 50}. If you hit a creature with an unarmed melee attack, deal additional heat damage equal to the damage stored inside Heatsink Gu to the target. When you stop sustaining Heatsink Gu, its stored damage reverts to 0.
 
-### Iron Hand Grappling Gu
+### Ironfist Grappling Gu 
+
+*Rank 3-5 Attack*
+
+*Previous Rank:* Iron Hand Gu
+
+Cost: 15 portions
+
+Range: 5 meters
+
+Health: 6
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, you manifest a [**Medium**] hand made of black iron in an unoccupied square within range. Pick a creature within range. At the end of each of your turns, the hand moves up to 10 meters towards the target and attempts to grab them. If the target does not successfully dodge the grab, they are *restrained* by the hand. A creature can break free by succeeding an **Athletics** test with a {+30, +70, +120} penalty.
+
+### Iron Hand Gu
 *Rank 2 Manifestation*
+
+*Next Rank:* Ironfist Grappling Gu
 
 Cost: 3 portions
 
@@ -2268,11 +2383,11 @@ Effect: Change the range of your next Gu activation to a meter. Has no effect on
 ### Hundred Meter Gu
 *Rank 3 Catalyst*
 
-Cost:  portions
+Cost: 30 portions
 
-Range:
+Range: Self
 
-Health:
+Health: 3
 
 Food: <!-- TODO ->
 
@@ -2409,6 +2524,20 @@ Health: 10
 Food: <!-- TODO ->
 
 Effect: The deafening sound of a horn fills the area within range for a few seconds. The sound is harmless.
+
+### Heaven and Earth Magnificent Sound Gu
+
+*Rank 5 Attack*
+
+Cost: 10 portions
+
+Range: 25 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: Your voice erupts with a beautiful but ear-piercing melody. All creatures within range take 100 sonic damage.
 
 ### Tripwire Gu
 *An infinitesmally thin worm that attaches itself to the wall and alerts the user when a creature passes through. Its biggest weakness is that there is no way to know which one was tripped if the user has multiple Tripwire Gu set up.*
@@ -2753,7 +2882,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
-Effect: While sustained, a spectral sword and shield manifest in front of you. Whenever a creature makes a **Close Combat** roll against you, you may use a reaction to have the sword swing at the attacker, dealing {35, 80} rending damage on a hit. Rending damage dealt to Aegis Gu's hitpoints are reduced by {5, 15}. 
+Effect: While sustained, a spectral sword and shield manifest in front of you. Whenever a creature makes a **Close Combat** roll against you, you may use a reaction to have the sword swing at the attacker, dealing {35, 80} rending damage on a hit. Reduce all rending damage dealt to Aegis Gu's hitpoints by {5, 15}. 
 
 ### Flash Sword Gu
 *Rank 4 Celerity*
@@ -2788,7 +2917,7 @@ Effect: A piercing light shoots from your finger at a target within range. Make 
 ### Separate Gu
 *Rank 1 Attack*
 
-Cost:  portions
+Cost: 8 portions
 
 Range: Touch
 
@@ -3037,7 +3166,7 @@ Keywords: [**Sustained**]
 
 Effect: Your arms grow dramatically in length, increasing the range of all your melee attacks by 1 meter while sustained. Your touch range also increases by 1 meter.
 
-[**Upgrade Path: Flying Zombie Gu**] <!-- TODO ->
+[**Upgrade Path: Flying Zombie Gu**]
 
 ### Roaming Zombie Gu
 
@@ -3413,7 +3542,7 @@ Food: 1 kg of mashed fruits (1/4 primeval stone)
 
 Keywords: [**Sustained**], [**Defensive**], [**Shield**]
 
-Effect: While sustained, you're surrounded by a bubble of viscous jelly that shields you from outside attacks. You cannot move, dodge, or make melee attacks, and you gain immunity to the *burning* and *ablaze* conditions. Force damage dealt to Jelly Bubble Gu is reduced by 30.
+Effect: While sustained, you're surrounded by a bubble of viscous jelly that shields you from outside attacks. You cannot move, dodge, or make melee attacks, and you gain immunity to the *burning* and *ablaze* conditions. Reduce all force damage dealt to Jelly Bubble Gu by 30.
 
 ### Faucet Gu
 *Rank 1 Manifestation*
@@ -3702,6 +3831,20 @@ Food:
 
 Effect: A creature of your choice that you can see within range regains 2 hit points.
 
+### Shared Sense Gu
+
+*Rank 3 Divination*
+
+Cost: 90 portions
+
+Range: Touch
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: You touch a creature and implant Shared Sense Gu on their body. This process is painless and impossible to feel, and Shared Sense Gu is undetectable by divinations of rank 3 or below. While implanted, you may use your combat action to close your eyes and connect with Shared Sense Gu, immediately learning the exact location of the target and switching from using your senses to theirs. You can see, smell, hear, feel, and taste whatever the target is while sharing their senses, and can end the effect at any time.
+
 ### Sharp Intent Gu
 *Rank 3-4 Manifestation*
 
@@ -3900,6 +4043,22 @@ While sustained, you return to your maximum hit points, heal all diseases, and r
 
 [**END**]
 
+### Cactus Pointer Gu
+
+*Rank 3 Divination*
+
+Cost: 5 portions
+
+Range: Self
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable**]
+
+Effect: You pluck the flower atop Cactus Pointer Gu. Cactus Pointer Gu withers and dies, and a word appears on the plucked flower. The word is chosen by the GM, and will be related to your current goal, pointing you in the right direction. It can be a name, object, or place, but must be a single word, or a single name if the name is more than one word.
+
 ### Creamy Sap Gu
 *Rank 1 Tonic*
 
@@ -3920,7 +4079,7 @@ Cost: 4 portions
 
 Range: Touch
 
-Health: 12
+Health: 6
 
 Food: 5 kilograms of moss
 
@@ -3950,7 +4109,7 @@ Cost: 10 portions
 
 Range: Touch
 
-Health: <!-- TODO ->
+Health: 5
 
 Food: <!-- TODO ->
 
@@ -3965,7 +4124,7 @@ Range: Self
 
 Health: 7
 
-Food: 
+Food: <!-- TODO ->
 
 Effect: Healing Sprout Gu sprouts a healing leaf. The leaf can be plucked from Healing Sprout Gu. A creature can eat a healing leaf as a bonus action to regain 4 hit points.
 
@@ -4030,6 +4189,20 @@ Food: Natural primeval essence (none)
 Keywords: [**Expendable**]
 
 Effect: You immediately regain 50 primeval essence. This essence is of the same rank as this Gu; if that rank is below your own, you instead gain only 1 primeval essence. If that rank is above your own, multiply the amount of primeval essence gained by 4 for each rank above your own.
+
+### Problem Nipped in the Bud Gu
+
+*Rank 4 Attack*
+
+Cost: 20 portions
+
+Range: Touch
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: You touch a Gu Master with the *restrained* condition between their eyes, and Problem Nipped in the Bud Gu attaches to their head. At the end of each of your turns, a random Gu is extracted from their aperture and the will inside is obliterated, turning the Gu wild. If the target loses the *restrained* condition, Problem Nipped in the Bud Gu deactivates.
 
 ### Regrowth Gu
 *Rank 1 Tonic*
