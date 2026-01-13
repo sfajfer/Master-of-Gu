@@ -69,7 +69,7 @@ Range: Self
 Health: 21
 
 Food: 50 liters of blood
-Keywords: [**Sustained**], [**Dao**]
+Keywords: [**Dao**], [**Sustained**]
 
 Effect: The roots of the blood demon flower pierce your flesh and wind around your limbs, and a great red flower sprouts from your head. Your flesh wrinkles and clings to your bones. 
 
@@ -2677,7 +2677,7 @@ Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. 
 
 When you make an unarmed attack, you gain the following option:
 
-**Bite:** You viciously bite the target. Roll a **Close Combat** skill test. On a hit, deal 2 rending damage, +1 damage for every 5 points you have in Strength. The target is inflicted with *bleeding X*, where X is equal to 20% of the damage dealt to their hit points, rounded down (to a minimum of 0).
+Your bite attacks deal an additional 10 rending damage.
 
 ### Deer Strength Gu
 *Rank 1 Carver*
@@ -3119,7 +3119,85 @@ Effect: A silver triangle tattoo permanently appears on your chest. Your body an
 \newpage
 
 ## $\centerline{Transformation Path}$
-*Changing the users body temporarily. Transformation path Gu Masters rely on acquiring a full set of Gu for a particular transformation. When using all component Gu together, they form a killer move that the Gu Master does not need to deduce. Transformation path is very balanced, but each transformation has strengths and weaknesses.*
+*Changing the users body temporarily. Transformation Path Gu Masters rely on acquiring a full set of Gu for a particular transformation. When using all component Gu together, they form a killer move that the Gu Master does not need to deduce. Transformation Path is very balanced, but each transformation has strengths and weaknesses.*
+
+[**Transformation: Azure Wolf**]
+
+*Azure wolves are a nearly extinct mutated beast that grow more energetic the longer they battle.*
+
+While you are sustaining all Gu included in this transformation, you gain the following feature:
+
+At the end of each of your turns, your movement increases by 1 meter, to a maximum of +5 meters, and you gain a -5 bonus to all **Close Combat** tests, to a maximum of -25.
+
+### Azure Wolf Bite Gu
+
+*Rank 4 Catalyst*
+
+Cost: 5 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: Your head transforms into an Azure Wolf head. While sustained, you gain the following features:
+
+Your sense of smell is vastly improved, and you can now make **Awareness** tests to identify and follow scents.
+
+Your bite attacks deal an additional 50 rending damage.
+
+### Azure Wolf Claw Gu
+
+*Rank 4 Catalyst*
+
+Cost: 4 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: Your hands and feet become paws, complete with razor sharp claws. Your movement is increased by 4 meters while on all fours and your punching and kicking attacks deal an additional 30 rending damage. If this damage is dealt to the target's hit points, they gain *bleeding 5*.
+
+### Azure Wolf Skin Gu
+
+*Rank 4 Guard*
+
+Cost: 6 portions
+
+Range: Self
+
+Health: 250
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**], [**Shield**], [**Sustained**]
+
+Effect: While sustained, thick Azure Wolf hairs sprout all over your body, covering you in a protective coat. Azure Wolf Skin Gu cannot block sonic damage.
+
+[**End**]
+
+### Black Mane Gu
+
+*Rank 2 Guard*
+
+Cost: 4 portions
+
+Range: Self
+
+Health: 40
+
+Food: <!-- TODO ->
+
+Keywords: [**Shield**], [**Sustained**]
+
+Effect: Your body is covered in a dense thicket of black fur. Using this Gu dyes your hair black, which slowly fades over the course of a month. Black Mane Gu cannot block sonic damage.
 
 ### Frog Legs Gu
 *Rank 1 Carver*
@@ -3143,7 +3221,7 @@ Cost: 8 portions
 
 Range: Self
 
-Health: {30, 80, 180, 425, 1000}
+Health: {25, 50, 120, 400, 1000}
 
 Food: {1, 4, 9, 16, 25} jade stones
 
@@ -3529,20 +3607,21 @@ Effect: While sustained, your hands grow to double their original size. You gain
 ## $\centerline{Water Path}$
 *Manipulates water and fluids. More defensive, but water path attacks can still be devastating.*
 
-### Jelly Bubble Gu
+### Carapace Gu
+
 *Rank 2 Guard*
 
-Cost: 3 portions
+Cost: 2 portions
 
 Range: Self
 
-Health: 90
+Health: 6
 
-Food: 1 kg of mashed fruits (1/4 primeval stone)
+Food: <!-- TODO ->
 
-Keywords: [**Sustained**], [**Defensive**], [**Shield**]
+Keywords: [**Defensive**], [**Sustained**]
 
-Effect: While sustained, you're surrounded by a bubble of viscous jelly that shields you from outside attacks. You cannot move, dodge, or make melee attacks, and you gain immunity to the *burning* and *ablaze* conditions. Reduce all force damage dealt to Jelly Bubble Gu by 30.
+Effect: A sleek turtle shell forms around your torso. Whenever you are hit by a single-target attack roll that was not a called shot, there is a 50% chance it hits your torso. Reduce all damage dealt to your torso by 40. If your torso takes more than 40 damage from a single attack, Carapace Gu deactivates and takes 1d6 damage as backlash.
 
 ### Faucet Gu
 *Rank 1 Manifestation*
@@ -3556,6 +3635,22 @@ Health: 10
 Food: <!-- TODO ->
 
 Effect: 5 liters of fresh water pours from your fingertip.
+
+### Fish Scales Gu
+
+*Rank 1-3 Guard*
+
+Cost: 5 portions
+
+Range: Self
+
+Health: {22, 45, 100}
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**], [**Shield**], [**Sustained**]
+
+Effect: Your skin turns into layered scales while sustained. Reduce all cold damage dealt to Fish Scales Gu by {5, 12, 30}. Fish Scales Gu cannot block sonic damage.
 
 ### Flow Gu
 *Rank 2-4 Celerity*
@@ -3571,6 +3666,21 @@ Food: 1 liter of distilled water
 Keywords: [**Sustained**]
 
 Effect: While sustained, your movement is increased by {2, 5, 10} meters. You no longer consider swimming in water to be difficult terrain.
+
+### Jelly Bubble Gu
+*Rank 2 Guard*
+
+Cost: 3 portions
+
+Range: Self
+
+Health: 90
+
+Food: 1 kg of mashed fruits (1/4 primeval stone)
+
+Keywords: [**Defensive**], [**Shield**], [**Sustained**]
+
+Effect: While sustained, you're surrounded by a bubble of viscous jelly that shields you from outside attacks. You cannot move, dodge, or make melee attacks, and you gain immunity to the *burning* and *ablaze* conditions. Reduce all force damage dealt to Jelly Bubble Gu by 30.
 
 ### Land Becomes Sea Gu
 *Rank 3-4 Manifestation*
@@ -3635,8 +3745,28 @@ Keywords: [**Sustained**]
 
 Effect: While sustained, your movement makes no sound.
 
+### Fierce Wind Gu
+
+*Rank 2 Guard*
+
+Next Rank: Hurricane Gu
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**]
+
+Effect: Winds pick up in a 2 meter radius, centered on the square you were in when you activated Fierce Wind Gu. **Ranged Combat** attack rolls made against any creature within the area are made with a +20 penalty. The winds disperse after one minute.
+
 ### Hurricane Gu
 *Rank 3 Manifestation*
+
+Pervious Rank: Fierce Wind Gu
 
 Cost:  portions
 
@@ -3646,7 +3776,7 @@ Health: 14
 
 Food: <!-- TODO ->
 
-Effect: Galeforce winds begin spinning within range. While sustained, all attack rolls made within range are made with a +30 penalty. If the attack rolls originates from a Gu of wind path, it instead gains a -30 bonus. If used in conjunction with large volumes of water, such as over a lake or using a Gu that produces large amounts of water, that water is spread over the area causing flooding.
+Effect: Galeforce winds begin spinning within range. While sustained, all **Ranged Combat** attack rolls made by creatures within range are made with a +30 penalty. If the attack roll originates from a Gu of wind path, it instead gains a -30 bonus. If used in conjunction with large volumes of water, such as over a lake or using a Gu that produces large amounts of water, that water is spread over the area causing flooding.
 
 :::
 \newpage

@@ -84,11 +84,13 @@ Roll a **Close Combat** skill test against an enemy within your weapon's range. 
 When wielding more than 1 weapon, you can make a number of melee attacks equal to the number of wielded weapons instead of just 1. If you elect to do so, all melee attacks made have a penalty equal to +(number of attacks * 10). You cannot wield more weapons than you have arms and hands.
 
 #### Unarmed Strike
-When you make an unarmed strike, you may make a punching attack for each arm you have. Alternatively, you may kick once.
+When you take an unarmed strike combat action, you may make a punch attack for each arm you have, or a single kick attack or bite attack.
 
-Punching Attack: Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 1 force damage, +1 damage for every 10 points you have in Strength. For every 5 damage dealt, even if it is reduced, you take 1 force damage directly to your hit points. Gu such as Metal Skin Gu and Copper Tendons Gu are typically used to prevent your own strikes from hurting you.
+**Punch:** Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 1 force damage, +1 damage for every 10 points you have in Strength. For every 5 damage dealt, even if it is reduced, you take 1 force damage directly to your hit points. Gu such as Metal Skin Gu and Copper Tendons Gu are typically used to prevent your own strikes from hurting you.
 
-Kick: Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 1 force damage, +1 damage for every 5 points you have in Strength. The target is knocked backwards a number of meters equal to 1% of your Strength attribute (rounded down, minimum 1) and lands *prone*.
+**Kick:** Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 1 force damage, +1 damage for every 5 points you have in Strength. The target is knocked backwards a number of meters equal to 1% of your Strength attribute (rounded down, minimum 1) and lands *prone*.
+
+**Bite:** You viciously bite the target. Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 2 rending damage, +1 damage for every 5 points you have in Strength. The target is inflicted with *bleeding X*, where X is equal to 20% of the rending damage dealt to their hit points, rounded down (to a minimum of 0).
 
 ### Called Shot
 When you make an attack roll against a creature, you can choose to pick a particular body part, worn or carried item, or manifested body parts like wings as the target of your attack. A called attack roll is made with a penalty based on the size of the target; for an average person, their hands would be tiny, arms and the head are small, and the torso is medium.
@@ -206,8 +208,9 @@ When a creature takes damage to their hit points greater than or equal to half t
 - Shock: *Dazed*
 
 #### Called Shot Injuries
-When you make a called shot and successfully hit a specific body part, if damage is dealt to the creature's hit point they take a corresponding injury.
+When you make a called shot and successfully hit a specific body part, if damage is dealt to the creature's hit points they take a corresponding injury.
 
+- Hand: Broken Hand; disarmed and unusable
 - Arm: Broken Limb; Unusable
 - Torso: Internal Bleeding; *Bleeding 1*.
 - Leg: Broken Leg; -4 movement. If both legs are broken, your movement is reduced to 0.
