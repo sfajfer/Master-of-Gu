@@ -157,7 +157,7 @@ Food: 1 still beating heart
 
 Keywords: [**Sustained**]
 
-Effect: Dense red clouds manifest high above you in the sky. Blood pours from them in a thick and warm hurricane, covering the ground with a total of 1,000,000
+Effect: Dense red clouds manifest high above you in the sky. Blood pours from them in a thick and warm hurricane, covering the ground within range with a total of 1,000,000 gallons of blood.
 
 ### Blood Sense Gu
 *Rank 2-5 Divination*
@@ -3772,11 +3772,27 @@ Cost:  portions
 
 Range: 500 meters
 
-Health: 14
+Health: 5
 
 Food: <!-- TODO ->
 
 Effect: Galeforce winds begin spinning within range. While sustained, all **Ranged Combat** attack rolls made by creatures within range are made with a +30 penalty. If the attack roll originates from a Gu of wind path, it instead gains a -30 bonus. If used in conjunction with large volumes of water, such as over a lake or using a Gu that produces large amounts of water, that water is spread over the area causing flooding.
+
+### Strength Gust Gu
+
+*Rank 1 Attack*
+
+Cost: 12 portions
+
+Range: 5 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: 
+
+Effect: A huge gust of wind forces all [Large] or smaller creatures in a 3 meter wide, 5 meter long line to make an **Athletics** test. On a failure, they are pushed 10 feet away in the direction of the line and land *prone.*
 
 :::
 \newpage
