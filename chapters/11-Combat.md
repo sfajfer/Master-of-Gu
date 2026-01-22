@@ -211,9 +211,9 @@ When a creature takes damage to their hit points greater than or equal to half t
 When you make a called shot and successfully hit a specific body part, if damage is dealt to the creature's hit points they take a corresponding injury.
 
 - Hand: Broken Hand; disarmed and unusable
-- Arm: Broken Limb; Unusable
+- Arm: Crippled Limb; Unusable
 - Torso: Internal Bleeding; *Bleeding 1*.
-- Leg: Broken Leg; -4 movement. If both legs are broken, your movement is reduced to 0.
+- Leg: Crippled; -4 movement. If both legs are crippled, your movement is reduced to 0.
 - Head
 | d4 | Effect |
 | ----- | ----- |

@@ -6,6 +6,16 @@
 
 You can multitask on absorbing primeval stones in the heat of combat. Absorbing the essence of primeval stones now takes up your bonus action instead of a combat action.
 
+### Flurry
+
+*Cost:* 20 experience
+
+*Requires Fundamental Strength Path Attainment*
+
+You gain access to the **Flurry** combat action.
+
+*Flurry:* For every arm you have, make two punching attacks against a creature within 1 meter. You gain a +20 penalty to **Dodge** tests and **Close Combat** tests made to parry attacks until the start of your next turn.
+
 ### Flying Master
 
 *Cost:* 45 experience
@@ -35,9 +45,36 @@ You gain a -10 bonus to **Close Combat** tests on unarmed attacks and parries wh
 You can sustain an additional Gu every turn without incurring damage to your soul.
 
 ### Multi-Weapon Fighting
+
 *Cost:* 20 experience
 
 You can make a number of melee attacks as part of a melee attack combat action as you have wielded weapons, with a +10 penalty to each attack. When wielding only 2 weapons, this penalty is removed.
+
+### Natural Muscle Training
+
+*Cost:* 10 experience
+
+*Can be purchased up to 10 times*
+
+Your Strength attribute is permanently increased by 5.
+
+### Pain Tolerance
+
+*Cost:* 10 experience
+
+*Requires Intermediate Strength Path Attainment*
+
+*Can be purchased up to 3 times*
+
+Your maximum hit points are increased by 5, and you gain a -10 bonus to all **Perseverance** tests.
+
+### [Path] Scholar
+
+*Cost:* 15 experience
+
+*Requires Fundamental [Path] Attainment*
+
+You gain a -20 bonus to **Knowledge (Gu)** tests made to identify [Path] Gu.
 
 ### Sentinel
 *Cost:* 20 experience
@@ -67,37 +104,75 @@ When you purchase this talent, pick a class of mundane weapons (swords, spears, 
 You gain a -10 bonus on close combat and ranged attack rolls made with the chosen weapon for each time you've purchased this talent and selected that weapon.
 If a Gu is very close in form to the chosen weapon, you still get this bonus. This usually includes higher ranked versions of the same Gu.
 
+### Wrestling Techniques
+
+*Cost:* 10 Experience
+
+*Requires Fundamental Strength Path Attainment*
+
+*Can be purchased up to 3 times*
+
+You gain a -10 bonus to **Athletics** tests resulting from the **Grapple** combat action.
+
+## Refinement Techniques
+
+Refinement techniques are used to improve the Gu refinement process in many different ways, such as reducing the difficulty, duration, or even material cost of a refinement recipe. Only one refinement technique can be used on a recipe at a time.
+
+### Hairy Man Heaven and Earth
+
+*Condenses Gu from Heaven and Earth, opposed to Human Isolation Style. This technique is normally known only to Hairy Men, and takes great practice to perform.*
+
+*Cost:* 50 experience
+
+You gain acess to the Hairy Man Heaven and Earth refinement technique. When you use the Hairy Man Heaven and Earth refinement technique, you gain a -40 bonus to **Refinement** tests, and their failure die is increased by 1 stage (d4 -> d6 -> d8...).
+
+### Shower
+
+*Cost:* 20 experience
+
+*Requires Fundamental Water Path Attainment*
+
+You gain access to the Shower refinement technique. When you use the Shower refinement technique, you gain a -10 bonus to **Refinement** tests, and the duration of the recipe is reduced by 1/3 (rounded down to the nearest hour).
+
+### Starfall
+
+*Cost:* 10 experience
+
+*Requires Fundamental Fire Path Attainment*
+
+You gain access to the Starfall refinement technique. When you use the Starfall refinement technique, you gain a -10 bonus to **Refinement** tests, increased to -20 when refining Fire Path Gu. This technique cannot be used to refine Water Path or Ice Path Gu.
+
 ## Path Attainments
 
 It's difficult to use Gu of a path you aren't familiar with. Every character starts with *Fundamental* attainment in a single path. Oftentimes, a Gu Master that achieves master level attainment in any path gains great fame for their accomplishment, and may be contacted by other forces to refine Gu or complete difficult tasks related to the path.
 
 You cannot purchase a path attainment unless you have purchased all previous attainments in the same path. So you cannot purchase master attainment in a path unless you also have purchased fundamantal and intermediate attainment.
 
-### [] Path Attainment
+### [Path] Attainment
 
 **Fundamental**
 
 *Cost:* 30 experience
 
-You gain an additional bonus action that can only be used to activate a single [] path Gu on your turn.
+You gain an additional bonus action that can only be used to activate a single [Path] Gu on your turn.
 
 **Intermediate**
 
 *Cost:* 50 experience
 
-Your understanding of [] path has reached a qualitative change, and you gain the following benefits:
+Your understanding of [Path] has reached a qualitative change, and you gain the following benefits:
 
-- You gain a -20 bonus to all **Refinement** and **Knowledge (Gu)** tests to refine or identify [] path Gu.
-- **Deduction** tests made to develop killer moves gain a -10 bonus if they have a [] path Gu in its core.
+- You gain a -20 bonus to all **Refinement** and **Knowledge (Gu)** tests to refine or identify [Path] Gu.
+- **Deduction** tests made to develop killer moves gain a -10 bonus if they have a [Path] Gu in its core.
 
 **Master**
 
 *Cost:* 100 experience
 
-Your understanding of [] path reaches the apex of mortal comprehension. You gain the following benefits:
+Your understanding of [Path] reaches the apex of mortal comprehension. You gain the following benefits:
 
-- You automatically succeed all **Refinement** and **Deduction** tests to refine or improve the recipe of [] path Gu, so long as the Gu is of a lower rank than you. You still have to roll the failure die after a successful refinement.
-- You gain a -30 bonus to all **Refinement** and **Knowledge (Gu)** tests to refine or identify [] path Gu.
-- You gain a -30 bonus to **Deduction** tests made to improve or create refinement recipes for [] path Gu.
+- You automatically succeed all **Refinement** and **Deduction** tests to refine or improve the recipe of [Path] Gu, so long as the Gu is of a lower rank than you. You still have to roll the failure die after a successful refinement.
+- You gain a -30 bonus to all **Refinement** and **Knowledge (Gu)** tests to refine or identify [Path] Gu.
+- You gain a -30 bonus to **Deduction** tests made to improve or create refinement recipes for [Path] Gu.
 
 \newpage
