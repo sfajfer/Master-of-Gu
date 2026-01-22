@@ -1314,7 +1314,89 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your maximum soul is permanently increased by 5.
+Effect: Your maximum soul is permanently increased by 8.
+
+[**Upgrade Path: Vengeful Sun Gu**]
+
+### Flaming Fist Gu
+
+*Rank 1 Attack*
+
+Next Rank:
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Keywords: 
+
+Effect: While sustained, your punching attacks deal an additional 4 heat damage
+
+### 
+
+*Rank *
+
+Previous Rank:
+
+Next Rank:
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Keywords: 
+
+Effect: 
+
+### 
+
+*Rank *
+
+Previous Rank:
+
+Next Rank:
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Keywords: 
+
+Effect: 
+
+### Vengeful Sun Gu
+
+*Rank 4 Attack*
+
+Previous Rank:
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Keywords: 
+
+Effect: 
+
+
+
+[**END**]
 
 :::
 \newpage
@@ -1395,6 +1477,28 @@ Food: <!-- TODO ->
 Keywords: [**Sustained**]
 
 Effect: While sustained, you sap the heat of nearby creatures; if a creature starts its turn within range, it takes 20 cold damage. If this damage was dealt to their hit points, they gain the *fatigued* condition.
+
+### Heat Transference Gu
+
+*Rank 2 Attack*
+
+Cost: 12 portions
+
+Range: 3 meters
+
+Health: 6
+
+Food: 100 g of smoldering stone (1 primeval stone)
+
+Keywords: 
+
+Effect: You transfer the heat from your own body into a target within range. You take 4 cold damage directly to your hit points. 
+
+Creature: They take 15 heat damage directly to their hit points. 
+
+Flammable object: It bursts into flames, inflicting the *burning* condition on a creature holding or wearing it. 
+
+Metal object: It glows red hot for 1 minute. A creature holding the object must succeed a **Perseverance** test or else drop the object. If the object is worn or carried by a creature, that creature takes 8 heat damage at the start of each of their turns.
 
 ### Hibernation Gu
 *Hibernation Gu is a 1 foot tall bear. If it is sleeping, that means someone is under its effects.*
@@ -1534,8 +1638,6 @@ Food: <!-- TODO ->
 Keywords: [**Sustained**]
 
 Effect: Pick a square that you can see within range. While sustained, a storm of razor sharp icicles and cutting winds is manifested around it. Any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage.
-
-
 
 [**END**]
 
@@ -1780,7 +1882,7 @@ Range: 10 meters
 
 Health: 2
 
-Food: 100 grams of combustion leaves (1 primeval stone)
+Food: 100 g of combustion leaves (1 primeval stone)
 
 Keywords: [**Unreactable**]
 
@@ -1927,6 +2029,49 @@ Food: 100 g of bismuth (3 primeval stones)
 
 Effect: Make an attack roll against a creature within range. On a hit, cubes of bismuth pierce their flesh and skin from inside their body, dealing 8 force damage directly to their hit points. If this damage is dealt to their hit points, they gain *bleeding 4*.
 
+### Beast Maddening Bullet Gu
+*Rank 2 Attack*
+
+Cost: 3 portions
+
+Range: 15 meters
+
+Health: 3
+
+Food: 100 g of will grass ashes (5 primeval stones)
+
+Keywords: [**Unreactable**]
+
+You fire a tiny shard of metal infused with your will at a beast within range. Make an attack roll with advantage; on a hit, it embeds itself deep into their muscle layer and maintains a semi-permanent link with the user.
+
+If the target was unaware of your attack, they must succeed an **Awareness** test with a +10 penalty or else remain unaware of the beast maddening bullet under their skin. The beast maddening bullet can be physically extracted, at which point it loses its effect. If the beast dies, the effect ends.
+
+While a creature is implanted by the beast maddening bullet, activating this Gu has the following effect:
+
+The implanted beast immediately uses a reaction to make a melee attack against another creature of your choice within range.
+
+### Beast Tag Bullet Gu
+*Rank 2 Attack*
+
+Cost: 5 portions
+
+Range: 20 meters
+
+Health: 4
+
+Food: 100 g of feather soil (2 primeval stones)
+
+Keywords: [**Unreactable**]
+
+You fire a tiny shard of metal at a target within range. Make an attack roll with advantage; on a hit, it embeds itself deep into their muscle layer and maintains a link with any beasts enslaved by you.
+
+If the target was unaware of your attack, they must succeed an **Awareness** test with a +10 penalty or else remain unaware of the beast tag bullet under their skin. Any beasts enslaved by you can sense the targets exact location as long as they are on the same continent. The beast tag bullet can be physically extracted, at which point it loses its effect. If the target dies, the effect ends.
+
+While a creature is implanted by the beast tag bullet, activating this Gu has the following effect:
+
+Any beasts enslaved by you that can see the target use a reaction to immediately move up to half of their movement towards the target before making a melee attack against the target if they are within range.
+
+
 ### Bullet Gu
 *Rank 1 Attack*
 
@@ -1981,7 +2126,7 @@ Range: Self
 
 Health: 14
 
-Food: 10g golden phoenix feather (20 primeval stones)
+Food: 10 g of golden phoenix feather (20 primeval stones)
 
 Keywords: [**Sustained**]
 
@@ -2629,7 +2774,7 @@ Range: Self
 
 Health: 11
 
-Food: 10 kilograms of bear flesh
+Food: 10 kg of bear flesh
 
 Keywords: [**Dao**]
 
@@ -2646,7 +2791,7 @@ Range: Self
 
 Health: 9
 
-Food: 10 kilograms of boar flesh
+Food: 10 kg of boar flesh
 
 Keywords: [**Dao**]
 
@@ -2667,7 +2812,7 @@ Range: Self
 
 Health: 9
 
-Food: 10 kilograms of crocodile flesh
+Food: 10 kg of crocodile flesh
 
 Keywords: [**Dao**]
 
@@ -2688,7 +2833,7 @@ Range: Self
 
 Health: 9
 
-Food: 10 kilograms of deer flesh
+Food: 10 kg of deer flesh
 
 Keywords: [**Dao**]
 
@@ -2707,7 +2852,7 @@ Range: Self
 
 Health: 9
 
-Food: 10 kilograms of wolf flesh
+Food: 10 kg of wolf flesh
 
 Keywords: [**Dao**]
 
@@ -3788,9 +3933,7 @@ Range: 5 meters
 
 Health: 3
 
-Food: <!-- TODO ->
-
-Keywords: 
+Food: 100 g of feather soil (2 primeval stones)
 
 Effect: A huge gust of wind forces all [Large] or smaller creatures in a 3 meter wide, 5 meter long line to make an **Athletics** test. On a failure, they are pushed 10 feet away in the direction of the line and land *prone.*
 
@@ -3828,6 +3971,22 @@ Food: 1 liter of pure water
 Keywords: [**Deductive**]
 
 Effect: A cloud of thoughts rumbles above your head, granting you Advantage on a Deduction skill test.
+
+### Awaken Soul Gu
+
+*Rank 2 Catalyst*
+
+Cost: 10 portions
+
+Range: Self
+
+Health: 4
+
+Food: 100 g of soul stricken grass (6 primeval stones)
+
+Keywords: [**Expendable**]
+
+Effect: Your maximum soul is increased by 3.
 
 ### Battle Will Gu
 *Rank 3 Catalyst*
@@ -3920,19 +4079,19 @@ Little Wills can also be left pretty much anywhere along with a Gu. When a condi
 Little Wills can exist for up to 6 months before vanishing.
 
 ### Martial Art Mantis Gu
-*Rank 1-2 Catalyst*
+*Rank 2 Catalyst*
 
-Cost: 8 portions
+Cost: 12 portions
 
 Range: Self
 
-Health: 15
+Health: 5
 
-Food: <!-- TODO ->
+Food: 10 g of Purple Autumn Grass (3 primeval stones)
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you gain a {-10, -20} bonus to **Close Combat** tests.
+Effect: While sustained, your unarmed strike **Close Combat** tests gain a (–5 × your maximum activations) bonus.
 
 ### Mind Fortress Gu
 *Rank 1-5 Guard*
@@ -4227,7 +4386,7 @@ Range: Touch
 
 Health: 6
 
-Food: 5 kilograms of moss
+Food: 5 kg of moss
 
 Effect: You or a creature you touch sprout a thick moss for 1 hour that blends in with forestry. While in a wooded or grassy area, they are invisible.
 

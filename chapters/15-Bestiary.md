@@ -4,6 +4,7 @@ There are an uncountable number of different beast species across Southern Borde
 Wild Gu on a beast king can choose to activate one time at any point on the beast's turn, or in reaction to a trigger if the Gu could ordinarily be activated as a reaction to the triggering effect.
 
 ### Iron Beak Crane Swarm
+*Swarm of Ordinary Beasts*
 | Attributes | |
 | ----- | ----- |
 | HP | 60 |
@@ -106,6 +107,9 @@ Roll 2d6 (rerolling duplicates)
 6 - 
 
 ### Lightning Wolf
+
+*Ordinary Beast*
+
 | Attributes | |
 | ----- | ----- |
 | HP | 50 |
@@ -126,8 +130,9 @@ Roll 2d6 (rerolling duplicates)
 | Dodge | 55 |
 | Awareness | 30 |
 
-| Combat Actions | 
-**Bite.** *Melee Attack, 1 meter* The lightning wolf bites a target. On a hit, deal 4 rending damage. 
+| Combat Actions | |
+| ----- | ----- |
+| **Bite.** *Melee Attack, 1 meter* | The lightning wolf bites a target. On a hit, deal 4 rending damage. |
 
 ### Lightning Wolf (Hundred Beast King)
 | Attributes | |

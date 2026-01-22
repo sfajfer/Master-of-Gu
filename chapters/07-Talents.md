@@ -12,6 +12,12 @@ You can multitask on absorbing primeval stones in the heat of combat. Absorbing 
 
 Taking flight no longer expends one of your maneuvers per turn. Your **Flying** skill is increased by 20 points.
 
+### Grappler
+
+*Cost:* 20 experience
+
+You have advantage on **Athletics** tests made to grapple a creature. When you successfully grapple a creature, you may make a single punching attack against them as part of the *Grapple* combat action.
+
 ### Martial Artist
 
 *Cost:* 20 experience
@@ -32,6 +38,11 @@ You can sustain an additional Gu every turn without incurring damage to your sou
 *Cost:* 20 experience
 
 You can make a number of melee attacks as part of a melee attack combat action as you have wielded weapons, with a +10 penalty to each attack. When wielding only 2 weapons, this penalty is removed.
+
+### Sentinel
+*Cost:* 20 experience
+
+Whenever a creature within your melee range makes a melee attack against your ally, you may use the *Parry* reaction against it. You gain a -10 bonus to all **Close Combat** tests made as part of the *Parry* reaction (including the follow up attack).
 
 ### Tough
 
