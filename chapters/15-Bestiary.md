@@ -4,7 +4,11 @@ There are an uncountable number of different beast species across Southern Borde
 Wild Gu on a beast king can choose to activate one time at any point on the beast's turn, or in reaction to a trigger if the Gu could ordinarily be activated as a reaction to the triggering effect.
 
 ### Iron Beak Crane Swarm
+
 *Swarm of Ordinary Beasts*
+
+CR: 11
+
 | Attributes | |
 | ----- | ----- |
 | HP | 60 |
@@ -31,6 +35,9 @@ Wild Gu on a beast king can choose to activate one time at any point on the beas
 **Swarm.** The Iron Beak Crane Swarm mobs a 2 meter radius (reduced to 1  if the Iron Beak Crane Swarm is below half its maximum hit points or soul) until the start of its next turn. All creatures in the area have the *blinded* condition and take 4 force damage at the start of each of their turns.
 
 ### Iron Beak Crane (Hundred Beast King)
+
+CR: 11
+
 | Attributes | |
 | ----- | ----- |
 | HP | 45 |
@@ -69,6 +76,9 @@ Roll 2d6 (rerolling duplicates)
 6 - Rank 1 Silver Lining Gu
 
 ### Iron Beak Crane (Thousand Beast King)
+
+CR: 21
+
 | Attributes | |
 | ----- | ----- |
 | HP | 80 |
@@ -110,6 +120,8 @@ Roll 2d6 (rerolling duplicates)
 
 *Ordinary Beast*
 
+CR: 0
+
 | Attributes | |
 | ----- | ----- |
 | HP | 50 |
@@ -135,6 +147,9 @@ Roll 2d6 (rerolling duplicates)
 | **Bite.** *Melee Attack, 1 meter* | The lightning wolf bites a target. On a hit, deal 4 rending damage. |
 
 ### Lightning Wolf (Hundred Beast King)
+
+CR: 11
+
 | Attributes | |
 | ----- | ----- |
 | HP | 50 |
@@ -156,7 +171,7 @@ Roll 2d6 (rerolling duplicates)
 | Awareness | 30 |
 
 #### Combat Actions
-- **Bite.** *Melee Attack, 1 meter* The lightning wolf bites a target. On a hit, deal 4 rending damage.
+- **Bite.** *Melee Attack, 1 meter* The lightning wolf bites a target. On a hit, deal 10 rending damage.
 
 #### Wild Gu
 Roll 2d4 (rerolling duplicates)

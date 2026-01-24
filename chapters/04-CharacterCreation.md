@@ -3,18 +3,16 @@
 In this game, you will create and play a Gu Master. Gu Masters are human beings who have awakened their aperture, a kind of extradimensional space within the stomach that can contain Gu and primeval essence. The first thing you ought to mark down is your starting rank. For first-time players, it is recommended to start at rank 1 initial stage. You, your group, and the game master should also determine if you want to follow the righteous path, living and working with a clan, or if you'd like to tread the demonic path, living free in the world with no masters. Your path can always be changed later on, as demonic Gu Masters seek safety and resources, and righteous Gu Masters grow disillusioned and yearn for freedom.
 
 ## Experience
-You start with 500 experience to spend on character creation. Any experience left over afterwards is removed from the game, so that you start your first session with 0 experience. Experience can be spent to increase your Attributes and Skills. At character creation, attributes cannot be raised above 50 and skills cannot be increased above 80. Talents cannot be purchased at character creation.
+You start with 500 experience to spend on character creation. Any experience left over afterwards is removed from the game, so that you start your first session with 0 experience. Experience can be spent to increase your Attributes and Skills, as well as to purchase talents (though talents cannot be purchased at character creation). At character creation, attributes cannot be raised above 50 and skills cannot be increased above 80.
 
 - 1 point in any attribute costs 10 experience to increase up to 50, and 15 experience thereafter.
 - 1 point in any skill (except Knowledge) costs 2 experience to increase.
 - 5 points in Strength or any single Knowledge skill costs 6 experience.
 
-Experience can also be used to purchase talents, but not until 
-
 ## Primary Attributes
 Primary attributes are a generalized measure of your body and mind. The base values of each of your skills are derived from these attributes. All Attribute scores start at 20 before you spend any experience to improve them. Improving an attribute also increases the value of all derived skills and secondary attributes.
 
-**Agility** - Agility is used to dodge attacks, attack in close quarters, and to maneuver in the air.
+**Agility** - Agility is used to dodge attacks, fight in close quarters, and to maneuver in the air.
 
 **Fortitude** - Fortitude determines your Hit Points, Perseverance, and Strength.
 
@@ -34,7 +32,7 @@ You have a pool of Hit Points equal to your Fortitude. You can read about how da
 Your Movement is the number of meters you can move in a turn. Your Movement is 6 meters.
 
 ### Strength
-Your body's physical power. Strength is often overlooked by Gu Masters, as even rank 1 Gu can overpower the strongest of mortals. But battles are unpredictable, and when primeval essence runs dry Gu Masters may resort to a fistfight. Though this statistic is more relevant at rank 1, some Gu Masters choose to use Gu to enhance their strength and rely on their own muscles to pound their enemies into meat paste. Your Strength score begins equal to your Fortitude, rounded down, and affects the amount of damage you deal with attacks where your physical strength is a factor.
+Your body's physical power. Strength is often overlooked by Gu Masters, as even rank 1 Gu can overpower the strongest of mortals. But battles are unpredictable, and when primeval essence runs dry Gu Masters may resort to a fistfight. Though this statistic is more relevant at rank 1, some Gu Masters choose to use Gu to enhance their strength and rely on their own muscles to pound their enemies into meat paste. Your Strength score begins equal to your Fortitude and affects the amount of damage you deal with attacks where your physical strength is a factor.
 
 ### Perseverance 
 Your Perseverance is your ability to endure great pain and stress, and is equal to the sum of your Fortitude and 1/2 of your Attitude, rounded down. Perseverance is rolled when you hit 0 Hit Points.
@@ -54,7 +52,7 @@ When your soul reaches strength 10,000, you have the thousand-man soul. This is 
 Players begin with 1 maximum luck point. Luck can be spent to force you or another creature to reroll a skill test directly after the roll, or to add a -50 bonus to a skill test you're making, before the roll. If you've expended a luck point on a skill test, you cannot spend another on the same skill test. You regain luck points up to your maximum at the start of each session.
 
 ### Activations
-When you take the **Activate Gu** combat action, you can activate a number of Gu equal to your Activations. You have a number of Activations equal to 5% of your Wisdom plus 5% of your Cognition, rounding both down to a minimum of 1. To make this calculation easier, consider that for every 20 score you have in either attribute, this number will increase by 1, with a minimum of 2. *Shang Liu has a Cognition of 45 and a Wisdom of 32. Every 20 score in either attribute gives one Activation, bringing his total Activations to 3.*
+When you take the **Activate Gu** combat action, you can activate a number of Gu equal to your Activations. You have a number of Activations equal to 5% of (Wisdom + Cognition), rounding down to a minimum of 1. To make this calculation easier, consider that for every 20 score you have in both attributes, this number will increase by 1. *Shang Liu has a Cognition of 46 and a Wisdom of 37. With a total of 83 and every 20 combined score giving 1 Activation, brings his total Activations to 4.*
 
 ## Aptitude
 Your Gu Master's aptitude is incredibly important to their cultivation and battle strength. A higher aptitude means greater primeval essence, meaning your Gu Master can fight for longer and cultivate quicker. Aptitude is mostly immutable, but some Gu exist to raise or even lower a Gu Master's aptitude.
@@ -73,7 +71,7 @@ Aptitude is just an arbitrary grading of the amount of primeval essence a Gu Mas
 **Grade - D:** 20%-39%
 
 ## Attainment
-Attainment is your understanding of the different Gu paths. That includes your knowledge of refining, using, and identifying Gu of the same path. You can find the different attainments in the Talents chapter, and your character begins the game with *Fundamental* attainment in a single path.
+Attainment is your understanding of the different Gu paths. That includes your knowledge of refining, using, and identifying Gu of the same path. You can find the different attainments in the Talents section (Chapter 2. Progression), and your character begins the game with *Fundamental* attainment in a single path.
 
 ## Starting Items
 All characters start with a Gu Master robe, a Vital Gu of rank 1, and 25 primeval stones. At the GM's discretion (for price and availability) you may trade your starting primeval stones for additional rank 1 Gu.

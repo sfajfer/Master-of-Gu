@@ -2,7 +2,7 @@
 
 Your character's Skills represent their learned abilities and proficiencies, whether that be in combat, dialogue, or cultivation. The base value of the skill is dependent on what attribute(s) it is derived from, shown in the parenthesis. Remember to increase your skill values whenever you purchase points in the corresponding attribute.
 
-**Close Combat (1/2 Agi + 1/2 Cog)** - Close Combat does not only include fighting hand-to-hand, it relates to any fighting that occurs within 2 meters of you. Many attack Gu can be used at range or in close combat, and this skill represents your ability to make attacks at a close range. Melee attacks are always made with your close combat skill.
+**Close Combat (1/2 Agi + 1/2 Cog)** - Close Combat does not only include fighting hand-to-hand, it relates to any fighting that occurs within 3 meters of you. Many attack Gu can be used at range or in close combat, and this skill represents your ability to make attacks at a close range. Melee attacks are always made with your close combat skill.
 
 **Ranged Attack (Cog)** - If an enemy is further than 3 meters from you, your non-melee attacks will be made with the Ranged Attack skill.
 
@@ -50,8 +50,11 @@ The higher your cultivation skill, the less damage you will take to your soul du
 
 ### **Knowledge (Cog)**
 Knowledge is separated into a few categories:
+
 - Gu - There are an uncountable number of different Gu in the world, and this skill helps to identify them. In a fight, it can mean life or death.
+  
 - Southern Border - Your understanding of the geography, flora, and fauna of Southern Border. It can be assumed that all characters will have knowledge of the areas surrounding their clan, but when journeying beyond familiarity this skill can be used to identify beasts, plants, and natural formations.
+  
 - Clans - Small, medium, large, and super-sized clans dot the mountains and valleys of Southern Border. This skill represents your knowledge of their names, power structures, specialties, and commerce.
 
 \newpage

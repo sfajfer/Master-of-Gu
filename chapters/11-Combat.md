@@ -44,7 +44,7 @@ You move a number of meters equal to your flying speed in a straight line in any
 #### Dive
 Make a **Flying** test. On a success, you dive down a distance of up to triple your flying speed, and can move up to your flying speed in meters forward. Then, you can either try to execute a *Land* maneuver or else rise 1 meter directly upward at the end of the maneuver.
 
-If you fail the test, you dive directly downward a number of meters equal to your flying speed before regaining control. If this would cause you to hit the ground, you do so, are no longer *airborne*, and take 1d4 force damage for every meter you dove.
+If you fail the test, you dive directly downward a number of meters equal to your flying speed before regaining control. If this would cause you to hit the ground, you do so, are no longer *airborne*, and take 4 force damage for every meter you dove.
 
 #### Evade
 Make a **Flying** test. On a success, all skill tests made to hit you with an attack are made with a penalty equal to +(your flying skill, rounded down to the nearest ten) until the start of your next turn.
@@ -140,7 +140,7 @@ Dodging provokes opportunity attacks, but they are made with disadvantage.
 The parry reaction can only be taken when its determined a melee attack has hit you and before the damage has been rolled. Make a **Close Combat** test with a +10 penalty, opposing the opponent's attack roll. If you win, you take no damage from the attack and can make your own melee attack against the opponent in turn as long as they are within your melee range. You can parry attacks made as part of the parry reaction.
 
 ### Make an Opportunity Attack
-When a creature moves from inside your melee range to outside your melee range, you may make a melee attack as an attack of opportunity. If you make an unarmed attack, it may not be a kicking attack.
+When a creature moves from inside your melee range to a square outside your melee range, you may make a melee attack as an attack of opportunity. If you make an unarmed attack, it cannot be a kicking attack.
 
 ### Trigger a Held Action
 When the trigger you specified upon holding a combat action occurs, you may take this reaction to use said action.
@@ -167,6 +167,9 @@ When you take damage, subtract that amount from your current Hit Points, to a mi
 
 If a source says you take damage to your soul, that number is subtracted from your current soul value; you take no damage to your hit points.
 
+### Damage Reduction
+Many defensive Gu reduce the amount of damage taken from attacks. When damage is reduced by a flat number, the damage can be reduced to 0 unless the source of the damage is of greater rank than the source of the damage reduction. If the source of the damage is of greater rank than the source of the damage reduction, the damage can be reduced to a minimum of 1.
+
 ### Vulnerability
 If a creature or object is vulnerable to a damage type, multiply any damage of that type dealt to their hit points by 2. If they have resistance, halve the damage dealt to their hit points, rounding down. If they are invulnerable to a damage type, they do not take the damage at all.
 
@@ -185,7 +188,7 @@ While in *Final Stand*, you cannot move or take combat actions or reactions othe
 If you are *Dying*, you are unconscious. At the end of each of your turns, roll a **Perseverance** test. On a success, you gain a **Perseverance Token**. On a failure, you gain a **Predicament Token**. Critical successes and fumbles grant 2 of the respective token. When you have 3 **Perseverance Tokens**, you are no longer *Dying* and instead enter *Final Stand*, and your **Perseverance** token count resets to 0. When you have 3 **Predicament Tokens**, you die.
 
 ### Fall Damage
-When falling from a height of more than 2 meters, you take 3 force damage for every meter you fell.
+When falling from a height of more than 2 meters, you take 3 force damage for every meter you fell. If a creature has a flying speed when it becomes *airborne* from anything other than the *Take Flight* Maneuver, it may immediately move up to half its flying speed. If a creature does not have a flying speed when it becomes *airborne,* it immediately falls up to 500 meters. If the creature is still falling, it falls 500 meters at the end of each of its turns until it hits the ground.
 
 ### Injury
 When a creature takes damage to their hit points greater than or equal to half their maximum (rounded down), some damage types apply a special effect.

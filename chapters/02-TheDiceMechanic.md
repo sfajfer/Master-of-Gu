@@ -2,7 +2,9 @@
 
 ## Skill Tests
 Skill tests are rolled when a character would like to do an action that:
+
 - has a chance of failure
+  
 - has a chance of success
 
 The GM should be able to determine if an action is possible for your character to do, as well as if the action should be an automatic success.
@@ -11,7 +13,7 @@ The GM should be able to determine if an action is possible for your character t
 Dice are notated d[sides]; a d4 is a four sided die. The td10 is a 10 sided die where each value is a tens place (10, 20, 30, etc). If instead of the number of dice, the die is annotated with an R (Rd12), then the number of dice is equal to the rank of the Gu. This system uses d4, d6, d8, d10, td10, d12, and d20. 
 
 #### The d100
-Skill tests are rolled on a d100; to roll a d100, roll a d10 and a td10. The td10 represents the tens place while the d10 represents the ones place. So if you roll an 80 and a 5, your roll is 85. Rolling a 10 on the d10 is just a zero, so rolling 90 and 10 would just be 90. Finally, rolling 00 on the td10 and a 10 on the d10 is 100. If you roll 99 or 100 on a skill test, it automatically fails and is considered a fumble.
+Skill tests are rolled on a d100; to roll a d100, roll a d10 and a td10. The td10 represents the tens place while the d10 represents the ones place. So if you roll an 80 and a 5, your roll is 85. Rolling a 10 on the d10 is just a zero, so rolling 90 and 10 would just be 90. Finally, rolling 00 on the td10 and a 10 on the d10 is 100.
 
 ### Penalties and Bonuses
 Penalties and bonuses are a number added or subtracted from the number you roll on the die during a skill test. The GM can add either to represent the difficulty of the check, using the table below as a guideline. Penalties and bonuses do not have to be round multiples of 10, but they typically are.

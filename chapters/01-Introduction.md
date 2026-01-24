@@ -40,6 +40,8 @@ Small, smooth stones naturally formed from primeval essence, primeval stones are
 
 For each primeval stone being absorbed, you gain {5, 4, 3, 2, 1}¹ portion(s) of primeval essence, and the stone is destroyed in the process, crumbling into dust. 
 
+You can carry up to 250 primeval stones on your person, but many storage type Gu exist to hold additional stones.
+
 ¹ *When you see curly brace notation, it represents your rank, or the rank of the Gu if it appears in a Gu's description. In this case, it means expending a primeval stone restores 5 primeval essence if you are rank 1, 4 if you are rank 2, and so on.*
 
 ## Refinement

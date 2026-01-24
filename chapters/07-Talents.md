@@ -1,5 +1,13 @@
 ## Talents
 
+::: columns
+
+### Charger
+
+*Cost:* 20 experience
+
+When you take the *Sprint* combat action, you may make a single punching attack at some point during your turn. If this attack hits, the target is thrown backward a number of meters equal to 1% of your Strength attribute (rounded down), to a minimum of 0. Making this attack costs the remainder of your movement.
+
 ### Combat Absorption
 
 *Cost:* 30 experience
@@ -21,12 +29,6 @@ You gain access to the **Flurry** combat action.
 *Cost:* 45 experience
 
 Taking flight no longer expends one of your maneuvers per turn. Your **Flying** skill is increased by 20 points.
-
-### Grappler
-
-*Cost:* 20 experience
-
-You have advantage on **Athletics** tests made to grapple a creature. When you successfully grapple a creature, you may make a single punching attack against them as part of the *Grapple* combat action.
 
 ### Martial Artist
 
@@ -112,11 +114,23 @@ If a Gu is very close in form to the chosen weapon, you still get this bonus. Th
 
 *Can be purchased up to 3 times*
 
-You gain a -10 bonus to **Athletics** tests resulting from the **Grapple** combat action.
+You gain a -10 bonus to **Athletics** tests resulting from a *Grapple* combat action. When you successfully grapple a creature, you may make a single punching attack against them as part of the *Grapple* combat action.
+
+:::
 
 ## Refinement Techniques
 
 Refinement techniques are used to improve the Gu refinement process in many different ways, such as reducing the difficulty, duration, or even material cost of a refinement recipe. Only one refinement technique can be used on a recipe at a time.
+
+::: columns
+
+### Dice Falling Waterfall
+
+*Cost:* 10 experience
+
+*Requires Fundamental Luck Path Attainment*
+
+You gain access to the Dice Falling Waterfall refinement technique. When you use the Dice Falling Waterfall refinement technique, you can reroll the failure die a single time per refinement. Upon successfully refining a Gu with this technique, you gain a luck point.
 
 ### Hairy Man Heaven and Earth
 
@@ -124,7 +138,7 @@ Refinement techniques are used to improve the Gu refinement process in many diff
 
 *Cost:* 50 experience
 
-You gain acess to the Hairy Man Heaven and Earth refinement technique. When you use the Hairy Man Heaven and Earth refinement technique, you gain a -40 bonus to **Refinement** tests, and their failure die is increased by 1 stage (d4 -> d6 -> d8...).
+You gain access to the Hairy Man Heaven and Earth refinement technique. When you use the Hairy Man Heaven and Earth refinement technique, you gain a -10 bonus to **Refinement** tests, and their failure die is increased by 2 stages (d4 -> d8, d6 -> d10...).
 
 ### Shower
 
@@ -141,6 +155,8 @@ You gain access to the Shower refinement technique. When you use the Shower refi
 *Requires Fundamental Fire Path Attainment*
 
 You gain access to the Starfall refinement technique. When you use the Starfall refinement technique, you gain a -10 bonus to **Refinement** tests, increased to -20 when refining Fire Path Gu. This technique cannot be used to refine Water Path or Ice Path Gu.
+
+:::
 
 ## Path Attainments
 

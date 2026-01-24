@@ -1,7 +1,7 @@
 # Chapter 2 - Progression
 
 ## Cultivating
-The process of increases your rank in small and large realms is called cultivating. To cultivate, you must meditate and will the primeval essence in your aperture to attack and weaken the aperture walls. To do so, first figure out how many portions of primeval essence will be required to break through the realm. For small realms, the amount is given by the table below. For large realms, the amount is (1000 * target rank) portions.
+The process of increasing your rank in small and large realms is called cultivating. To cultivate, you must meditate and will the primeval essence in your aperture to attack and weaken the aperture walls. To do so, first figure out how many portions of primeval essence will be required to break through the realm. For small realms, the amount is given by the table below. For large realms, the amount is (1000 * target rank) portions.
 
 | Stage | Name | Aperture Wall | Wall Hit Points |
 | ----- | ----- | ----- | ----- | 
@@ -26,7 +26,7 @@ For each hour spent cultivating, whether breaking through a small or large realm
 |      4      |   +10   |
 |      5      |   +20   |
 
-If you're cultivating for longer than 24 hours at a time, make a **Perseverance** test every 12 hours after the initial 24. On a failure, you fall asleep.
+If you're cultivating for longer than 12 hours at a time, make a **Perseverance** test every hour after the initial 12. On a failure, you fall asleep.
 
 ### Consuming Primeval Stones
 You can expend primeval stones while cultivating to make up for not having a high enough recovery rate, and you may do so to assist in breaking through both small and large realms. You may expend any number of primeval stones per hour spent cultivating, increasing your recovery rate for that hour by {5, 4, 3, 2, N/A} for each stone consumed when breaking through large realms, or dealing {5, 4, 3, 2, 1} damage to the aperture walls for each stone consumed when breaking through small realms. This depends on your current rank, not the target rank. Primeval stone expenditure must remain constant each hour when breaking through large realms; you cannot use 5 stones the first hour and 2 the second as the math would quickly get very difficult to track.
