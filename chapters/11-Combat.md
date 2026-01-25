@@ -252,7 +252,7 @@ A *fatigued* creature's movement is reduced by 3 meters and makes all **Dodge** 
 Poison can have any number of effects, and a creature can gain multiple instances of the *poisoned* condition so long as each is unique. 
 
 ### Prone
-A *prone* creature has a +30 penalty to all skill tests. **Close Combat** tests made to hit a *prone* creature gain a -10 bonus. **Ranged Attack** tests made to hit a *prone* creature gain a +10 penalty. A creature can expend half their movement to stand up.
+A *prone* creature has a +30 penalty to all skill tests and automatically fails all **Dodge** tests. **Close Combat** tests made to hit a *prone* creature are made with a -10 bonus. **Ranged Attack** tests made to hit a *prone* creature are made with a +10 penalty. A creature can expend half their movement to stand up.
 
 ### Restrained
 A *restrained* creature's movement is 0. A *restrained* creature automatically fails all **Dodge** and **Flying** tests.

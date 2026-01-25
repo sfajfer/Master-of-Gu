@@ -100,7 +100,7 @@ Food: 120 severed hands soaked in the blood of a hundred beast king
 
 Keywords: [**Sustained**]
 
-Effect: You manifest a [**Large**] 2 meter tall hand made of blood mist in an unoccupied space that you can see within range. As a bonus action, you may move the hand up to 10 meters through occupied or unoccupied spaces. Any creatures in the space moved through by the hand take 200 force damage. If this damage is dealt to their hit points and they have blood in their body, they turn into a puddle of blood and die.
+Effect: You manifest a [**Large**] 2 meter tall hand made of blood mist in an unoccupied space that you can see within range. As a bonus action or activation, you may move the hand up to 10 meters through occupied or unoccupied spaces. Any creatures in the space moved through by the hand take 200 force damage. If this damage is dealt to their hit points and they have blood in their body, they turn into a puddle of blood and die.
 
 ### Blood Hatred Gu
 
@@ -874,7 +874,7 @@ Food: 1 blazing lotus petal (150 primeval stones)
 
 Keywords: [**Expendable 3**]
 
-Effect: The dao marks carved into your body by Gu with the [**Dao**] keyword are set ablaze. For 1 hour, you are assailed with a burning pain and have a +40 penalty to all skill tests. When the duration elapses, you lose all permanent effects granted by Gu with the [**Dao**] keyword, unless that Dao belongs to Water Path or Ice Path. 
+Effect: The dao marks carved into your body by Gu with the [**Dao**] keyword are set ablaze. For 1 hour, you are assailed with a burning pain and have a +40 penalty to all skill tests. When the duration elapses, you lose all effects granted by Gu with the [**Dao**] keyword, unless that Gu belongs to Water Path or Ice Path. 
 
 ### Blazing Shield Gu
 *Rank 2 Manifestation*
@@ -1136,7 +1136,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Manifest a swarm of fireflies in 2x2 square area within range while sustained. The swarm gives off bright light for 25 meters, and can occupy the space of other creatures. If a creature is in the same square as the swarm, they have a +10 penalty to all skill tests. You can move the swarm up to 10 meters to a point within range as a bonus action on your turn.
+Effect: Manifest a swarm of fireflies in 2x2 square area within range while sustained. The swarm gives off bright light for 25 meters, and can occupy the space of other creatures. If a creature is in the same square as the swarm, they have a +10 penalty to all skill tests. You can move the swarm up to 10 meters to a point within range as a bonus action or activation on your turn.
 
 [**Upgrade Path: Five Door Fire Pagoda Gu**]
 
@@ -1945,7 +1945,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: This Gu must be activated outdoors. While sustained, a sunbeam envelopes a 2 meter square within range. If a creature starts its turn within the area, it takes 40 heat damage. You may move the sunbeam up to 5 meters to another area within range as a bonus action.
+Effect: This Gu must be activated outdoors. While sustained, a sunbeam envelopes a 2 meter square within range. If a creature starts its turn within the area, it takes 40 heat damage. You may move the sunbeam up to 5 meters to another area within range as a bonus action or activation.
 
 ### Two-stretch Golden Light Gu
 *Rank 2 Guard*
@@ -2948,7 +2948,7 @@ Keywords: [**Sustained**]
 Effect: While sustained, whenever you roll to activate a beast phantom from a Strength Path Gu of rank {1, 2, 3, 4, 5} or lower, you may forego the roll and trigger the beast phantom automatically.
 
 [**Beast Strength**]
-*Many Gu of Strength Path belong to the beast strength archetype; Gu that, over many uses, permanently grant the user the strength of a particular beast. Here are some of the more common Gu of this archetype in Southern Border.*
+*Many Gu of Strength Path belong to the beast strength archetype; Gu that, over many uses, permanently grant the user the strength of a particular beast. Curiously, it also enables users to sporadically summon beast phantoms with their unarmed attacks, increasing their potency.*
 
 ### Bear Strength Gu
 *Rank 1 Carver*
@@ -2957,7 +2957,7 @@ Cost: 40 portions
 
 Range: Self
 
-Health: 11
+Health: 4
 
 Food: 10 kg of bear flesh
 
@@ -2965,7 +2965,25 @@ Keywords: [**Dao**]
 
 Effect: Your strength attribute permanently increases by 10. For 24 hours, you cannot gain strength from Bear Strength Gu. Once you've gained 50 strength from Bear Strength Gu, activating Bear Strength Gu further has no effect on you, but you permanently gain the following feature:
 
-Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a bear phantom appears behind you, increasing the damage of the attack by 10 force damage.
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d6. If you roll a 1, a bear phantom appears behind you, increasing the damage of the attack by 5 force damage.
+
+### Beastman Strength Gu
+
+*Rank 3 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 4
+
+Food: 10 kg of beastman flesh
+
+Keywords: [**Dao**]
+
+Effect: Your strength attribute permanently increases by 50. For 24 hours, you cannot gain strength from Beastman Strength Gu. Once you've gained 250 strength from Beastman Strength Gu, activating Beastman Strength Gu further has no effect on you, but you permanently gain the following feature:
+
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a beastman phantom appears behind you, increasing the damage of the attack by 60 force damage.
 
 ### Blobfish Strength Gu
 
@@ -2977,7 +2995,7 @@ Cost: 40 portions
 
 Range: Self
 
-Health: 9
+Health: 5
 
 Food: 10 kilograms of blobfish flesh
 
@@ -2985,7 +3003,7 @@ Keywords: [**Dao**]
 
 Effect: Your Strength attribute permanently decreases by 4 and you reduce all force damage dealt to your hit points by 1. For 24 hours, you cannot reduce strength or gain damage reduction from this Gu. Once you have lost 20 Strength and gained 5 damage reduction, further activations have no effect, but you permanently gain the following feature:
 
-Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a blobfish phantom appears behind you, increasing the damage of the attack by 1 force damage.
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a blobfish phantom appears behind you, increasing the damage of the attack by 0 force damage and applying the *dazed* condition.
 
 ### Boar Strength Gu
 *Rank 1 Carver*
@@ -2994,7 +3012,7 @@ Cost: 40 portions
 
 Range: Self
 
-Health: 9
+Health: 4
 
 Food: 10 kg of boar flesh
 
@@ -3002,7 +3020,7 @@ Keywords: [**Dao**]
 
 Effect: Your strength attribute permanently increases by 5. For 24 hours, you cannot gain strength from Boar Strength Gu. Once you've gained 25 strength from Boar Strength Gu, activating Boar Strength Gu further has no effect on you, but you permanently gain the following features:
 
-Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a boar phantom appears behind you, increasing the damage of the attack by 5 force damage.
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a boar phantom appears behind you, increasing the damage of the attack by 2 force damage.
 
 If you have enough movement to put yourself into a square adjacent to a target at least 3 meters away, you gain the following unarmed attack option:
 
@@ -3015,7 +3033,7 @@ Cost: 40 portions
 
 Range: Self
 
-Health: 9
+Health: 4
 
 Food: 10 kg of crocodile flesh
 
@@ -3023,7 +3041,7 @@ Keywords: [**Dao**]
 
 Effect: Your strength attribute permanently increases by 5. For 24 hours, you cannot gain strength from Crocodile Strength Gu. Once you've gained 25 strength from Crocodile Strength Gu, activating Crocodile Strength Gu further has no effect on you, but you permanently gain the following features:
 
-Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a crocodile phantom appears behind you, increasing the damage of the attack by 5 force damage.
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a crocodile phantom appears behind you, increasing the damage of the attack by 2 force damage.
 
 Your bite attacks deal an additional 10 rending damage.
 
@@ -3034,7 +3052,7 @@ Cost: 40 portions
 
 Range: Self
 
-Health: 9
+Health: 4
 
 Food: 10 kg of deer flesh
 
@@ -3042,9 +3060,91 @@ Keywords: [**Dao**]
 
 Effect: Your strength attribute permanently increases by 4. For 24 hours, you cannot gain strength from Deer Strength Gu. Once you've gained 20 strength from Deer Strength Gu, activating Deer Strength Gu further has no effect on you, but you permanently gain the following features:
 
-Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a deer phantom appears behind you, increasing the damage of the attack by 5 force damage.
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a deer phantom appears behind you, increasing the damage of the attack by 2 force damage.
 
 Your movement is increased by 2 meters.
+
+### Elephant Strength Gu
+
+*Rank 2 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 4
+
+Food: 10 kg of elephant flesh
+
+Keywords: [**Dao**]
+
+Effect: Your strength attribute permanently increases by 15. For 24 hours, you cannot gain strength from Elephant Strength Gu. Once you've gained 75 strength from Elephant Strength Gu, activating Elephant Strength Gu further has no effect on you, but you permanently gain the following features:
+
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d6. If you roll a 1, a Elephant phantom appears behind you, increasing the damage of the attack by 5 force damage.
+
+When you hit a *prone* creature with a kicking attack, the attack automatically crits.
+
+### Leviathan Strength Gu
+
+*Rank 5 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 4
+
+Food: 10 kg of leviathan flesh
+
+Keywords: [**Dao**]
+
+Effect: Your strength attribute permanently increases by 100. For 24 hours, you cannot gain strength from Leviathan Strength Gu. Once you've gained 500 strength from Leviathan Strength Gu, activating Leviathan Strength Gu further has no effect on you, but you permanently gain the following features:
+
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d12. If you roll a 1, a leviathan phantom appears behind you, increasing the damage of the attack by 200 force damage.
+
+You can breathe underwater and your body can withstand extreme pressure. Reduce all force damage dealt to your hit points by 200.
+
+### Serpent Strength Gu
+
+*Rank 3 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 4
+
+Food: 10 kg of sea or land serpent flesh
+
+Keywords: [**Dao**]
+
+Effect: Your strength attribute permanently increases by 25. For 24 hours, you cannot gain strength from Serpent Strength Gu. Once you've gained 125 strength from Serpent Strength Gu, activating Serpent Strength Gu further has no effect on you, but you permanently gain the following features:
+
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d8. If you roll a 1, a serpent phantom appears behind you, increasing the damage of the attack by 15 force damage.
+
+When you deal damage to a creature's hit points with a bite attack, apply the *poisoned* condition with the following effect:
+
+You take 5 poison damage at the start of each of your turns.
+
+Your movement is reduced by 1 and you have disadvantage on all **Dodge**, **Close Combat**, and **Ranged Attack** tests.
+
+### Shark-fin Wolf Strength Gu
+
+*Rank 4 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 4
+
+Food: 10 kg of shark-fin wolf flesh
+
+Keywords: [**Dao**]
+
+Effect: Your strength attribute permanently increases by 50. For 24 hours, you cannot gain strength from Shark-fin Wolf Strength Gu. Once you've gained 250 strength from Shark-fin Wolf Strength Gu, activating Shark-fin Wolf Strength Gu further has no effect on you, but you permanently gain the following features:
+
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a shark-fin wolf phantom appears behind you, increasing the damage of the attack by 60 force damage.
 
 ### Tanuki Strength Gu
 
@@ -3056,7 +3156,7 @@ Cost: 40 portions
 
 Range: Self
 
-Health: 4
+Health: 2
 
 Food: 10 kilograms of Tanuki flesh
 
@@ -3066,7 +3166,7 @@ Effect: Your Strength attribute permanently increases by 3. Once you’ve gained
 
 When you spend a luck point to reroll or gain a bonus to an unarmed attack, you gain an additional -20 bonus to the roll.
 
-Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a Tanuki phantom appears behind you, increasing the damage of the attack by 5 force damage.
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d6. If you roll a 1, a Tanuki phantom appears behind you, increasing the damage of the attack by 5 force damage.
 
 ### Tortoise Strength Gu
 
@@ -3078,7 +3178,7 @@ Cost: 40 portions
 
 Range: Self
 
-Health: 5
+Health: 4
 
 Food: 10 kilograms of turtle flesh
 
@@ -3088,7 +3188,7 @@ Effect: Your Strength and Fortitude attributes permanently increase by 1. For 24
 
 When not in combat and struck by an attack, you may use a reaction to turn your back and reduce the damage of the attack by 5.
 
-Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a Tortoise phantom appears behind you, increasing the damage of the attack by 5 force damage.
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a Tortoise phantom appears behind you, increasing the damage of the attack by 2 force damage.
 
 ### Wolf Strength Gu
 *Rank 1 Carver*
@@ -3097,7 +3197,7 @@ Cost: 40 portions
 
 Range: Self
 
-Health: 9
+Health: 4
 
 Food: 10 kg of wolf flesh
 
@@ -3105,7 +3205,7 @@ Keywords: [**Dao**]
 
 Effect: Your strength attribute permanently increases by 5. For 24 hours, you cannot gain strength from Wolf Strength Gu. Once you've gained 25 strength from Wolf Strength Gu, activating Wolf Strength Gu further has no effect on you, but you permanently gain the following features:
 
-Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a wolf phantom appears behind you, increasing the damage of the attack by 5 force damage.
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a wolf phantom appears behind you, increasing the damage of the attack by 2 force damage.
 
 Your movement is increased by 1 meter.
 
@@ -3118,7 +3218,7 @@ Cost: 25 portions
 
 Range: Self
 
-Health: 
+Health: 3
 
 Food: <!-- TODO ->
 
@@ -3161,11 +3261,13 @@ Cost: 10
 
 Range: 10 meters
 
-Health: 15
+Health: 3
 
 Food: <!-- TODO ->
 
-Effect: You immediately make an **Athletics** test to lift, push, or pull an object within range, or you immediately make a **Grapple** combat action against a creature within range.
+Keywords: [**Sustained**]
+
+Effect: You immediately make an **Athletics** test to lift, push, or pull an object within range, or you immediately make a **Grapple** combat action against a creature within range. If you successfully grapple a creature, they are *restrained* in their square while you sustain this Gu. At the end of each of their turns, they can make an **Athletics** test with a +(10% of your Strength) (maximum of +40) penalty, deactivating this Gu on a success.
 
 ### Ivory Armor Gu
 
@@ -3241,17 +3343,17 @@ Effect: Immediately regain hit points equal to {2, 5, 10}% of your Strength attr
 ### Toughen Up Gu
 *Rank 3 Carver*
 
-Cost: 
+Cost: 80 portions
 
-Range: 
+Range: Self
 
-Health: 
+Health: 4
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your maximum hit points are increased by 25.
+Effect: Your maximum hit points are increased by 25. 
 
 
 :::
@@ -3306,6 +3408,24 @@ Keywords: [**Piercing**]
 
 Effect: A piercing light shoots from your finger at a target within range. Make an attack roll; on a hit deal {5, 10, 30} force damage directly to their hit points.
 
+### Sabre Gu
+
+*A silver stickbug with a rear section shaped like a hilt.*
+
+*Rank 2 Manifestation*
+
+Cost: 7 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: You manifest an invisible sabre in one of your free hands while sustained. If you used the first activation on your turn to activate Sabre Gu, you may expend your remaining activations to make a melee attack against an adjacent creature as part of the *Activate Gu* combat action. Melee attacks made with the sabre have advantage and deal 30 rending damage and 20 force damage. If this damage is dealt to the target's hit points, they gain *bleeding 2.*
+
 ### Separate Gu
 *Rank 1 Attack*
 
@@ -3313,7 +3433,7 @@ Cost: 8 portions
 
 Range: Touch
 
-Health:
+Health: 3
 
 Food: <!-- TODO ->
 
@@ -3326,11 +3446,11 @@ Cost: 4 portions
 
 Range: Touch
 
-Health:
+Health: 2
 
 Food: <!-- TODO ->
 
-Effect: Carves sword dao into a weapon or Gu that deals rending damage. If an attack made with the weapon or Gu is blocked by a Gu of rank {4, 5} or less with the [**Shield**] Keyword, the defending [**Shield**] Gu takes rending damage equal to its hit points before the damage of the attack is assigned. After 24 hours, the weapon or Gu affected by Sole Sword Gu crumbles into dust.
+Effect: Carves sword dao into a weapon or Gu that deals rending damage. If rending damage from the weapon or Gu is assigned to a Gu of rank {4, 5} or less with the [**Shield**] Keyword, the defending [**Shield**] Gu is killed before the damage of the attack is assigned. After 24 hours, the weapon or Gu affected by Sole Sword Gu crumbles into dust.
 
 [**Upgrade Path: Split Mountain Gu**]
 
@@ -3343,7 +3463,7 @@ Cost: 10 portions
 
 Range: 3 meters
 
-Health: 2
+Health: 5
 
 Food: A handful of ordinary grass
 
@@ -3360,7 +3480,7 @@ Cost: 10 portions
 
 Range: 8 meters
 
-Health: 5
+Health: 4
 
 Food: 1 kg of shattered glass (1/4 primeval stone)
 
@@ -3377,7 +3497,7 @@ Cost: 10 portions
 
 Range: 20 meters
 
-Health: 7
+Health: 3
 
 Food: 1 kg of sharpened blades of any size (1/2 primeval stone)
 
@@ -3394,7 +3514,7 @@ Cost: 15 portions
 
 Range: 100 meters
 
-Health: 9
+Health: 3
 
 Food: 10 Slash Gu
 
@@ -3409,7 +3529,7 @@ Cost: 40 portions
 
 Range: 500 meters
 
-Health: 11
+Health: 3
 
 Food: 50 Rend Gu
 
@@ -4560,7 +4680,7 @@ Health: 9
 
 Food: 10 g of clear minded jade (150 primeval stones)
 
-Effect: If activated during a deduction, your deduction benefits from the combined knowledge of all humans and variant humans within range instead of just information available to you personally. Can also be used outside of deductions to read the thoughts of all humans and variant humans within range until the start of your next turn. While active, you may react to other creature's thoughts, including the activation of Gu, even if they are [**Unreactable**]. Additionally, you gain a -50 bonus to all tests made to parry, dodge, or attack creatures within range.
+Effect: If activated during a deduction, your deduction benefits from the combined knowledge of all humans and variant humans within range instead of just information available to you personally. Can also be used outside of deductions to read the thoughts of all humans and variant humans within range until the start of your next turn. While active, you may react to the thoughts of humans and variant humans, including the activation of Gu, even if they are [**Unreactable**]. Additionally, you gain a -50 bonus to all tests made to parry, dodge, or attack humans and variant humans within range.
 
 ### Little Will Gu
 *Rank 1-3 Catalyst*
@@ -4633,11 +4753,11 @@ Effect: You gain X activations until the end of your turn. Once you use an activ
 
 Cost: 5 portions
 
-Range: 2 meters
+Range: 4 meters
 
 Health: 8
 
-Food: 
+Food: 100 g of sugar
 
 Effect: A creature of your choice that you can see within range regains 2 hit points.
 
@@ -4804,7 +4924,7 @@ Health: 9
 
 Food: 10 portions of rank 2 primeval essence
 
-Effect: 4 huge wooden wings sprout from your back. They each have 25 hit points and vulnerability to rending damage. You gain a flying speed equal to 2 times the number of wooden wings you have and can execute 2 Maneuvers each turn. As a bonus action, you can quickly sprout a branch from one at a creature within 3 meters. If the creature is unwilling, make an attack roll. On a hit, the branch fuses with their spine or sternum, and you carry the creature with you while flying. Creature's attached to your wings this way have a +30 penalty to all attack rolls and are *restrained*.
+Effect: 4 huge wooden wings sprout from your back. They each have 25 hit points and vulnerability to rending damage. You gain a flying speed equal to 2 times the number of wooden wings you have and can execute 2 Maneuvers each turn. As a bonus action or activation, you can quickly sprout a branch from one at a creature within 3 meters. If the creature is unwilling, make an attack roll. On a hit, the branch fuses with their spine or sternum, and you carry the creature with you while flying. Creature's attached to your wings this way have a +30 penalty to all attack rolls and are *restrained*.
 
 Branching Wings Gu can carry 1 [**Medium**] or smaller creatures on each wing. If a wing is destroyed, it falls off your back and any creature attached to it is freed.
 
@@ -4882,7 +5002,7 @@ Keywords: [**Sustained**]
 
 Effect: A miniature sun manifests 5 meters above your head, illuminating a 250 kilometer sphere around it. The light does not pierce objects, but it is extremely bright. All creatures within 10 meters of the sun are *blinded*. All creatures within 1 kilometer of the sun are *blinded* while it is within their line of sight.
 
-While sustained, you return to your maximum hit points, heal all diseases, and regenerate all missing body parts at the end of each of your turns. You are also immune to rending and force damage.
+While sustained, you return to your maximum hit points, heal all diseases, and regenerate all missing body parts at the end of each of your turns. You are also invulnerable to rending and force damage.
 
 [**END**]
 
@@ -4943,7 +5063,7 @@ Food: 1 kilogram of grass and 1 kilogram of soil
 
 Keywords: [**Sustained**]
 
-Effect: Before being activated, the user of Earth Communication Ear Grass Gu must cut off one of their ears and allow Earth Communication Ear Grass Gu to take its place. While sustained, roots extend from the replaced ear and allow you to hear all noises, big or small, made within range. If you put the ear to the ground, the roots connect to it and extend the range to 100 meters, with the limitation being that you can only hear things on top of or in the earth.
+Effect: Before being activated, the user of Earth Communication Ear Grass Gu must cut off one of their ears and allow Earth Communication Ear Grass Gu to take its place. While sustained, roots extend from the replaced ear and allow you to hear all noises, big or small, made within range. If you put the ear to the ground, the roots connect to it and extend the range to 100 meters, but you can only hear things on top of or in the earth.
 
 ### Fragrant Daisy Gu
 *Rank 3 Concealment*
@@ -4956,7 +5076,7 @@ Health: 5
 
 Food: <!-- TODO ->
 
-Effect: A large daisy grow out of a chunk of soil or stone that you touch, emitting a powerful fragrance in a 1 km circle centered on the daisy. All **Awareness** tests and divination Gu that rely on smelling automatically fail if used within the area. Nothing inside the area can be located by scent either, except for the daisy emitting the fragrance. The daisy has a 20 hit points, and if it is killed or uprooted the effect ends. The fragrance does not cling to creatures that leave the area.
+Effect: A large daisy grow out of a chunk of soil or stone that you touch, emitting a powerful fragrance in a 1 km circle centered on the daisy. All **Awareness** tests and divination Gu that rely on smelling automatically fail if used within the area. Nothing inside the area can be located by scent either, except for the daisy emitting the fragrance. The daisy has a 20 hit points and vulnerability to heat damage, and if it is killed or uprooted the effect ends. The fragrance does not cling to creatures that leave the area.
 
 ### Growing Power Gu
 
@@ -4998,7 +5118,7 @@ Cost: None
 
 Range: Self
 
-Health: 14
+Health: 4
 
 Food: Natural primeval essence (none)
 
@@ -5011,7 +5131,7 @@ Cost: 5 portions
 
 Range: Self
 
-Health: 7
+Health: 3
 
 Food: 1 kg wine (1/4 primeval stone)
 
@@ -5068,15 +5188,15 @@ Effect: You touch a Gu Master with the *restrained* condition between their eyes
 ### Regrowth Gu
 *Rank 1 Tonic*
 
-Cost: 60 portions
+Cost: 35 portions
 
 Range: Touch
 
-Health: 11
+Health: 3
 
 Food: <!-- TODO ->
 
-Effect: Touch a creature within range. That creature regrows a single severed limb instantaneously and regains 10 hit points.
+Effect: Touch a creature within range. That creature regrows a single severed limb instantaneously.
 
 ### Resurgence Gu
 
@@ -5149,6 +5269,7 @@ Food: 500 g of roses
 Effect: A cloud of thorns bursts from your outstretched hand in a 5 meter long cone. Creatures in the area take 6 force damage.
 
 [**Upgrade Path: Three Star Cave Gu**]
+
 *This Gu appears to be an acorn of brown color at rank 1, getting darker as it is upgraded. Rank 3 Three Star Cave Gu is pitch black.*
 
 ### One Star Cave Gu
@@ -5183,7 +5304,6 @@ Effect: Two Star Cave Gu must be planted in any kind of soil to be activated. A 
 
 The tree has 250 hit points and vulnerability to heat and rending damage. If the tree is reduced to 0 hit points, this effect ends.
 
-
 ### Three Star Cave Gu
 
 *Rank 3 Container*
@@ -5199,6 +5319,8 @@ Food: <!-- TODO ->
 Effect: Three Star Cave Gu must be planted in any kind of soil to be activated. A three-story tall, 5 meter radius tree is manifested above Three Star Cave Gu. It has a door on one side and a staircase leading to the second and third floors. Each floor has a single room, furnished in a manner of your choice. Three Star Cave Gu can manifest wood, cloth, and stone furniture such as counters, chairs, and beds. The owner of Three Star Cave Gu can touch any part of the tree and spend 1 portion of primeval essence as an activation to instantly revert One Star Cave Gu back to its original form.
 
 The tree has 1000 hit points and vulnerability to heat and rending damage. If the tree is reduced to 0 hit points, this effect ends.
+
+[**END**]
 
 ### Wardrobe Gu
 *Rank 2 Container*
@@ -5262,12 +5384,3 @@ Effect: You carve wood path dao into your body, gaining a **Wood Dao Token**. Fo
 
 
 :::
-Talents
-[PATH] Epitome
-Cost: 50xp
-Requires: [Path] Attainment
-
-Your body seems to agree with [Path] on a fundemental level.
-
-Reduce any damage suffered from [Path] Gu by 10.
-Reduce activation costs of [Path] Gu by 5, to a minimum of 1.
