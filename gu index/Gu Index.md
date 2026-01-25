@@ -3552,6 +3552,8 @@ Effect: Choose a target you can see within range. If the target currently has a 
 ## $\centerline{Time Path}$
 *Manipulates the River of Time to speed up, slow down, and even stop the passage of time.*
 
+::: columns
+
 ### Autumn Cicada Gu
 
 *Rank 5 Attack*
@@ -3630,6 +3632,8 @@ Effect: A silver triangle tattoo permanently appears on your chest. Your body an
 
 ## $\centerline{Transformation Path}$
 *Changing the users body temporarily. Transformation Path Gu Masters rely on acquiring a full set of Gu for a particular transformation. When using all component Gu together, they form a killer move that the Gu Master does not need to deduce. Transformation Path is very balanced, but each transformation has strengths and weaknesses.*
+
+::: columns
 
 [**Transformation: Azure Wolf**]
 
@@ -4151,6 +4155,8 @@ Effect: While sustained, your hands grow to double their original size. You gain
 ## $\centerline{Water Path}$
 *Manipulates water and fluids. More defensive, but water path attacks can still be devastating.*
 
+::: columns
+
 ### Blood to Water Gu
 
 *Rank 4 Attack*
@@ -4319,6 +4325,8 @@ Effect: Water rushes from the earth in a line {4, 8} meters long and {4, 8} mete
 
 ## $\centerline{Wind Path}$
 *Manipulation of air currents and storms. Wind path methods usually need to be sustained several turns before they reach full strength. It is very rare for a wind path Gu Master to not also be a master of flying.*
+
+::: columns
 
 ### Air Resistance Gu
 
@@ -4751,6 +4759,7 @@ Effect: After hitting a creature with an attack, you may activate this Gu withou
 \newpage
 ## $\centerline{Wood Path}$
 *Wood path was discovered by Genesis Lotus Immortal Venerable. It generally encompasses methods involving plants, and excels at support and healing, having marginal defense and lower attack power than other paths.*
+
 ::: columns
 
 ### Bark Skin Gu

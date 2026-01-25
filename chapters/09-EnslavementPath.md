@@ -38,6 +38,7 @@ You give up to one order to each of your hordes. At the end of your turn, you ta
 ### Orders
 
 #### Defend
+The horde stays in its current position, attacking any creatures that enter their square or an adjacent square.
 
 #### Attack
 
