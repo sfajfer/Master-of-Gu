@@ -9,6 +9,8 @@ Wild Gu on a beast king can choose to activate one time at any point on the beas
 
 CR: 11
 
+Immune to: *prone*, *restrained*
+
 | Attributes | |
 | ----- | ----- |
 | HP | 60 |
@@ -77,7 +79,7 @@ Roll 2d6 (rerolling duplicates)
 
 ### Iron Beak Crane (Thousand Beast King)
 
-CR: 21
+CR: 14
 
 | Attributes | |
 | ----- | ----- |

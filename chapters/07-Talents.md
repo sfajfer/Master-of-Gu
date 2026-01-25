@@ -93,7 +93,7 @@ Your base hit points are equal to twice your Fortitude.
 
 *Cost:* 15 experience
 
-As a reaction to being sent *airborne*, you can activate a [**Flying**] Gu and immediately execute a maneuver.
+As a reaction to being sent *airborne*, you can activate a Gu that grants a flying speed and immediately execute a maneuver for free.
 
 ### Weapon Training
 

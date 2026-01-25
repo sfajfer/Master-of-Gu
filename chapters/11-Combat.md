@@ -182,7 +182,7 @@ If a creature is immune to a condition, it cannot be applied to them regardless 
 If you take an amount of damage equal to double your maximum Hit Points from a single source, you instantly die, and do not get to roll to see if you enter *Final Stand*.
 
 ### Final Stand
-While in *Final Stand*, you cannot move or take combat actions or reactions other than to activate Gu or hold your action to do so. If you take any amount of damage to your hit points while in *Final Stand*, you enter the *Dying* state and fall unconscious. If you gain any Hit Points while in *Final Stand*, you are no longer in *Final Stand* and can act as normal.
+While you have the *Final Stand* condition, you cannot move or take combat actions or reactions other than to activate Gu or hold your action to do so. If you take any amount of damage to your hit points while in *Final Stand*, you enter the *Dying* state and fall unconscious. If you gain any Hit Points while in *Final Stand*, you are no longer in *Final Stand* and can act as normal.
 
 ### Dying
 If you are *Dying*, you are unconscious. At the end of each of your turns, roll a **Perseverance** test. On a success, you gain a **Perseverance Token**. On a failure, you gain a **Predicament Token**. Critical successes and fumbles grant 2 of the respective token. When you have 3 **Perseverance Tokens**, you are no longer *Dying* and instead enter *Final Stand*, and your **Perseverance** token count resets to 0. When you have 3 **Predicament Tokens**, you die.

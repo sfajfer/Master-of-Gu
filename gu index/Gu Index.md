@@ -446,7 +446,7 @@ Range: Self
 
 Health: 5
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Dao**]
 
@@ -461,7 +461,7 @@ Range: 3 meter
 
 Health: 2
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**]
 
@@ -486,7 +486,7 @@ Effect: While sustained, you are enveloped in an inky darkness. As long as you a
 
 *Rank 2-5 Manifestation*
 
-Cost: 2 portions
+Cost: 15 portions
 
 Range: Self
 
@@ -973,7 +973,7 @@ Range: 5 meters
 
 Health: 8
 
-Food: 1 kg of smoldering coals
+Food: 1 kg of smoldering stone (10 primeval stones)
 
 Effect: You lob a burst of embers at a square within range. Creatures within 1 meter of the square take 3 heat damage and gain the *burning* condition. Ignites flammable objects in its radius.
 
@@ -3552,6 +3552,34 @@ Effect: Choose a target you can see within range. If the target currently has a 
 ## $\centerline{Time Path}$
 *Manipulates the River of Time to speed up, slow down, and even stop the passage of time.*
 
+### Autumn Cicada Gu
+
+*Rank 5 Attack*
+
+Cost: 80 portions
+
+Range: Touch
+
+Health: 3
+
+Food: Water from the River of Time (does not need fed)
+
+Effect: A creature that you touch immediately loses 5 years of their lifespan.
+
+### Man as Before Gu
+
+*Rank 5 Tonic*
+
+Cost: 50 portions
+
+Range: 5 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: A creature or corpse that you can see within range is transported up the River of Time to their state 24 hours ago. Usually this means restoring their hit points, primeval essence, and removing any negative conditions.
+
 ### Split Second Gu
 
 *A fuzzy old Mayfly.*
@@ -3566,9 +3594,21 @@ Health: 2
 
 Food: 1 lb of fine sand
 
-Keywords: [**Low Vitality**]
-
 Effect: Use in response to an [**Unreactable**] Gu being activated. You make a reaction against it as normal. Skill tests made as part of the reaction have a {+80, +60, +30, +10, -10} modifier.
+
+### Spring Cicada Gu
+
+*Rank 5 Guard*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 2
+
+Food: Water from the River of Time (does not need fed)
+
+Effect: This Gu can only be activated as a reaction to gaining a condition (including *dying* and *final stand*). Your body swims upwards on the River of Time to restore itself to a state before it received the condition, removing the condition and restoring your hit points to the number they were at before the triggering effect. Other creatures can still be affected by the original attack, and you can still be affected by its lingering effects.
 
 ### Third Watch Gu
 *Rank 3 Carver*
@@ -3579,7 +3619,7 @@ Range: Self
 
 Health: 3
 
-Food: <!-- TODO ->
+Food: 100 g of silver (50 primeval stones)
 
 Keywords: [**Dao**], [**Expendable**]
 
@@ -4111,6 +4151,20 @@ Effect: While sustained, your hands grow to double their original size. You gain
 ## $\centerline{Water Path}$
 *Manipulates water and fluids. More defensive, but water path attacks can still be devastating.*
 
+### Blood to Water Gu
+
+*Rank 4 Attack*
+
+Cost: 40 portions
+
+Range: Touch
+
+Health: 4
+
+Food: 1 kg of dried blood from a water path myriad beast king (500 primeval stones)
+
+Effect: A creature you touch has their blood transmuted into water. In most cases, this kills the creature.
+
 ### Carapace Gu
 
 *Rank 2 Guard*
@@ -4152,7 +4206,7 @@ Range: 10 Meters
 
 Health: Food: 10 lbs of waterfall water
 
-Effect: A 1 meter radius geyser, centered on a square you can see within range, spouts 15 meters high. [Large] or smaller creatures in the area are thrown 15 meters up and become Airborne. If already Airborne, they must pass an **Athletics** or **Flying** test with a +25 penalty or fall as if they failed a Dive.
+Effect: A 1 meter radius geyser, centered on a square you can see within range, spouts 15 meters high. [Large] or smaller creatures in the area are thrown 15 meters up and become *airborne*. If already *airborne*, they must pass an **Athletics** or **Flying** test with a +25 penalty or fall as if they failed a dive Maneuver.
 
 ### Fish Scales Gu
 
@@ -4177,7 +4231,7 @@ Cost: 3 portions
 
 Range: Self
 
-Health: 10
+Health: 4
 
 Food: 1 liter of distilled water
 
@@ -4205,13 +4259,31 @@ Effect: While sustained, you're surrounded by a bubble of viscous jelly that shi
 
 Cost: 160 portions
 
-Range: {15, 50} meters
+Range: {5, 20} meters
 
 Health: 12
 
 Food: <!-- TODO ->
 
 Effect: All earth, soil, and stone within range is transmuted into an equal volume of water.
+
+### Steam Burst Gu
+
+*Rank 2 Attack*
+
+Cost: 8 portions
+
+Range: 2 meters
+
+Health: 3
+
+Food: 100 g of smoldering stone (1 primeval stone)
+
+Keywords: [**Sustained**]
+
+Effect: A cloud of steam surrounds you in a 2 meter radius while you sustain this Gu. All creatures within range have half cover against any attacks made by a creature not adjacent to them. They also gain the *blinded* condition and have a +20 penalty to all **Dodge** tests while within range. At the start of each of their turns, creatures in the area (including you) take 10 heat damage.
+
+Creatures in the area are immune to the *burning* condition (but not *ablaze*).
 
 ### Stream Gu
 *Rank 1 Attack*
