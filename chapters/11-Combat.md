@@ -19,9 +19,9 @@ If you have multiple start or end of turn effects, you choose in what order they
 Gu Masters can take a **Combat Action**, two **Reactions**, a bonus action, and a movement on each of their turns.
 
 ## Movement
-You can move a number of meters on your turn equal to your movement. 1 meter of movement corresponds to moving 1 adjacent square, including corners. If you have a flying speed, you may forego this movement to execute a number of *Maneuvers* dependent on the flying Gu being used.
+You can move a number of meters on your turn equal to your movement. 1 meter of movement corresponds to moving 1 adjacent square, including corners. If you have a flying speed, you may forego this movement to execute a number of *Maneuvers* dependent on the flying Gu being used. If you are under the effect of multiple Gu that grant a flying speed, you must choose one Gu and use the flying speed and number of Maneuvers granted by that Gu.
 
-A creature cannot move through a hostile creature's square, and cannot end their turn inside another creature's square (unless they are [**Tiny**]).
+You can move through a [**Small**] or larger hostile creature's square with a successful **Dodge** skill test, but cannot end your turn inside another creature's square (unless they are [**Tiny**]). Failing a **Dodge** skill test made to move through a hostile creature's square expends your remaining movement.
 
 ### Jumping
 Jumping costs half of your movement in meters, rounded up. If your movement is 0, you cannot jump.
@@ -42,18 +42,18 @@ Taking flight can only be done when on the ground. You rise a number of meters i
 You move a number of meters equal to your flying speed in a straight line in any direction.
 
 #### Dive
-Make a **Flying** test. On a success, you dive down a distance of up to triple your flying speed, and can move up to your flying speed in meters forward. Then, you can either try to execute a *Land* maneuver or else rise 1 meter directly upward at the end of the maneuver.
+Make a **Flying** skill test. On a success, you dive down a distance of up to triple your flying speed, and can move up to your flying speed in meters forward. Then, you can either try to execute a *Land* maneuver or else rise 1 meter directly upward at the end of the maneuver.
 
 If you fail the test, you dive directly downward a number of meters equal to your flying speed before regaining control. If this would cause you to hit the ground, you do so, are no longer *airborne*, and take 4 force damage for every meter you dove.
 
 #### Evade
-Make a **Flying** test. On a success, all skill tests made to hit you with an attack are made with a penalty equal to +(your flying skill, rounded down to the nearest ten) until the start of your next turn.
+Make a **Flying** skill test. On a success, all skill tests made to hit you with an attack are made with a penalty equal to +(your flying skill, rounded down to the nearest ten) until the start of your next turn.
 
 #### Land
-You land on solid ground. If executed at the end of a dive or atop *Uneven Terrain*, you must succeed a **Flying** test or else land *prone*.
+You land on solid ground. If executed at the end of a dive or atop *Uneven Terrain*, you must succeed a **Flying** skill test or else land *prone*.
 
 ### Climbing
-When climbing a surface, your movement is reduced by 4. If the surface does not have easy handholds like a ladder the GM may call you to make an **Athletics** test or else fall.
+When climbing a surface, your movement is reduced by 4. If the surface does not have easy handholds like a ladder the GM may call you to make an **Athletics** skill test or else fall.
 
 ### Swimming
 Non-aquatic creatures consider water to be difficult terrain. A creature can hold its breath for a number of minutes equal to 10% of their Fortitude attribute (rounded down) before falling unconscious. If the creature remains unable to breath for the same period of time after passing out, they die.
@@ -88,7 +88,7 @@ When you take an unarmed strike combat action, you may make a punch attack for e
 
 **Punch:** Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 1 force damage, +1 damage for every 10 points you have in Strength. For every 5 damage dealt, even if it is reduced, you take 1 force damage directly to your hit points. Gu such as Metal Skin Gu and Copper Tendons Gu are typically used to prevent your own strikes from hurting you.
 
-**Kick:** Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 1 force damage, +1 damage for every 5 points you have in Strength. The target is knocked backwards a number of meters equal to 1% of your Strength attribute (rounded down, minimum 1) and lands *prone*.
+**Kick:** Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 1 force damage, +1 damage for every 5 points you have in Strength. If the target is [Large] or smaller, it is knocked backwards a number of meters equal to 1% of your Strength attribute (rounded down, minimum 1) and lands *prone*.
 
 **Bite:** You viciously bite the target. Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 2 rending damage, +1 damage for every 5 points you have in Strength. The target is inflicted with *bleeding X*, where X is equal to 20% of the rending damage dealt to their hit points, rounded down (to a minimum of 0).
 
@@ -104,9 +104,9 @@ When you make an attack roll against a creature, you can choose to pick a partic
 | Huge | -40 |
 
 ### Grapple
-Select an enemy of equal or lesser size in an adjacent square. Roll an opposed **Athletics** test against them. If you win, The creature is *restrained* and now occupies the same square as you while *restrained* in this way. While you are grappling a creature, you may not make kicking attacks and the number of free hands you can make punching attacks with using the **Melee Attack** action is reduced by 1. You may expend your movement to make an **Athletics** test, with a +10 penalty for every 50 kilograms the grappled target weighs. On a success, you can move up to half your movement (rounded down).
+Select an enemy of equal or lesser size in an adjacent square. Roll an opposed **Athletics** skill test against them. If you win, The creature is *restrained* and now occupies the same square as you while *restrained* in this way. While you are grappling a creature, you may not make kicking attacks and the number of free hands you can make punching attacks with using the **Melee Attack** action is reduced by 1. You may expend your movement to make an **Athletics** skill test, with a +10 penalty for every 50 kilograms the grappled target weighs. On a success, you can move up to half your movement (rounded down).
 
-As a combat action, a grappled creature can attempt to break free, making an opposed **Athletics** test against the grappler. On a success, they break free.
+As a combat action, a grappled creature can attempt to break free, making an opposed **Athletics** skill test against the grappler. On a success, they break free.
 
 ### Absorb Primeval Stones
 On your turn, you can absorb the essence of a number of primeval stones equal to the number of hands you have. You must have one hand free for each stone being absorbed.
@@ -128,18 +128,18 @@ You can react to most actions around you at any time other than during your turn
 Unless specified otherwise by the Gu, shield Gu can be activated as a reaction, including after its determined an attack has hit you, but only before the damage has been rolled.
 
 ### Dodge
-The dodge reaction can be taken when its determined an attack has hit you and before the damage has been rolled. Make a **Dodge** test, opposing the opponent's attack roll if the attack required one. If you succeed, you successfully dodge the attack and take no damage. If you fail, you are hit and take the full damage of the attack.
+The dodge reaction can be taken when its determined an attack has hit you and before the damage has been rolled. Make a **Dodge** skill test, opposing the opponent's attack roll if the attack required one. If you succeed, you successfully dodge the attack and take no damage. If you fail, you are hit and take the full damage of the attack.
 
 When you succeed a Dodge test, you MUST move at least 1 meter and at most 1/2 your movement (rounded down) in any direction. If you are unable to move, you are also unable to take the dodge reaction. If 1/2 of your movement is insufficient to escape an area of effect attack, you are struck by the attack regardless.
 
 If you use a reaction to dodge for any trigger except an attack hitting you, you immediately move at least 1 meter and at most 1/2 your movement in any direction.
 
-Dodging provokes opportunity attacks, but they are made with disadvantage.
+Dodging provokes attacks of opportunity, but they are made with disadvantage.
 
 ### Parry
-The parry reaction can only be taken when its determined a melee attack has hit you and before the damage has been rolled. Make a **Close Combat** test with a +10 penalty, opposing the opponent's attack roll. If you win, you take no damage from the attack and can make your own melee attack against the opponent in turn as long as they are within your melee range. You can parry attacks made as part of the parry reaction.
+The parry reaction can only be taken when its determined a melee attack has hit you and before the damage has been rolled. Make a **Close Combat** skill test with a +10 penalty, opposing the opponent's attack roll. If you win, you take no damage from the attack and can make your own melee attack against the opponent in turn as long as they are within your melee range. You can parry attacks made as part of the parry reaction.
 
-### Make an Opportunity Attack
+### Make an Attack of Opportunity
 When a creature moves from inside your melee range to a square outside your melee range, you may make a melee attack as an attack of opportunity. If you make an unarmed attack, it cannot be a kicking attack.
 
 ### Trigger a Held Action
@@ -152,7 +152,7 @@ As a reaction or for free at any time during their turn, a Gu Master can self-de
 Bonus actions are generally fast and low-effort, such as giving a creature a Gu from your aperture, opening an unlocked door, or pulling a lever.
 
 ## Damage
-When you take damage, subtract that amount from your current Hit Points, to a minimum of 0. When you hit 0 Hit Points, make a **Perseverance** test. On a failure, you are *Dying*. On a success, you enter *Final Stand*.
+When you take damage, subtract that amount from your current Hit Points, to a minimum of 0. When you hit 0 Hit Points, make a **Perseverance** attribute test. On a failure, you are *Dying*. On a success, you enter *Final Stand*.
 
 ### Damage Types
 
@@ -185,7 +185,7 @@ If you take an amount of damage equal to double your maximum Hit Points from a s
 While you have the *Final Stand* condition, you cannot move or take combat actions or reactions other than to activate Gu or hold your action to do so. If you take any amount of damage to your hit points while in *Final Stand*, you enter the *Dying* state and fall unconscious. If you gain any Hit Points while in *Final Stand*, you are no longer in *Final Stand* and can act as normal.
 
 ### Dying
-If you are *Dying*, you are unconscious. At the end of each of your turns, roll a **Perseverance** test. On a success, you gain a **Perseverance Token**. On a failure, you gain a **Predicament Token**. Critical successes and fumbles grant 2 of the respective token. When you have 3 **Perseverance Tokens**, you are no longer *Dying* and instead enter *Final Stand*, and your **Perseverance** token count resets to 0. When you have 3 **Predicament Tokens**, you die.
+If you are *Dying*, you are unconscious. At the end of each of your turns, roll a **Perseverance** attribute test. On a success, you gain a **Perseverance Token**. On a failure, you gain a **Predicament Token**. Critical successes and fumbles grant 2 of the respective token. When you have 3 **Perseverance Tokens**, you are no longer *Dying* and instead enter *Final Stand*, and your **Perseverance** token count resets to 0. If you ever have 5 **Predicament Tokens**, you die.
 
 ### Fall Damage
 When falling from a height of more than 2 meters, you take 3 force damage for every meter you fell. If a creature has a flying speed when it becomes *airborne* from anything other than the *Take Flight* Maneuver, it may immediately move up to half its flying speed. If a creature does not have a flying speed when it becomes *airborne,* it immediately falls up to 500 meters. If the creature is still falling, it falls 500 meters at the end of each of its turns until it hits the ground.
@@ -231,13 +231,13 @@ When you sleep, you regain 1 hit point for every hour spent sleeping.
 ## Status Effects
 
 ### Ablaze
-A creature with the *ablaze* condition is completely engulfed in flames. An *ablaze* creature cannot have or gain the *burning* condition. If a creature with the *burning* condition gains the *ablaze* condition, the *burning* condition is removed. At the start of each of their turns, the creature takes 15 heat damage directly to their hit points. If a creature takes heat damage to their hit points on a turn from the *ablaze* condition, at the end of the turn they must succeed a **Perseverance** test or else fall unconscious. For creatures invulnerable to heat damage, consider damage dealt by the *ablaze* condition to be of the rank of the Gu that applied the *ablaze* condition, or rank 1 if the fire was natural. Being submerged in water removes the *ablaze* condition.
+A creature with the *ablaze* condition is completely engulfed in flames. An *ablaze* creature cannot have or gain the *burning* condition. If a creature with the *burning* condition gains the *ablaze* condition, the *burning* condition is removed. At the start of each of their turns, the creature takes 15 heat damage directly to their hit points. If a creature takes heat damage to their hit points on a turn from the *ablaze* condition, at the end of the turn they must succeed a **Perseverance** attribute test or else fall unconscious. For creatures invulnerable to heat damage, consider damage dealt by the *ablaze* condition to be of the rank of the Gu that applied the *ablaze* condition, or rank 1 if the fire was natural. Being submerged in water removes the *ablaze* condition.
 
 ### Bleeding X
 *Bleeding* creatures take 1 damage directly to their hit points at the start of each of their turns for every stack of *bleeding*. This damage has no type and cannot be reduced by Gu. Levels of *bleeding* can stack additively from the same or different sources. For every hit point a *bleeding* creature restores, reduce the number of *bleeding* stacks they have by 1.
 
 ### Blinded
-*Blinded* creatures cannot see and have a +50 penalty to **Close Combat** and **Ranged Attack** tests. Gu that rely on vision, including divinations that augment their sight, cannot be used by a *blinded* creature.
+*Blinded* creatures cannot see and have a +50 penalty to **Close Combat** and **Ranged Attack** skill tests. Gu that rely on vision, including divinations that augment their sight, cannot be used by a *blinded* creature.
 
 ### Burning
 *Burning* creatures take 4 heat damage directly to their hit points at the start of each of their turns. When being negated by a [**Shield**] Gu, consider this damage to be of the rank of the Gu that applied the *burning* condition, or rank 1 if the fire was natural. Being submerged in water removes the *burning* condition. A creature can use their combat action to roll around on the ground, removing the *burning* condition.
@@ -246,16 +246,16 @@ A creature with the *ablaze* condition is completely engulfed in flames. An *abl
 A *dazed* creature's activations stat is reduced by 2. At the end of their turn, they lose the *dazed* condition.
 
 ### Fatigued
-A *fatigued* creature's movement is reduced by 3 meters and makes all **Dodge** and **Athletics** tests with a +20 penalty. The *fatigued* condition lasts until the creature rests for at least an hour.
+A *fatigued* creature's movement is reduced by 3 meters and makes all **Dodge** and **Athletics** skill tests with a +20 penalty. The *fatigued* condition lasts until the creature rests for at least an hour.
 
 ### Poisoned
 Poison can have any number of effects, and a creature can gain multiple instances of the *poisoned* condition so long as each is unique. 
 
 ### Prone
-A *prone* creature has a +30 penalty to all skill tests and automatically fails all **Dodge** tests. **Close Combat** tests made to hit a *prone* creature are made with a -10 bonus. **Ranged Attack** tests made to hit a *prone* creature are made with a +10 penalty. A creature can expend half their movement to stand up.
+A *prone* creature has a +30 penalty to all skill tests and automatically fails all **Dodge** skill tests. **Close Combat** skill tests made to hit a *prone* creature are made with a -10 bonus. **Ranged Attack** skill tests made to hit a *prone* creature are made with a +10 penalty. A creature can expend half their movement to stand up.
 
 ### Restrained
-A *restrained* creature's movement is 0. A *restrained* creature automatically fails all **Dodge** and **Flying** tests.
+A *restrained* creature's movement is 0. A *restrained* creature automatically fails all **Dodge** and **Flying** skill tests.
 
 ### Stunned
 A *stunned* creature cannot move or take any actions or reactions. At the end of their turn, they lose the *stunned* condition and gain the *dazed* condition.

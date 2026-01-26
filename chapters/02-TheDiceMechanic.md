@@ -33,15 +33,15 @@ Penalties and bonuses are a number added or subtracted from the number you roll 
 If you have advantage on a test, roll an additional td10 and take the lower of the two. You can stack advantages as long as they come from different sources. Disadvantage works the same way, but you take the higher of the td10 rolls.
 
 ### Degrees of Success/Failure
-For every 10 you roll above/below your skill value, you gain a degree of failure/success, respectively. Some skill tests, such as an opposed Deception/Insight roll, do not take degrees of success into account; they're either deceived or they aren't. Many tests, however, will have different effects based on the degrees of success or failure.
+A success automatically has 1 degree of success, and a failure has 1 degree of failure. For every 10 you roll below/above your skill value, you gain an additional degree of success/failure, respectively. Some skill tests, such as an opposed Deception/Insight roll, do not take degrees of success into account; they're either deceived or they aren't. Many tests, however, will have different effects based on the degrees of success or failure.
 
 ### Critical
-When you roll at or under 1/10 of your skill's value (rounded down) on the die, you've landed a critical. Criticals are automatic successes, though degrees of success are still calculated like normal. Some skills have a critical success effect built into them, though the GM can always add a special additional success to any test you critically succeed.
+When you roll at or under 1/10 of your skill's value (rounded down, minimum 1) on the die, you've landed a critical. Criticals are automatic successes, though degrees of success are still calculated like normal with a minimum of 1. Some skills have a critical success effect built into them, though the GM can always add a special additional success to any test you critically succeed.
 
 If you score a critical with an attack roll, the attack deals double the damage it normally would.
 
 ### Fumble
-Fumbles occur when 99-100 is rolled on the die for a skill test. If your skill value is above 99, you only fumble on a roll of 100 for that skill. Fumbles are an automatic failure, though degrees of failure are still calculated like normal.
+Fumbles occur when 99-100 is rolled on the die for a skill test. If your skill value is above 99, you only fumble on a roll of 100 for that skill. Fumbles are an automatic failure, though degrees of failure are still calculated like normal with a minimum of 1.
 
 ### Opposed Tests
 When competing with your skills against another creature, the two of you may be called to make an Opposed Test. You both roll a skill test, which can be for the same or different skills, and compare results. Critical successes beat any non-critical roll, and fumbles lose to any non-fumble roll. Then, the player with the most degrees of success or least degrees of failure wins. If they're tied for degrees of success/failure, then the lower number on the die wins. If they're still tied, the Opposed Test ends in a tie if possible. If the Opposed Test can't be tied, then the involved parties make the test again until they do not tie.

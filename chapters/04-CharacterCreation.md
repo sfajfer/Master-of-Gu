@@ -44,9 +44,11 @@ Your soul begins at 10, the single-man soul. Many Soul Path Gu can strengthen yo
 
 When your soul reaches strength 100, you have the ten-man soul. It has the proper strength to sustain damage; you no longer lose maximum soul when you take more than 1/2 of your souls maximum in soul damage.
 
-When your soul reaches strength 1,000, you have the hundred-man soul. If you have not refined your soul using Gu, this is the maximum strength achievable. If your soul increases in strength above 1009 without being refined, your soul explodes and you die, with resurrection being impossible. The hundred-man soul is the minimum strength needed for many soul-mutation Gu, such as Wolf Soul Gu.
+When your soul reaches strength 1,000, you have the hundred-man soul. If you have not refined your soul using Gu, this is the maximum strength achievable. If your soul increases in strength above 1009 without being refined, your soul explodes and you die, with resurrection being impossible.
 
 When your soul reaches strength 10,000, you have the thousand-man soul. This is the limit for mortal Gu Masters and cannot be raised higher.
+
+If your current soul is less than half of its maximum, you have the *fatigued* condition.
 
 ### Luck
 Players begin with 1 maximum luck point. Luck can be spent to force you or another creature to reroll a skill test directly after the roll, or to add a -50 bonus to a skill test you're making, before the roll. If you've expended a luck point on a skill test, you cannot spend another on the same skill test. You regain luck points up to your maximum at the start of each session.

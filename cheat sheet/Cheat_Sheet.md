@@ -44,7 +44,7 @@ geometry:
 - **Parry:** Opposed Close Combat (+10 penalty); counterattack if successful.
 - **Detonate Gu:** Instantly destroy any owned/refined Gu.
 - **Trigger Held Action:** Use held action when trigger occurs.
-- **Opportunity Attack:** Attack creature leaving melee range with melee attack.
+- **Attack of Opportunity:** Attack creature leaving melee range with melee attack.
 
 ## Damage & Status
 

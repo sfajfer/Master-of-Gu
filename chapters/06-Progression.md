@@ -16,7 +16,7 @@ When you're trying to break through from peak stage of a rank to the next rank, 
 
 You must cultivate for 15 hours straight with no breaks in order to break through to the next rank. For every 15 essence per hour you recover greater than the natural recovery rate of your aperture walls, this time is reduced by 1 hour, to a minimum of 5 hours.
 
-For each hour spent cultivating, whether breaking through a small or large realm, make a **Cultivation** test with a bonus/penalty according to the table below. If you fail, your soul takes damage equal to the degrees of failure (minimum of 1).
+For each hour spent cultivating, whether breaking through a small or large realm, make a **Cultivation** skill test with a bonus/penalty according to the table below. If you fail, your soul takes damage equal to the degrees of failure (minimum of 1).
 
 | Target Rank |  Modifier  |
 | ----- | ----- |
@@ -26,7 +26,7 @@ For each hour spent cultivating, whether breaking through a small or large realm
 |      4      |   +10   |
 |      5      |   +20   |
 
-If you're cultivating for longer than 12 hours at a time, make a **Perseverance** test every hour after the initial 12. On a failure, you fall asleep.
+If you're cultivating for longer than 12 hours at a time, make a **Perseverance** attribute test every hour after the initial 12. On a failure, you fall asleep.
 
 ### Consuming Primeval Stones
 You can expend primeval stones while cultivating to make up for not having a high enough recovery rate, and you may do so to assist in breaking through both small and large realms. You may expend any number of primeval stones per hour spent cultivating, increasing your recovery rate for that hour by {5, 4, 3, 2, N/A} for each stone consumed when breaking through large realms, or dealing {5, 4, 3, 2, 1} damage to the aperture walls for each stone consumed when breaking through small realms. This depends on your current rank, not the target rank. Primeval stone expenditure must remain constant each hour when breaking through large realms; you cannot use 5 stones the first hour and 2 the second as the math would quickly get very difficult to track.

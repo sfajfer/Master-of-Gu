@@ -9,7 +9,7 @@ Your character's Skills represent their learned abilities and proficiencies, whe
 **Athletics (1/2 Str + 1/2 Agi)** - Athletics is used for strength related actions such as pushing a boulder, climbing a steep cliff, or swimming.
 
 #### Pushing, Pulling, and Lifting
-You can push or pull any weight under 100kg without making a test, halving your movement (rounded down) if the weight is over 50kg. Above 100kg you must make an **Athletics** test with a -40 bonus, increased by +10 for every 50kg over 100.
+You can push or pull any weight under 100kg without making a test, halving your movement (rounded down) if the weight is over 50kg. Above 100kg you must make an **Athletics** skill test with a -40 bonus, increased by +10 for every 50kg over 100.
 
 **Dodge (Agi)** - Dodge is used as a reaction to avoid attacks made against you, either melee or ranged.
 
@@ -25,7 +25,7 @@ Even with a complete recipe, refining Gu is an arduous process, requiring precis
 ### **Deduction (Cog)**
 Deduction is used to create and refine Gu recipes as well as to develop killer moves; the combination of multiple Gu used simultaneously to deliver a very potent effect. It can also be used to investigate your surroundings for clues.
 
-Some Gu have the [**Deductive**] keyword. When activated, these Gu unlock a special **Deduction** action. To take it, you must spend an hour deducing a specific subject and make a **Deduction** test. Penalties and Bonuses are determined by the amount of supporting information available to you. The subject can be something that occured in the past, such as who might have committed a murder, or something happening in the present or future, like why a rival clan purchased a huge amount of an unusual refinement material. Deductions cannot create information out of thin air, and a success does not necessarily mean your deduction is correct if you lack a key piece of evidence. For every degree of success on the check, however, you gain one additional conclusion about the subject.
+Some Gu have the [**Deductive**] keyword. When activated, these Gu unlock a special **Deduction** action. To take it, you must spend an hour deducing a specific subject and make a **Deduction** skill test. Penalties and Bonuses are determined by the amount of supporting information available to you. The subject can be something that occured in the past, such as who might have committed a murder, or something happening in the present or future, like why a rival clan purchased a huge amount of an unusual refinement material. Deductions cannot create information out of thin air, and a success does not necessarily mean your deduction is correct if you lack a key piece of evidence. For every degree of success on the check, however, you gain one additional conclusion about the subject.
 
 ### **Persuasion (Att)**
 Persusasion can only be used on non-player characters. Persuasion tests are used to sway a character through your words.
