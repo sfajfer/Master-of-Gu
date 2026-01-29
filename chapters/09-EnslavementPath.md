@@ -13,7 +13,7 @@ There are two different Enslavement Gu (not to be confused with Gu of Enslavemen
 ### Controlling Your Army
 
 #### Individuals
-Commanding individual beasts is tedious and quickly drains the soul. When you individually control a beast, you take its turn for it, and take 1 damage to your soul at the end of its turn. You can choose to individually control any beast that is not part of a horde (beast kings must be individually controlled while part of a horde). If you do not take an enslaved creature's turn, it acts like a wild beast and is under the GM's command, but will usually follow what the horde is doing and never attack friendly creatures.
+Commanding individual beasts is tedious and quickly drains the soul. When you individually control a creature, you take its turn for it, and take 1 damage to your soul at the end of its turn. You can choose to individually control any beast that is not part of a horde (beast kings must be individually controlled while part of a horde). If you do not take an enslaved beast's turn, it acts like a wild beast and is under the GM's command, but will usually follow what the horde is doing and never attack friendly creatures.
 
 #### Hordes
 If you have at least 100 beasts under your control, they must be separated into *Hordes*. A Horde of beasts has no minimum amount, but each must be led by the proper beast king, enslaved by you. The beast king leading the horde is the *Commander*. The maximum number of ordinary beasts in a horde is listed below:

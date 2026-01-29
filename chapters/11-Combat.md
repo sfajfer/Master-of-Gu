@@ -42,18 +42,18 @@ Taking flight can only be done when on the ground. You rise a number of meters i
 You move a number of meters equal to your flying speed in a straight line in any direction.
 
 #### Dive
-Make a **Flying** skill test. On a success, you dive down a distance of up to triple your flying speed, and can move up to your flying speed in meters forward. Then, you can either try to execute a *Land* maneuver or else rise 1 meter directly upward at the end of the maneuver.
+You must be at least 5 meters above the ground to perform a *Dive*. Make a **Flying** skill test. On a success, you dive down a distance of up to triple your flying speed, and can move up to your flying speed in meters forward. When you finish a *Dive*, you may make a single melee attack or activate a Gu with a range of touch targeting a creature within your melee range. Whether you do or not, you can try to execute a *Land* maneuver or else rise 1 meter directly upward at the end of the dive.
 
 If you fail the test, you dive directly downward a number of meters equal to your flying speed before regaining control. If this would cause you to hit the ground, you do so, are no longer *airborne*, and take 4 force damage for every meter you dove.
 
 #### Evade
-Make a **Flying** skill test. On a success, all skill tests made to hit you with an attack are made with a penalty equal to +(your flying skill, rounded down to the nearest ten) until the start of your next turn.
+Make a **Flying** skill test. On a success, all skill tests made to hit you with an attack are made with a penalty equal to +(your flying skill, rounded down to the nearest ten) until the start of your next turn. You can only make one Evade Maneuver each turn.
 
 #### Land
-You land on solid ground. If executed at the end of a dive or atop *Uneven Terrain*, you must succeed a **Flying** skill test or else land *prone*.
+You land on solid ground. If executed at the end of a dive or atop *Difficult Terrain*, you must succeed a **Flying** skill test or else land *prone*.
 
 ### Climbing
-When climbing a surface, your movement is reduced by 4. If the surface does not have easy handholds like a ladder the GM may call you to make an **Athletics** skill test or else fall.
+When climbing a surface, your movement is halved, rounded down to a minimum of 1 meter. If the surface does not have easy handholds like a ladder the GM may call you to make an **Athletics** skill test or else fall.
 
 ### Swimming
 Non-aquatic creatures consider water to be difficult terrain. A creature can hold its breath for a number of minutes equal to 10% of their Fortitude attribute (rounded down) before falling unconscious. If the creature remains unable to breath for the same period of time after passing out, they die.
@@ -142,6 +142,8 @@ The parry reaction can only be taken when its determined a melee attack has hit 
 ### Make an Attack of Opportunity
 When a creature moves from inside your melee range to a square outside your melee range, you may make a melee attack as an attack of opportunity. If you make an unarmed attack, it cannot be a kicking attack.
 
+Flying out of a creature's melee range still provokes attacks of opportunity.
+
 ### Trigger a Held Action
 When the trigger you specified upon holding a combat action occurs, you may take this reaction to use said action.
 
@@ -179,10 +181,10 @@ Resistance and invulnerability granted by a Gu can be reduced by Gu of higher ra
 If a creature is immune to a condition, it cannot be applied to them regardless of the rank of the source.
 
 ### Instant Death
-If you take an amount of damage equal to double your maximum Hit Points from a single source, you instantly die, and do not get to roll to see if you enter *Final Stand*.
+If you take an amount of damage equal to double your maximum hit points from a single source, you instantly die, and do not get to roll to see if you enter *Final Stand*.
 
 ### Final Stand
-While you have the *Final Stand* condition, you cannot move or take combat actions or reactions other than to activate Gu or hold your action to do so. If you take any amount of damage to your hit points while in *Final Stand*, you enter the *Dying* state and fall unconscious. If you gain any Hit Points while in *Final Stand*, you are no longer in *Final Stand* and can act as normal.
+While you have the *Final Stand* condition, you cannot move or take combat actions or reactions other than to activate Gu or hold your action to do so. If you take any amount of damage to your hit points while in *Final Stand*, you enter the *Dying* state and fall unconscious. If you gain any hit points while in *Final Stand*, you are no longer in *Final Stand* and can act as normal.
 
 ### Dying
 If you are *Dying*, you are unconscious. At the end of each of your turns, roll a **Perseverance** attribute test. On a success, you gain a **Perseverance Token**. On a failure, you gain a **Predicament Token**. Critical successes and fumbles grant 2 of the respective token. When you have 3 **Perseverance Tokens**, you are no longer *Dying* and instead enter *Final Stand*, and your **Perseverance** token count resets to 0. If you ever have 5 **Predicament Tokens**, you die.
@@ -237,13 +239,16 @@ A creature with the *ablaze* condition is completely engulfed in flames. An *abl
 *Bleeding* creatures take 1 damage directly to their hit points at the start of each of their turns for every stack of *bleeding*. This damage has no type and cannot be reduced by Gu. Levels of *bleeding* can stack additively from the same or different sources. For every hit point a *bleeding* creature restores, reduce the number of *bleeding* stacks they have by 1.
 
 ### Blinded
-*Blinded* creatures cannot see and have a +50 penalty to **Close Combat** and **Ranged Attack** skill tests. Gu that rely on vision, including divinations that augment their sight, cannot be used by a *blinded* creature.
+*Blinded* creatures cannot see, have a +50 penalty to **Close Combat** and **Ranged Attack** skill tests, and cannot make **Awareness** tests that rely on sight. Gu that rely on vision, including divinations that augment their sight, cannot be used by a *blinded* creature.
 
 ### Burning
 *Burning* creatures take 4 heat damage directly to their hit points at the start of each of their turns. When being negated by a [**Shield**] Gu, consider this damage to be of the rank of the Gu that applied the *burning* condition, or rank 1 if the fire was natural. Being submerged in water removes the *burning* condition. A creature can use their combat action to roll around on the ground, removing the *burning* condition.
 
 ### Dazed
 A *dazed* creature's activations stat is reduced by 2. At the end of their turn, they lose the *dazed* condition.
+
+### Deafened
+A *deafened* creature cannot hear, has resistance to sonic damage regardless of rank, and cannot make **Awareness** tests that rely on hearing. Gu that rely on hearing, including divinations that augment their hearing, cannot be used by a *deafened* creature.
 
 ### Fatigued
 A *fatigued* creature's movement is reduced by 3 meters and makes all **Dodge** and **Athletics** skill tests with a +20 penalty. The *fatigued* condition lasts until the creature rests for at least an hour.
@@ -260,13 +265,20 @@ A *restrained* creature's movement is 0. A *restrained* creature automatically f
 ### Stunned
 A *stunned* creature cannot move or take any actions or reactions. At the end of their turn, they lose the *stunned* condition and gain the *dazed* condition.
 
-## Area of Effect Attacks
+## Attack Ranges
+
+### Touch
+
+
+### Area of Effect Attacks
 When a creature is caught in an area of effect, they can dodge as a reaction, escaping the area of effect if they succeed and can move outside the area of effect.
 
-### Line
-Lines are really a horizontal cylinder, and will have a width and a length, with their height being the same as the width.
+**Line**
 
-### Radius
-Circular area of effects will originate from a source square and have a radius. If an area of effect has a radius of 5 meters, it will effect the source square and any square that could be reached using 5 meters of movement from the source square.
+Lines have a height, width, and length. If the height is not specified, it is the same as the width.
+
+**Radius**
+
+Circular area of effects will originate from a source square and have a radius. If an area of effect has a radius of 5 meters, it will effect the source square and any square that could be reached using 5 meters of movement from the source square. This means that the real shape on the board will be more like a four pointed star, with the radius reaching further diagonally.
 
 \newpage

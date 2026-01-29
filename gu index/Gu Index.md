@@ -31,7 +31,7 @@ Health: 48
 
 Food: A 100,000 liter pond of human blood in a hole dug in Hemmorhage Soil
 
-Effect: You rupture the hearts of all *bleeding* creatures within range. They have a chance to react before they instantly die. Immediately following, make 3 attack rolls for each creature affected. The range of these attacks is 15 meters, measured from the original target or the square they were in when they died. On a hit, deal 50 rending damage. If damage is dealt to a creature's hit points in this way, they gain *bleeding 5*. If the damage kills the target, you may make an additional 3 attack rolls with the same properties and measured from the square the target was in when they died.
+Effect: You rupture the hearts of all *bleeding* creatures within range. They have a chance to react before they instantly die. Immediately following, make 3 attack rolls for each creature affected. The range of these attacks is 15 meters, measured from the original target or the square they were in when they died. On a hit, deal 80 rending damage. If damage is dealt to a creature's hit points in this way, they gain *bleeding 5*. If the damage kills the target, you may make an additional 3 attack rolls with the same properties and measured from the square the target was in when they died.
 
 ### Blood Blade Gu
 *Rank 3 Attack*
@@ -69,13 +69,13 @@ Range: Self
 Health: 21
 
 Food: 50 liters of blood
-Keywords: [**Dao**], [**Sustained**]
+Keywords: [**Dao**], [**Sustained**], [**Transformation**]
 
 Effect: The roots of the blood demon flower pierce your flesh and wind around your limbs, and a great red flower sprouts from your head. Your flesh wrinkles and clings to your bones. 
 
 While sustained, you gain the following effects:
 
-Your maximum hit points are increased by 100. When you start sustaining this Gu, regain 100 hit points.
+Your maximum hit points are 250.
 
 Your movement is reduced by 4 meters, to a minimum of 1 meter.
 
@@ -83,7 +83,7 @@ As a bonus action, you can burrow your roots into a corpse and consume its blood
 
 When you use a combat action to make an unarmed melee attack, instead of striking with your fists you may extend your roots and attack up to 5 times. Your root attack range is 5 meters, and your root attacks deal 50 rending damage. If damage is dealt to a creature's hit points in this way, they gain the *bleeding 3*.
 
-At the end of each of your turns, make a **Perseverance** attribute test. On a failure, you gain a **Blood Demon Flower Token** and your body becomes corrupted. If you ever have 10 **Blood Demon Flower Tokens**, your body is permanently transfigured into this state, no longer requiring you to activate Blood Demon Flower Gu to gain its effects.
+At the end of each of your turns, make a **Perseverance** attribute test with a +20 penalty. On a failure, you gain a **Blood Demon Flower Token** and your body becomes corrupted. If you ever have 10 **Blood Demon Flower Tokens**, your body is permanently transfigured into this state, no longer requiring you to activate Blood Demon Flower Gu to gain its effects.
 
 As long as you have 9 or fewer **Blood Demon Flower Tokens**, every month you go without activating Blood Demon Flower Gu reduces the number of **Blood Demon Flower Tokens** you have by 1.
 
@@ -96,11 +96,11 @@ Range: 50 meters
 
 Health: 18
 
-Food: 120 severed hands soaked in the blood of a hundred beast king
+Food: 120 severed hands soaked in the blood of a beast emperor.
 
 Keywords: [**Sustained**]
 
-Effect: You manifest a [**Large**] 2 meter tall hand made of blood mist in an unoccupied space that you can see within range. As a bonus action or activation, you may move the hand up to 10 meters through occupied or unoccupied spaces. Any creatures in the space moved through by the hand take 200 force damage. If this damage is dealt to their hit points and they have blood in their body, they turn into a puddle of blood and die.
+Effect: You manifest a [**Large**] 2 meter tall hand made of blood mist in an unoccupied space within range. As a bonus action or activation, you may move the hand up to 10 meters through occupied or unoccupied spaces. Any creatures in the space moved through by the hand take 200 force damage. If this damage is dealt to their hit points and they have blood in their body, they turn into a puddle of blood and die.
 
 ### Blood Hatred Gu
 
@@ -114,7 +114,7 @@ Health: 5
 
 Food: <!-- TODO ->
 
-Effect: This Gu must be submerged in the blood of a single creature to be activated. All creatures within range must succeed a **Perseverance** attribute test or else gain a **Hatred Token**. Affected creatures have a dislike for the family line of the creature whose blood was used to activate Blood Hatred Gu. A creature with 3 tokens will refuse to consort with any members of the bloodline, while a creature with 5 tokens will seek to kill them on sight.
+Effect: This Gu must be submerged in the blood of a single creature to be activated. All creatures within range must succeed a **Perseverance** attribute test with a +10 penalty or else gain a **Hatred Token**. Affected creatures have a dislike for the family line of the creature whose blood was used to activate Blood Hatred Gu. A creature with 3 tokens will refuse to consort with any members of the bloodline, while a creature with 5 tokens will seek to kill them on sight.
 
 A creature can have up to 5 **Hatred Tokens** for a single bloodline, and the hatred grows stronger the closer affected creature is to the creature whose blood was used to activate Blood Hatred Gu.
 
@@ -391,6 +391,39 @@ Effect: Target creature within range has some of their blood vessels burst, taki
 
 ::: columns
 
+### Bonded Collar Gu
+*A collar made of whispy shadow, it's hard to see exactly where it begins or ends. Once accepted by a creature, an ethereal leash flickers out from the user's hand and ties itself to the collar before both fade and disappear. The creature is embued with some of your own soul, and will never turn against you.*
+
+*Rank 2 Carver*
+
+Cost: 60 portions
+
+Range: 2 meters
+
+Health: 3
+
+Food: 1 kg crimson akita wolf flesh (15 primeval stones)
+
+Keywords: [**Expendable**]
+
+Effect: Target an ordinary beast of CR 24 or lower within range. Your maximum Soul is permanently reduced by 5; the target is enslaved by you (see Enslavement Path, Ch. 3), raised to a Hundred Beast King, and its maximum soul is increased by 5. As part of this process, you may transfer the effect of a Gu with the [**Dao**] keyword from your body to the target's, as long as the target is not under the effect of a [**Dao**] Gu of an incompatible path.
+
+### Dark Gu
+
+*Rank 1-5 Concealment*
+
+Cost: 2 portions
+
+Range: {1, 2, 6, 20, 500} meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: Space within range is filled with an inky, impermeable darkness while sustained. Divination Gu of rank {2, 3, 4, 5, 5} and lower cannot see through darkness created by Dark Gu.
+
 ### Dark Toss Gu
 
 *Rank 1-5 Concealment*
@@ -432,7 +465,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Supplementary**]
 
-Effect: The next time you activate a Dark Path attack Gu before the end of your turn, it deals double the damage it normally would.
+Effect: The next time you activate a Dark Path attack Gu before the end of your turn, it deals double the damage it normally would. If the Gu has the [**Sustained**] keyword, its damage is only doubled until the start of your next turn.
 
 ### Second Shadow Gu
 
@@ -715,7 +748,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you can sense the exact square a creature within range moves to as long as they are touching the ground.
+Effect: While sustained, you can sense the exact square a creature within range moves to as long as they are touching the ground. You also gain immunity to the *deafened* condition.
 
 ### Thousand-Li Earthwolf Spider Gu
 *Rank 5 Celerity*
@@ -754,7 +787,7 @@ Food: {10, 30, 90, 300, 1000} kg of [Beast] Flesh
 
 Keywords: [**Expendable**]
 
-Effect: Target a [Beast] that you can see within range. This Gu flies from your aperture in a straight line towards the target. This action is reactable and the Enslavement Gu can be hit with attacks while en route. If the Enslavement Gu successfully reaches its target, you attempt to dominate its mind, as long as the target's beast classification is at or below the rank of the Enslavement Gu:
+Effect: Target a [Beast] within range. This Gu flies from your aperture in a straight line towards the target. This action is reactable and the Enslavement Gu can be hit with attacks while en route. If the Enslavement Gu successfully reaches its target, you attempt to dominate its mind, as long as the target's beast classification is at or below the rank of the Enslavement Gu:
 
 - Rank 1: Ordinary Beasts
 - Rank 2: Hundred Beast Kings
@@ -785,6 +818,24 @@ Food: A living creature kept as a pet for more than 10 days.
 Keywords: [**Sustained**]
 
 Effect: While sustained, a chain bursts from your fingertips and latches to a willing creature within range. When you activate this Gu and at the start of each of your turns while sustained, you may activate a Gu from your aperture of rank {3, 4} or less without using an activation, treating the effect as if it were activated by the chosen creature. Alternatively, the creature performs a melee attack against a creature you can see within range without using a combat action. Afterwards, the creature takes 3 damage to its soul.
+
+### False Aperture Gu
+
+*Rank 1-5 Carver*
+
+Cost: 25 portions
+
+Range: Touch
+
+Health: 3
+
+Food: The aperture of a rank {1, 2, 3, 4, 5} Gu Master.
+
+Effect: You create a false aperture and bond it to a creature that you touch. The creature must not have an aperture and cannot awaken an aperture while under the effects of False Aperture Gu.
+
+The false aperture can store {1, 1, 1, 2, 2} Gu of rank {1, 2, 3, 4, 5} or lower, and up to 100 portions of primeval essence of rank {1, 2, 3, 4, 5} or lower. You may infuse the aperture with primeval essence by touching the creature as a combat action and expending the number of portions taken.
+
+After creating a false aperture in this way, False Aperture Gu can no longer be activated until it is fed.
 
 ### Powerful Presence Gu
 
@@ -838,7 +889,7 @@ Health: 7
 
 Food: 1 g of determination glass (2 primeval stones)
 
-Effect: This Gu can only be activated as a reaction to a creature making a **Perseverance** attribute test. You stare into the creature's eyes, forcing it to keep going. That creature gains a {-10, -20} bonus to its **Perseverance** attribute test.
+Effect: This Gu can only be activated as a reaction to a creature you can see making a **Perseverance** attribute test. You stare into the creature's eyes, forcing it to keep going. That creature gains a {-10, -20} bonus to its **Perseverance** attribute test.
 
 :::
 \newpage
@@ -917,7 +968,7 @@ Health: 3
 
 Food: 1 kg of obsidian (1/2 primeval stone)
 
-Effect: Choose a square that you can see within range. All squares within 2 meters of the chosen square are covered in a scalding, dense, unbreathable smog. Creatures cannot see through the smog, and attacks made against creatures hidden by smog are made with disadvantage. If a creature starts its turn inside the clouds, they take 8 heat damage.
+Effect: Choose a square within range. All squares within 2 meters of the chosen square are covered in a scalding, dense, unbreathable smog. Creatures cannot see through the smog, and attacks made against creatures hidden by smog are made with disadvantage. If a creature starts its turn inside the clouds, they take 8 heat damage.
 
 At the start of each of your turns, the smog spreads to nearby squares, increasing its radius by 2 meters, to a maximum of 10. When the radius reaches 10 meters, the smog no longer deals damage. The smog dissipates over the course of 10 minutes, and strong winds can disperse the smog early.
 
@@ -1108,7 +1159,7 @@ Food: 100 g of bat guano mixed with sulfur
 
 Keywords: [**Expendable**]
 
-Effect: A sphere with a 4 meter radius blossoms into a roiling fireball. All creatures in the sphere take 8d6 heat damage and gain the *ablaze* condition.
+Effect: A 4 meter radius sphere, centered on a square you can see within range, blossoms into a roiling fireball. All creatures in the sphere take 8d6 heat damage and gain the *ablaze* condition.
 
 ### Firebrand Gu
 *Rank 2 Carver*
@@ -1193,7 +1244,7 @@ Food: 1 kg ever-burning coals (300 primeval stones)
 
 Keywords: [**Sustained**]
 
-Effect: A blazing hut with 3 closed doors manifests around you. While sustained, a door opens at the start of each of your turns. You may use an activation to unleash a wave of heat from an open door at a target within range. On a hit, deal heat damage equal to 20 times the number of open doors and apply the *burning* condition. Each door can only attack once per turn.
+Effect: A blazing hut with 3 closed doors manifests around you. While sustained, a door opens at the start of each of your turns. You may use an activation to unleash a wave of heat from an open door at a target you can see within range. On a hit, deal heat damage equal to 20 times the number of open doors and apply the *burning* condition. Each door can only attack once per turn.
 
 ### Four Door Fire Tower Gu
 *Rank 4 Attack*
@@ -1212,7 +1263,7 @@ Food: 10 kg ever-burning coals (300 primeval stones)
 
 Keywords: [**Sustained**]
 
-Effect: A translucent square tower with a closed door on each side manifests around you. While sustained, a door opens at the start of each of your turns. You may use an activation to unleash a wave of heat from an open door at a target within range. On a hit, deal heat damage equal to 40 times the number of open doors and apply the *burning* condition. Each door can only attack once per turn.
+Effect: A translucent square tower with a closed door on each side manifests around you. While sustained, a door opens at the start of each of your turns. You may use an activation to unleash a wave of heat from an open door at a target you can see within range. On a hit, deal heat damage equal to 40 times the number of open doors and apply the *burning* condition. Each door can only attack once per turn.
 
 ### Five Door Fire Pagoda Gu
 *Rank 5 Attack*
@@ -1229,7 +1280,7 @@ Food: 100 g imperial phoenix feathers (15,000 primeval stones)
 
 Keywords: [**Sustained**], [**Undodgeable**]
 
-Effect: While sustained, a magnificent pagoda with 5 closed doors manifests around you. If at least one door is unopened, target a creature within range at the start of each of your turns. A door opens, and that creature is engulfed in flame, taking heat damage equal to 200 times the number of open doors and gaining the *ablaze* condition. While all 5 doors are open, multiply heat damage you deal from any source by 5.
+Effect: While sustained, a magnificent pagoda with 5 closed doors manifests around you. If at least one door is unopened, target a creature you can see within range at the start of each of your turns. A door opens, and that creature is engulfed in flame, taking heat damage equal to 200 times the number of open doors and gaining the *ablaze* condition. While all 5 doors are open, multiply heat damage you deal from any source by 5.
 
 [**END**]
 
@@ -1574,15 +1625,13 @@ Health: 6
 
 Food: 100 g of smoldering stone (1 primeval stone)
 
-Keywords: 
-
 Effect: You transfer the heat from your own body into a target within range. You take 4 cold damage directly to your hit points. 
 
 Creature: They take 15 heat damage directly to their hit points. 
 
 Flammable object: It bursts into flames, inflicting the *burning* condition on a creature holding or wearing it. 
 
-Metal object: It glows red hot for 1 minute. A creature holding the object must succeed a **Perseverance** attribute test or else drop the object. If the object is worn or carried by a creature, that creature takes 8 heat damage at the start of each of their turns.
+Metal object: It glows red hot for 1 minute. A creature holding the object must succeed a **Perseverance** attribute test or else drop the object. If the object is worn or carried by a creature, that creature takes 10 heat damage at the start of each of their turns. The object cools down after 1 minute.
 
 ### Hibernation Gu
 *Hibernation Gu is a 1 foot tall bear. If it is sleeping, that means someone is under its effects.*
@@ -1721,7 +1770,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Pick a square that you can see within range. While sustained, a storm of razor sharp icicles and cutting winds is manifested around it. Any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage.
+Effect: Pick a square within range. While sustained, a storm of razor sharp icicles and cutting winds is manifested around it. Any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage.
 
 [**END**]
 
@@ -1786,7 +1835,7 @@ Food:
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, whenever a creature that you can see makes an attack roll, you may use a reaction to give them an **Analysis Token**. Skill tests made against creatures gain a {-5, -10} bonus for each **Analysis Token** they have. Creatures lose 1 **Analysis Token** at the end of each day.
+Effect: While sustained, whenever a creature makes an attack roll, you may use a reaction to give them an **Analysis Token**. Skill tests made against creatures gain a {-5, -10} bonus for each **Analysis Token** they have. Creatures lose 1 **Analysis Token** at the end of each day.
 
 ### Paper Crane Gu
 
@@ -1854,7 +1903,7 @@ Food: Natural light
 
 Keywords: [**Expendable**], [**Unreactable**]
 
-Effect: You explode with a blinding flash of light. All creatures that can see you immediately become *blinded* until the end of their next turn.
+Effect: You explode with a blinding flash of light. All creatures that can see you immediately become *blinded* until the end of their next turn. Any darkness created by a Gu of rank 2 or lower is dispelled, and the source Gu takes 1d4 damage as backlash and cannot be activated again until fed.
 
 ### Flash Inspiration Gu
 *Rank 3 Divination*
@@ -2043,7 +2092,7 @@ Keywords: [**Sustained**]
 
 Effect: To activate Lightning Eye Gu, the user must remove their eye and place Lightning Eye Gu in the socket. Upon activation, Lightning Eye Gu replaces the lost eye permanently, and you can see out of it with perfect vision whether or not it is activated. 
 
-While you sustain Lightning Eye Gu, your lightning eye can see through obscuring effects such as smoke and illusions produced by Gu of the same or lower rank, and can see any object within 150 meters in fine detail. You become immune to the *blinded* condition, and you can react to [**Unreactable**] Gu so long as the Gu Master is within your line of sight.
+While you sustain Lightning Eye Gu, your lightning eye can see through obscuring effects such as smoke and illusions produced by Gu of the same or lower rank, and can see any object within 150 meters in fine detail. You gain immunity to the *blinded* condition, and you can react to [**Unreactable**] Gu so long as the Gu Master is within your line of sight.
 
 ### Self Strike Gu
 *Rank 2 Attack*
@@ -2156,7 +2205,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, a tarnished bell appears in an unoccupied square that you can see within range, with 0 [Karma]. Whenever you or an ally within range succeed a skill test, the bell gains 1 [Karma], to a maximum of 3. Whenever you or an ally within range fail a skill test, the bell loses 1 [Karma], to a minimum of -3. At the start of each of your turns (even if you decide to stop sustaining this Gu), you may target a creature within range and reset the bell's [Karma] to 0. The creature gains a modifier to the next skill test they make equal to the bell's [Karma] times 10. The bell has 25 hit points and reduces all damage dealt to it by 30, but it cannot be moved from its square by force.
+Effect: While sustained, a tarnished bell appears in an unoccupied square within range, with 0 [Karma]. Whenever you or an ally within range succeed a skill test, the bell gains 1 [Karma], to a maximum of 3. Whenever you or an ally within range fail a skill test, the bell loses 1 [Karma], to a minimum of -3. At the start of each of your turns (even if you decide to stop sustaining this Gu), you may target a creature within range and reset the bell's [Karma] to 0. The creature gains a modifier to the next skill test they make equal to the bell's [Karma] times 10. The bell has 25 hit points and reduces all damage dealt to it by 30, but it cannot be moved from its square by force.
 
 :::
 \newpage
@@ -2302,7 +2351,7 @@ Food: 10 g of golden phoenix feather (20 primeval stones)
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you are surrounded by a shimmering golden aurora. You gain a flying speed of 10 meters and can execute 2 Maneuvers each turn.
+Effect: While sustained, you are surrounded by a shimmering golden aurora. You gain a flying speed of 6 meters and can execute 2 Maneuvers each turn.
 
 ### Golden Bell Gu
 *Rank 1 Guard*
@@ -2322,9 +2371,9 @@ Effect: A bell rings, and all creatures within range are surrounded in golden li
 ### Golden Breeze Gu
 *Rank 4 Tonic*
 
-Cost: 90 portions
+Cost: 30 portions
 
-Range: 25 meters
+Range: 20 meters
 
 Health: 12
 
@@ -2603,9 +2652,24 @@ Food: 1 cup of rice wine
 
 Effect: You touch a creature or edible object; The creature touched by this Gu or any number of creatures that eat affected food gain the *poisoned* condition for 1 day with the following effects: 
 
-You suffer a +10 penalty to **Awareness**, **Deduction**, and **Dodge** skill tests. 
+- You suffer a +10 penalty to **Awareness**, **Deduction**, and **Dodge** skill tests. 
+- Creatures gain a -10 bonus to **Persuasion** and **Haggle** skill tests made against you.
 
-Creatures gain a -10 bonus to **Persuasion** and **Haggle** skill tests made against you.
+### Melting Blood Gu
+
+*Rank 3 Attack*
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Keywords: 
+
+Effect: 
 
 [**Single Gate Poison Gu**]
 
@@ -2617,7 +2681,7 @@ Cost: None
 
 Range: Touch
 
-Health: 10
+Health: 2
 
 Food: None
 
@@ -2632,13 +2696,50 @@ Cost: 30 portions
 
 Range: Touch
 
-Health: 11
+Health: 4
 
 Food: <!-- TODO ->
 
-Effect: You touch a creature and they gain the *poisoned* condition. If this condition remains on them for 7 days, the target dies.
+Effect: You touch a creature and they gain the *poisoned* condition with the following effect:
+
+- If it has been at least 7 days since you recieved this condition, you die.
 
 [**END**]
+
+### Poison Affinity Gu
+*A tiny blue dart frog with purple spots.*
+
+*Rank 2 Carver*
+
+Cost: 25 portions
+
+Range: Self
+
+Health: 4
+
+Food: 1 liter of water from a Poison Path swamp (20 primeval stones)
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: You permanently gain 10% aptitude. Whenever you activate a Gu of any path other than Poison Path, their cost is doubled. Whenever you activate a Gu of Poison Path, it costs 3 fewer portions, to a minimum of 1.
+
+### Slowness Toxin Gu
+
+*Rank 2 Attack*
+
+Cost: 12 portions
+
+Range: 3 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: A green sickle curves towards an enemy within range. Make an attack roll; on a hit, deal 5 poison damage directly to their hit points and apply the *poisoned* condition with the following effect:
+
+- At the end of each of your turns, your Movement is reduced by 2, to a minimum of 1.
+
+This effect ends after 1 minute (6 turns).
 
 :::
 \newpage
@@ -2648,20 +2749,48 @@ Effect: You touch a creature and they gain the *poisoned* condition. If this con
 
 ::: columns
 
-### [Path] Refinement Gu
-*Rank 1-5 Catalyst*
+### Catalog Gu
 
-Cost: 4 portions
+*Rank 4 Container*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: One refinement recipe that you know or have written in front of you is archived in Catalog Gu. You may inspect the contents of Catalog Gu without expending primeval essence, and you gain a -10 bonus to **Refinement** skill tests if the recipe is recorded in a Catalog Gu that you own.
+
+### Morphing Colors Gu
+*A stinkbug with an exterior sheen like an oil slick.*
+
+*Rank 2-4 Catalyst*
+
+Cost: 40 portions
 
 Range: Self
 
 Health: 8
 
-Food: 1 m^3 of plant matter belonging to [Path]
+Food: {1, 10, 100} liters of black oil centipede blood
 
-Keywords: [**Expendable**]
+Effect: When following a Gu refinement recipe for a Gu of rank {2, 3, 4} or lower, if the Gu belongs to Transformation or Light Path you may activate this Gu to gain advantage on the **Refinement** skill test.
 
-Effect: When following a Gu refinement recipe for a rank {1, 2, 3, 4, 5} Gu of [Path], activate this Gu to gain advantage on the **Refinement** skill test.
+### Revert Gu
+
+*Rank 2-5 Catalyst*
+
+Cost: 5 portions
+
+Range: Touch
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: Touch a Gu of rank {2, 3, 4, 5}. If a Gu of rank {1, 2, 3, 4} is a core material in the targeted Gu's refinement recipe, the targeted Gu is transformed into that Gu. If multiple Gu fulfill the requirement, one is selected at random.
 
 :::
 \newpage
@@ -2686,41 +2815,27 @@ Keywords: [**Sustained**]
 
 Effect: Upon activation, choose any number of ranks {4, 5} or below. While sustained, you are surrounded by an invisible 2 meter radius sphere. Gu Masters of the chosen ranks cannot pass through the bounds of the sphere either way, but attacks can still pass through like normal.
 
+[**Upgrade Path: Hundred Meter Gu**]
 
 ### Millimeter Gu
-*Rank 1 Catalyst*
+*Rank 2 Catalyst*
 
-Cost:  portions
+Cost: 5 portions
 
-Range: <!-- TODO ->
+Range: Self
 
-Health: <!-- TODO ->
+Health: 4
 
 Food: 1 cubic millimeter of gold
 
 Keywords: [**Supplementary**]
 
-Effect: Change the range of your next Gu activation to a millimeter. Has no effect on Gu with a range of *self*.
+Effect: Change the range of your next Gu activation to a millimeter. Has no effect on Gu with a range of *self*. *Touch* becomes an attack roll against a target you can see within range.
 
 ### Meter Gu
-*Rank 2 Catalyst*
-
-Cost:  portions
-
-Range: <!-- TODO ->
-
-Health: <!-- TODO ->
-
-Food: <!-- TODO ->
-
-Keywords: [**Supplementary**]
-
-Effect: Change the range of your next Gu activation to a meter. Has no effect on Gu with a range of *self*.
-
-### Hundred Meter Gu
 *Rank 3 Catalyst*
 
-Cost: 30 portions
+Cost: 5 portions
 
 Range: Self
 
@@ -2730,7 +2845,39 @@ Food: <!-- TODO ->
 
 Keywords: [**Supplementary**]
 
-Effect: Change the range of your next Gu activation to 100 meters. Has no effect on Gu with a range of *self*.
+Effect: Change the range of your next Gu activation to a meter. Has no effect on Gu with a range of *self*. *Touch* becomes an attack roll against a target you can see within range.
+
+### Ten Meter Gu
+*Rank 4 Catalyst*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Supplementary**]
+
+Effect: Change the range of your next Gu activation to 10 meters. Has no effect on Gu with a range of *self*. *Touch* becomes an attack roll against a target you can see within range.
+
+### Hundred Meter Gu
+*Rank 5 Catalyst*
+
+Cost: 60 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Supplementary**]
+
+Effect: Change the range of your next Gu activation to 100 meters. Has no effect on Gu with a range of *self*. *Touch* becomes an attack roll against a target you can see within range.
+
+[**END**]
 
 ### Sacrifice Gu
 *Rank 4 Catalyst*
@@ -2739,13 +2886,54 @@ Cost: 40 portions
 
 Range: Self
 
-Health: <!-- TODO ->
+Health: 3
 
 Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
 Effect: Can only be activated as a reaction to yourself using an [**Expendable**] Gu. That [**Expendable**] Gu is not destroyed in the process of activation.
+
+### Small Gu
+
+*Rank 2 Catalyst*
+
+Cost: 4 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Supplementary**]
+
+Effect: Make the size of your next Gu activation smaller:
+
+If the Gu or killer move creates an area of effect, reduce its size in all dimensions by half (rounding down to a minimum of 1 meter).
+
+If the Gu or killer move has the [**Transformation**] keyword, your size is reduced to [**Small**]
+
+### Tiny Gu
+
+*Rank 3 Catalyst*
+
+Cost: 8 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Supplementary**]
+
+Effect: Make the size of your next Gu activation smaller:
+
+If the Gu or killer move creates an area of effect, reduce its size in all dimensions to 10% of its original size (rounding down to a minimum of 1 meter).
+
+If the Gu or killer move has the [**Transformation**] keyword, your size is reduced to [**Tiny**]
+
 
 :::
 \newpage
@@ -2928,7 +3116,7 @@ Effect: The deafening sound of a horn fills the area within range for a few seco
 
 *Rank 5 Attack*
 
-Cost: 10 portions
+Cost: 15 portions
 
 Range: 25 meters
 
@@ -2936,7 +3124,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Effect: Your voice erupts with a beautiful but ear-piercing melody. All creatures within range take 100 sonic damage.
+Effect: Your voice erupts with a beautiful but ear-piercing melody. All other creatures within range take 100 sonic damage.
 
 ### Tripwire Gu
 *An infinitesmally thin worm that attaches itself to the wall and alerts the user when a creature passes through. Its biggest weakness is that there is no way to know which one was tripped if the user has multiple Tripwire Gu set up.*
@@ -3212,9 +3400,8 @@ Whenever you deal damage to a creature with an unarmed melee attack, roll 1d8. I
 
 When you deal damage to a creature's hit points with a bite attack, apply the *poisoned* condition with the following effect:
 
-You take 5 poison damage at the start of each of your turns.
-
-Your movement is reduced by 1 and you have disadvantage on all **Dodge**, **Close Combat**, and **Ranged Attack** skill tests.
+- You take 5 poison damage at the start of each of your turns.
+- Your movement is reduced by 1 and you have disadvantage on all **Dodge**, **Close Combat**, and **Ranged Attack** skill tests.
 
 ### Shark-fin Wolf Strength Gu
 
@@ -3460,7 +3647,7 @@ Cost: 20 portions
 
 Range: Self
 
-Health: {20, 50}
+Health: {25, 60}
 
 Food: <!-- TODO ->
 
@@ -3593,7 +3780,7 @@ Health: 3
 
 Food: 1 kg of sharpened blades of any size (1/2 primeval stone)
 
-Effect: You throw a 2 meter wide curved blade in a 20 meter long line. All creatures in the area take 60 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 3*. **Dodge** skill tests to avoid this attack are made with a +10 penalty.
+Effect: You throw a 1 meter wide curved blade in a 20 meter long line. All creatures in the area take 60 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 3*.
 
 ### Split Hill Gu
 *Rank 4 Attack*
@@ -3610,7 +3797,7 @@ Health: 3
 
 Food: 10 Slash Gu
 
-Effect: You throw a 5 meter wide blade of supercondensed sword qi in a 100 meter long line. All creatures in the area take 200 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 5*. **Dodge** skill tests to avoid this attack are made with a +20 penalty.
+Effect: You throw a 3 meter wide blade of supercondensed sword qi in a 100 meter long line. All creatures in the area take 200 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 5*. **Dodge** skill tests to avoid this attack are made with a +10 penalty.
 
 ### Split Mountain Gu
 *Rank 5 Attack*
@@ -3625,7 +3812,7 @@ Health: 3
 
 Food: 50 Rend Gu
 
-Effect: You launch an enormous burst of sword qi; select an area 10 meters wide, 10 meters tall, and 500 meters long. All creatures in the area take 800 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 20*. **Dodge** skill tests to avoid this attack are made with a +40 penalty.
+Effect: You launch an enormous burst of sword qi in a line 5 meters wide, 10 meters tall, and 500 meters long. All creatures in the area take 600 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 20*. **Dodge** skill tests to avoid this attack are made with a +20 penalty.
 
 *Discovered by Lord of Swords Jin Chang, Split Mountain Gu is named for his sundering of Mount Cao. To this day, a great ravine splits the mountain in two, with the Jin and Cao clans living on either side.*
 
@@ -3792,7 +3979,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: A creature or corpse that you can see within range is transported up the River of Time to their state 24 hours ago. Usually this means restoring their hit points, primeval essence, and removing any negative conditions.
+Effect: A creature or corpse within range is transported up the River of Time to their state 24 hours ago. Usually this means restoring their hit points, primeval essence, and removing any negative conditions.
 
 ### Slowness Gu
 
@@ -3808,7 +3995,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Choose up to {1, 2, 5} creatures that you can see within range. While sustained, each target is slowed; their movement is reduced to half (rounded down to a minimum of 1), they have 1 fewer reaction each turn, and they gain a +20 penalty to all **Dodge** skill tests and attack rolls.w
+Effect: Choose up to {1, 2, 5} creatures within range. While sustained, each target is slowed; their movement is reduced to half (rounded down to a minimum of 1), they have 1 fewer reaction each turn, and they gain a +20 penalty to all **Dodge** skill tests and attack rolls.w
 
 ### Split Second Gu
 
@@ -3863,17 +4050,33 @@ Effect: A silver triangle tattoo permanently appears on your chest. Your body an
 
 ::: columns
 
-[**Transformation: Azure Wolf**]
+[**Azure Wolf Transformation**]
 
 *Azure wolves are a nearly extinct mutated beast that grow more energetic the longer they battle.*
 
-While you are sustaining all Gu included in this transformation, you gain the following feature:
+Azure Wolf Transformation
+*Rank 4 Transformation Killer Move*
+Core Gu: Rank 4 Azure Wolf Bite Gu, Rank 4 Azure Wolf Claw Gu, Rank 4 Azure Wolf Skin Gu
+Supplementary Gu: None
+Total Activations: 3
+Activation Cost: 15 portions
+Keywords: [**Sustained**], [**Transformation**]
 
-At the end of each of your turns, your movement increases by 1 meter, to a maximum of +5 meters, and you gain a -5 bonus to all **Close Combat** skill tests, to a maximum of -25.
+Effect: You transform into an Azure Wolf, gaining the following features:
+
+Your maximum hit points are 300, and your base movement is 8 meters.
+
+Your sense of smell is vastly improved, and you can now make **Awareness** skill tests to identify and follow scents.
+
+Your bite attacks deal an additional 50 rending damage.
+
+Your movement is increased by 4 meters while on all fours and your punching and kicking attacks deal an additional 30 rending damage. If this damage is dealt to the target's hit points, they gain *bleeding 5*.
+
+At the start of each of your turns, your Movement is increased by 1.
 
 ### Azure Wolf Bite Gu
 
-*Rank 4 Catalyst*
+*Rank 4 Attack*
 
 Cost: 5 portions
 
@@ -3893,7 +4096,7 @@ Your bite attacks deal an additional 50 rending damage.
 
 ### Azure Wolf Claw Gu
 
-*Rank 4 Catalyst*
+*Rank 4 Attack*
 
 Cost: 4 portions
 
@@ -3955,7 +4158,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**]
 
-Effect: Over the course of an hour, your vertebrae sprout new bone that pierces your back and forms wings made of bone. You have a flying speed of 10 meters and can execute 4 Maneuvers each turn.
+Effect: Over the course of an hour, your vertebrae sprout new bone that pierces your back and forms wings made of bone. You have a flying speed of 8 meters and can execute 4 Maneuvers each turn.
 
 ### Frog Legs Gu
 *Rank 1 Carver*
@@ -3985,7 +4188,7 @@ Food: {1, 4, 9, 16, 25} jade stones
 
 Keywords: [**Sustained**], [**Defensive**], [**Shield**]
 
-Effect: Your body is shrouded in jade while sustained. Foreign objects are blocked from entering as well. 
+Effect: Your body is shrouded in jade while sustained. You are not a valid target for Gu with a range of *Touch.*
 
 ### Longarm Gu
 *Rank 1 Catalyst*
@@ -4016,11 +4219,11 @@ Health: 4
 
 Food: 1 Skull of a horned mammal (3 Primeval Stones)
 
-Effect: You temporarily grow blunt horns and gain the following melee attack:
+Effect: You grow blunt horns and gain the following melee attack:
 
 * **Ram's Horns:** You headbutt a creature in an adjacent square. Make a **Close Combat** skill test. On a hit, deal 10 force damage, +1 damage for every 10 points you have in Strength. If the target is under the effect of a Gu with the [**Shield**] keyword, this damage is doubled. After using this melee attack, your horns fall off.
 
-[**Upgrade Path: 5 Great Flying Zombie Gu**]
+[**Upgrade Path: Flying Zombie Gu**]
 
 ### Roaming Zombie Gu
 
@@ -4034,17 +4237,17 @@ Range: Self
 
 Health: 
 
-Food: 4
+Food: 10 kg rotting human flesh
 
-Keywords: [**Dao**], [**Sustained**]
+Keywords: [**Dao**], [**Sustained**], [**Transformation**]
 
 Effect: While sustained, your body transforms into that of a roaming zombie, granting you the following effects:
 
-Your maximum hit points are increased by 50. When you start sustaining this Gu, regain 50 hit points.
+Your maximum hit points are 80.
 
 You regain 8 hit points at the start of each of your turns.
 
-Your brain becomes your only vital organ. 
+Your brain is your only vital organ. 
 
 You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
 
@@ -4072,17 +4275,17 @@ Range: Self
 
 Health: 4
 
-Food: 
+Food: <!-- TODO ->
 
-Keywords: [**Dao**], [**Sustained**]
+Keywords: [**Dao**], [**Sustained**], [**Transformation**]
 
 Effect: While sustained, your body transforms into that of a hairy zombie, granting you the following effects:
 
-Your maximum hit points are increased by 100. When you start sustaining this Gu, regain 100 hit points.
+Your maximum hit points are 125.
 
 You regain 15 hit points at the start of each of your turns.
 
-Your brain becomes your only vital organ. 
+Your brain is your only vital organ. 
 
 You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
 
@@ -4092,7 +4295,7 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test. On a failure, you gain a **Hairy Zombie Token**. If you ever have 10 **Hairy Zombie Tokens**, your body is permanently transformed into a hairy zombie. Your natural primeval essence recovery rate is reduced to 0.
+At the start of each of your turns, make a **Perseverance** attribute test with a +10 penalty. On a failure, you gain a **Hairy Zombie Token**. If you ever have 10 **Hairy Zombie Tokens**, your body is permanently transformed into a hairy zombie. Your natural primeval essence recovery rate is reduced to 0.
 
 As long as you have 9 or fewer **Hairy Zombie Tokens**, every month you go without activating Hairy Zombie Gu reduces the number of **Hairy Zombie Tokens** you have by 1.
 
@@ -4110,19 +4313,19 @@ Range: Self
 
 Health: 4
 
-Food: 
+Food: <!-- TODO ->
 
-Keywords: [**Dao**], [**Sustained**]
+Keywords: [**Dao**], [**Sustained**], [**Transformation**]
 
 Effect: While sustained, your body transforms into that of a hopping zombie, granting you the following effects:
 
-Your maximum hit points are increased by 250. When you start sustaining this Gu, regain 250 hit points.
+Your maximum hit points are 200.
 
 You regain 25 hit points at the start of each of your turns.
 
 Your jumping distance is doubled.
 
-Your brain becomes your only vital organ. 
+Your brain is your only vital organ. 
 
 You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
 
@@ -4132,35 +4335,35 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test. On a failure, you gain a **Hopping Zombie Token**. If you ever have 10 **Hopping Zombie Tokens**, your body is permanently transformed into a hopping zombie. Your natural primeval essence recovery rate is reduced to 0.
+At the start of each of your turns, make a **Perseverance** attribute test with a +20 penalty. On a failure, you gain a **Hopping Zombie Token**. If you ever have 10 **Hopping Zombie Tokens**, your body is permanently transformed into a hopping zombie. Your natural primeval essence recovery rate is reduced to 0.
 
 As long as you have 9 or fewer **Hopping Zombie Tokens**, every month you go without activating Hopping Zombie Gu reduces the number of **Hopping Zombie Tokens** you have by 1.
 
-### Asura Zombie Gu <!-- TODO ->
+### Asura Zombie Gu
 
 *Rank 5 Carver*
 
-Cost: 25 portions
+Cost: 15 portions
 
 Range: Self
 
 Health: 2
 
-Food: 
+Food: <!-- TODO ->
 
-Keywords: [**Dao**], [**Sustained**]
+Keywords: [**Dao**], [**Sustained**], [**Transformation**]
 
 Effect: While sustained, your body transforms into that of an Asura Zombie, granting you the following effects:
 
-Your maximum hit points are increased by 500. When you start sustaining this Gu, regain 500 hit points.
+Your maximum hit points are 600.
 
 You regain 50 hit points at the start of each of your turns.
 
 You gain 6 additional arms.
 
-Your brain becomes your only vital organ. 
+Your brain is your only vital organ. 
 
-You gain a flying speed of 10 meters and can execute 4 Maneuvers each turn.
+You gain a flying speed of 6 meters and can execute 4 Maneuvers each turn.
 
 You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
 
@@ -4170,7 +4373,7 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test. On a failure, you gain an **Asura Zombie Token**. If you ever have 10 **Asura Zombie Tokens**, your body is permanently transformed into an Asura Zombie. Your natural primeval essence recovery rate is reduced to 0.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain an **Asura Zombie Token**. If you ever have 10 **Asura Zombie Tokens**, your body is permanently transformed into an Asura Zombie. Your natural primeval essence recovery rate is reduced to 0.
 
 As long as you have 9 or fewer **Asura Zombie Tokens**, every month you go without activating Asura Zombie Gu reduces the number of **Asura Zombie Tokens** you have by 1.
 
@@ -4178,25 +4381,25 @@ As long as you have 9 or fewer **Asura Zombie Tokens**, every month you go witho
 
 *Rank 5 Carver*
 
-Cost: 
+Cost: 10 portions
 
 Range: Self
 
 Health: 2
 
-Food: 
+Food: <!-- TODO ->
 
-Keywords: [**Dao: Blood**], [**Sustained**]
+Keywords: [**Dao: Blood**], [**Sustained**], [**Transformation**]
 
 Effect: While sustained, your body transforms into that of a Blood Wight Zombie, granting you the following effects:
 
-Your maximum hit points are increased by 500. When you start sustaining this Gu, regain 500 hit points.
+Your maximum hit points are 400.
 
 You regain 100 hit points at the start of each of your turns.
 
-Your brain becomes your only vital organ. 
+Your brain is your only vital organ. 
 
-You gain a flying speed of 10 meters and can execute 3 Maneuvers each turn.
+You gain a flying speed of 8 meters and can execute 3 Maneuvers each turn.
 
 You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
 
@@ -4206,7 +4409,7 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test. On a failure, you gain a **Blood Wight Zombie Token**. If you ever have 10 **Blood Wight Zombie Tokens**, your body is permanently transformed into a Blood Wight Zombie.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Blood Wight Zombie Token**. If you ever have 10 **Blood Wight Zombie Tokens**, your body is permanently transformed into a Blood Wight Zombie.
 
 As long as you have 9 or fewer **Blood Wight Zombie Tokens**, every month you go without activating Blood Wight Zombie Gu reduces the number of **Blood Wight Zombie Tokens** you have by 1.
 
@@ -4214,25 +4417,25 @@ As long as you have 9 or fewer **Blood Wight Zombie Tokens**, every month you go
 
 *Rank 5 Carver*
 
-Cost: 
+Cost: 10 portions
 
 Range: Self
 
 Health: 4
 
-Food: 
+Food: <!-- TODO ->
 
-Keywords: [**Dao: Earth**], [**Sustained**]
+Keywords: [**Dao: Earth**], [**Sustained**], [**Transformation**]
 
 Effect: While sustained, your body transforms into that of an Earth Chief Zombie, granting you the following effects:
 
-Your maximum hit points are increased by 1000. When you start sustaining this Gu, regain 1000 hit points.
+Your maximum hit points are 1000, and your base movement is 5 meters.
 
 You regain 30 hit points at the start of each of your turns.
 
-Your brain becomes your only vital organ. 
+Your brain is your only vital organ. 
 
-You gain a flying speed of 10 meters and can execute 2 Maneuvers each turn.
+You gain a flying speed of 6 meters and can execute 2 Maneuvers each turn.
 
 You gain immunity to the *bleeding*, *dazed*, *fatigued*, *posioned*, and *stunned* conditions and cannot be knocked prone.
 
@@ -4242,7 +4445,7 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test. On a failure, you gain an **Earth Chief Zombie Token**. If you ever have 10 **Earth Chief Zombie Tokens**, your body is permanently transformed into an Earth Chief Zombie.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain an **Earth Chief Zombie Token**. If you ever have 10 **Earth Chief Zombie Tokens**, your body is permanently transformed into an Earth Chief Zombie.
 
 As long as you have 9 or fewer **Earth Chief Zombie Tokens**, every month you go without activating Earth Chief Zombie Gu reduces the number of **Earth Chief Zombie Tokens** you have by 1.
 
@@ -4250,25 +4453,25 @@ As long as you have 9 or fewer **Earth Chief Zombie Tokens**, every month you go
 
 *Rank 5 Carver*
 
-Cost: 
+Cost: 20 portions
 
 Range: Self
 
-Health: 
+Health: 4
 
-Food: 
+Food: <!-- TODO ->
 
-Keywords: [**Dao: Light**], [**Sustained**]
+Keywords: [**Dao: Light**], [**Sustained**], [**Transformation**]
 
 Effect: While sustained, your body transforms into that of a Heavenly Demon Zombie, granting you the following effects:
 
-Your maximum hit points are increased by 250. When you start sustaining this Gu, regain 250 hit points.
+Your maximum hit points are 300.
 
 You regain 30 hit points at the start of each of your turns.
 
-Your brain becomes your only vital organ. 
+Your brain is your only vital organ. 
 
-You gain a flying speed of 25 meters and can execute 3 Maneuvers each turn.
+You gain a flying speed of 10 meters and can execute 3 Maneuvers each turn.
 
 You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
 
@@ -4280,32 +4483,32 @@ While not exposed to direct light, you gain a -20 bonus on all **Awareness**, **
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test. On a failure, you gain a **Heavenly Demon Zombie Token**. If you ever have 10 **Heavenly Demon Zombie Tokens**, your body is permanently transformed into a Heavenly Demon Zombie.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Heavenly Demon Zombie Token**. If you ever have 10 **Heavenly Demon Zombie Tokens**, your body is permanently transformed into a Heavenly Demon Zombie.
 
 As long as you have 9 or fewer **Heavenly Demon Zombie Tokens**, every month you go without activating Heavenly Demon Zombie Gu reduces the number of **Heavenly Demon Zombie Tokens** you have by 1.
 
 ### Nightmare Zombie Gu
 *Rank 5 Carver*
 
-Cost: 
+Cost: 15 portions
 
 Range: Self
 
-Health: 
+Health: 3
 
-Food: 
+Food: <!-- TODO ->
 
-Keywords: [**Dao: Dark**], [**Sustained**]
+Keywords: [**Dao: Dark**], [**Sustained**], [**Transformation**]
 
 Effect: While sustained, your body transforms into that of a Nightmare Zombie, granting you the following effects:
 
-Your maximum hit points are increased by 150. When you start sustaining this Gu, regain 150 hit points.
+Your maximum hit points are 300.
 
 You regain 30 hit points at the start of each of your turns.
 
-Your brain becomes your only vital organ. 
+Your brain is your only vital organ. 
 
-You gain a flying speed of 15 meters and can execute 3 Maneuvers each turn.
+You gain a flying speed of 10 meters and can execute 3 Maneuvers each turn.
 
 You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
 
@@ -4317,30 +4520,30 @@ When you hit a creature with a melee attack, they take 50 damage to their soul.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test. On a failure, you gain a **Nightmare Zombie Token**. If you ever have 10 **Nightmare Zombie Tokens**, your body is permanently transformed into a Nightmare Zombie.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Nightmare Zombie Token**. If you ever have 10 **Nightmare Zombie Tokens**, your body is permanently transformed into a Nightmare Zombie.
 
 As long as you have 9 or fewer **Nightmare Zombie Tokens**, every month you go without activating Nightmare Zombie Gu reduces the number of **Nightmare Zombie Tokens** you have by 1.
 
 ### Plague Zombie Gu
 *Rank 5 Carver*
 
-Cost: 
+Cost: 10 portions
 
 Range: Self
 
-Health: 20
+Health: 5
 
-Food: 
+Food: <!-- TODO ->
 
-Keywords: [**Dao: Poison**], [**Sustained**]
+Keywords: [**Dao: Poison**], [**Sustained**], [**Transformation**]
 
 Effect: While sustained, your body transforms into that of a Plague Zombie, granting you the following effects:
 
-Your maximum hit points are increased by 250. When you start sustaining this Gu, regain 250 hit points.
+Your maximum hit points are 800.
 
-You regain 30 hit points at the start of each of your turns.
+You regain 10 hit points at the start of each of your turns.
 
-Your brain becomes your only vital organ. 
+Your brain is your only vital organ. 
 
 You gain a flying speed of 5 meters and can execute 3 Maneuvers each turn.
 
@@ -4352,12 +4555,14 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-If a creature starts their turn within 15 meters of you, they gain the **posioned** condition. While **posioned** in this way, they take 50 poison damage directly to their hit points at the end of each of their turns.
-
-At the start of each of your turns, make a **Perseverance** attribute test. On a failure, you gain a **Plague Zombie Token**. If you ever have 10 **Plague Zombie Tokens**, your body is permanently transformed into a Plague Zombie.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Plague Zombie Token**. If you ever have 10 **Plague Zombie Tokens**, your body is permanently transformed into a Plague Zombie.
 
 As long as you have 9 or fewer **Plague Zombie Tokens**, every month you go without activating Plague Zombie Gu reduces the number of **Plague Zombie Tokens** you have by 1.
 
+If a creature starts their turn within 3 meters of you, they gain the *Poisoned* condition with the following effects:
+
+- You take 50 poison damage at the end of each of your turns.
+- You have disadvantage on all skill tests.
 
 [**END**]
 
@@ -4376,6 +4581,70 @@ Keywords: [**Sustained**]
 
 Effect: While sustained, your hands grow to double their original size. You gain a -10 bonus to **Close Combat** skill tests on punching attacks and your punching attacks deal an additional 2 force damage.
 
+[**Wind Scythe Bird Transformation**]
+
+*Wind Scythe Birds are a terrifyingly fast predator from Northern Plains. Their feathers are sharp as razors, and their diminutive size paired with extreme speed makes them very difficult to hit.*
+
+Wind Scythe Bird Transformation
+*Rank 3 Transformation Killer Move*
+Core Gu: Rank 3 Wind Scythe Bird Wings Gu, Rank 2 Wind Scythe Bird Plumes Gu
+Supplementary Gu: Rank 3 Tiny Gu
+Total Activations: 3
+Activation Cost: 19 portions
+Keywords: [**Sustained**], [**Transformation**]
+
+Effect: You transform into a Wind Scythe Bird, gaining the following features:
+
+Your maximum hit points are 10, and your base movement is 2 meters. Your size is [**Tiny**] (+40 penalty to hit).
+
+You have a flying speed of 25 meters and can make 5 Maneuvers each turn.
+
+Creatures that hit you with unarmed melee attacks take 15 rending damage. If this damage is dealt to their hit points, they gain *bleeding 3.*
+
+You can no longer make punching, kicking, or biting attacks, but gain the following unarmed melee attack option:
+
+**Wings:** Make a **Close Combat** skill test against a creature within 1 meter of you. On a hit, deal 30 rending damage, increased to 100 rending damage if performed at the end of a *Dive* Maneuver. If this damage is dealt to the target's hit points, they gain *bleeding 6.*
+
+### Wind Scythe Bird Plumes Gu
+
+*Rank 2 Guard*
+
+Cost: 3 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**], [**Sustained**]
+
+Effect: Your body sprouts razor sharp feathers while sustained. Creatures take 10 rending damage whenever:
+
+- They hit you with an unarmed melee attack
+- You successfully grapple them
+
+If this damage is dealt to their hit points, they gain *bleeding 2.*
+
+### Wind Scythe Bird Wings Gu
+
+*Rank 3 Celerity*
+
+Cost: 10 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: Your arms transform into wings with razor sharp feathers. While sustained, you have a flying speed of 15 meters and can make 3 Maneuvers every turn. You can no longer make punching attacks, but gain the following unarmed melee attack option:
+
+**Wings:** Make a **Close Combat** skill test against a creature within 1 meter of you. On a hit, deal 20 rending damage, increased to 50 rending damage if performed at the end of a *Dive* Maneuver. If this damage is dealt to the target's hit points, they gain *bleeding 4.*
+
+[**End**]
 
 :::
 \newpage
@@ -4486,7 +4755,7 @@ Food: 1 kg of mashed fruits (1/4 primeval stone)
 
 Keywords: [**Defensive**], [**Shield**], [**Sustained**]
 
-Effect: While sustained, you're surrounded by a bubble of viscous jelly that shields you from outside attacks. You cannot move, dodge, or make melee attacks, and you gain immunity to the *burning* and *ablaze* conditions. Reduce all force damage dealt to Jelly Bubble Gu by 30.
+Effect: While sustained, you're surrounded by a bubble of viscous jelly. You cannot move, dodge, or make melee attacks, and you gain immunity to the *burning* and *ablaze* conditions. You are not a valid target for Gu with a range of *Touch.* Reduce all force damage dealt to Jelly Bubble Gu by 30.
 
 ### Land Becomes Sea Gu
 *Rank 3-4 Manifestation*
@@ -4881,7 +5150,7 @@ Health: 8
 
 Food: 100 g of sugar
 
-Effect: A creature of your choice that you can see within range regains 2 hit points.
+Effect: A creature of your choice within range regains 2 hit points.
 
 ### Shared Sense Gu
 
@@ -5047,7 +5316,17 @@ Health: 3
 
 Food: A sapling
 
-Effect: You stand still for one hour to transform into a tree of your height. You are rooted, blinded, and deaf, but can still feel. You are indistinguishable from a normal tree by Gu of rank 3 or lower. As a bonus action, you may transform back into your original form and end this effect.
+Keywords: [**Dao**], [**Transformation**]
+
+Effect: You transform into a tree of your height, granting you the following features:
+
+Your maximum hit points are 25, and your base movement is 0 meters.
+
+You gain the *blinded* and *deafened* conditions.
+
+You gain resistance to cold, force, rending, shock, and sonic damage.
+
+As a bonus action, you may transform back into your original form and end this effect.
 
 ### Branching Wings Gu
 *Rank 2 Manifestation*
@@ -5499,7 +5778,7 @@ Keywords: [**Dao**], [**Sustained**]
 
 Effect: While sustained, your skin becomes bark as you transform into a tree spirit and gain the ability to absorb primeval essence from the surroundings. At the end of each of your turns, you and any creatures in a square adjacent to you regain 10 portions of primeval essence. Your bark skin also reduces rending and force damage dealt to your hit points by 10.
 
-At the start of each of your turns, make a **Perseverance** attribute test. On a failure, you gain a **Wood Charm Token** and your body becomes slightly more tree-like. If you ever have 10 **Wood Charm Tokens**, your body is permanently transfigured into a small tree and you die.
+At the start of each of your turns, make a **Perseverance** attribute test with a +10 penalty. On a failure, you gain a **Wood Charm Token** and your body becomes slightly more tree-like. If you ever have 10 **Wood Charm Tokens**, your body is permanently transfigured into a small tree and you die.
 
 As long as you have 9 or fewer **Wood Charm Tokens**, every month you go without activating Wood Charm Gu reduces the number of **Wood Charm Tokens** you have by 1.
 

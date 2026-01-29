@@ -1,3 +1,11 @@
+---
+geometry:
+    - top=2cm
+    - bottom=2.5cm
+    - left=1.5cm
+    - right=1.5cm
+---
+
 ## Talents
 
 ::: columns
