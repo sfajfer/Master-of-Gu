@@ -577,7 +577,7 @@ Pushing your finger into Crystal Ladybug Gu's head causes it to expel any amount
 
 *Rank 1 Guard*
 
-*Next Rank:* Stoneheart Gu
+*Next Rank:* Stoneskin Gu
 
 Cost: 5 portions
 
@@ -645,7 +645,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Keywords: [**Defensive**], [**Shield**]
+Keywords: [**Defensive**]
 
 Effect: Dense stone walls rise in a 5 meter by 5 meter square perimeter, centered on your square. Any creatures occupying a square the walls rise in that do not dodge are knocked *prone* to a random side of the wall. The walls are 3 meters high and **Athletics** skill tests made to climb them are made with a -10 bonus. While you are within the perimeter, including on top of the walls, you have resistance to all damage and reduce all damage dealt to your hit points by 75. The walls are permanent but the effect ends after 1 day.
 
@@ -1007,7 +1007,7 @@ Cost: 11 portions
 
 Range: Self  
 
-Health: 80
+Health: 190
 
 Food: <!-- TODO ->
 
@@ -1035,13 +1035,13 @@ Cost: 70 portions
 
 Range: 10 meters
 
-Health: <!-- TODO ->
+Health: 4
 
 Food: <!-- TODO ->
 
 Effect: All creatures within range with the *burning* condition immediately take 10 heat damage directly to their hit points and gain the *ablaze* condition. 
 
-All creatures within range with the *ablaze* condition immediately explode, taking 20 heat damage directly to their hit points. Creatures adjacent to a creature that explodes take 10 heat damage.
+All creatures within range with the *ablaze* condition immediately explode, taking 20 heat damage directly to their hit points. Creatures adjacent to a creature that explodes take 10 heat damage and gain the *burning* condition.
 
 ### Fire Arrow Gu
 *Rank 2 Attack*
@@ -1061,9 +1061,9 @@ Effect: Shoot a flaming arrow at a target within range. Make an attack roll; on 
 ### Fire Curtain Gu
 *Rank 2 Manifestation*
 
-Cost: 10 portions  
+Cost: 15 portions  
 
-Range: 8 meters  
+Range: 6 meters  
 
 Health: 20  
 
@@ -1071,7 +1071,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Manifest a wall of fire up to 8 meters long and 2 meters high. Creatures starting their turn in or passing through the fire take 25 heat damage and gain the *ablaze* condition.
+Effect: Manifest a wall of fire 1 meter wide, 2 meters high, and up to 6 meters long in a line originating from a square you can see within range. Creatures in the area take 25 heat damage and gain the *ablaze* condition. Creatures take 25 heat damage and gain the *ablaze* condition if they move into or end their turn in the fire.
 
 ### Fire Discharge Gu
 *Rank 1-2 Celerity*
@@ -1332,7 +1332,7 @@ Cost: 10 portions
 
 Range: Touch
 
-Health: 11
+Health: 4
 
 Food: <!-- TODO ->
 
@@ -1345,13 +1345,27 @@ Cost: 15 portions
 
 Range: 5m
 
-Health: <!-- TODO ->
+Health: 3
 
 Food: <!-- TODO ->
 
-Keywords: 
-
 Effect: You lob a ball of kerosene to a square within range. Creatures within 1 meter of the square become splattered in oil until it gets washed off. If a creature covered in oil takes heat damage or gains the *burning* condition, it gains the *ablaze* condition.
+
+### Lava Explosion Gu
+
+*Rank 3 Attack*
+
+Cost: 35 portions
+
+Range: 12 meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: A ball of molten rock shoots from your mouth to a square you can see within range. The magma explodes at the location; creatures within a 1 meter radius of the target square take 60 force damage, 60 heat damage, and gain the *burning* condition. Creatures within a 2 meter radius of the target square take 30 force damage, 30 heat damage, and gain the *burning* condition. 
+
+A 2 meter radius centered on the target square is considered *Difficult Terrain*, and creatures that move into or end their turn in the area take 20 heat damage and gain the *burning* condition. The magma cools into an ordinary stone surface after 1 hour or after being doused.
 
 ### Lightning Charged Potato Gu
 *Rank 2 Attack*
@@ -1401,13 +1415,13 @@ Cost: 6 portions
 
 Range: Self
 
-Health: 20
+Health: 50
 
 Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
-Effect: While sustained, a cloak of smoldering embers surrounds you. Any creature that hits you with a melee attack takes 8 heat damage and gains the *burning* condition. You gain immunity to the *burning* and *ablaze* conditions, and any heat damage dealt to Smoldering Cloak Gu is reduced by 10, to a minimum of 0.
+Effect: While sustained, a cloak of smoldering embers surrounds you. Any creature that hits you with a melee attack takes 8 heat damage and gains the *burning* condition. You gain immunity to the *burning* and *ablaze* conditions as long as they originate from a Gu of rank 1, and any heat damage dealt to Smoldering Cloak Gu is reduced by 10, to a minimum of 0.
 
 ### Sprinting Drake Gu
 *Rank 2-3 Attack*
@@ -1831,7 +1845,7 @@ Range: Self
 
 Health: 4
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
@@ -2088,11 +2102,27 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Keywords: [**Sustained**]
+Keywords: [**Dao**], [**Sustained**]
 
 Effect: To activate Lightning Eye Gu, the user must remove their eye and place Lightning Eye Gu in the socket. Upon activation, Lightning Eye Gu replaces the lost eye permanently, and you can see out of it with perfect vision whether or not it is activated. 
 
 While you sustain Lightning Eye Gu, your lightning eye can see through obscuring effects such as smoke and illusions produced by Gu of the same or lower rank, and can see any object within 150 meters in fine detail. You gain immunity to the *blinded* condition, and you can react to [**Unreactable**] Gu so long as the Gu Master is within your line of sight.
+
+### Lightning Rod Gu
+
+*Rank 2 Guard*
+
+Cost: 3 portions
+
+Range: 2 meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, if a creature within range is dealt shock damage, the shock damage is redirected to you. You gain invulnerability to shock damage. You may activate this Gu as a reaction to a creature within range taking shock damage.
 
 ### Self Strike Gu
 *Rank 2 Attack*
@@ -2110,6 +2140,22 @@ Food: <!-- TODO ->
 Keywords: [**Unreactable**]
 
 Effect: Choose a creature you can see within range. That creature takes 20 shock damage, and a streak of lightning shoots from them to the nearest creature within 2 meters of the target, dealing 10 shock damage. This process repeats from the second and each subsequent target, dealing 5 shock damage, then 2, and finally 1 before the attack ends (for a total of 5 unique targets). If the attack is not able to chain to a target that has not yet been struck by this activation of Self Strike Gu, it instead chains to you, regardless of distance.
+
+### Static Step Gu
+
+*Rank 2 Celerity*
+
+Cost: 15 portions
+
+Range: 6 meters
+
+Health: 4
+
+Food: 50g of magnetite sand (2 primeval stones)
+
+Keywords: [**Unreactable**]
+
+Effect: You move instantly to an unoccupied space within range, leaving a crackle of static in your wake. If a creature makes a melee attack against you, you may activate Static Step Gu as a reaction to teleport; the attack automatically misses, and the attacker takes 10 shock damage.
 
 ### Thunderdome Gu
 *Rank 4 Manifestation*
@@ -3199,6 +3245,22 @@ Food: <!-- TODO ->
 
 Effect: Formless Space Gu cannot be activated. Items smaller than 50 cubic centimers can be placed inside Formless Space Gu, shrinking to fit if they are larger than the bowl. Formless Space Gu can contain up to {2, 5, 15, 40} kilograms of items. When a creature reaches inside Formless Space Gu, they immediately know exactly what items are inside and can withdraw an item as a bonus action.
 
+### Trip Gu
+
+*Rank 1 Attack*
+
+Cost: 4 portions
+
+Range: 2 meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Undodgeable**]
+
+Effect: This Gu can only be activated as a reaction to a creature you can see within range moving. The space behind their leg is twisted to pull it out from under them. The target must succeed an **Athletics** test or else fall *prone*.
+
 :::
 \newpage
 ## $\centerline{Strength Path}$
@@ -3532,7 +3594,7 @@ Food: <!-- TODO ->
 Effect: Until the end of your next turn, your Strength attribute is increased by 100. If your Fortitude attribute is lower than 40, your Strength attribute is permanently reduced by 5 at the end of this effect.
 
 ### Exert Strength Gu
-*Rank 2 Catalyst*
+*Rank 2 Attack*
 
 Cost: 10
 
@@ -3544,23 +3606,23 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: You immediately make an **Athletics** skill test to lift, push, or pull an object within range, or you immediately make a **Grapple** combat action against a creature within range. If you successfully grapple a creature, they are *restrained* in their square while you sustain this Gu. At the end of each of their turns, they can make an **Athletics** skill test with a +(10% of your Strength) (maximum of +40) penalty, deactivating this Gu on a success.
+Effect: You immediately make an **Athletics** skill test to lift, push, or pull an object within range, or you immediately make a **Grapple** or **Throw** combat action against a creature within range. If you successfully grapple a creature, they are *restrained* in their square while you sustain this Gu. At the end of each of their turns, they can make an **Athletics** skill test with a +(10% of your Strength) (maximum of +40) penalty, deactivating this Gu on a success.
 
 ### Ivory Armor Gu
 
 *Rank 2-4 Guard*
 
-Cost: 5
+Cost: 5 portions
 
 Range: Self
 
-Health: {40, 100, 300}
+Health: {70, 180, 400}
 
 Food: <!-- TODO ->
 
 Keywords: [**Shield**], [**Sustained**]
 
-Effect: Ivory armor begins to grow around your body. This Gu has no effect until the start of your next turn. Any damage dealt to Ivory Armor Gu is reduced by 10% of your Strength attribute, rounded down. The armor remains when you stop activating this Gu and has the following stats:
+Effect: Ivory armor begins to grow around your body. This Gu has no effect until the start of your next turn. Any force or rending damage dealt to Ivory Armor Gu is reduced by 10% of your Strength attribute, rounded down. The armor remains when you stop activating this Gu and has the following stats:
 
 **Ivory Armor**
 DT: 6  
@@ -3647,7 +3709,7 @@ Cost: 20 portions
 
 Range: Self
 
-Health: {25, 60}
+Health: {50, 120}
 
 Food: <!-- TODO ->
 
@@ -4062,7 +4124,7 @@ Total Activations: 3
 Activation Cost: 15 portions
 Keywords: [**Sustained**], [**Transformation**]
 
-Effect: You transform into an Azure Wolf, gaining the following features:
+Effect: You transform into an Azure Wolf, gaining the following features while sustained:
 
 Your maximum hit points are 300, and your base movement is 8 meters.
 
@@ -4072,7 +4134,7 @@ Your bite attacks deal an additional 50 rending damage.
 
 Your movement is increased by 4 meters while on all fours and your punching and kicking attacks deal an additional 30 rending damage. If this damage is dealt to the target's hit points, they gain *bleeding 5*.
 
-At the start of each of your turns, your Movement is increased by 1.
+At the start of each of your turns, your Movement is increased by 1, to a maximum increase of 6 meters.
 
 ### Azure Wolf Bite Gu
 
@@ -4118,7 +4180,7 @@ Cost: 6 portions
 
 Range: Self
 
-Health: 250
+Health: 500
 
 Food: <!-- TODO ->
 
@@ -4128,6 +4190,22 @@ Effect: While sustained, thick Azure Wolf hairs sprout all over your body, cover
 
 [**End**]
 
+### Big Teeth Gu
+
+*Rank 2 Attack*
+
+Cost: 7 portions
+
+Range: Self
+
+Health: 3
+
+Food: 1 kg of mountain sabertooth tusks
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, your canine teeth grow into 8 cm long razor-sharp fangs. Your bite attacks deal an additional 20 rending damage.
+
 ### Black Mane Gu
 
 *Rank 2 Guard*
@@ -4136,7 +4214,7 @@ Cost: 4 portions
 
 Range: Self
 
-Health: 40
+Health: 90
 
 Food: <!-- TODO ->
 
@@ -4182,13 +4260,101 @@ Cost: 8 portions
 
 Range: Self
 
-Health: {25, 50, 120, 400, 1000}
+Health: {40, 120, 120, 400, 1000}
 
 Food: {1, 4, 9, 16, 25} jade stones
 
 Keywords: [**Sustained**], [**Defensive**], [**Shield**]
 
 Effect: Your body is shrouded in jade while sustained. You are not a valid target for Gu with a range of *Touch.*
+
+[**Lava Crocodile Transformation**]
+
+Lava Crocodile Transformation
+*Rank 2 Transformation Killer Move*
+Core Gu: 
+Supplementary Gu: None
+Total Activations: 4
+Activation Cost: 24 portions
+Keywords: [**Sustained**], [**Transformation**]
+
+Effect: You transform into a Wind Scythe Bird, gaining the following features:
+
+Your maximum hit points are 10, and your base movement is 2 meters. Your size is [**Tiny**] (+40 penalty to hit).
+
+You have a flying speed of 25 meters and can make 5 Maneuvers each turn.
+
+Creatures that hit you with unarmed melee attacks take 15 rending damage. If this damage is dealt to their hit points, they gain *bleeding 3.*
+
+You can no longer make punching, kicking, or biting attacks, but gain the following unarmed melee attack option:
+
+**Wings:** Make a **Close Combat** skill test against a creature within 1 meter of you. On a hit, deal 30 rending damage, increased to 100 rending damage if performed at the end of a *Dive* Maneuver. If this damage is dealt to the target's hit points, they gain *bleeding 6.*
+
+### Lava Crocodile Cannon Gu
+
+*Rank 2 Attack*
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Keywords: 
+
+Effect: 
+
+### Lava Crocodile Jaw Gu
+
+*Rank 1 Catalyst*
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Keywords: [**Sustained**]
+
+Effect: 
+
+### Lava Crocodile Scales Gu
+
+*Rank 2 Guard*
+
+Cost: 
+
+Range: 
+
+Health: 40
+
+Food: 
+
+Keywords: [**Defensive**], [**Shield**], [**Sustained**]
+
+Effect: 
+
+### Lava Crocodile Tail Gu
+
+*Rank 1 Celerity*
+
+Cost: 2 portions
+
+Range: 
+
+Health: 
+
+Food: 
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, you no longer consider water or lava to be *Difficult Terrain.*
+
+[**END**]
 
 ### Longarm Gu
 *Rank 1 Catalyst*
@@ -4719,7 +4885,7 @@ Cost: 5 portions
 
 Range: Self
 
-Health: {22, 45, 100}
+Health: {45, 100, 225}
 
 Food: <!-- TODO ->
 
@@ -4749,7 +4915,7 @@ Cost: 3 portions
 
 Range: Self
 
-Health: 90
+Health: 160
 
 Food: 1 kg of mashed fruits (1/4 primeval stone)
 
@@ -4815,7 +4981,7 @@ Health: 3
 
 Food: 1 lb of River Moss
 
-Effect: Water rushes from the earth in a line {4, 8} meters long and {4, 8} meters wide. This puts out fires, deals {0, 4} force damage, and forces creatures standing in *Difficult Terrain* to pass an **Athletics** skill test or be knocked prone. If the ground in the line is made of soil, it becomes a thick mud and is considered *Difficult Terrain.*
+Effect: Water rushes from the earth in a line {4, 8} meters long and {4, 8} meters wide. This puts out fires, deals {5, 20} force damage, and forces creatures standing in *Difficult Terrain* to pass an **Athletics** skill test or be knocked prone. If the ground in the line is made of soil, it becomes a thick mud and is considered *Difficult Terrain.*
 
 :::
 \newpage
@@ -5175,7 +5341,7 @@ Range: 3 meters
 
 Health: 10
 
-Food: {3, 15} blades of Cutting-Edge Grass
+Food: {3, 15} blades of Cutting-Edge Grass ({90, 450} primeval stones)
 
 Effect: You condense your will into swords, taking {3, 10} damage to your soul and manifesting {1, 5} Intent Blades. As an Activation, you can make an attack roll against a target within range with an Intent Blade, dealing {35, 100} rending damage on a hit. Each Intent Blade can only be used for one attack every turn. They may also be wielded as a melee weapon with a range of 1 meter, dealing {35, 100} rending damage on a successful melee attack. Intent Blades vanish after 1 minute.
 

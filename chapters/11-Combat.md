@@ -61,11 +61,6 @@ Non-aquatic creatures consider water to be difficult terrain. A creature can hol
 ### Difficult Terrain
 If a creature is standing in difficult terrain, it costs 2 meters of movement instead of 1 to move to another square.
 
-### Cover
-If a creature is completely hidden behind cover from the attacker, they have full cover and typically are not a viable target for attacks. If the attacker uses a Gu with the [**Piercing**] keyword, however, they can make an attack against an obscured target with a +20 penalty. Divinations that reveal the exact location of a target remove this penalty.
-
-If a creature is only partially obscured by cover, they have partial cover; they are a viable target, but attacks made against them are made with a +10 penalty. If the attacker uses a Gu with the [**Piercing**] keyword, however, there is no penalty to the attack roll.
-
 ## Combat Actions
 
 ### Activate Gu
@@ -104,7 +99,11 @@ When you make an attack roll against a creature, you can choose to pick a partic
 | Huge | -40 |
 
 ### Grapple
-Select an enemy of equal or lesser size in an adjacent square. Roll an opposed **Athletics** skill test against them. If you win, The creature is *restrained* and now occupies the same square as you while *restrained* in this way. While you are grappling a creature, you may not make kicking attacks and the number of free hands you can make punching attacks with using the **Melee Attack** action is reduced by 1. You may expend your movement to make an **Athletics** skill test, with a +10 penalty for every 50 kilograms the grappled target weighs. On a success, you can move up to half your movement (rounded down).
+Select an enemy of equal or lesser size in an adjacent square. Roll an opposed **Athletics** skill test against them. If you win, The creature is *restrained* and now occupies the same square as you while *restrained* in this way. While you are grappling a creature, you may not make kicking attacks and the number of free hands you can make punching attacks with using the **Melee Attack** action is reduced by 1. 
+
+You may expend your movement to make an **Athletics** skill test, with a +10 penalty for every 50 kilograms the grappled target weighs. On a success, you can move up to half your movement (rounded down).
+
+As a bonus action, you can throw a target grappled by you as long as your Strength attribute is greater than their weight in kilograms. The distance you can throw them is a number of meters equal to 5% of the difference between your Strength attribute and their weight in kilograms, rounded down to a minimum of 1 meter. If the creature strikes another creature or object besides the ground, both take force damage equal to 3 + 10% of your Strength attribute (rounded down).
 
 As a combat action, a grappled creature can attempt to break free, making an opposed **Athletics** skill test against the grappler. On a success, they break free.
 
@@ -165,7 +164,7 @@ When you take damage, subtract that amount from your current Hit Points, to a mi
 - Poison: Damage taken as long as you are *poisoned* by a source; reduce all poison damage dealt to a creatures hit points by 10% of their Fortitude, rounding down.
 - Shock: Electricity damage.
 - Sonic: Sound-based attacks that bypass many shield Gu but are quite rare and typically weak
-- Direct: Direct damage can be of any damage type and, as the name suggests, deals that damage directly to a creature's hit points. If a source says it deals damage directly to a creature's hit points, the damage cannot be assigned to any active [**Shield**] Gu, but some effects may still reduce it. Damage from poison, burning, and bleeding is always direct.
+- Direct: Direct damage can be of any damage type and, as the name suggests, deals that damage directly to a creature's hit points. If a source says it deals damage directly to a creature's hit points, the damage cannot be assigned to any active [**Shield**] Gu, but some effects may still reduce it. Damage from bleeding is always direct.
 
 If a source says you take damage to your soul, that number is subtracted from your current soul value; you take no damage to your hit points.
 
@@ -233,7 +232,7 @@ When you sleep, you regain 1 hit point for every hour spent sleeping.
 ## Status Effects
 
 ### Ablaze
-A creature with the *ablaze* condition is completely engulfed in flames. An *ablaze* creature cannot have or gain the *burning* condition. If a creature with the *burning* condition gains the *ablaze* condition, the *burning* condition is removed. At the start of each of their turns, the creature takes 15 heat damage directly to their hit points. If a creature takes heat damage to their hit points on a turn from the *ablaze* condition, at the end of the turn they must succeed a **Perseverance** attribute test or else fall unconscious. For creatures invulnerable to heat damage, consider damage dealt by the *ablaze* condition to be of the rank of the Gu that applied the *ablaze* condition, or rank 1 if the fire was natural. Being submerged in water removes the *ablaze* condition.
+A creature with the *ablaze* condition is completely engulfed in flames. An *ablaze* creature cannot have or gain the *burning* condition. If a creature with the *burning* condition gains the *ablaze* condition, the *burning* condition is removed. At the start of each of their turns, the creature takes 30 heat damage. If a creature takes heat damage to their hit points on a turn from the *ablaze* condition, at the end of the turn they must succeed a **Perseverance** attribute test or else fall unconscious. For creatures and Gu invulnerable or resistant to heat damage, consider damage dealt by the *ablaze* condition to be of the rank of the Gu that applied the *ablaze* condition, or rank 1 if the fire was natural. Being submerged in water removes the *ablaze* condition.
 
 ### Bleeding X
 *Bleeding* creatures take 1 damage directly to their hit points at the start of each of their turns for every stack of *bleeding*. This damage has no type and cannot be reduced by Gu. Levels of *bleeding* can stack additively from the same or different sources. For every hit point a *bleeding* creature restores, reduce the number of *bleeding* stacks they have by 1.
@@ -242,7 +241,7 @@ A creature with the *ablaze* condition is completely engulfed in flames. An *abl
 *Blinded* creatures cannot see, have a +50 penalty to **Close Combat** and **Ranged Attack** skill tests, and cannot make **Awareness** tests that rely on sight. Gu that rely on vision, including divinations that augment their sight, cannot be used by a *blinded* creature.
 
 ### Burning
-*Burning* creatures take 4 heat damage directly to their hit points at the start of each of their turns. When being negated by a [**Shield**] Gu, consider this damage to be of the rank of the Gu that applied the *burning* condition, or rank 1 if the fire was natural. Being submerged in water removes the *burning* condition. A creature can use their combat action to roll around on the ground, removing the *burning* condition.
+*Burning* creatures take 10 heat damage at the start of each of their turns. For creatures and Gu invulnerable or resistant to heat damage, consider damage dealt by the *burning* condition to be of the rank of the Gu that applied the *burning* condition, or rank 1 if the fire was natural. Being submerged in water removes the *burning* condition. A creature can use their combat action to roll around on the ground, removing the *burning* condition.
 
 ### Dazed
 A *dazed* creature's activations stat is reduced by 2. At the end of their turn, they lose the *dazed* condition.
@@ -265,17 +264,27 @@ A *restrained* creature's movement is 0. A *restrained* creature automatically f
 ### Stunned
 A *stunned* creature cannot move or take any actions or reactions. At the end of their turn, they lose the *stunned* condition and gain the *dazed* condition.
 
-## Attack Ranges
+## Attacks
+
+### High Ground
+**Ranged Attack** skill tests are made with a -10 bonus if the target is at least 5 meters lower than you in elevation.
+
+### Cover
+If a creature is completely hidden behind cover from the attacker, they have full cover and typically are not a viable target for attacks. If the attacker uses a Gu with the [**Piercing**] keyword, however, they can make an attack against an obscured target with a +20 penalty. Divinations that reveal the exact location of a target remove this penalty.
+
+If a creature is only partially obscured by cover, they have partial cover; they are a viable target, but attacks made against them are made with a +10 penalty. If the attacker uses a Gu with the [**Piercing**] keyword, however, there is no penalty to the attack roll.
 
 ### Touch
 
+You must be within 1 meter of a creature to hit them with an attack with a range of *touch.* Touch attacks can be reacted to, but [**Shield**] Gu do not block touch attacks unless noted in the Gu's description, such as Jelly Bubble Gu.
 
 ### Area of Effect Attacks
+
 When a creature is caught in an area of effect, they can dodge as a reaction, escaping the area of effect if they succeed and can move outside the area of effect.
 
 **Line**
 
-Lines have a height, width, and length. If the height is not specified, it is the same as the width.
+Lines have a height, width, and length. If the height is not specified, it is the same as the width. Usually, lines originate from a square adjacentto the Gu Master creating it, but some Gu such as Fire Curtain Gu allow the user to choose a source square. In that case, the source and end of the line must both be within the range of the Gu.
 
 **Radius**
 
