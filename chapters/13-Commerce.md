@@ -15,7 +15,7 @@ Areas attuned with with the natural Dao generate plants, animals, stones, and ot
 
 **Blood Path:**
 
-| Refinement Material | Cost (PS) | Unit |
+| Refinement Material | Cost (PS) | Unit | Rank |
 | ----- | ----- | ----- |
 | Crimson Willow Bark |  |  |
 | Hemorrhage Soil |  |  |
@@ -23,10 +23,12 @@ Areas attuned with with the natural Dao generate plants, animals, stones, and ot
 |  |  |  |
 |  |  |  |
 |  |  |  |
-| Hundred Beast King Blood |  |  |
-| Thousand Beast King Blood |  |  |
-| Myriad Beast King Blood |  |  |
-| Beast Emperor Blood |  |  |
+| Hundred Beast King Blood |  |  | 2 |
+| Thousand Beast King Blood |  |  | 3 |
+| Myriad Beast King Blood |  |  | 4 |
+| Mutated Beast Blood |  |  | 4 |
+| Beast Emperor Blood |  |  | 5 |
+| Mutated Beast King Blood |  |  | 5 |
 
 **Dark Path:**
 

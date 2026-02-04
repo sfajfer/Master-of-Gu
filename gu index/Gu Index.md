@@ -647,7 +647,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**]
 
-Effect: Dense stone walls rise in a 5 meter by 5 meter square perimeter, centered on your square. Any creatures occupying a square the walls rise in that do not dodge are knocked *prone* to a random side of the wall. The walls are 3 meters high and **Athletics** skill tests made to climb them are made with a -10 bonus. While you are within the perimeter, including on top of the walls, you have resistance to all damage and reduce all damage dealt to your hit points by 75. The walls are permanent but the effect ends after 1 day.
+Effect: Dense stone walls rise in a 5 meter by 5 meter square perimeter, centered on your square. Any creatures occupying a square the walls rise in that do not dodge are knocked *prone* to a random side of the wall. The walls are 3 meters high and **Athletics** skill tests made to climb them are made with a -10 bonus. While you are within the perimeter, including on top of the walls, you have resistance to all damage except for sonic and reduce all damage dealt to your hit points by 75. The walls are permanent but the effect ends after 1 day.
 
 [**END**]
 
@@ -998,7 +998,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Six white orbs appear on your face in a spider-eye pattern. While sustained, you can sense all heat signatures within range, even through barriers.
+Effect: Six white orbs appear on your face in a spider-eye pattern. While sustained, you can see all creatures with heat signatures within range, even through barriers.
 
 ### Ember Armor Gu
 *Rank 3 Guard*
@@ -1013,7 +1013,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
-Effect: A flaming carapace covers your body. While sustained, you are immune to the *burning* and *ablaze* conditions. Fire and rending damage dealt to Ember Armor Gu are reduced by 30, to a minimum of 0. 
+Effect: A flaming carapace covers your body. While sustained, you are immune to the *burning* and *ablaze* conditions. Fire and rending damage dealt to Ember Armor Gu are reduced by 30, to a minimum of 0. Ember Armor Gu cannot block sonic damage.
 
 ### Ember Butterfly Gu
 *Rank 1 Attack*
@@ -1024,7 +1024,7 @@ Range: 5 meters
 
 Health: 8
 
-Food: 1 kg of smoldering stone (10 primeval stones)
+Food: 100 g of smoldering stone (1 primeval stone)
 
 Effect: You lob a burst of embers at a square within range. Creatures within 1 meter of the square take 3 heat damage and gain the *burning* condition. Ignites flammable objects in its radius.
 
@@ -1421,7 +1421,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
-Effect: While sustained, a cloak of smoldering embers surrounds you. Any creature that hits you with a melee attack takes 8 heat damage and gains the *burning* condition. You gain immunity to the *burning* and *ablaze* conditions as long as they originate from a Gu of rank 1, and any heat damage dealt to Smoldering Cloak Gu is reduced by 10, to a minimum of 0.
+Effect: While sustained, a cloak of smoldering embers surrounds you. Any creature that hits you with a melee attack takes 8 heat damage and gains the *burning* condition. You gain immunity to the *burning* and *ablaze* conditions as long as they originate from a Gu of rank 1, and any heat damage dealt to Smoldering Cloak Gu is reduced by 10, to a minimum of 0. Smoldering Cloak Gu cannot block sonic damage.
 
 ### Sprinting Drake Gu
 *Rank 2-3 Attack*
@@ -3339,7 +3339,7 @@ Food: 10 kilograms of blobfish flesh
 
 Keywords: [**Dao**]
 
-Effect: Your Strength attribute permanently decreases by 4 and you reduce all force damage dealt to your hit points by 1. For 24 hours, you cannot reduce strength or gain damage reduction from this Gu. Once you have lost 20 Strength and gained 5 damage reduction, further activations have no effect, but you permanently gain the following feature:
+Effect: Your Strength attribute permanently decreases by 4 and you reduce all force damage dealt to your hit points by 1. For 24 hours, you cannot reduce your Strength attribute or gain damage reduction from this Gu. Once you have lost 20 Strength and gained 5 damage reduction, further activations have no effect, but you permanently gain the following feature:
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a blobfish phantom appears behind you, increasing the damage of the attack by 0 force damage and applying the *dazed* condition.
 
@@ -3618,11 +3618,11 @@ Range: Self
 
 Health: {70, 180, 400}
 
-Food: <!-- TODO ->
+Food: 1 kg of elephant hundred beast king tusk (40 primeval stones)
 
 Keywords: [**Shield**], [**Sustained**]
 
-Effect: Ivory armor begins to grow around your body. This Gu has no effect until the start of your next turn. Any force or rending damage dealt to Ivory Armor Gu is reduced by 10% of your Strength attribute, rounded down. The armor remains when you stop activating this Gu and has the following stats:
+Effect: Ivory armor begins to grow around your body. This Gu has no effect until the start of your next turn. All damage dealt to Ivory Armor Gu is reduced by 10% of your Strength attribute, rounded down. Ivory Armor Gu cannot block cold or sonic damage. The armor remains when you stop activating this Gu and has the following stats:
 
 **Ivory Armor**
 DT: 6  
@@ -3673,11 +3673,25 @@ Cost: 30 portions
 
 Range: Self
 
-Health: 16
+Health: 3
 
 Food: Natural primeval essence (none)
 
 Effect: Immediately regain hit points equal to {2, 5, 10}% of your Strength attribute, rounded down.
+
+### Thunderclap Gu
+
+*Rank 2-4 Attack*
+
+Cost: 15 portions
+
+Range: Self
+
+Health: 4
+
+Food: {1, 10, 100} snap pebbles ({10, 100, 1,000} primeval stones)
+
+Effect: You clap your hands together and a deafening noise shakes your surroundings. All creatures except for you within 3 meters of you take {2, 8, 25} + {1, 2, 5}% of your Strength attribute (rounded down to a minimum of 1) sonic and force damage. If the sonic damage is dealt to their hitpoints, they gain the *dazed* condition.
 
 ### Toughen Up Gu
 *Rank 3 Carver*
@@ -3715,7 +3729,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
-Effect: While sustained, a spectral sword and shield manifest in front of you. Whenever a creature makes a **Close Combat** roll against you, you may use a reaction to have the sword swing at the attacker, dealing {35, 80} rending damage on a hit. Reduce all rending damage dealt to Aegis Gu's hitpoints by {5, 15}. 
+Effect: While sustained, a spectral sword and shield manifest in front of you. Whenever a creature makes a **Close Combat** roll against you, you may use a reaction to have the sword swing at the attacker, dealing {35, 80} rending damage on a hit. Reduce all rending damage dealt to Aegis Gu by {5, 15}. Aegis Gu cannot block sonic damage.
 
 ### Flash Sword Gu
 *Rank 4 Celerity*
@@ -4220,7 +4234,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Shield**], [**Sustained**]
 
-Effect: Your body is covered in a dense thicket of black fur. Using this Gu dyes your hair black, which slowly fades over the course of a month. Black Mane Gu cannot block sonic damage.
+Effect: Your body is covered in a dense thicket of black fur while sustained. Using this Gu dyes your hair black, which slowly fades over the course of a month. Black Mane Gu cannot block sonic damage.
 
 ### Bone Wings Gu
 
@@ -4838,7 +4852,7 @@ Effect: A creature you touch has their blood transmuted into water. In most case
 
 *Rank 2 Guard*
 
-Cost: 2 portions
+Cost: 12 portions
 
 Range: Self
 
@@ -4848,7 +4862,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**]
 
-Effect: A sleek turtle shell forms around your torso. Whenever you are hit by a single-target attack roll that was not a called shot, there is a 50% chance it hits your torso. Reduce all damage dealt to your torso by 40. If your torso takes more than 40 damage from a single attack, Carapace Gu deactivates and takes 1d6 damage as backlash.
+Effect: A sleek turtle shell forms around your torso. Whenever you are hit by an attack roll that was not a called shot, there is a 50% chance it hits your torso. Reduce all damage dealt to your torso by 40. If your torso takes more than 40 damage from a single attack, Carapace Gu deactivates and takes 1d6 damage as backlash.
 
 ### Faucet Gu
 *Rank 1 Manifestation*
@@ -4915,13 +4929,13 @@ Cost: 3 portions
 
 Range: Self
 
-Health: 160
+Health: 140
 
 Food: 1 kg of mashed fruits (1/4 primeval stone)
 
 Keywords: [**Defensive**], [**Shield**], [**Sustained**]
 
-Effect: While sustained, you're surrounded by a bubble of viscous jelly. You cannot move, dodge, or make melee attacks, and you gain immunity to the *burning* and *ablaze* conditions. You are not a valid target for Gu with a range of *Touch.* Reduce all force damage dealt to Jelly Bubble Gu by 30.
+Effect: While sustained, you're surrounded by a bubble of viscous jelly. You cannot move, dodge, or make melee attacks, and you gain immunity to the *burning* and *ablaze* conditions. You are not a valid target for Gu with a range of *Touch.* Reduce all force and sonic damage dealt to Jelly Bubble Gu by 10.
 
 ### Land Becomes Sea Gu
 *Rank 3-4 Manifestation*
@@ -5085,7 +5099,7 @@ Health: 3
 
 Food: 100 g of feather soil (2 primeval stones)
 
-Effect: A huge gust of wind forces all [Large] or smaller creatures in a 3 meter wide, 5 meter long line to make an **Athletics** skill test. On a failure, they are pushed 10 feet away in the direction of the line and land *prone.*
+Effect: A huge gust of wind forces all [Large] or smaller creatures in a 3 meter wide, 5 meter long line to make an **Athletics** skill test. On a failure, they are pushed 2 meters away in the direction of the line and land *prone.*
 
 :::
 \newpage
@@ -5426,7 +5440,7 @@ Effect: Manifest {3, 6, 20, 50, 100} Vajra Thoughts. Vajra Thoughts appear as sh
 
 When making the Deduction action, you may consume a number of Vajra thoughts up to your Cognition attribute to gain a bonus equal to -(thoughts consumed) on your Deduction test. The thoughts consumed must be inside your mind.
 
-As an Activation, you can shoot a Vajra thought at any target within range. You may only shoot Vajra thoughts that exist outside your body in this way. On a hit, each Vajra thought deals 2 force damage directly to the targets hit points.
+As an Activation, you can shoot a Vajra thought at any target within range. You may only shoot Vajra thoughts that exist outside your body in this way. Make an attack roll; on a hit, each Vajra thought deals 2 force damage directly to the targets hit points.
 
 Vajra thoughts vanish after 1 hour.
 

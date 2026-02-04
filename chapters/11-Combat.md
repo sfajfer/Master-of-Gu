@@ -1,7 +1,7 @@
 # Chapter 4: Combat
 
 ## Initiative
-At the beginning of combat, an initiative is rolled. If an enemy is within 3 meters of you, roll **Close Combat**. If not, roll **Ranged Attack**. The player with the most degrees of success goes first. In the case of ties, the lower number on the die goes first. If this is still tied, creatures controlled by a player go before non player characters. If the tied creatures are all player characters, they decide amongst themselves who goes first; if all are NPCs, the GM chooses. Continue this process for the rest of the combatants. 
+At the beginning of combat, an initiative is rolled. If an enemy is within 2 meters of you, roll **Close Combat**. If not, roll **Ranged Attack**. The player with the most degrees of success goes first. In the case of ties, the lower number on the die goes first. If this is still tied, creatures controlled by a player go before non player characters. If the tied creatures are all player characters, they decide amongst themselves who goes first; if all are NPCs, the GM chooses. Continue this process for the rest of the combatants. 
 
 ### Surprise
 Surprised creatures have a +20 penalty to their initiative roll and cannot take reactions until the start of their first turn.
@@ -113,7 +113,7 @@ On your turn, you can absorb the essence of a number of primeval stones equal to
 For each primeval stone being absorbed, you gain 5 portions of primeval essence, and the stone is destroyed in the process, crumbling into dust.
 
 ### Hold an Action
-You can choose to hold your Combat Action, specifying an action and a trigger for it to occur. When the trigger happens, you may use a reaction to take that Combat Action. If you are reacting to an opponent's actions, you must make an opposed skill test to see whose action occurs first, with the skill in question being **Close Combat** if within 3 meters of each other, or **Ranged Attack** if not. If you hold the **Activate Gu** action, you may only specify a single activation.
+You can choose to hold your Combat Action, specifying an action and a trigger for it to occur. When the trigger happens, you may use a reaction to take that Combat Action. If you are reacting to an opponent's actions, you must make an opposed skill test to see whose action occurs first, with the skill in question being **Close Combat** if within 2 meters of each other, or **Ranged Attack** if not. If you hold the **Activate Gu** action, you may only specify a single activation.
 
 Triggers can be specific or broad, ranging from "when the opponent uses Fire Pellet Gu" to "when a creature makes any hostile moves".
 
@@ -238,7 +238,7 @@ A creature with the *ablaze* condition is completely engulfed in flames. An *abl
 *Bleeding* creatures take 1 damage directly to their hit points at the start of each of their turns for every stack of *bleeding*. This damage has no type and cannot be reduced by Gu. Levels of *bleeding* can stack additively from the same or different sources. For every hit point a *bleeding* creature restores, reduce the number of *bleeding* stacks they have by 1.
 
 ### Blinded
-*Blinded* creatures cannot see, have a +50 penalty to **Close Combat** and **Ranged Attack** skill tests, and cannot make **Awareness** tests that rely on sight. Gu that rely on vision, including divinations that augment their sight, cannot be used by a *blinded* creature.
+*Blinded* creatures cannot see, have a +50 penalty to **Close Combat** and **Ranged Attack** skill tests, and cannot make **Awareness** skill tests that rely on sight.
 
 ### Burning
 *Burning* creatures take 10 heat damage at the start of each of their turns. For creatures and Gu invulnerable or resistant to heat damage, consider damage dealt by the *burning* condition to be of the rank of the Gu that applied the *burning* condition, or rank 1 if the fire was natural. Being submerged in water removes the *burning* condition. A creature can use their combat action to roll around on the ground, removing the *burning* condition.
@@ -247,7 +247,7 @@ A creature with the *ablaze* condition is completely engulfed in flames. An *abl
 A *dazed* creature's activations stat is reduced by 2. At the end of their turn, they lose the *dazed* condition.
 
 ### Deafened
-A *deafened* creature cannot hear, has resistance to sonic damage regardless of rank, and cannot make **Awareness** tests that rely on hearing. Gu that rely on hearing, including divinations that augment their hearing, cannot be used by a *deafened* creature.
+A *deafened* creature cannot hear, has resistance to sonic damage regardless of rank, and cannot make **Awareness** tests that rely on hearing.
 
 ### Fatigued
 A *fatigued* creature's movement is reduced by 3 meters and makes all **Dodge** and **Athletics** skill tests with a +20 penalty. The *fatigued* condition lasts until the creature rests for at least an hour.

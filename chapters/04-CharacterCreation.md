@@ -29,7 +29,7 @@ Secondary attributes either have a flat base value or are derived from your prim
 You have a pool of Hit Points equal to your Fortitude. You can read about how damage, dying, and injury works in the combat chapter.
 
 ### Movement
-Your Movement is the number of meters you can move in a turn. Your Movement is 6 meters.
+Your Movement is the number of meters you can move in a turn. Your Movement is 4 meters + 5% of your Agility (rounded down).
 
 ### Strength
 Your body's physical power. Strength is often overlooked by Gu Masters, as even rank 1 Gu can overpower the strongest of mortals. But battles are unpredictable, and when primeval essence runs dry Gu Masters may resort to a fistfight. Though this statistic is more relevant at rank 1, some Gu Masters choose to use Gu to enhance their strength and rely on their own muscles to pound their enemies into meat paste. Your Strength score begins equal to your Fortitude and affects the amount of damage you deal with attacks where your physical strength is a factor.
