@@ -70,7 +70,6 @@ Your Activations can be used to activate Gu as well as to utilize the lingering 
 Pick a killer move for which you have all the Gu and enough primeval essence for all activations. For every activation in the killer move over your **Activations** attribute, take 1 damage to your soul. The killer move activates, applying its effect. If the killer move has the [**Sustained**] keyword, you take 1 damage to your soul any time you activate a Gu while sustaining the killer move.
 
 ### Melee Attack
-Melee attacks made against a target incapable of moving automatically hit.
 
 #### Weapon Attack
 Roll a **Close Combat** skill test against an enemy within your weapon's range. On a hit, deal the damage of the weapon, +1 damage for every 20 points you have in Strength.

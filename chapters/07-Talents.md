@@ -143,6 +143,8 @@ You gain a -10 bonus to **Athletics** skill tests resulting from a *Grapple* com
 
 :::
 
+\newpage
+
 ## Refinement Techniques
 
 Refinement techniques are used to improve the Gu refinement process in many different ways, such as reducing the difficulty, duration, or even material cost of a refinement recipe. Only one refinement technique can be used on a recipe at a time.
@@ -157,31 +159,96 @@ Refinement techniques are used to improve the Gu refinement process in many diff
 
 You gain access to the Dice Falling Waterfall refinement technique. When you use the Dice Falling Waterfall refinement technique, you must roll the failure die twice and take the lower result. Upon successfully refining a Gu with this technique, you gain a luck point.
 
+### Dual Refinement
+
+*Cost:* 20 experience
+
+*Requires Intermediate Refinement Path Attainment*
+
+You gain access to the Dual Refinement refinement technique. When you use the Dual Refinement refinement technique, you may refine two unique Gu at the same time. The Gu must be of the same or compatible paths (see Ch. 3, Gu) and their recipes must have the same duration. You make only one **Refinement** test, but otherwise treat the refinement as if they were two separate refinements.
+
+### Extended Refinement
+
+*Cost:* 10 experience
+
+*Requires Fundamental Refinement Path Attainment*
+
+You gain access to the Extended Refinement refinement technique. When you use the Extended Refinement refinement technique, you gain a -20 bonus to **Refinement** skill tests, and the duration of the recipe is increased by 8 hours. This refinement technique cannot be used to refine Time Path Gu.
+
+### False Refinement
+
+*False refinement was invented by Thieving Heaven Demon Venerable, allowing the production of counterfeit Gu.*
+
+*Cost:* 20 experience
+    
+*Requires Intermediate Refinement Path Attainment*
+
+You gain access to the False Refinement refinement technique. When you use the False Refinement refinement technique, you gain a -10 bonus to **Refinement** skill tests, and the primeval stone cost of the recipe is reduced by 75% (rounded down). When you successfully refine a Gu using the False Refinement refinement technique, the refined Gu is *counterfeit.* It cannot be activated, but otherwise appears exactly the same as the real version of the Gu. Gu used to appraise the counterfeit must be of a rank equal to or higher than your degrees of success (maximum 5) on the **Refinement** skill test in order to determine it is a fake.
+
 ### Hairy Man Heaven and Earth
 
 *Condenses Gu from Heaven and Earth, opposed to Human Isolation Style. This technique is normally known only to Hairy Men, and takes great practice to perform.*
 
-*Requires Master Refinement Path Attainment*
-
 *Cost:* 50 experience
 
-You gain access to the Hairy Man Heaven and Earth refinement technique. When you use the Hairy Man Heaven and Earth refinement technique, you gain a -10 bonus to **Refinement** skill tests, and their failure die is increased by 2 stages (d4 -> d8, d6 -> d10...).
+*Requires Master Refinement Path Attainment*
 
-### Shower
+You gain access to the Hairy Man Heaven and Earth refinement technique. When you use the Hairy Man Heaven and Earth refinement technique, you gain a -30 bonus to **Refinement** skill tests, and the failure die of the recipe is increased by 2 stages (d4 -> d8, d6 -> d10...). This refinement technique cannot be used to refine Human Path Gu.
 
-*Cost:* 20 experience
+### One After Another
 
-*Requires Fundamental Water Path Attainment*
+*Cost:* 15 experience
 
-You gain access to the Shower refinement technique. When you use the Shower refinement technique, you gain a -10 bonus to **Refinement** skill tests, and the duration of the recipe is reduced by 1/3 (rounded down to the nearest hour).
+*Requires Fundamental Wood Path Attainment*
 
-### Starfall
+You gain access to the One After Another refinement technique. When you use the One After Another refinement technique, you gain a -20 bonus to **Refinement** skill tests, and the duration of the refinement is increased by 4 hours. This refinement technique can only be used to refine Wood Path Gu.
+
+### Research
+
+*Cost:* 25 experience
+
+*Requires Intermediate Wisdom Path Attainment*
+
+You gain access to the Research refinement technique. Whenever you successfully refine a Gu using the Research refinement technique, you gain a -20 bonus on your next **Refinement** or **Deduction** test made to improve that recipe. This bonus does not stack.
+
+### Sacrifice
 
 *Cost:* 10 experience
 
+*Requires Intermediate Blood Path Attainment*
+
+You gain access to the Sacrifice refinement technique. Whenever you use the Sacrifice refinement technique, you may take any amount of damage directly to your hit points. This damage cannot be reduced or negated in any way. The primeval stone cost of the recipe is reduced by 100 * (sacrificed hit points), to a minimum of 10% of the recipe's primeval stone cost.
+
+### Shower
+
+*Cost:* 15 experience
+
+*Requires Fundamental Water Path Attainment*
+
+You gain access to the Shower refinement technique. When you use the Shower refinement technique, you gain a -10 bonus to **Refinement** skill tests, and the duration of the recipe is reduced by 50%. This refinement technique can only be used to refine Blood, Poison, and Water Path Gu.
+
+### Starfall
+
+*Cost:* 15 experience
+
 *Requires Fundamental Fire Path Attainment*
 
-You gain access to the Starfall refinement technique. When you use the Starfall refinement technique, you gain a -10 bonus to **Refinement** skill tests, increased to -20 when refining Fire Path Gu. This technique cannot be used to refine Water Path or Ice Path Gu.
+You gain access to the Starfall refinement technique. When you use the Starfall refinement technique, you gain a -10 bonus to **Refinement** skill tests, increased to -20 when refining Fire Path Gu. This refinement technique can only be used to refine Fire, Light, Lightning, and Space Path Gu.
+
+### Yin Yang
+
+*Cost: 20 experience*
+
+You gain access to the Yin Yang refinement technique. When you use the Yin Yang refinement technique, you may refine two unique Gu at the same time. Their recipes must have the same duration, and the paths of the Gu must be one of the following pairs:
+
+- Fire and Ice Path
+- Space and Time Path
+- Strength and Wisdom Path
+- Light and Dark Path
+- Earth and Wind Path
+- Luck and Information Path
+
+ You make only one **Refinement** test, but otherwise treat the refinement as if they were two separate refinements.
 
 :::
 
@@ -206,7 +273,7 @@ You gain an additional bonus action that can only be used to activate a single [
 Your understanding of [Path] has reached a qualitative change, and you gain the following benefits:
 
 - You gain a -20 bonus to all **Refinement** and **Knowledge (Gu)** skill tests to refine or identify [Path] Gu.
-- **Deduction** skill tests made to develop killer moves gain a -10 bonus if they have a [Path] Gu in its core.
+- **Deduction** and **Refinement** skill tests made to deduce killer moves gain a -10 bonus if they have a [Path] Gu in its core.
 
 **Master**
 
