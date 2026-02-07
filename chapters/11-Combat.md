@@ -283,7 +283,7 @@ When a creature is caught in an area of effect, they can dodge as a reaction, es
 
 **Line**
 
-Lines have a height, width, and length. If the height is not specified, it is the same as the width. Usually, lines originate from a square adjacentto the Gu Master creating it, but some Gu such as Fire Curtain Gu allow the user to choose a source square. In that case, the source and end of the line must both be within the range of the Gu.
+Lines have a height, width, and length. If the height is not specified, it is the same as the width. Usually, lines originate from a square adjacent to the Gu Master creating it, but some Gu such as Fire Curtain Gu allow the user to choose a source square. In that case, the source and end of the line must both be within the range of the Gu.
 
 **Radius**
 

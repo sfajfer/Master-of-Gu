@@ -42,15 +42,15 @@ Taking flight no longer expends one of your Maneuvers per turn. Your **Flying** 
 
 *Cost: 60 experience*
 
-Your Attitude attribute is permanently increased by 5. You roll **Haggle** and **Persuasion** skill tests with advantage.
+Your Attitude attribute is permanently increased by 5. You gain advantage on **Haggle** and **Persuasion** skill tests.
 
 ### Martial Artist
 
-*Cost:* 20 experience
+*Cost:* 15 experience
 
 *Can be purchased up to 3 times*
 
-You gain a -10 bonus to **Close Combat** and **Dodge** skill tests while not wielding any weapons.
+You gain a -5 bonus to **Close Combat** and **Dodge** skill tests while not wielding any weapons.
 
 ### Multitasker
 
@@ -98,7 +98,7 @@ You've had an epiphany and internalized the idea of Painting Path. Choose a sing
 
 ### [Path] Scholar
 
-*Cost:* 15 experience
+*Cost:* 10 experience
 
 *Requires Fundamental [Path] Attainment*
 
@@ -106,7 +106,7 @@ You gain a -20 bonus to **Knowledge (Gu)** skill tests made to identify [Path] G
 
 ### Sentinel
 
-*Cost:* 20 experience
+*Cost:* 25 experience
 
 Whenever a creature within your melee range makes a melee attack against your ally, you may use the *Parry* reaction against it. You gain a -10 bonus to all **Close Combat** skill tests made as part of the *Parry* reaction (including the follow-up attack).
 
@@ -197,11 +197,11 @@ You gain access to the Hairy Man Heaven and Earth refinement technique. When you
 
 ### One After Another
 
-*Cost:* 15 experience
+*Cost:* 25 experience
 
 *Requires Fundamental Wood Path Attainment*
 
-You gain access to the One After Another refinement technique. When you use the One After Another refinement technique, you gain a -20 bonus to **Refinement** skill tests, and the duration of the refinement is increased by 4 hours. This refinement technique can only be used to refine Wood Path Gu.
+You gain access to the One After Another refinement technique. When you use the One After Another refinement technique, you gain a -30 bonus to **Refinement** skill tests, and the duration of the refinement is increased by 4 hours. This refinement technique can only be used to refine Wood Path Gu.
 
 ### Research
 

@@ -1709,7 +1709,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: You are assailed with a piercing pain for 1 hour while your muscles are transfigured into ice muscles. For the duration, you can take no actions except to speak. When the ritual completes, you are permanently immune to the *Fatigued* condition if it is being applied to you by an Ice Path Gu. Additionally, your Strength attribute is permanently increased by 10, and any rending or force damage dealt to your hit points is reduced by 5.
+Effect: You are assailed with a piercing pain for 1 hour while your muscles are transfigured into ice muscles. For the duration, you can take no actions except to speak. When the ritual completes, you are permanently immune to the *fatigued* condition if it is being applied to you by an Ice Path Gu or as a result of taking cold damage. Additionally, your Strength attribute is permanently increased by 10, and any rending or force damage dealt to your hit points is reduced by 5.
 
 [**Upgrade Tree: Icicle Gu**]
 *The signature attack of Ice Path. Rank 1 Icicle Gu launches a sharp chunk of ice at an enemy that deals damage and saps heat from the target. It can be upgraded to the devastating single-target Spiral Ice Lance Gu or to the crowd-slaughtering Spiral Icicle Storm Gu*
@@ -1728,7 +1728,7 @@ Health: 8
 
 Food: <!-- TODO ->
 
-Effect: You launch a sharp icicle at a target within range. Make an attack roll; on a hit, deal 5 force damage and 5 cold damage. If this damage is dealt to the target's hit points, they gain the *fatigued* condition.
+Effect: You launch a sharp icicle at a target you can see within range. Make an attack roll; on a hit, deal 5 force damage and 5 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition.
 
 ### Spiral Icicle Gu
 
@@ -1746,7 +1746,7 @@ Health: 8
 
 Food: <!-- TODO ->
 
-Effect: You launch a spinning icicle at a target within range. Make an attack roll; on a hit, deal 10 force damage and 10 cold damage. If this damage is dealt to the target's hit points, they gain the *fatigued* condition.
+Effect: You launch a spinning icicle at a target you can see within range. Make an attack roll; on a hit, deal 10 force damage and 10 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition.
 
 ### Spiral Ice Spear Gu
 
@@ -1764,7 +1764,7 @@ Health: 10
 
 Food: <!-- TODO ->
 
-Effect: You launch a spear made of ice at a target within range. Make an attack roll; on a hit, deal 30 force damage and 20 cold damage. If this damage is dealt to the target's hit points, they gain the *fatigued* condition. As long as the target is smaller than [**Large**], they are pushed backward 3 meters. If they collide with a wall, they are pinned to it and *restrained*. The spear can be removed by a creature as a combat action with a successful **Athletics** skill test.
+Effect: You launch a spear made of ice at a target you can see within range. Make an attack roll; on a hit, deal 30 force damage and 20 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition. As long as the target is smaller than [**Large**], they are pushed backward 3 meters. If they collide with a wall, they are pinned to it and *restrained*. The spear can be removed by a creature as a combat action with a successful **Athletics** skill test.
 
 ### Spiral Ice Lance Gu
 
@@ -1780,7 +1780,7 @@ Health: 10
 
 Food: <!-- TODO ->
 
-Effect: You launch a large lance of ice at a target within range. Make an attack roll; on a hit, deal 100 force damage and 50 cold damage. If this damage is dealt to the target's hit points, they gain the *fatigued* condition. The target is pushed backward 10 meters. If they collide with a wall, they are pinned to it and *restrained*. The lance can be removed by a creature as a combat action with a successful **Athletics** skill test.
+Effect: You launch a large lance of ice at a target you can see within range. Make an attack roll; on a hit, deal 100 force damage and 50 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition. The target is pushed backward 8 meters. If they collide with a wall, they are pinned to it and *restrained*. The lance can be removed by a creature as a combat action with a successful **Athletics** skill test.
 
 ### Spiral Icicle Swarm Gu
 
@@ -1798,7 +1798,7 @@ Health: 8
 
 Food: <!-- TODO ->
 
-Effect: You launch 5 spinning icicles, each at a creature of your choice within range. Make an attack roll for each; on a hit, deal 10 force damage and 10 cold damage.
+Effect: You launch 5 spinning icicles, each at a target of your choice that you can see within range. Make an attack roll for each; on a hit, deal 10 force damage and 10 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition.
 
 ### Spiral Icicle Storm Gu
 
@@ -1816,7 +1816,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Pick a square within range. While sustained, a storm of razor sharp icicles and cutting winds is manifested around it. Any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage.
+Effect: Pick a square you can see within range. While sustained, a storm of razor sharp icicles and cutting winds is manifested around it. Any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage. If the cold damage is dealt to a creature's hit points, they gain the *fatigued* condition.
 
 [**END**]
 
@@ -5139,7 +5139,7 @@ Food: 100 g of smoldering stone (1 primeval stone)
 
 Keywords: [**Sustained**]
 
-Effect: A cloud of steam surrounds you in a 2 meter radius while you sustain Steam Burst Gu. All creatures within range have half cover against any attacks made by a creature not adjacent to them. They also gain the *blinded* condition and have a +20 penalty to all **Dodge** skill tests while within range. At the start of each of their turns, creatures in the area (including you) take 10 heat damage.
+Effect: A cloud of steam surrounds you in a 2 meter radius while you sustain Steam Burst Gu. Creatures cannot see through the steam; all creatures inside gain the *blinded* condition and have a +20 penalty to **Dodge** skill tests while in the steam. When a creature moves into or starts their turn in the steam (including you), they take 10 heat damage.
 
 Creatures in the area are immune to the *burning* condition (but not *ablaze*).
 
