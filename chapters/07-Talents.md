@@ -133,6 +133,18 @@ When you purchase this talent, pick a class of mundane weapons (swords, spears, 
 You gain a -10 bonus on close combat and ranged attack rolls made with the chosen weapon for each time you've purchased this talent and selected that weapon.
 If a Gu is very close in form to the chosen weapon, you still get this bonus. This usually includes higher ranked versions of the same Gu.
 
+### Well Fed
+
+*Prodigious Size is common for those who align with food path*
+
+*Cost:* 20 experience
+
+*Requires Fundamental Food Path Attainment*
+
+*Can be purchased up to 3 times*
+
+Your Fortitude and Strength attributes are permanently increased by 5, and your movement is reduced by 1. If you purchase this talent 3 times, your size becomes [**Large**].
+
 ### Wrestling Techniques
 
 *Cost:* 20 Experience
@@ -150,6 +162,13 @@ You gain a -10 bonus to **Athletics** skill tests resulting from a *Grapple* com
 Refinement techniques are used to improve the Gu refinement process in many different ways, such as reducing the difficulty, duration, or even material cost of a refinement recipe. Only one refinement technique can be used on a recipe at a time.
 
 ::: columns
+
+### Sauté
+*Cost:* 20 experience
+
+*Requires Fundemental Food Path Attainment*
+
+You gain access to the Sauté refinement technique. When you use the Sauté refinement technique, you gain a -10 bonus to all **Refinement** tests, and increase the primeval stone cost of the recipe by 50% (rounding down). For every Gu used in the recipe, roll 1d10. If you roll a 1, that Gu is not consumed during the refinement.
 
 ### Dice Falling Waterfall
 

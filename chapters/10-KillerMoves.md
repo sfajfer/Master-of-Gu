@@ -2,7 +2,7 @@
 
 When multiple Gu are combined into a single effect it is colloquially known as a killer move. Killer moves have a core of 1 or more same-ranked Gu as well as any number of supplemental Gu. 
 
-Blood Vision
+### Blood Vision
 *Rank 4 Divination Killer Move*
 Core Gu: Rank 4 Blood Sense Gu, Rank 4 Blood Brother Gu
 Supplementary Gu: Rank 3 Hundred Meter Gu x 2, 

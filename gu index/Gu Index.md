@@ -77,13 +77,13 @@ While sustained, you gain the following effects:
 
 Your maximum hit points are 250.
 
-Your movement is reduced by 4 meters, to a minimum of 1 meter.
+Your movement is reduced by 2 meters.
 
 As a bonus action, you can burrow your roots into a corpse and consume its blood to regain 30 hit points.
 
 When you use a combat action to make an unarmed melee attack, instead of striking with your fists you may extend your roots and attack up to 5 times. Your root attack range is 5 meters, and your root attacks deal 50 rending damage. If damage is dealt to a creature's hit points in this way, they gain the *bleeding 3*.
 
-At the end of each of your turns, make a **Perseverance** attribute test with a +20 penalty. On a failure, you gain a **Blood Demon Flower Token** and your body becomes corrupted. If you ever have 10 **Blood Demon Flower Tokens**, your body is permanently transfigured into this state, no longer requiring you to activate Blood Demon Flower Gu to gain its effects.
+At the end of each of your turns, make a **Perseverance** attribute test with a +20 penalty. On a failure, you gain a **Blood Demon Flower Token** and your body becomes corrupted. If you ever have 10 **Blood Demon Flower Tokens**, your body is permanently transfigured into a blood demon flower.
 
 As long as you have 9 or fewer **Blood Demon Flower Tokens**, every month you go without activating Blood Demon Flower Gu reduces the number of **Blood Demon Flower Tokens** you have by 1.
 
@@ -1398,13 +1398,13 @@ Effect: Lightning Charged Potato Mother Gu sprouts, creating X Rank 2 Lightning 
 
 Cost: 10 portions  
 
-Range: Touch  
+Range: Self
 
 Health: 12  
 
 Food: <!-- TODO ->
 
-Effect: Your palm ignites with intense heat. Make an unarmed attack against a creature within range; on a hit, deal the damage of the attack plus 10 heat damage.
+Effect: Your palm ignites with intense heat. Make a punching attack against a creature within your melee range; your attack deals an additional 15 heat damage.
 
 ### Smoldering Cloak Gu
 *Rank 1 Guard*
@@ -1531,6 +1531,201 @@ Effect: Vengeful Sun Gu can only be activated as a reaction to being hit by an a
 
 :::
 \newpage
+## $\centerline{Food Path}$
+
+*An uncommon path to cultivate, Food Path's greatest strength for mortals is to reduce the financial burden of feeding Gu. That being said, it excels at feeding Gu, humans, and beasts alike, and Food Path Gu Masters are highly sought after by organizations.*
+
+::: columns
+
+### Appetizer Gu
+
+*Rank 2 Catalyst*
+
+Cost: 15 portions
+
+Range: Touch
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Ingredient**]
+
+Effect: A meal you prepare gains an appetizer. Affected creatures may expend a reaction when they roll for initiative to activate a single Gu.
+
+### Bed of Rice Gu
+
+*Rank 1-3 Catalyst*
+
+Cost: 5 portions
+
+Range: Touch
+
+Health: 3
+
+Food: 1 kg of rice (1/4 primeval stone)
+
+Keywords: [**Ingredient**]
+
+Effect: A meal you prepare becomes more filling, allowing it to feed {1, 3, 8} additional creatures.
+
+### Caramelized Roots Gu
+
+*Rank 1 Catalyst*
+
+Cost: 5 portions
+
+Range: Touch
+
+Health: 6
+
+Food: <!-- TODO ->
+
+Keywords: [**Ingredient**]
+
+Effect: A meal you prepare is infused with the flavor of caramelized onion and ginger. Affected creatures gain advantage on skill tests made to resist being moved from their square.
+
+### Eating Wind Gu
+
+*Rank 2 Guard*
+
+Cost: 30 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**]
+
+Effect: Eating Wind Gu has no effect unless there are heavy winds around you. If the wind was natural or created by a Gu of rank 2 or lower, the wind is consumed, possibly negating the effect. Eating wind in this manner completely satisfies your appetite.
+
+### Eat Strength Gu
+
+*Rank 4 Carver*
+
+Cost: 50 portions
+
+Range: Self
+
+Health: 2
+
+Food: Consume a creature with at least 50 Strength using Eat Strength Gu
+
+Keywords: [**Dao**]
+
+Effect: For the next hour, anything you eat is consumed by Eat Strength Gu. If Eat Strength Gu consumes all the flesh of a creature, your Strength attribute is increased by 5% of the consumed creature's Strength attribute (rounded down, to a minimum of 0).
+
+### Fillet Gu
+
+*Rank 2 Attack*
+
+Cost: 12 portions
+
+Range: 1 meter
+
+Health: 4
+
+Food: 1 kg of fish bones (1/4 primeval stone)
+
+Effect: A spectral fillet knife appears in your hand as you attempt to prepare cuts of meat from a creature, slicing flesh directly off the bone. Make a called shot attack roll against a creature within range. If you hit, the target takes 20 rending damage. If this damage is dealt to their hit points, you apply an effect depending on where they were hit:
+
+Head: You pluck the target's eyes from their skull. They gain the *blinded* condition until their eyes are restored.
+
+Torso: You slice open the target's belly, allowing their blood to drain. The target gains *bleeding 10*.
+
+Arm: You fillet the target's flesh from their arm. The target must succeed a **Perseverance** attribute test or else fall unconscious. The target gains *bleeding 3* and the arm is unusable.
+
+Hand: You remove the extremity. The target loses the hand and gains *bleeding 5*.
+
+Leg: You fillet the target's flesh from their leg. The target must succeed a **Perseverance** attribute test or else fall unconscious. The target's movement is reduced by 4 meters and they gain *bleeding 3*.
+
+Foot: You remove the extremity. The target's movement is reduced by 4 meters and they gain *bleeding 5*.
+
+### Heavenly Flavor Gu
+
+*Rank 3 Catalyst*
+
+Cost: 5 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Ingredient**]
+
+Effect: A meal that you prepare is imbued with heavenly flavor, improving the moods of everyone that consumes it. Affected creatures have their Attitude attribute increased by 10.
+
+### Liquor Worm Gu
+*Rank 1-4 Catalyst*
+
+Cost: 5 portions
+
+Range: Self
+
+Health: 3
+
+Food: 1 kg wine (1/4 primeval stone)
+
+Effect: Liquor Worm Gu has no effect unless you have rank {1, 2, 3, 4} initial stage, middle stage, or upper stage cultivation. You immediately gain one refined portion of primeval essence of the stage above your own. Keep track of your current refined portions separately from your other portions of primeval essence. The sum of your natural and refined primeval essence can never exceed your maximum primeval essence.
+
+Expending 1 portion of refined primeval essence is equivalent to expending 2 portions of unrefined primeval essence.
+
+If your cultivation increases while you have refined primeval essence, it becomes unrefined primeval essence or disappears if it would exceed your maximum primeval essence.
+
+### Rabbit Feet Gu
+
+*A green stalk, from which grows 3 rabbit feet.*
+
+*Rank 2 Catalyst*
+
+Cost: 15 portions
+
+Range: Touch
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable 3**], [**Ingredient**]
+
+Effect: You break a rabbit's foot off of Rabbit Feet Gu and add it to a meal that you prepare. Affected creatures gain 1 maximum and current luck point.
+
+### Snack Gu
+
+*Rank 1-5 Manifestation*
+
+Cost: {2, 5, 20, 50, 150} portions
+
+Range: Self
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Effect: Snack Gu secretes a small glob of paste that any Gu of rank {1, 2, 3, 4, 5} or lower can eat. Each glob replaces 5% of the feeding cost of the Gu, up to a maximum of 50% each feeding. If the Gu being fed is of a lower rank than Snack Gu, only one glob is required to replace 50% of the feeding cost.
+
+### Spicy Sea Pickle Gu
+
+*Rank 3 Catalyst*
+
+Cost: 10 portions
+
+Range: Touch
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Ingredient**]
+
+Effect: A meal you prepare is made spicy and salty. Affected creatures gain the *Fundamental Fire Path Attainment* and *Fundamental Water Path Attainment* talents.
+
+:::
+\newpage
 ## $\centerline{Human Path}$
 
 *Very rare and mysterious. The Legends of Ren Zu, a common myth, is a Human Path inheritance of deep profundity.*
@@ -1553,7 +1748,7 @@ Food: Natural primeval essence (does not need fed)
 
 Keywords: [**Expendable**]
 
-Effect: Hope Gu cannot be activated or refined. Hope Gu attaches to the body of the first human or variant-human it comes across without an aperture. After 1 hour of the first Hope Gu attaching, the creature's aperture awakens with 1% aptitude for every Hope Gu attached to it. The maximum number of Hope Gu that can be attached to a creature is different for every creature and determined by the Gamemaster. If a creature awakens their aperture with 19 or fewer Hope Gu attached to them, the awakening fails, and the creature cannot ever again awaken their aperture using Hope Gu.
+Effect: Hope Gu cannot be activated or refined. Hope Gu attaches to the body of the first human or variant-human it comes across without an aperture. After 1 hour of the first Hope Gu attaching, the creature's aperture awakens with 1% aptitude for every Hope Gu attached to it. The maximum number of Hope Gu that can be attached to a creature is different for every creature and determined by the Gamemaster, with a maximum of 100. If a creature awakens their aperture with 19 or fewer Hope Gu attached to them, the awakening fails, and the creature cannot ever again awaken their aperture using Hope Gu. If a creature awakens their aperture with 100 Hope Gu attached to them, they gain one of the Ten Extreme Physiques (see Ch. 1, Introduction; Character Creation).
 
 ### Lifespan Gu
 *Lifespan Gu are extremely rare, produced by Heaven's Will according to the current deficits and surpluses in the world. Lifespan Gu are impossible to refine, and even a rank 1 Lifespan Gu is worth great fights between mortals and immortals alike.*
@@ -1859,10 +2054,10 @@ Food: <!-- TODO ->
 Effect: You open your aperture, allowing Assessment Gu to see the target. Roll a d100 with a {+20, 0, -20, -40, -60} modifier; you immediately gain knowledge on the target based on the result:
 
 * **100-81:** You know what it looks like.
-* **80-61:** You know how much HP the target has remaining.
-* **60-41:** You know the target's maximum and remaining primeval essence.
-* **40-10:** You identify how many Gu the target has and what ranks they are.
-* **9-1:** You identify any weaknesses and all damage dealt by you to the target ignores up to 5 damage reduction.
+* **80-61:** You know how many hit points the target has remaining.
+* **60-41:** You know the target's maximum and current portions of primeval essence.
+* **40-10:** You know how many Gu the target has in their aperture and what ranks they are.
+* **9-1:** You know the target's immunities, invulnverabilities, resistances, vulnerabilities, damage reductions, and those of any [**Shield**] Gu they currently have activated. All damage dealt by you to the target or a [**Shield**] Gu that they activated ignores 5 damage reduction of each damage type.
 
 You gain all the information from higher results as well.
 
@@ -1996,7 +2191,7 @@ Food: A handful of fine shattered glass (4 primeval stones)
 
 Keywords: [**Deductive**], [**Expendable**]
 
-Effect: You instantly perform a deduction on a subject of your choice with a -50 bonus.
+Effect: You instantaneously perform a **Deduction** action with a -50 bonus. You may also activate this Gu without using an activation to immediately make a reaction without expending one of your reactions.
 
 ### Footprint Gu
 
@@ -2070,6 +2265,22 @@ Food: <!-- TODO ->
 Keywords: [**Sustained**]
 
 Effect: While sustained, a 1 meter radius sphere of light surrounds you and blocks attacks, creatures, and objects from entering (but not exiting). When an attack from outside the sphere hits a creature inside the sphere, the sphere takes the damage instead, though the defender can still dodge the attack. For every point of damage the sphere takes, you lose 1 portion of primeval essence. If the sphere takes more than 20 damage from a single attack, it breaks, the remainder of the damage is dealt to the defender, and One-stretch Golden Light Gu takes 2d6 damage as backlash. The sphere does not block sonic damage.
+
+### Rainbow Light Gu
+
+*Rank 3 Celerity*
+
+Cost: 30 portions
+
+Range: 50 meters
+
+Health: 4
+
+Food: Light from all colors of the rainbow, or light from White Heaven
+
+Keywords: [**Dao**]
+
+Effect: Pick a square that you can see within range. You turn into a beam of light and nearly instantaneously move to the target square. You ignore effects that trigger when you move through their area of effect, but can still be stopped by barriers. The speed of travel is so fast that it disorients you and expends all of your reactions.
 
 ### Shimmer Gu
 *Rank 2 Concealment*
@@ -2562,7 +2773,7 @@ Effect: While sustained, Heatsink Gu negates and stores all heat damage dealt to
 
 Cost: 15 portions
 
-Range: 5 meters
+Range: 10 meters
 
 Health: 6
 
@@ -2570,7 +2781,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you manifest a [**Medium**] hand made of black iron in an unoccupied square within range. Pick a creature within range. At the end of each of your turns, the hand moves up to 10 meters towards the target and attempts to grab them. If the target does not successfully dodge the grab, they are *restrained* by the hand. A creature can break free by succeeding an **Athletics** skill test with a {+30, +70, +120} penalty.
+Effect: While sustained, you manifest a [**Medium**] hand made of black iron in an unoccupied square within range. Pick a creature within range. At the end of each of your turns, the hand moves up to 5 meters towards the target and attempts to grab them. If the target does not successfully dodge the grab, they are *restrained* by the hand. A creature can break free by succeeding an **Athletics** skill test with a {+60, +120, +250} penalty.
 
 ### Iron Hand Gu
 *Rank 2 Manifestation*
@@ -2587,7 +2798,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, your hands are made entirely of a dense and hard iron. They are incredibly durable; if you would take damage to your hit points and that damage is being dealt specifically to your hands (a called shot, or touching something very hot, for example), reduce the damage taken by 80.
+Effect: While sustained, your hands are made entirely of a dense and hard iron. They are incredibly durable; if you would take damage to your hit points and that damage is being dealt specifically to your hands (a called shot, or touching something very hot, for example), reduce the damage taken by 80. You gain a -20 bonus to **Close Combat** tests made to parry an attack.
 
 You have advantage on **Athletics** skill tests resulting from the **Grapple** combat action, and your punching attacks deal an additional 5 force damage.
 
@@ -2781,7 +2992,7 @@ Effect: Make an attack roll against a creature that you can see within range. On
 
 This effect lasts for 3 turns.
 
-### Decorum Erosion Gu
+### Decorum Erosion Toxin Gu
 
 *A fluorescent blue and green pillbug.*
 
@@ -4265,26 +4476,6 @@ Effect: A silver triangle tattoo permanently appears on your chest. Your body an
 
 *Azure wolves are a nearly extinct mutated beast that grow more energetic the longer they battle.*
 
-Azure Wolf Transformation
-*Rank 4 Transformation Killer Move*
-Core Gu: Rank 4 Azure Wolf Bite Gu, Rank 4 Azure Wolf Claw Gu, Rank 4 Azure Wolf Skin Gu
-Supplementary Gu: None
-Total Activations: 3
-Activation Cost: 15 portions
-Keywords: [**Sustained**], [**Transformation**]
-
-Effect: You transform into an Azure Wolf, gaining the following features while sustained:
-
-Your maximum hit points are 300, and your base movement is 8 meters.
-
-Your sense of smell is vastly improved, and you can now make **Awareness** skill tests to identify and follow scents.
-
-Your bite attacks deal an additional 50 rending damage.
-
-Your movement is increased by 4 meters while on all fours and your punching and kicking attacks deal an additional 30 rending damage. If this damage is dealt to the target's hit points, they gain *bleeding 5*.
-
-At the start of each of your turns, your Movement is increased by 1, to a maximum increase of 6 meters.
-
 ### Azure Wolf Bite Gu
 
 *Rank 4 Attack*
@@ -4435,51 +4626,23 @@ Effect: Your body is shrouded in jade while sustained. You are not a valid targe
 
 [**Lava Crocodile Transformation**]
 
-Lava Crocodile Transformation
-*Rank 2 Transformation Killer Move*
-Core Gu: Rank 2 Lava Crocodile Cannon Gu,
-Supplementary Gu: None
-Total Activations: 4
-Activation Cost: 24 portions
-Keywords: [**Sustained**], [**Transformation**]
-
-Effect: You transform into a Lava Crocodile, gaining the following features:
-
-Your maximum hit points are 150.
-
-Your movement is 3.
-
-You may move 4 meters in lava for every meter of movement expended.
-
-You gain invulnverability to heat damage.
-
-You gain vulnerability to cold damage.
-
-Your bite attacks deal an additional 15 heat damage.
-
-You have the following combat actions:
-
-**Multiattack:** You make 2 **Bite** attacks.
-
-**Cannon:** A ball of molten rock shoots from your cannon to a square within range, arcing over obstacles. The magma explodes at the location; creatures within a 1 meter radius of the target square take 50 force damage, 50 heat damage, and gain the *ablaze* condition. Creatures within a 2 meter radius of the target square take 25 force damage, 25 heat damage, and gain the *burning* condition. 
-
-A 2 meter radius centered on the target square is covered with lava and considered *Difficult Terrain*, and creatures that move into or end their turn in the area take 25 heat damage and gain the *burning* condition. The lava cools into an ordinary stone surface after 1 hour or after being doused.
-
 ### Lava Crocodile Cannon Gu
 
 *Rank 2 Attack*
 
-Cost: 45 portions
+Cost: 25 portions
 
-Range: 12 meters
+Range: 8 meters
 
 Health: 2
 
 Food: <!-- TODO ->
 
-Effect: A ball of molten rock shoots from your mouth to a square you can see within range. The magma explodes at the location; creatures within a 1 meter radius of the target square take 40 force damage, 40 heat damage, and gain the *burning* condition. Creatures within a 2 meter radius of the target square take 20 force damage, 20 heat damage, and gain the *burning* condition. 
+Keywords: [**Sustained**]
 
-A 2 meter radius centered on the target square is considered *Difficult Terrain*, and creatures that move into or end their turn in the area take 10 heat damage and gain the *burning* condition. The magma cools into an ordinary stone surface after 1 hour or after being doused.
+Effect: While sustained, you can shoot a ball of molten rock from your mouth to a square you can see within range as an activation. The magma explodes at the location; creatures within a 1 meter radius of the target square take 15 force damage, 15 heat damage, and gain the *burning* condition. 
+
+A 1 meter radius centered on the target square is filled with lava and considered *Difficult Terrain*; creatures that move into or end their turn in the area take 10 heat damage and gain the *burning* condition. The magma cools into an ordinary stone surface after 1 hour or after being doused.
 
 ### Lava Crocodile Jaw Gu
 
@@ -4598,9 +4761,9 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test. On a failure, you gain a **Roaming Zombie Token**. If you ever have 10 **Roaming Zombie Tokens**, your body is permanently transformed into a mindless zombie and you die.
+At the start of each of your turns, make a **Perseverance** attribute test. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Roaming Zombie Gu, your body is permanently transformed into a mindless zombie and you die.
 
-As long as you have 9 or fewer **Roaming Zombie Tokens**, every month you go without activating Roaming Zombie Gu reduces the number of **Roaming Zombie Tokens** you have by 1.
+As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
 ### Hairy Zombie Gu
 
@@ -4636,9 +4799,9 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +10 penalty. On a failure, you gain a **Hairy Zombie Token**. If you ever have 10 **Hairy Zombie Tokens**, your body is permanently transformed into a hairy zombie. Your natural primeval essence recovery rate is reduced to 0.
+At the start of each of your turns, make a **Perseverance** attribute test with a +10 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Hairy Zombie Gu, your body is permanently transformed into a hairy zombie. Your natural primeval essence recovery rate is reduced to 0.
 
-As long as you have 9 or fewer **Hairy Zombie Tokens**, every month you go without activating Hairy Zombie Gu reduces the number of **Hairy Zombie Tokens** you have by 1.
+As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
 ### Hopping Zombie Gu
 
@@ -4676,9 +4839,9 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +20 penalty. On a failure, you gain a **Hopping Zombie Token**. If you ever have 10 **Hopping Zombie Tokens**, your body is permanently transformed into a hopping zombie. Your natural primeval essence recovery rate is reduced to 0.
+At the start of each of your turns, make a **Perseverance** attribute test with a +20 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Hairy Zombie Gu, your body is permanently transformed into a hopping zombie. Your natural primeval essence recovery rate is reduced to 0.
 
-As long as you have 9 or fewer **Hopping Zombie Tokens**, every month you go without activating Hopping Zombie Gu reduces the number of **Hopping Zombie Tokens** you have by 1.
+As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
 ### Asura Zombie Gu
 
@@ -4714,9 +4877,9 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain an **Asura Zombie Token**. If you ever have 10 **Asura Zombie Tokens**, your body is permanently transformed into an Asura Zombie. Your natural primeval essence recovery rate is reduced to 0.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Asura Zombie Gu, your body is permanently transformed into an Asura Zombie. Your natural primeval essence recovery rate is reduced to 0.
 
-As long as you have 9 or fewer **Asura Zombie Tokens**, every month you go without activating Asura Zombie Gu reduces the number of **Asura Zombie Tokens** you have by 1.
+As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
 ### Blood Wight Zombie Gu
 
@@ -4750,9 +4913,9 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Blood Wight Zombie Token**. If you ever have 10 **Blood Wight Zombie Tokens**, your body is permanently transformed into a Blood Wight Zombie.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Blood Wight Zombie Gu, your body is permanently transformed into a Blood Wight Zombie. Your natural primeval essence recovery rate is reduced to 0.
 
-As long as you have 9 or fewer **Blood Wight Zombie Tokens**, every month you go without activating Blood Wight Zombie Gu reduces the number of **Blood Wight Zombie Tokens** you have by 1.
+As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
 ### Earth Chief Zombie Gu
 
@@ -4786,9 +4949,9 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain an **Earth Chief Zombie Token**. If you ever have 10 **Earth Chief Zombie Tokens**, your body is permanently transformed into an Earth Chief Zombie.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Earth Chief Zombie Gu, your body is permanently transformed into an Earth Chief Zombie. Your natural primeval essence recovery rate is reduced to 0.
 
-As long as you have 9 or fewer **Earth Chief Zombie Tokens**, every month you go without activating Earth Chief Zombie Gu reduces the number of **Earth Chief Zombie Tokens** you have by 1.
+As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
 ### Heavenly Demon Zombie Gu
 
@@ -4824,9 +4987,9 @@ While not exposed to direct light, you gain a -20 bonus on all **Awareness**, **
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Heavenly Demon Zombie Token**. If you ever have 10 **Heavenly Demon Zombie Tokens**, your body is permanently transformed into a Heavenly Demon Zombie.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Heavenly Demon Zombie Gu, your body is permanently transformed into a Heavenly Demon Zombie. Your natural primeval essence recovery rate is reduced to 0.
 
-As long as you have 9 or fewer **Heavenly Demon Zombie Tokens**, every month you go without activating Heavenly Demon Zombie Gu reduces the number of **Heavenly Demon Zombie Tokens** you have by 1.
+As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
 ### Nightmare Zombie Gu
 *Rank 5 Carver*
@@ -4861,9 +5024,9 @@ When you hit a creature with a melee attack, they take 50 damage to their soul.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Nightmare Zombie Token**. If you ever have 10 **Nightmare Zombie Tokens**, your body is permanently transformed into a Nightmare Zombie.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Nightmare Zombie Gu, your body is permanently transformed into a Nightmare Zombie.
 
-As long as you have 9 or fewer **Nightmare Zombie Tokens**, every month you go without activating Nightmare Zombie Gu reduces the number of **Nightmare Zombie Tokens** you have by 1.
+As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
 ### Plague Zombie Gu
 *Rank 5 Carver*
@@ -4896,11 +5059,11 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Plague Zombie Token**. If you ever have 10 **Plague Zombie Tokens**, your body is permanently transformed into a Plague Zombie.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Plague Zombie Gu, your body is permanently transformed into a Plague Zombie.
 
-As long as you have 9 or fewer **Plague Zombie Tokens**, every month you go without activating Plague Zombie Gu reduces the number of **Plague Zombie Tokens** you have by 1.
+As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
-If a creature starts their turn within 3 meters of you, they gain the *Poisoned* condition with the following effects:
+If another creature starts their turn within 3 meters of you, they gain the *Poisoned* condition with the following effects:
 
 - You take 50 poison damage at the end of each of your turns.
 - You have disadvantage on all skill tests.
@@ -4925,26 +5088,6 @@ Effect: While sustained, your hands grow to double their original size. You gain
 [**Wind Scythe Bird Transformation**]
 
 *Wind Scythe Birds are a terrifyingly fast predator from Northern Plains. Their feathers are sharp as razors, and their diminutive size paired with extreme speed makes them very difficult to hit.*
-
-Wind Scythe Bird Transformation
-*Rank 3 Transformation Killer Move*
-Core Gu: Rank 3 Wind Scythe Bird Wings Gu, Rank 2 Wind Scythe Bird Plumes Gu
-Supplementary Gu: Rank 3 Tiny Gu
-Total Activations: 3
-Activation Cost: 19 portions
-Keywords: [**Sustained**], [**Transformation**]
-
-Effect: You transform into a Wind Scythe Bird, gaining the following features:
-
-Your maximum hit points are 10, and your base movement is 2 meters. Your size is [**Tiny**] (+40 penalty to hit).
-
-You have a flying speed of 25 meters and can make 5 Maneuvers each turn.
-
-Creatures that hit you with unarmed melee attacks take 15 rending damage. If this damage is dealt to their hit points, they gain *bleeding 3.*
-
-You can no longer make punching, kicking, or biting attacks, but gain the following unarmed melee attack option:
-
-**Wings:** Make a **Close Combat** skill test against a creature within 1 meter of you. On a hit, deal 30 rending damage, increased to 100 rending damage if performed at the end of a *Dive* Maneuver. If this damage is dealt to the target's hit points, they gain *bleeding 6.*
 
 ### Wind Scythe Bird Plumes Gu
 
@@ -5327,7 +5470,7 @@ Food: 1 liter of pure water
 
 Keywords: [**Deductive**]
 
-Effect: A cloud of thoughts rumbles above your head, granting you Advantage on a Deduction skill test.
+Effect: A cloud of thoughts rumbles above your head, granting you advantage on your next **Deduction** skill test.
 
 ### Awaken Soul Gu
 
@@ -5428,6 +5571,23 @@ Food: 10 g of clear minded jade (150 primeval stones)
 
 Effect: If activated during a deduction, your deduction benefits from the combined knowledge of all humans and variant humans within range instead of just information available to you personally. Can also be used outside of deductions to read the thoughts of all humans and variant humans within range until the start of your next turn. While active, you may react to the thoughts of humans and variant humans, including the activation of Gu, even if they are [**Unreactable**]. Additionally, you gain a -50 bonus to all tests made to parry, dodge, or attack humans and variant humans within range.
 
+### Lightning Thoughts Gu
+*Rank 3-4 Divination*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Deductive**]
+
+Effect: {2, 5} lightning thoughts appear crackling above your head. Whenever a creature you can see activates a Gu with the [**Unreactable**] keyword, you may expend a lightning thought to ignore the [**Unreactable**] keyword for that activation. You may also expend a lightning thought to make a reaction without expending one of your reactions.
+
+When you take the **Deduction** action, you may expend a lightning thought to halve the time required to make the deduction. Lightning thoughts disappear after 1 hour.
+
 ### Little Will Gu
 *Rank 1-3 Catalyst*
 
@@ -5507,6 +5667,22 @@ Food: 100 g of sugar
 
 Effect: A creature of your choice within range regains 2 hit points.
 
+### Sensitivity Gu
+
+*Rank 3 Divination*
+
+Cost: 35 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Deductive**]
+
+Effect: Your emotional intelligence is vastly improved for an hour. You gain a -30 bonus to all **Insight** skill tests. If you take the **Deduction** action using this Gu, you gain a -20 bonus on the **Deduction** skill test as long as you are deducing the motivations of a creature.
+
 ### Shared Sense Gu
 
 *Rank 3 Divination*
@@ -5547,17 +5723,19 @@ Range: Self
 
 Health: 12
 
-Food: {1, 4, 9, 16, 25} cubic meters of Phantom Soil
+Food: {1, 4, 9, 16, 25} kilograms of phantom soil
 
 Keywords: [**Deductive**]
 
-Effect: Your thoughts appear as bubbles above your head, and you gain a {-10, -20, -30, -40, -50} bonus Deduction tests made to create a refinement recipe, so long as you have access to the Gu whose recipe you're attempting to deduce. You also gain a {-10, -20, -30, -40, -50} bonus on Knowledge (Gu) tests made to identify a Gu. Space thoughts vanish after 1 hour.
+Effect: Your thoughts appear as pitch black bubbles above your head. If you use this Gu to deduce or improve a refinement recipe, you gain a {-10, -20, -30, -40, -50} bonus on the test if you own the Gu whose recipe you are deducing or improving. The Gu must also be of the appropriate rank; you do not gain the bonus if you are deducing a rank 3 recipe but only own the rank 2 version of the Gu.
+
+If the recipe belongs to Space Path, you gain the bonus whether or not you own the Gu.
 
 ### Thinking Twice Gu
 
 *Rank 2 Catalyst*
 
-Cost: 8 portions
+Cost: 20 portions
 
 Range: Self
 
@@ -5566,6 +5744,20 @@ Health: 3
 Food: <!-- TODO ->
 
 Effect: You gain a -20 bonus on your next **Deduction** or **Knowledge** skill test if it is your second time attempting it.
+
+### Truthful Bone Gu
+
+*Rank 2 Divination*
+
+Cost: None
+
+Range: 2 meters
+
+Health: 4
+
+Food: Honest statements
+
+Effect: If a lie is told within range of Truthful Bone Gu, it detonates and dies. Truthful Bone Gu cannot hear lies from inside of an aperture. Activating this Gu has no effect.
 
 ### {Two, Three, Four, Five} Tasks at Once Gu
 
@@ -5613,7 +5805,7 @@ Keywords: [**Deductive**]
 
 Effect: Manifest {3, 6, 20, 50, 100} Vajra Thoughts. Vajra Thoughts appear as shining golden spheres, and can be manifested inside your mind or outside your body. Any number of Vajra thoughts can be transferred between your mind and outside your body as a bonus action.
 
-When making the Deduction action, you may consume a number of Vajra thoughts up to your Cognition attribute to gain a bonus equal to -(thoughts consumed) on your Deduction test. The thoughts consumed must be inside your mind.
+When making the **Deduction** action, you may consume a number of Vajra thoughts up to your Cognition attribute to gain a bonus equal to -(thoughts consumed) on your Deduction test. The thoughts consumed must be inside your mind.
 
 As an Activation, you can shoot a Vajra thought at any target within range. You may only shoot Vajra thoughts that exist outside your body in this way. Make an attack roll; on a hit, each Vajra thought deals 2 force damage directly to the targets hit points.
 
@@ -5697,7 +5889,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Shield**], [**Sustained**]
 
-Effect: Your body is covered in wooden armor, and roots sprout from it into your blood. While sustained, if you gain the *poisoned* condition from a Gu of rank 4 or lower, immmediately remove it and Blood Root Armor Gu regains 40 hit points. Blood Root Armor Gu cannot block heat or sonic damage.
+Effect: Your body is covered in wooden armor, and roots sprout from it into your blood vessels. While sustained, if you gain the *poisoned* condition from a Gu of rank 4 or lower, immmediately remove it and Blood Root Armor Gu regains 40 hit points. Blood Root Armor Gu cannot block heat or sonic damage.
 
 ### Branching Wings Gu
 *Rank 2 Manifestation*
@@ -5909,23 +6101,6 @@ Health: 4
 Food: Natural primeval essence (none)
 
 Effect: Cannot be activated. Passively sprouts 50 primeval essence stones every day at midnight. Up to 50 primeval stones can remain attached to Heavenly Essence Treasure Lotus Gu at a time.
-
-### Liquor Worm Gu
-*Rank 1-3 Catalyst*
-
-Cost: 5 portions
-
-Range: Self
-
-Health: 3
-
-Food: 1 kg wine (1/4 primeval stone)
-
-Effect: Liquor Worm Gu has no effect unless you have rank {1, 2, 3} initial stage, middle stage, or upper stage cultivation. You immediately gain one refined portion of primeval essence of the stage above your own. Keep track of your current refined portions separately from your other portions of primeval essence. The sum of your natural and refined primeval essence can never exceed your maximum primeval essence.
-
-Expending 1 portion of refined primeval essence is equivalent to expending 2 portions of unrefined primeval essence.
-
-If your cultivation increases while you have refined primeval essence, it becomes unrefined primeval essence.
 
 ### Paper Tiger Gu
 *Rank 2 Concealment*
