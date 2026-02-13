@@ -16,7 +16,7 @@ When you're trying to break through from peak stage of a rank to the next rank, 
 
 You must cultivate for 24 hours straight with no breaks in order to break through to the next rank. For every 10 essence per hour you recover greater than the natural recovery rate of your aperture walls, this time is reduced by 4 hours, to a minimum of 8 hours.
 
-For very 4 hours spent cultivating, whether breaking through a small or large realm, make a **Cultivation** skill test with a bonus/penalty according to the table below. If you fail, your soul takes damage equal to the degrees of failure.
+For every 4 hours spent cultivating, whether breaking through a small or large realm, make a **Cultivation** skill test with a bonus/penalty according to the table below. If you fail, your soul takes damage equal to the degrees of failure.
 
 | Target Rank |  Modifier  |
 | ----- | ----- |

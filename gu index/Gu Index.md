@@ -1748,7 +1748,7 @@ Food: Natural primeval essence (does not need fed)
 
 Keywords: [**Expendable**]
 
-Effect: Hope Gu cannot be activated or refined. Hope Gu attaches to the body of the first human or variant-human it comes across without an aperture. After 1 hour of the first Hope Gu attaching, the creature's aperture awakens with 1% aptitude for every Hope Gu attached to it. The maximum number of Hope Gu that can be attached to a creature is different for every creature and determined by the Gamemaster, with a maximum of 100. If a creature awakens their aperture with 19 or fewer Hope Gu attached to them, the awakening fails, and the creature cannot ever again awaken their aperture using Hope Gu. If a creature awakens their aperture with 100 Hope Gu attached to them, they gain one of the Ten Extreme Physiques (see Ch. 1, Introduction; Character Creation).
+Effect: Hope Gu cannot be activated or refined. Hope Gu attaches to the body of the first human or variant-human it comes across without an aperture. After 1 hour of the first Hope Gu attaching, the creature's aperture awakens with 1% aptitude for every Hope Gu attached to it. The maximum number of Hope Gu that can be attached to a creature is different for every creature and determined by the Gamemaster, with a maximum of 99. If a creature awakens their aperture with 19 or fewer Hope Gu attached to them, the awakening fails, and the creature cannot ever again awaken their aperture using Hope Gu.
 
 ### Lifespan Gu
 *Lifespan Gu are extremely rare, produced by Heaven's Will according to the current deficits and surpluses in the world. Lifespan Gu are impossible to refine, and even a rank 1 Lifespan Gu is worth great fights between mortals and immortals alike.*
@@ -5517,7 +5517,7 @@ Effect: Brain Explosion Gu flies towards a creature within range. This can be re
 ### Careful Gu
 *Rank 3 Catalyst*
 
-Cost:  portions
+Cost: 20 portions
 
 Range: Self
 
@@ -5527,7 +5527,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
-Effect: Activate before rolling the failure die of a refinement recipe. Increase the die by one stage (d2 -> d4 -> d6 -> d8 ->  d10 -> d12 -> d20 -> d100) to a maximum of a d100.
+Effect: Activate before rolling the failure die of a refinement recipe for a Gu of rank 3 or lower. Increase the die by one stage (d2 -> d4 -> d6 -> d8 ->  d10 -> d12 -> d20 -> d100) to a maximum of a d100.
 
 ### Enamor Gu
 *Rank 2 Attack*

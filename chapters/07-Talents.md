@@ -143,7 +143,7 @@ If a Gu is very close in form to the chosen weapon, you still get this bonus. Th
 
 *Can be purchased up to 3 times*
 
-Your Fortitude and Strength attributes are permanently increased by 5, and your movement is reduced by 1. If you purchase this talent 3 times, your size becomes [**Large**].
+Your Fortitude and Strength attributes are permanently increased by 5, your weight is increased by 25 kilograms, and your movement is reduced by 1. If you purchase this talent 3 times, your size becomes [**Large**].
 
 ### Wrestling Techniques
 
@@ -163,12 +163,29 @@ Refinement techniques are used to improve the Gu refinement process in many diff
 
 ::: columns
 
-### Sauté
-*Cost:* 20 experience
+### Batch Refinement
 
-*Requires Fundemental Food Path Attainment*
+*Cost:* 25 experience
 
-You gain access to the Sauté refinement technique. When you use the Sauté refinement technique, you gain a -10 bonus to all **Refinement** tests, and increase the primeval stone cost of the recipe by 50% (rounding down). For every Gu used in the recipe, roll 1d10. If you roll a 1, that Gu is not consumed during the refinement.
+*Requires Intermediate Refinement Path Attainment*
+
+You gain access to the Batch Refinement refinement technique. When you use the Batch Refinement refinement technique, you gain a +20 penalty to **Refinement** skill tests, and every cost of the recipe is quadrupled (including Gu). If you succeed the **Refinement** skill test, you produce 5 of the Gu; you must roll the failure die separately for each Gu.
+
+### Bellows Stove
+
+*Cost:* 15 experience
+
+*Requires Fundamental Wind Path Attainment*
+
+You gain access to the Bellows Stove refinement technique. When you use the Bellows Stove refinement technique, you gain a -20 bonus to **Refinement** skill tests. If you fail the refinement, the damage of the backlash is increased by 2. This refinement technique can only be used to refine Fire, Food, and Wind Path Gu.
+
+### Brute Force
+
+*Cost:* 25 experience
+
+*Requires Master Strength Path Attainment*
+
+You gain access to the Brute Force refinement technique. When you use the Brute Force refinement technique, you gain a -40 bonus to **Refinement** skill tests, and the failure die of the recipe is forced to be a d2. If the recipe belongs to Strength Path, the failure die is instead a d3. This refinement technique cannot be used to refine Wisdom Path Gu.
 
 ### Dice Falling Waterfall
 
@@ -176,7 +193,7 @@ You gain access to the Sauté refinement technique. When you use the Sauté refi
 
 *Requires Fundamental Luck Path Attainment*
 
-You gain access to the Dice Falling Waterfall refinement technique. When you use the Dice Falling Waterfall refinement technique, you must roll the failure die twice and take the lower result. Upon successfully refining a Gu with this technique, you gain a luck point.
+You gain access to the Dice Falling Waterfall refinement technique. When you use the Dice Falling Waterfall refinement technique, you must roll the failure die twice and take the lower result. Upon successfully refining a Gu with this technique, you gain a luck point. This refinement technique cannot be used to refine Rule Path Gu.
 
 ### Dual Refinement
 
@@ -196,7 +213,7 @@ You gain access to the Extended Refinement refinement technique. When you use th
 
 ### False Refinement
 
-*False refinement was invented by Thieving Heaven Demon Venerable, allowing the production of counterfeit Gu.*
+*False refinement was invented by Thieving Heaven Demon Venerable, enabling the production of counterfeit Gu.*
 
 *Cost:* 20 experience
     
@@ -222,6 +239,14 @@ You gain access to the Hairy Man Heaven and Earth refinement technique. When you
 
 You gain access to the One After Another refinement technique. When you use the One After Another refinement technique, you gain a -30 bonus to **Refinement** skill tests, and the duration of the refinement is increased by 4 hours. This refinement technique can only be used to refine Wood Path Gu.
 
+### Reduction
+
+*Cost:* 20 experience
+
+*Requires Intermediate Food Path Attainment*
+
+You gain access to the Reduction refinement technique. When you use the Reduction refinement technique, the primeval stone cost of the recipe is reduced by 50% (rounded down). If you fail the refinement, the damage of the backlash is reduced by 1.
+
 ### Research
 
 *Cost:* 25 experience
@@ -237,6 +262,13 @@ You gain access to the Research refinement technique. Whenever you successfully 
 *Requires Intermediate Blood Path Attainment*
 
 You gain access to the Sacrifice refinement technique. Whenever you use the Sacrifice refinement technique, you may take any amount of damage directly to your hit points. This damage cannot be reduced or negated in any way. The primeval stone cost of the recipe is reduced by 100 * (sacrificed hit points), to a minimum of 10% of the recipe's primeval stone cost.
+
+### Sauté
+*Cost:* 15 experience
+
+*Requires Fundemental Food Path Attainment*
+
+You gain access to the Sauté refinement technique. When you use the Sauté refinement technique, you gain a -10 bonus to all **Refinement** tests, and increase the primeval stone cost of the recipe by 50% (rounding down). For every Gu used in the recipe, roll 1d10. If you roll a 1, that Gu is not consumed during the refinement.
 
 ### Shower
 
