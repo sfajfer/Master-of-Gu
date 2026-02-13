@@ -72,7 +72,7 @@ You can make a number of melee attacks as part of a melee attack combat action a
 
 *Can be purchased up to 5 times*
 
-Your Strength attribute is permanently increased by 10 and your Fortitude attribute is permanently increased by 1.
+Your Strength attribute is permanently increased by 9 and your Fortitude attribute is permanently increased by 1.
 
 ### Not So Fast
 
@@ -143,7 +143,7 @@ If a Gu is very close in form to the chosen weapon, you still get this bonus. Th
 
 *Can be purchased up to 3 times*
 
-Your Fortitude and Strength attributes are permanently increased by 5, your weight is increased by 25 kilograms, and your movement is reduced by 1. If you purchase this talent 3 times, your size becomes [**Large**].
+Your Fortitude is permanently increased by 5, your weight is increased by 25 kilograms, and your movement is reduced by 1. If you purchase this talent 3 times, your size becomes [**Large**].
 
 ### Wrestling Techniques
 
@@ -324,7 +324,8 @@ You gain an additional bonus action that can only be used to activate a single [
 Your understanding of [Path] has reached a qualitative change, and you gain the following benefits:
 
 - You gain a -20 bonus to all **Refinement** and **Knowledge (Gu)** skill tests to refine or identify [Path] Gu.
-- **Deduction** and **Refinement** skill tests made to deduce killer moves gain a -10 bonus if they have a [Path] Gu in its core.
+- You gain a -20 bonus to **Refinement** and **Deduction** skill tests made to improve or create refinement recipes for [Path] Gu.
+- You gain a -10 bonus on **Deduction** and **Refinement** skill tests made to deduce killer moves if they have a [Path] Gu in its core.
 
 **Master**
 
@@ -332,8 +333,8 @@ Your understanding of [Path] has reached a qualitative change, and you gain the 
 
 Your understanding of [Path] reaches the apex of mortal comprehension. You gain the following benefits:
 
-- You automatically succeed all **Refinement** and **Deduction** skill tests to refine or improve the recipe of [Path] Gu, so long as the Gu is of a lower rank than you. You still have to roll the failure die after a successful refinement.
-- You gain a -30 bonus to all **Refinement** and **Knowledge (Gu)** skill tests to refine or identify [Path] Gu.
-- You gain a -30 bonus to **Deduction** skill tests made to improve or create refinement recipes for [Path] Gu.
+- You gain a -40 bonus to all **Refinement** and **Knowledge (Gu)** skill tests to refine or identify [Path] Gu.
+- You gain a -40 bonus to **Refinement** and **Deduction** skill tests made to improve or create refinement recipes for [Path] Gu.
+- You gain a -20 bonus on **Deduction** and **Refinement** skill tests made to deduce killer moves if they have a [Path] Gu in its core.
 
 \newpage
