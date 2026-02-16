@@ -33,7 +33,7 @@ From rest, you can jump a maximum of 10% of your athletics skill (rounded down t
 If you move at least 1 meter in the direction of your jump before jumping, your forward jumping distance is equal to half your movement, rounded up.
 
 ### Maneuvers
-You may only execute a Maneuver if you have a flying speed. With the exception of *Take Flight*, you must be *airborne* to execute a maneuver. While *airborne*, you make **Dodge** skill tests with your **Flying** skill until you return to the ground, and use your flying speed when dodging.
+You may only execute a Maneuver if you have a flying speed. With the exception of *Take Flight*, you must be *airborne* to execute a maneuver. While *airborne*, you make **Dodge** skill tests with your **Flying** skill until you return to the ground, and use your flying speed when dodging. Penalties to your **Dodge** skill tests also apply to **Flying** skill tests made to dodge attacks.
 
 #### Take Flight
 Taking flight can only be done when on the ground. You rise a number of meters into the air equal to half your flying speed, rounded down, and are now *airborne*. 
@@ -72,10 +72,10 @@ Pick a killer move for which you have all the Gu and enough primeval essence for
 ### Melee Attack
 
 #### Weapon Attack
-Roll a **Close Combat** skill test against an enemy within your weapon's range. On a hit, deal the damage of the weapon, +1 damage for every 20 points you have in Strength.
+Roll a **Close Combat** skill test against an enemy within your weapon's range. On a hit, deal the damage of the weapon, +1 damage for every 20 points you have in Strength. Alternatively, you may forego a weapon attack to throw a weapon with a thrown damage property. Thrown weapons have a range of (5 + 5% of Strength) meters (rounded down).
 
 **Multi-Weapon Fighting**
-When wielding more than 1 weapon, you can make a number of melee attacks equal to the number of wielded weapons instead of just 1. If you elect to do so, all melee attacks made have a penalty equal to +(number of attacks * 10). You cannot wield more weapons than you have arms and hands.
+When wielding more than 1 weapon, you can make a number of melee attacks equal to the number of wielded weapons instead of just 1. If you elect to do so, all melee attacks made have a penalty equal to +(number of attacks * 10). You cannot wield more weapons than you have hands.
 
 #### Unarmed Strike
 When you take an unarmed strike combat action, you may make a punch attack for each arm you have, or a single kick attack or bite attack.
@@ -185,7 +185,7 @@ If you take an amount of damage equal to double your maximum hit points from a s
 While you have the *Final Stand* condition, you cannot move or take combat actions or reactions other than to activate Gu or hold your action to do so. If you take any amount of damage to your hit points while in *Final Stand*, you enter the *Dying* state and fall unconscious. If you gain any hit points while in *Final Stand*, you are no longer in *Final Stand* and can act as normal.
 
 ### Dying
-If you are *Dying*, you are unconscious. At the end of each of your turns, roll a **Perseverance** attribute test. On a success, you gain a **Perseverance Token**. On a failure, you gain a **Predicament Token**. Critical successes and fumbles grant 2 of the respective token. When you have 3 **Perseverance Tokens**, you are no longer *Dying* and instead enter *Final Stand*, and your **Perseverance** token count resets to 0. If you ever have 5 **Predicament Tokens**, you die.
+If you are *Dying*, you are unconscious. At the end of each of your turns, roll a **Perseverance** attribute test. On a success, you gain a **Perseverance Token**. On a failure, you gain a **Predicament Token**. Critical successes and fumbles grant 2 of the respective token. When you have 3 **Perseverance Tokens**, you are no longer *Dying* and instead enter *Final Stand*, and your **Perseverance** token count resets to 0. If you ever have 5 **Predicament Tokens**, you die. **Predicament Tokens** are permanent unless removed by a Gu.
 
 ### Fall Damage
 When falling from a height of more than 2 meters, you take 3 force damage for every meter you fell. If a creature has a flying speed when it becomes *airborne* from anything other than the *Take Flight* Maneuver, it may immediately move up to half its flying speed. If a creature does not have a flying speed when it becomes *airborne,* it immediately falls up to 500 meters. If the creature is still falling, it falls 500 meters at the end of each of its turns until it hits the ground.

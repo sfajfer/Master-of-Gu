@@ -16,13 +16,13 @@ Areas attuned with with the natural Dao generate plants, animals, stones, and ot
 **Blood Path:**
 
 | Refinement Material | Cost (PS) | Unit | Rank |
-| ----- | ----- | ----- |
+| ----- | ----- | ----- | ----- |
 | Crimson Willow Bark |  |  |
-| Hemorrhage Soil |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Hemorrhage Soil |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 | Hundred Beast King Blood |  |  | 2 |
 | Thousand Beast King Blood |  |  | 3 |
 | Myriad Beast King Blood |  |  | 4 |
@@ -35,30 +35,30 @@ Areas attuned with with the natural Dao generate plants, animals, stones, and ot
 | Refinement Material | Cost (PS) | Unit |
 | ----- | ----- | ----- |
 | Deep Onyx |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 
 **Earth Path:**
 
-| Refinement Material | Cost (PS) | Unit |
-| ----- | ----- | ----- |
-| Gruel Mud |  |  |
-| Soft Purple Clay |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Refinement Material | Cost (PS) | Unit | Rank |
+| ----- | ----- | ----- | ----- |
+| Gruel Mud |  |  |  |
+| Soft Purple Clay |  |  |  |
+| Rotting Swamp Mud |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 
 **Enslavement Path:**
 
