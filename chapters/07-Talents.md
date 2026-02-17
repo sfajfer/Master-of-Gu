@@ -253,7 +253,7 @@ You gain access to the Reduction refinement technique. When you use the Reductio
 
 *Requires Intermediate Wisdom Path Attainment*
 
-You gain access to the Research refinement technique. Whenever you successfully refine a Gu using the Research refinement technique, you gain a -20 bonus on your next **Refinement** or **Deduction** test made to improve that recipe. This bonus does not stack.
+You gain access to the Research refinement technique. Whenever you successfully refine a Gu using the Research refinement technique, you gain a -20 bonus on your next **Refinement** test made to improve that recipe. This bonus does not stack.
 
 ### Sacrifice
 
@@ -324,8 +324,8 @@ You gain an additional bonus action that can only be used to activate a single [
 Your understanding of [Path] has reached a qualitative change, and you gain the following benefits:
 
 - You gain a -20 bonus to all **Refinement** and **Knowledge (Gu)** skill tests to refine or identify [Path] Gu.
-- You gain a -20 bonus to **Refinement** and **Deduction** skill tests made to improve or create refinement recipes for [Path] Gu.
-- You gain a -10 bonus on **Deduction** and **Refinement** skill tests made to deduce killer moves if they have a [Path] Gu in its core.
+- You gain a -20 bonus to **Refinement** skill tests made to improve or create refinement recipes for [Path] Gu.
+- You gain a -10 bonus on **Deduction** skill tests made to deduce killer moves if they have a [Path] Gu in its core.
 
 **Master**
 
@@ -334,7 +334,7 @@ Your understanding of [Path] has reached a qualitative change, and you gain the 
 Your understanding of [Path] reaches the apex of mortal comprehension. You gain the following benefits:
 
 - You gain a -40 bonus to all **Refinement** and **Knowledge (Gu)** skill tests to refine or identify [Path] Gu.
-- You gain a -40 bonus to **Refinement** and **Deduction** skill tests made to improve or create refinement recipes for [Path] Gu.
-- You gain a -20 bonus on **Deduction** and **Refinement** skill tests made to deduce killer moves if they have a [Path] Gu in its core.
+- You gain a -40 bonus to **Refinement** skill tests made to improve or create refinement recipes for [Path] Gu.
+- You gain a -20 bonus on **Deduction** skill tests made to deduce killer moves if they have a [Path] Gu in its core.
 
 \newpage

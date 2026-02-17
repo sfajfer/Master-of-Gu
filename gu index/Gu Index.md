@@ -1868,13 +1868,15 @@ Health: 6
 
 Food: 100 g of smoldering stone (1 primeval stone)
 
+Keywords: [**Undodgeable**]
+
 Effect: You transfer the heat from your own body into a target within range. You take 4 cold damage directly to your hit points. 
 
 Creature: They take 15 heat damage directly to their hit points. 
 
 Flammable object: It bursts into flames, inflicting the *burning* condition on a creature holding or wearing it. 
 
-Metal object: It glows red hot for 1 minute. A creature holding the object must succeed a **Perseverance** attribute test or else drop the object. If the object is worn or carried by a creature, that creature takes 10 heat damage at the start of each of their turns. The object cools down after 1 minute.
+Metal object: It glows red hot for 1 minute. A creature holding the object must succeed a **Perseverance** attribute test or else drop the object. If the object is worn or carried by a creature, that creature takes 15 heat damage at the start of each of their turns. The object cools down after 1 minute.
 
 ### Hibernation Gu
 *Hibernation Gu is a 1 foot tall bear. If it is sleeping, that means someone is under its effects.*
@@ -2653,6 +2655,21 @@ While a creature is implanted by the beast tag bullet, activating Beast Tag Bull
 
 Any beasts enslaved by you that can see the target use a reaction to immediately move up to half of their movement towards the target before making a melee attack against the target if they are within range.
 
+### Bronze Transmission Gu
+
+*Rank 3 Divination*
+
+Cost: 16 portions
+
+Range: 1 meter
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: You speak a name aloud and picture the person's face in your mind as Bronze Transmission Gu flies into an object made of bronze within range. The person's face appears in the object as long as they are on the same continent as you, and sounds from either side are transmitted through it.
 
 ### Bullet Gu
 *Rank 1 Attack*
@@ -3208,6 +3225,32 @@ Food: {1, 10, 100} liters of black oil centipede blood
 
 Effect: When following a refinement recipe for a Gu of rank {2, 3, 4} or lower, if the Gu belongs to Transformation or Light Path you may activate Morphing Colors Gu to gain advantage on the **Refinement** skill test.
 
+### Reverse Refinement Gu
+
+*Rank 1-5 Catalyst*
+
+Cost: 40 portions
+
+Range: Touch
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable**]
+
+Effect: You touch a Gu of rank {1, 2, 3, 4, 5} or lower and immediately reverse refine it, turning it into its refinement ingredients. The ingredients produced correspond to the materials used to refine the Gu, or if originally a wild Gu, a number of primeval stones depending on the rank of the target Gu.
+
+Rank 1: 100 primeval stones
+
+Rank 2: 400 primeval stones
+
+Rank 3: 2,000 primeval stones
+
+Rank 4: 10,000 primeval stones
+
+Rank 5: 50,000 primeval stones
+
 ### Revert Gu
 
 *Rank 2-5 Catalyst*
@@ -3221,6 +3264,22 @@ Health: 4
 Food: <!-- TODO ->
 
 Effect: Touch a Gu of rank {2, 3, 4, 5}. If a Gu of rank {1, 2, 3, 4} is a core material in the targeted Gu's refinement recipe, the targeted Gu is transformed into that Gu. If multiple Gu fulfill the requirement, one is selected at random.
+
+### Undefeated Hundred Battles Gu
+
+*Rank 5 Catlayst*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable**], [**Extinct**]
+
+Effect: You may activate this Gu whenever you follow a recipe to refine a Gu. The refinement takes the full duration of the recipe, but you automatically succeed the **Refinement** skill test with a critical success and do not have to roll the failure die.
 
 :::
 \newpage
@@ -3769,6 +3828,8 @@ Effect: Archer's Paradox Gu can only be activated as a reaction to a projectile 
 * **Rank 5:** The projectile is locked in place in the square of the user and is frozen. At the end of your next turn, the projectile continues as if it were just used, in a line towards the square its target was in when it was used, hitting the first creature in the line.
 
 ### Dimensional Lock Gu
+*One of the signature methods of space path, Dimensional Lock Gu is very effective at preventing escapes and attacks. No teleportation Gu below rank 6 can pierce its effects. It appears as a floating glass box containing within the starry sky of black heaven.*
+
 *Rank 4-5 Manifestation*
 
 Cost: 200 portions
@@ -3780,8 +3841,6 @@ Health: 24
 Food: {10, 100} kg Emptiness Iron ({250, 2500} primeval stones)
 
 Effect: For {1 hour, 1 day}, a {5, 15} meter cube, centered on the square you activated Dimensional Lock Gu on, becomes dimensionally locked. Creatures cannot teleport to any space inside the cube from outside of it. Creatures inside the cube cannot teleport at all. The cube is barely visible, and awareness checks made to see its edges have a +30 penalty.
-
-*One of the signature methods of space path, the Dimensional Lock Gu is very effective at preventing escapes and attacks. No teleportation Gu below rank 6 can pierce its effects. It appears as a floating glass box containing within the starry sky of black heaven.*
 
 ### Formless Space Gu
 
@@ -5875,6 +5934,24 @@ Food: <!-- TODO ->
 Keywords: [**Expendable**]
 
 Effect: You gain X activations until the end of your turn. Once you use an activation before the end of your turn, your subsequent activations must be used for the same effect, i.e. activating the same Gu.
+
+### Future Market Gu
+
+*A primeval stone with a sea-green hue.*
+
+*Rank 4 Divination*
+
+Cost: 25 portions
+
+Range: Touch
+
+Health: 4
+
+Food: Rank 4 Year Gu
+
+Keywords: [**Extinct**]
+
+Effect: You touch an object, Gu, or creature and can immediately ascertain the future supply and demand of it across the continent you are in a week from today. The supply appears as a blue pillar of light, and the demand as a red pillar of light, brighter and taller the greater each is. Using both metrics you can ascertain what the market price of the item will be a week from today.
 
 ### Placebo Gu
 *Rank 1 Tonic*
