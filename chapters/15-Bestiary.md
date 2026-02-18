@@ -187,3 +187,51 @@ Roll 2d4 (rerolling duplicates)
 4 - 
 
 \newpage
+
+## Undead
+
+### Roaming Zombie
+
+| Attributes | |
+| ----- | ----- |
+| HP | 80 |
+| Soul | - |
+| Movement | 5 |
+| Strength | 70 |
+| Agility | 20 |
+| Fortitude | 80 |
+| Cognition | 5 |
+| Wisdom | 5 |
+| Attitude | 5 |
+
+| Skills | |
+| ----- | ----- |
+| Close Combat | 30 |
+| Ranged Attack | 5 |
+| Athletics | 55 |
+| Dodge | 20 |
+| Awareness | 5 |
+
+#### Combat Actions
+
+**Multiattack.** The roaming zombie makes 2 **Claw** attacks.
+
+**Bite.** *Melee Attack, 1 meter* The roaming zombie bites a target. On a hit, deal 15 rending damage.
+
+**Claw.** *Melee Attack, 1 meter* The roaming zombie slashes a target. On a hit, deal 8 rending damage and apply the *poisoned* condition with the following effect:
+
+- You take 4 poison damage directly to your hit points at the start of each of your turns
+
+This effect lasts for 1 minute.
+
+#### Features
+
+The Roaming Zombie is immune to mind manipulating effects.
+
+The Roaming Zombie regains 8 hit points at the start of each of its turns. 
+
+The Roaming Zombie has immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
+
+The Roaming Zombie has vulnerability to heat and shock damage.
+
+While exposed to direct light, the Roaming Zombie suffers a +20 penalty to all skill tests.

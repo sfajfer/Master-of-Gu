@@ -499,6 +499,22 @@ Keywords: [**Defensive**], [**Sustained**]
 
 Effect: Choose a creature within range. While sustained, whenever you take damage to your hit points, if the target is within range they take the same damage directly to their hit points. If the creature leaves range, Shadow Bond Gu remains active and connected to the target, but temporarily stops reflecting damage.
 
+### Shadow Dog Pocket Gu
+
+*Rank 2-3 Container*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Your shadow becomes the door to a pocket dimension that only living creatures can enter or exit. You may open and close the entrance at will, but it requires a creature to expend half of its movement to enter or exit. Your shadow pocket can hold up to {2, 5} [Medium] creatures or {1, 2} [Large] creatures. Creatures can remain inside indefinitely, but still require nourishment.
+
 ### Shadow Follower Gu
 *Rank 2 Concealment*
 
@@ -513,6 +529,22 @@ Food: 2 eyeballs from any creature (1/4 primeval stone)
 Keywords: [**Sustained**]
 
 Effect: While sustained, you are enveloped in an inky darkness. As long as you are not in direct light, you are invisible.
+
+### Sheep Clothes Gu
+
+*Rank 2 Concealment*
+
+Cost: 8 portions
+
+Range: Self
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Keywords: [**Supplementary**]
+
+Effect: Your next Gu activation effect is shrouded in a silhouette. If a Gu Master has not seen and identified the shrouded effect, they must make a **Knowledge (Gu)** skill test with a +30 penalty or else fail to identify the Gu being used.
 
 ### Split Shadow Gu
 
@@ -800,6 +832,22 @@ If the target is willing to be enslaved, they fail the battle of souls automatic
 
 If your current soul value is less than or equal to the beast's, you fail to enslave it, the beast's current soul value is reduced by your current soul value, and then your current soul value is reduced to 1.
 
+### Beholder Gu
+
+*Rank 2-3 Divination*
+
+Cost: 5 portions
+
+Range: {1, 10} kilometers
+
+Health: 6
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: Your left eye glows with a blue light as you connect telepathically with a beast enslaved by you that you can see within range. While sustained, you gain all observable information available to the target's left eye as long as they are within range. Your right eye remains normal, and continues intaking visual information in front of you. Your left eye swivels in unison with the target's, moving automatically and sometimes uncomfortably. You have one fewer reaction each turn from focusing on two sets of visual data.
+
 ### Bonded Collar Gu
 *A collar made of whispy shadow, it's hard to see exactly where it begins or ends. Once accepted by a creature, an ethereal leash flickers out from the user's hand and ties itself to the collar before both fade and disappear. The creature is embued with some of your own soul, and will never turn against you.*
 
@@ -827,7 +875,7 @@ Cost: 15 portions
 
 Range: 10 Meters
 
-Health: 
+Health: 3
 
 Food: A living creature kept as a pet for more than 10 days.
 
@@ -852,6 +900,65 @@ Effect: You create a false aperture and bond it to a creature that you touch. Th
 The false aperture can store {1, 1, 1, 2, 2} Gu of rank {1, 2, 3, 4, 5} or lower, and up to 100 portions of primeval essence of rank {1, 2, 3, 4, 5} or lower. You may infuse the aperture with primeval essence by touching the creature as a combat action and expending the number of portions taken.
 
 After creating a false aperture in this way, False Aperture Gu can no longer be activated until it is fed.
+
+### Houndmaster Hivemind Gu
+
+*Rank 2-4 Catalyst*
+
+Cost: 15 portions
+
+Range: {6, 12, 25} meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Supplementary**]
+
+Effect: Pick a creature enslaved by you that you can see within range. Your next Gu activation this turn costs double the primeval essence. As long as the Gu does not have the [**Expendable**] or [**Steed**] keywords, its effect is duplicated, treating the targeted creature as the source of the second activation. You may pick the target for targeted effects.
+
+### Last Breath Gu
+*A ghastly vulture with ethereal wings and a bloody beak.*
+
+*Rank 2 Catalyst*
+
+Cost: 40 portions
+
+Range: 
+
+Health:
+
+Food: <!-- TODO ->
+
+Keywords: [**Low Vitality**]
+
+Effect: Last Breath Gu's beak unhinges as it eats the head of a human or variant human that died due to your direct actions within the last hour. The headless corpse rises from the dead as a Roaming Zombie (see Bestiary) under your control. The Roaming Zombie can percieve its surroundings in a 10 meter radius despite not having eyes, but permanently has the *deafened* condition. It can also not make **Bite** attacks.
+
+You may control the Roaming Zombie in the same way as other enslaved creatures. If you do not directly control the Roaming Zombie, it wanders about its surroundings and attacks any creatures besides you that it comes across.
+
+### Pack Leader Gu
+
+*Rank 2-5 Attack*
+
+Cost: 50 portions
+
+Range: 20 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: You howl, shaking the surroundings. All creatures within range with less than {4, 10, 25, 80} current soul becomes submissive, laying *prone* and ceasing all hostilities. This effect lasts for 1 minute, and ends on a creature if you attack it.
+
+As long as a beast can hear the howl and has classification at or under the rank of Pack Leader Gu, they become frightened and attempt to flee the area, unless they are submissive.
+
+- Rank 1: Ordinary Beasts
+- Rank 2: Hundred Beast Kings
+- Rank 3: Thousand Beast Kings
+- Rank 4: Myriad Beast Kings and Mutated Beasts
+- Rank 5: Beast Emperors and Mutated Hundred Beast Kings
+
+If you attempt to enslave a submissive creature using Slavery Gu or [Beast] Enslavement Gu, you only subtract half of the creature's current soul (rounded down) from your current soul.
 
 ### Powerful Presence Gu
 
@@ -2195,7 +2302,7 @@ Food: A handful of fine shattered glass (4 primeval stones)
 
 Keywords: [**Deductive**], [**Expendable**]
 
-Effect: You instantaneously perform a **Deduction** action with a -50 bonus. You may also activate this Gu without using an activation to immediately make a reaction without expending one of your reactions.
+Effect: You instantaneously perform a *Deduction* action with a -50 bonus. You may also activate this Gu without using an activation to immediately make a reaction without expending one of your reactions.
 
 ### Footprint Gu
 
@@ -2669,7 +2776,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: You speak a name aloud and picture the person's face in your mind as Bronze Transmission Gu flies into an object made of bronze within range. The person's face appears in the object as long as they are on the same continent as you, and sounds from either side are transmitted through it.
+Effect: You speak a name aloud and picture the person's face in your mind as Bronze Transmission Gu flies into an object made of bronze within range. The person's face appears in the object as long as they are on the same continent as you, and sounds from either side are transmitted through it. Bronze Transmission Gu leaves the object when you stop sustaining it.
 
 ### Bullet Gu
 *Rank 1 Attack*
@@ -5782,6 +5889,26 @@ Food: Battle Thoughts (Gu Master must think about fighting for 1 hour)
 
 Effect: All creatures within range, including yourself, become agitated and more prone to violence, and gain a -30 bonus to **Perseverance** attribute tests for 10 minutes.
 
+### Blazing Thoughts Gu
+
+*Rank 2 Divination*
+
+Cost: 15 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Deductive**]
+
+Effect: Thoughts of roiling flame appear above your head. As an activation, you can touch a creature to apply the *ablaze* condition and end this effect.
+
+When you use this Gu to make a *Deduction* action, you gain a -5 bonus to **Deduction** skill tests and a -10 bonus to **Refinement** skill tests made to create or improve Fire, Light, and Lightning Path Gu recipes.
+
+Blazing thoughts disappear after 1 hour. Activating Blazing Thoughts Gu while you already have blazing thoughts has no effect.
+
 ### Brain Explosion Gu
 *Rank 4 Attack*
 
@@ -5798,7 +5925,7 @@ Effect: Brain Explosion Gu flies towards a creature within range. This can be re
 ### Careful Gu
 *Rank 3 Catalyst*
 
-Cost: 20 portions
+Cost: 5 portions
 
 Range: Self
 
@@ -5823,6 +5950,26 @@ Food: <!-- TODO ->
 
 Effect: Make an attack roll against a creature within range. On a hit, the creature feels a strong bond of love between themselves and you. The affected creature cannot make any attacks against you, and will try its best to protect you, even risking its own life. If you are being attacked by the creature's allies, the creature will try to protect you without harming either side. At the end of each of its turns, the affected creature can make an **Insight** skill test, ending the effect on a success.
 
+### Freezing Thoughts Gu
+
+*Rank 2-4 Divination*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Deductive**]
+
+Effect: Thoughts of freezing clouds appear above your head. As an activation, you may end this effect to freeze your surroundings; all other creatures within {1, 2, 4} meters of you take {8, 20, 50} cold damage. If this damage is dealt to their hit points, they gain the *fatigued* condition
+
+When you use this Gu to make a *Deduction* action, you gain a {-5, -10, -15} bonus to **Deduction** skill tests and a {-10, -15, -20} bonus to **Refinement** skill tests made to create or improve Ice, Water, and Wind Path Gu recipes.
+
+Freezing thoughts disappear after 1 hour. Activating Freezing Thoughts Gu while you already have freezing thoughts has no effect.
+
 ### Give Up Gu
 
 *Rank 3 Attack*
@@ -5846,11 +5993,29 @@ Cost: 40 portions
 
 Range: {1, 5, 20} meters
 
-Health: 9
+Health: 1
 
 Food: 10 g of clear minded jade (150 primeval stones)
 
 Effect: You glow with a bright yellow light and read the thoughts of nearby people. If activated during a deduction, your deduction benefits from the combined knowledge of all humans and variant humans within range instead of just information available to you personally. Can also be used outside of deductions to read the thoughts of all humans and variant humans within range until the start of your next turn. While active, you may react to the thoughts of humans and variant humans, including the activation of Gu, even if they are [**Unreactable**]. Additionally, you gain a -50 bonus to all tests made to parry, dodge, or attack humans and variant humans within range.
+
+### Kind Thoughts Gu
+
+*Rank 2-4 Divination*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Deductive**]
+
+Effect: {1, 2, 5} kind thoughts appear harmoniously above your head. You may expend any number of kind thoughts as an activation to restore 15 hit points for each kind thought expended to yourself or a creature you touch.
+
+When you take the *Deduction* action, you may expend up to {1, 2, 5} kind thoughts to gain a -5 bonus to **Deduction** skill tests for each kind thought expended. Kind thoughts disappear after 1 hour.
 
 ### Lightning Thoughts Gu
 *Rank 3-4 Divination*
@@ -5867,7 +6032,7 @@ Keywords: [**Deductive**]
 
 Effect: {2, 5} lightning thoughts appear crackling above your head. Whenever a creature you can see activates a Gu with the [**Unreactable**] keyword, you may expend a lightning thought to ignore the [**Unreactable**] keyword for that activation. You may also expend a lightning thought to make a reaction without expending one of your reactions.
 
-When you take the **Deduction** action, you may expend a lightning thought to halve the time required to make the deduction. Lightning thoughts disappear after 1 hour.
+When you take the *Deduction* action, you may expend up to {2, 5} lightning thoughts to halve the time required to make the deduction for each lightning thought expended. Lightning thoughts disappear after 1 minute.
 
 ### Little Will Gu
 *Rank 1-3 Catalyst*
@@ -5889,6 +6054,38 @@ When you activate or sustain a Gu with the [**Sustained**] keyword, you may expe
 Little Wills can also be left pretty much anywhere along with a Gu. When a condition, set by you when you leave the Little Will, is fulfilled, the Will consumes itself to activate the Gu in a manner of your choosing.
 
 Little Wills can exist for up to 6 months before vanishing.
+
+### Longing Thoughts Gu
+
+*Rank 1-5 Divination*
+
+Cost: 15 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Deductive**]
+
+Effect: Your thoughts appear like curling white clouds above your head. When you use this Gu to make a *Deduction* action, you gain a {-10, -20, -30, -40, -50} bonus to **Deduction** skill tests made to deduce subjects with a physical location that is at least 100 kilometers away from you.
+
+### Malicious Thoughts Gu 
+
+*Rank 1-5 Divination*
+
+Cost: 15 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Deductive**]
+
+Effect: Maroon thoughts like bubbles with protruding spikes appear above your head. When you use this Gu to make a *Deduction* action, you gain a {-10, -20, -30, -40, -50} bonus to **Deduction** skill tests made to deduce plans to foil or sabotage the plans of others.
 
 ### Martial Art Mantis Gu
 *Rank 2 Catalyst*
@@ -6013,7 +6210,7 @@ Whenever you make an attack roll from a Gu effect, you may consume an Intent Bla
 
 *The main recipe for Rank 3 Sharp Intent Gu combines Rank 2 Sabre Gu with many Rank 1 Little Will Gu*
 
-### Space Thought Gu
+### Space Thoughts Gu
 *Rank 1-5 Catalyst*
 
 Cost: 30 portions
@@ -6089,8 +6286,8 @@ Keywords: [**Sustained**]
 
 Effect: While sustained, you have an additional two arms sprouting from your waist. They are a spectral blue color, and punching attacks made with them deal an additional 2 damage to the target's soul.
 
-### Vajra Thought Gu
-*Rank 1-5 Manifestation*
+### Vajra Thoughts Gu
+*Rank 1-5 Divination*
 
 Cost: 12 portions
 
@@ -6104,7 +6301,7 @@ Keywords: [**Deductive**]
 
 Effect: Manifest {3, 6, 20, 50, 100} Vajra Thoughts. Vajra Thoughts appear as shining golden spheres, and can be manifested inside your mind or outside your body. Any number of Vajra thoughts can be transferred between your mind and outside your body as a bonus action.
 
-When making the **Deduction** action, you may consume a number of Vajra thoughts up to your Cognition attribute to gain a bonus equal to -(thoughts consumed) on your Deduction test. The thoughts consumed must be inside your mind.
+When making the *Deduction* action, you may consume a number of Vajra thoughts up to your Cognition attribute to gain a bonus equal to -(Vajra thoughts consumed) on **Deduction** skill tests made to deduce killer moves. The thoughts consumed must be inside your mind.
 
 As an Activation, you can shoot a Vajra thought at any target within range. You may only shoot Vajra thoughts that exist outside your body in this way. Make an attack roll; on a hit, each Vajra thought deals 2 force damage directly to the targets hit points.
 
@@ -6682,7 +6879,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: You carve wood path dao into your body, gaining a **Wood Dao Token**. For every **Wood Dao Token** you have, you gain a -5 bonus to **Refinement** skill tests made to follow or improve wood path Gu recipes and reduce the amount of primeval essence used to activate wood path Gu by 1 portion (to a minimum of 1). Additionally, each **Wood Dao Token** you have reduces your base movement by 1 as your skin and flesh hardens into bark and wood. You cannot have more than 5 **Wood Dao Tokens**.
+Effect: You carve wood path dao into your body, gaining a **Wood Dao Token**. For every **Wood Dao Token** you have, you gain a -5 bonus to **Refinement** skill tests made to follow, create, or improve wood path Gu recipes and reduce the amount of primeval essence used to activate wood path Gu by 1 portion (to a minimum of 1). Additionally, each **Wood Dao Token** you have reduces your base movement by 1 as your skin and flesh hardens into bark and wood. You cannot have more than 5 **Wood Dao Tokens**.
 
 
 :::
