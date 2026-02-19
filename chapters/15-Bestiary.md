@@ -126,7 +126,7 @@ CR: 0
 
 | Attributes | |
 | ----- | ----- |
-| HP | 50 |
+| HP | 30 |
 | Soul | 2 |
 | Movement | 8 |
 | Strength | 20 |
@@ -144,20 +144,19 @@ CR: 0
 | Dodge | 55 |
 | Awareness | 30 |
 
-| Combat Actions | |
-| ----- | ----- |
-| **Bite.** *Melee Attack, 1 meter* | The lightning wolf bites a target. On a hit, deal 4 rending damage. |
+#### Combat Actions
+- **Bite.** *Melee Attack, 1 meter* The lightning wolf bites a target. On a hit, deal 6 rending damage. If this damage is dealt to the target's hit points, they gain *bleeding 1.*
 
 ### Lightning Wolf (Hundred Beast King)
 
-CR: 11
+CR: 14
 
 | Attributes | |
 | ----- | ----- |
 | HP | 50 |
 | Soul | 9 |
 | Movement | 10 |
-| Strength | 35 |
+| Strength | 90 |
 | Agility | 65 |
 | Fortitude | 50 |
 | Cognition | 5 |
@@ -166,14 +165,15 @@ CR: 11
 
 | Skills | |
 | ----- | ----- |
-| Close Combat | 45 |
+| Close Combat | 50 |
 | Ranged Attack | 10 |
-| Athletics | 44 |
-| Dodge | 55 |
+| Athletics | 77 |
+| Dodge | 65 |
 | Awareness | 30 |
 
 #### Combat Actions
-- **Bite.** *Melee Attack, 1 meter* The lightning wolf bites a target. On a hit, deal 10 rending damage.
+- **Bite.** *Melee Attack, 1 meter* The lightning wolf bites a target. On a hit, deal 20 rending damage. If this damage is dealt to the target's hit points, they gain *bleeding 4.*
+- **Pounce.** *Melee Attack, 3 meters* The lightning wolf expends half of its movement to jump on a creature. The target and the lightning wolf make an opposed **Athletics** skill test. If the lightning wolf wins, the target is knocked *prone*. 
 
 #### Wild Gu
 Roll 2d4 (rerolling duplicates)

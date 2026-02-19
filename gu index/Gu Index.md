@@ -812,7 +812,7 @@ Cost: {5, 15, 40, 90, 200} portions
 
 Range: 20 meters
 
-Health: 8
+Health: 3
 
 Food: {10, 30, 90, 300, 1000} kg of [Beast] Flesh 
 
@@ -834,11 +834,11 @@ If your current soul value is less than or equal to the beast's, you fail to ens
 
 ### Beholder Gu
 
-*Rank 2-3 Divination*
+*Rank 1-3 Divination*
 
 Cost: 5 portions
 
-Range: {1, 10} kilometers
+Range: {20, 250, 1,000} meters
 
 Health: 6
 
@@ -922,7 +922,7 @@ Effect: Pick a creature enslaved by you that you can see within range. Your next
 
 *Rank 2 Catalyst*
 
-Cost: 40 portions
+Cost: 100 portions
 
 Range: 
 
@@ -932,7 +932,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Low Vitality**]
 
-Effect: Last Breath Gu's beak unhinges as it eats the head of a human or variant human that died due to your direct actions within the last hour. The headless corpse rises from the dead as a Roaming Zombie (see Bestiary) under your control. The Roaming Zombie can percieve its surroundings in a 10 meter radius despite not having eyes, but permanently has the *deafened* condition. It can also not make **Bite** attacks.
+Effect: Last Breath Gu's beak unhinges as it eats the head of a human or variant human that died due to your direct actions within the last hour. A shadowy maw emerges from the neck as the corpse rises from the dead as a Roaming Zombie (see Bestiary) under your control. The Roaming Zombie can percieve its surroundings in a 10 meter radius despite not having eyes, but permanently has the *deafened* condition. Its bite attacks deal an additional 4 damage to the target's soul.
 
 You may control the Roaming Zombie in the same way as other enslaved creatures. If you do not directly control the Roaming Zombie, it wanders about its surroundings and attacks any creatures besides you that it comes across.
 
@@ -997,6 +997,22 @@ Effect: Touch a Gu Master of rank {1, 2, 3, 4, 5} or less. You both have a battl
 If the target is willing to be enslaved, they fail the battle of souls automatically and your soul takes no damage.
 
 If your current soul value is less than or equal to the Gu Master's, you fail to enslave it, the Gu Master's current soul value is reduced by your current soul value, and then your current soul value is reduced to 1.
+
+### Stealth Pheremone Gu
+
+*Rank 3 Concealment*
+
+Cost: 3 portions
+
+Range: 4 meters
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, the scents of creatures within range are undetectable to Thousand Beast Kings, Hundred Beast Kings, ordinary beasts, and [**Investigative**] Gu of rank 3 or lower.
 
 ### Unfinished Business Gu
 
@@ -1214,7 +1230,7 @@ If you collide with a creature during this movement, you stop at the square befo
 ### Fire Lance Gu
 *Rank 2 Attack*
 
-Cost: 15 portions  
+Cost: 5 portions  
 
 Range: 5 meters  
 
@@ -1224,7 +1240,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Piercing**]
 
-Effect: Launch a lance of fire at a target. Make an attack roll; on a hit, deal 10 heat damage, or 20 heat damage if the target is *burning* or *ablaze*.
+Effect: Launch a lance of fire at a target. Make an attack roll; on a hit, deal 10 heat damage, or 25 heat damage if the target is *burning* or *ablaze*.
 
 ### Fire Pulse Gu
 *Rank 2 Attack*
@@ -1357,7 +1373,7 @@ Previous Rank: Double Decker Stove Gu
 
 Next Rank: Four Door Fire Tower Gu
 
-Cost: 10 portions
+Cost: 20 portions
 
 Range: 10 meters
 
@@ -1376,7 +1392,7 @@ Previous Rank: Three Door Fire Hut Gu
 
 Next Rank: Five Door Fire Pagoda Gu
 
-Cost: 10 portions
+Cost: 25 portions
 
 Range: 20 meters
 
@@ -1403,7 +1419,7 @@ Food: 100 g imperial phoenix feathers (15,000 primeval stones)
 
 Keywords: [**Sustained**], [**Undodgeable**]
 
-Effect: While sustained, a magnificent pagoda with 5 closed doors manifests around you. If at least one door is unopened, target a creature you can see within range at the start of each of your turns. A door opens, and that creature is engulfed in flame, taking heat damage equal to 200 times the number of open doors and gaining the *ablaze* condition. While all 5 doors are open, multiply heat damage you deal from any source by 5.
+Effect: While sustained, a magnificent pagoda with 5 closed doors manifests around you. If at least one door is unopened, target a creature you can see within range at the start of each of your turns. A door opens, and that creature is engulfed in flame, taking heat damage equal to 150 times the number of open doors and gaining the *ablaze* condition. While all 5 doors are open, multiply heat damage you deal from any source by 5 (not including the attack made by the fifth door).
 
 [**END**]
 
@@ -1513,7 +1529,7 @@ Health: 12
 
 Food: <!-- TODO ->
 
-Effect: Your palm ignites with intense heat. Make a punching attack against a creature within your melee range; your attack deals an additional 15 heat damage.
+Effect: Your palm ignites with intense heat. Make a **Close Combat** skill test against a creature within your melee range, dealing 24 heat damage on a hit.
 
 ### Smoldering Cloak Gu
 *Rank 1 Guard*
@@ -2062,7 +2078,7 @@ Previous Rank: Spiral Icicle Gu
 
 Next Rank: Spiral Ice Lance Gu
 
-Cost: 15 portions
+Cost: 10 portions
 
 Range: 25 meters
 
@@ -2078,7 +2094,7 @@ Effect: You launch a spear made of ice at a target you can see within range. Mak
 
 Previous Rank: Spiral Ice Spear Gu
 
-Cost: 10 portions
+Cost: 15 portions
 
 Range: 50 meters
 
@@ -2105,6 +2121,8 @@ Health: 8
 Food: <!-- TODO ->
 
 Effect: You launch 5 spinning icicles, each at a target of your choice that you can see within range. Make an attack roll for each; on a hit, deal 10 force damage and 10 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition.
+
+The icicles are launched sequentially; dodging one icicle does not cause the rest targeting the creature to miss.
 
 ### Spiral Icicle Storm Gu
 
@@ -2436,7 +2454,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Sunspot Gu must be activated outdoors. While sustained, a sunbeam envelopes a 2 meter square within range. If a creature starts its turn within the area, it takes 40 heat damage. You may move the sunbeam up to 5 meters to another area within range as a bonus action or activation.
+Effect: Sunspot Gu must be activated outdoors. While sustained, a sunbeam envelopes a 2 meter square within range. If a creature starts its turn within the area, it takes 70 heat damage. You may move the sunbeam up to 5 meters to another area within range as a bonus action or activation.
 
 ### Two-stretch Golden Light Gu
 *Rank 2 Guard*
@@ -2510,6 +2528,41 @@ Effect: To activate Lightning Eye Gu, the user must remove their eye and place L
 
 While you sustain Lightning Eye Gu, your lightning eye can see through obscuring effects such as smoke and illusions produced by Gu of the same or lower rank, and can see any object within 150 meters in fine detail. You gain immunity to the *blinded* condition, and you can react to [**Unreactable**] Gu so long as the Gu Master is within your line of sight.
 
+### Lightning Gu
+*When Blazing Glory Lightning Brilliance, the 3rd son of Ren Zu, was trapped in immemorial blue heaven, it was the legendary rank 9 Lightning Gu that helped him escape. Even the mortal variant is a terrifying weapon. It appears as a blue grub with tiny wings.*
+
+*Rank 3-5 Attack*
+
+Cost: 60 portions
+
+Range: 1 kilometer
+
+Health: 1
+
+Food: <!-- TODO ->
+
+Keywords: [**Unreactable**]
+
+Effect: A crackling bolt of plasma erupts from your finger in a line 1 meter wide and 1 kilometer long. All creatures in the line take {60, 140, 300} shock damage. Creatures in the line or adjacent to it take {10, 25, 60} sonic damage. If the sonic damage is dealt to a creature's hit points, they gain the *deafened* condition for 1 minute.
+
+### Lightning Net Gu
+
+*Rank 2 Attack*
+
+Cost: 10 portions
+
+Range: 2 meters
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: You throw a net of electricity at a creature within range. Make an attack roll; on a hit, the creature gains the *restrained* condition and takes 8 shock damage at the start of each of its turns while you sustain Lightning Net Gu. Whenever a creature takes shock damage to its hit points from Lightning Net Gu, they gain the *stunned* condition.
+
+A creature can use a combat action to make an **Athletics** test, breaking free and ending this effect on a success.
+
 ### Lightning Rod Gu
 
 *Rank 2 Guard*
@@ -2525,6 +2578,70 @@ Food: <!-- TODO ->
 Keywords: [**Sustained**]
 
 Effect: While sustained, if a creature within range is dealt shock damage, the shock damage is redirected to you. You gain invulnerability to shock damage. You may activate Lightning Rod Gu as a reaction to a creature within range taking shock damage.
+
+### Lightning Shield Gu
+
+*Rank 1-5 Guard*
+
+Cost: 8 portions
+
+Range: Self
+
+Health: {55, 120, 280, 600, 1500}
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**], [**Shield**], [**Sustained**]
+
+Effect: You summon a semicircle of lightning to protect yourself from 3 sides. Lightning Shield Gu cannot be assigned damage from targeted attacks made from the open side of the shield. Lightning Shield Gu is invulnverable to shock damage and cannot block sonic damage. If a creature deals damage to Lightning Shield Gu with an unarmed attack, they take {4, 10, 25, 60, 150} shock damage.
+
+### Lightning Spear Gu
+
+*Rank 2-4 Attack*
+
+Cost: 15 portions
+
+Range: 10 meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Piercing**], [**Unreactable**]
+
+Effect: You hurl a spear of lightning at a target you can see within range. Make an attack roll; on a hit, deal {12, 30, 75} shock damage and an additional {4, 10, 25} shock damage directly to their hit points.
+
+### Lightning Wings Gu
+
+*Rank 3 Celerity*
+
+Cost: 30 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: Wings of lightning appear on your back. While sustained, you gain a flying speed of 20 meters and can make 3 Maneuvers each turn. If you make a weapon attack, punching attack, or activate a Gu with a range of touch at the end of a dive Maneuver, you may treat the attack as though it had the [**Unreactable**] keyword.
+
+### Rumbling Thunder Gu
+
+*Rank 2 Celerity*
+
+Cost: 5 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: Your movement is increased by 8 while sustained. Whenever you move, your footsteps rumble with the sound of thunder, audible up to 5 kilometers away. Ordinary beasts are frightened and flee the sound, but beast kings are sometimes attracted by the noise.
 
 ### Self Strike Gu
 *Rank 2 Attack*
@@ -2558,6 +2675,38 @@ Food: 50g of magnetite sand (2 primeval stones)
 Keywords: [**Unreactable**]
 
 Effect: You move instantly to an unoccupied space within range, leaving a crackle of static in your wake. If a creature makes a melee attack against you, you may activate Static Step Gu as a reaction to teleport; the attack automatically misses, and the attacker takes 10 shock damage.
+
+### Thunder Hammer Gu
+
+*Rank 5 Attack*
+
+Cost: 25 portions
+
+Range: 10 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Unreactable**]
+
+Effect: You launch a bolt of lightning and condensed thunder that strikes like a hammer towards a target that you can see within range. Make an attack roll; on a hit, deal 150 force damage, 150 shock damage, and 50 sonic damage. The target is thrown backwards 20 meters; if it collides with a creature or object, they both take 50 force damage and the target is stopped.
+
+### Thunderclap Gu
+
+*Rank 2-3 Attack*
+
+Cost: 15 portions
+
+Range: 8 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Unreactable**]
+
+Effect: A ball of lightning is fired from your mouth to a square within range. Creatures within 1 meter take {20, 50} shock damage. Activating Thunderclap Gu twice in the same turn overloads it. The area of effect is increased to 2 meters and the damage is increased to {30, 75} shock damage, but Thunderclap Gu dies immediately afterward.
 
 ### Thunderdome Gu
 *Rank 4 Manifestation*
@@ -3605,6 +3754,8 @@ Health: 3
 
 Food: <!-- TODO ->
 
+Keywords: [**Dao**]
+
 Effect: You eat a soul, either from a container Gu or the corpse of a creature that died less than a minute ago. Your maximum soul is increased by 10% of their current soul when they died.
 
 ### Elusive Ghost Gu
@@ -3765,7 +3916,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**]
 
-Effect: Your Strength attribute is permanently reduced by 5. Your maximum Soul is permanently increased by 20. If your Strength attribute is reduced to 0, you die.
+Effect: Your Strength attribute is permanently reduced by 5. Your maximum Soul is permanently increased by 5. If your Strength attribute is reduced to 0, you die.
 
 ### Spirit Incubating Flea Gu
 *Rank 3 Catalyst*
@@ -3855,7 +4006,7 @@ Cost: 5 portions
 
 Range: Self
 
-Health: {30, 70, 200}
+Health: {45, 100, 280}
 
 Food: <!-- TODO ->
 
@@ -4336,7 +4487,7 @@ Cost: 5 portions
 
 Range: Self
 
-Health: {70, 180, 400}
+Health: {70, 160, 350}
 
 Food: 1 kg of elephant hundred beast king tusk (40 primeval stones)
 
@@ -4894,7 +5045,7 @@ Cost: 6 portions
 
 Range: Self
 
-Health: 500
+Health: 600
 
 Food: <!-- TODO ->
 
@@ -4928,7 +5079,7 @@ Cost: 4 portions
 
 Range: Self
 
-Health: 90
+Health: 100
 
 Food: <!-- TODO ->
 
@@ -4948,7 +5099,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Keywords: [**Dao**]
+Keywords: [**Dao**], [**Expendable**]
 
 Effect: Over the course of an hour, your vertebrae sprout new bone that pierces your back and forms wings made of bone. You have a flying speed of 8 meters and can execute 4 Maneuvers each turn.
 
@@ -4990,7 +5141,7 @@ Cost: 8 portions
 
 Range: Self
 
-Health: {40, 120, 120, 400, 1000}
+Health: {40, 120, 120, 450, 1100}
 
 Food: {1, 4, 9, 16, 25} jade stones
 
@@ -5038,7 +5189,7 @@ Effect: Your teeth grow red hot and your saliva boils from your mouth while sust
 
 *Rank 2 Guard*
 
-Cost: 15 portions
+Cost: 9 portions
 
 Range: Self
 
@@ -5488,7 +5639,7 @@ If this damage is dealt to their hit points, they gain *bleeding 2.*
 
 *Rank 3 Celerity*
 
-Cost: 10 portions
+Cost: 18 portions
 
 Range: Self
 
@@ -5874,7 +6025,7 @@ Food: 100 g of soul stricken grass (6 primeval stones)
 
 Keywords: [**Expendable**]
 
-Effect: Your maximum soul is increased by 3.
+Effect: Your maximum soul is increased by 4.
 
 ### Battle Will Gu
 *Rank 3 Catalyst*

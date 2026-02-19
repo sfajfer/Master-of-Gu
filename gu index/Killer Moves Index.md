@@ -74,7 +74,7 @@ Supplementary Gu: Rank 3 Tiny Gu
 
 Total Activations: 3
 
-Activation Cost: 19 portions
+Activation Cost: 27 portions
 
 Keywords: [**Sustained**], [**Transformation**]
 

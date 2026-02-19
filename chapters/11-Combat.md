@@ -42,7 +42,9 @@ Taking flight can only be done when on the ground. You rise a number of meters i
 You move a number of meters equal to your flying speed in a straight line in any direction.
 
 #### Dive
-You must be at least 5 meters above the ground to perform a *Dive*. Make a **Flying** skill test. On a success, you dive down a distance of up to triple your flying speed, and can move up to your flying speed in meters forward. When you finish a *Dive*, you may make a single melee attack or activate a Gu with a range of touch targeting a creature within your melee range. Whether you do or not, you can try to execute a *Land* maneuver or else rise 1 meter directly upward at the end of the dive.
+You must be at least 5 meters above the ground to perform a *Dive*. Make a **Flying** skill test. On a success, you dive down a distance of up to triple your flying speed, and can move up to your flying speed in meters forward. When you finish a *Dive*, you may make a single weapon or punching attack or activate a Gu with a range of touch targeting a creature within your melee range. Whether you do or not, you can try to execute a *Land* maneuver or else rise 1 meter directly upward at the end of the dive.
+
+If you make a weapon or punching attack at the end of your dive, it deals additional force damage equal to your flying speed.
 
 If you fail the test, you dive directly downward a number of meters equal to your flying speed before regaining control. If this would cause you to hit the ground, you do so, are no longer *airborne*, and take 4 force damage for every meter you dove.
 
