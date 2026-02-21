@@ -44,7 +44,7 @@ Health: 22
 
 Food: 3 liters of blood
 
-Effect: Your body shudders as a hundred wounds appear all over it. You take 8 unmitigatable rending damage directly to your hit points, and your blood streaks out like swords; all creatures within range must attempt a **Dodge** skill test. They take 100 rending damage on a failure, and 50 on a success. If damage is dealt to a creature's hit points in this way, they gain *bleeding 2*.
+Effect: Your body shudders as a hundred wounds appear all over it. You take 8 unmitigatable rending damage directly to your hit points, and your blood streaks out like swords; all creatures within range take 100 rending damage. If damage is dealt to a creature's hit points in this way, they gain *bleeding 2*.
 
 ### Blood Brother Gu
 *Rank 3 Carver*
@@ -1288,7 +1288,7 @@ Effect: While sustained, your movement is increased by 2 meters and you leave sc
 
 *Rank 2 Attack*
 
-Cost: 40 portions  
+Cost: 10 portions  
 
 Range: 10 meters
 
@@ -2496,6 +2496,22 @@ Keywords: [**Undodgeable**]
 
 Effect: A bolt of lightning streaks from your outstretched hand towards a creature within range. Make an attack roll; on a hit, deal 80 shock damage. The lightning then chains to the closest creature within 3 meters for 40 shock damage. It chains again to the closest creature within 3 meters of the second target (this can be the first target again), dealing 20 shock damage.
 
+### Hair Trigger Gu
+
+*Rank 2 Carver*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Your instincts are permanently sharpened by Lightning Path Dao, allowing you to act quicker in combat. You gain a -10 bonus to initiative tests and can make an additional reaction each turn.
+
 ### Jolt Gu
 *Rank 1 Attack*
 
@@ -2526,7 +2542,9 @@ Keywords: [**Dao**], [**Sustained**]
 
 Effect: To activate Lightning Eye Gu, the user must remove their eye and place Lightning Eye Gu in the socket. Upon activation, Lightning Eye Gu replaces the lost eye permanently, and you can see out of it with perfect vision whether or not it is activated. 
 
-While you sustain Lightning Eye Gu, your lightning eye can see through obscuring effects such as smoke and illusions produced by Gu of the same or lower rank, and can see any object within 150 meters in fine detail. You gain immunity to the *blinded* condition, and you can react to [**Unreactable**] Gu so long as the Gu Master is within your line of sight.
+While you sustain Lightning Eye Gu, your lightning eye can see through obscuring effects such as smoke and illusions produced by Gu of rank 3 or lower, and can see any object within 150 meters in fine detail. You gain immunity to the *blinded* condition, and you can react to [**Unreactable**] Gu so long as the Gu Master is within your line of sight.
+
+Removing Lightning Eye Gu from the socket kills it.
 
 ### Lightning Gu
 *When Blazing Glory Lightning Brilliance, the 3rd son of Ren Zu, was trapped in immemorial blue heaven, it was the legendary rank 9 Lightning Gu that helped him escape. Even the mortal variant is a terrifying weapon. It appears as a blue grub with tiny wings.*
@@ -2641,7 +2659,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Your movement is increased by 8 while sustained. Whenever you move, your footsteps rumble with the sound of thunder, audible up to 5 kilometers away. Ordinary beasts are frightened and flee the sound, but beast kings are sometimes attracted by the noise.
+Effect: Your movement is increased by 5 meters while sustained. Whenever you move, your footsteps rumble with the sound of thunder, audible up to 5 kilometers away. Ordinary beasts are frightened and flee the sound, but beast kings are sometimes attracted by the noise.
 
 ### Self Strike Gu
 *Rank 2 Attack*
@@ -2674,7 +2692,23 @@ Food: 50g of magnetite sand (2 primeval stones)
 
 Keywords: [**Unreactable**]
 
-Effect: You move instantly to an unoccupied space within range, leaving a crackle of static in your wake. If a creature makes a melee attack against you, you may activate Static Step Gu as a reaction to teleport; the attack automatically misses, and the attacker takes 10 shock damage.
+Effect: You move instantly to an unoccupied space within range, leaving a crackle of static in your wake. If a creature makes a melee attack against you, you may activate Static Step Gu as a reaction; the attack automatically misses, and the attacker takes 10 shock damage.
+
+### Superconductor Gu
+
+*Rank 3 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Your nerves are permanently etched with Lightning Path Dao, making them transmit information nearly instantly between your brain and muscles. You can react to effects even if they have the [**Unreactable**] keyword and gain a -20 bonus to initiative tests.
 
 ### Thunder Hammer Gu
 
@@ -2723,6 +2757,22 @@ Keywords: [**Sustained**]
 
 Effect: A sphere of electricity is formed in a 10 meter radius centered on you. Creatures inside remain trapped while you sustain Thunderdome Gu. Creatures trapped inside can still act as normal, but the effects of Gu of equal or lesser rank cannot permeate outside the barrier. A creature that touches the sides takes 250 shock damage and can leave the sphere.
 
+### Volt Sprint Gu
+
+*Rank 2 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Your leg muscles are permanently transformed by Lightning Path Dao, increasing your movement by 4 meters.
+
 :::
 \newpage
 ## $\centerline{Luck Path}$
@@ -2756,7 +2806,7 @@ Range: Self
 
 Health: 3
 
-Food: 1 object used for gambling (die, lotto ticket, etc.)
+Food: 1 object used for gambling (die, gambling rock, etc.)
 
 Effect: Can only be activated as a reaction to rolling a fumble. You may spend 1 luck point to have the roll succeed with 1 degree of success.
 
@@ -4816,7 +4866,7 @@ Health: 5
 
 Food: Activating Gu Laundering Gu counts as feeding it.
 
-Effect: Gu Laundering Gu devours a target Gu of equal or lower rank. Over the course of an hour, it spins a silk sac and implants it with a number of primeval stones based the the devoured Gu's rank:
+Effect: Gu Laundering Gu devours a target Gu of rank {1, 2, 3, 4, 5} or lower. Over the course of an hour, it spins a silk sac and implants it with a number of primeval stones based the the devoured Gu's rank:
 
 Rank 1: 50 primeval stones
 
@@ -6266,7 +6316,7 @@ Food: 5 hours of intense thinking; the thoughts are consumed and cannot be used 
 
 Keywords: [**Defensive**], [**Shield**], [**Sustained**]
 
-Effect: While sustained, if an effect would manipulate your thoughts, emotions, or will, and originates from a source of equal or lower rank than Mind Fortress Gu, it is negated on you. Mind Fortress Gu cannot block any damage. Whenever you take damage to your soul while sustained, you may instead assign that damage to Mind Fortress Gu. Mind Fortress Gu can be activated as a reaction to taking damage to your soul, with the triggering damage being redirected to Mind Fortress Gu.
+Effect: While sustained, if an effect would manipulate your thoughts, emotions, or will, and originates from a source of rank {1, 2, 3, 4, 5} or lower, it is negated on you. Mind Fortress Gu cannot block any damage. Whenever you take damage to your soul while sustained, you may instead assign that damage to Mind Fortress Gu. Mind Fortress Gu can be activated as a reaction to taking damage to your soul, with the triggering damage being redirected to Mind Fortress Gu.
 
 ### One Mind Gu
 *Rank 2 Catalyst*
