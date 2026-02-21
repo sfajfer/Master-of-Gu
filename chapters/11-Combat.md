@@ -219,7 +219,8 @@ When you make a called shot and successfully hit a specific body part, if damage
 - Arm: Crippled Limb; Unusable
 - Torso: Internal Bleeding; *Bleeding 1*.
 - Leg: Crippled; -4 movement. If both legs are crippled, your movement is reduced to 0.
-- Head
+- Head: Roll 1d4
+
 | d4 | Effect |
 | ----- | ----- |
 | 1 - Brain Damage | Maximum Soul permanently reduced by 50% (rounded down) |

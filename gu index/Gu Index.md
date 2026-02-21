@@ -546,6 +546,22 @@ Keywords: [**Supplementary**]
 
 Effect: Your next Gu activation effect is shrouded in a silhouette. If a Gu Master has not seen and identified the shrouded effect, they must make a **Knowledge (Gu)** skill test with a +30 penalty or else fail to identify the Gu being used.
 
+### Soul Cloak Gu
+
+*Rank 1-5 Concealment*
+
+Cost: 3 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: Your soul is shrouded and undetectable to [**Investigative**] Gu of rank {1, 2, 3, 4, 5} or lower while sustained.
+
 ### Split Shadow Gu
 
 *Rank 2-5 Manifestation*
@@ -818,7 +834,7 @@ Food: {10, 30, 90, 300, 1000} kg of [Beast] Flesh
 
 Keywords: [**Expendable**]
 
-Effect: Target a [Beast] within range. This Gu flies from your aperture in a straight line towards the target. This action is reactable and the Enslavement Gu can be hit with attacks while en route. If the Enslavement Gu successfully reaches its target, you attempt to dominate its mind, as long as the target's beast classification is at or below the rank of the Enslavement Gu:
+Effect: Target a [Beast] within range. [Beast] Enslavement Gu flies from your aperture in a straight line towards the target. This action is reactable and the Enslavement Gu can be hit with attacks while en route. If the Enslavement Gu successfully reaches its target, you attempt to dominate its mind, as long as the target's beast classification is at or below the rank of the Enslavement Gu:
 
 - Rank 1: Ordinary Beasts
 - Rank 2: Hundred Beast Kings
@@ -1140,19 +1156,19 @@ Keywords: [**Sustained**]
 Effect: Six white orbs appear on your face in a spider-eye pattern. While sustained, you can see all creatures with heat signatures within range, even through barriers.
 
 ### Ember Armor Gu
-*Rank 3 Guard*
+*Rank 2-3 Guard*
 
 Cost: 11 portions  
 
 Range: Self  
 
-Health: 190
+Health: {90, 190}
 
 Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
-Effect: A flaming carapace covers your body. While sustained, you are immune to the *burning* and *ablaze* conditions. Fire and rending damage dealt to Ember Armor Gu are reduced by 30, to a minimum of 0. Ember Armor Gu cannot block sonic damage.
+Effect: A flaming carapace covers your body. While sustained, you are immune to the *burning* and *ablaze* conditions. Heat and rending damage dealt to Ember Armor Gu are reduced by {10, 30}, to a minimum of 0. Ember Armor Gu cannot block sonic damage.
 
 ### Ember Butterfly Gu
 *Rank 1 Attack*
@@ -1694,6 +1710,22 @@ Keywords: [**Ingredient**]
 
 Effect: A meal you prepare becomes more filling, allowing it to feed {1, 3, 8} additional creatures.
 
+### Big Smoke Tea Gu
+
+*Rank 1 Catalyst*
+
+Cost: 1 portion
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable**]
+
+Effect: You become intoxicated, leaking small amounts of smoke from your mouth and nose. For the next 4 hours, you have a +20 penalty to all skill tests and feel woozy. This effect is harmless but addictive.
+
 ### Caramelized Roots Gu
 
 *Rank 1 Catalyst*
@@ -1764,9 +1796,9 @@ Arm: You fillet the target's flesh from their arm. The target must succeed a **P
 
 Hand: You remove the extremity. The target loses the hand and gains *bleeding 5*.
 
-Leg: You fillet the target's flesh from their leg. The target must succeed a **Perseverance** attribute test or else fall unconscious. The target's movement is reduced by 4 meters and they gain *bleeding 3*.
+Leg: You fillet the target's flesh from their leg. The target must succeed a **Perseverance** attribute test or else fall unconscious. The target's movement is reduced by 4 meters (minimum of 1) and they gain *bleeding 3*.
 
-Foot: You remove the extremity. The target's movement is reduced by 4 meters and they gain *bleeding 5*.
+Foot: You remove the extremity. The target's movement is reduced by 4 meters (minimum of 1) and they gain *bleeding 5*.
 
 ### Heavenly Flavor Gu
 
@@ -1800,6 +1832,22 @@ Effect: Liquor Worm Gu has no effect unless you have rank {1, 2, 3, 4} initial s
 Expending 1 portion of refined primeval essence is equivalent to expending 2 portions of unrefined primeval essence.
 
 If your cultivation increases while you have refined primeval essence, it becomes unrefined primeval essence or disappears if it would exceed your maximum primeval essence.
+
+### Omniscient Salad Gu
+
+*Rank 5 Catalyst*
+
+Cost: 40 portions
+
+Range: Touch
+
+Health: 1
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable**], [**Ingredient**], [**Investigative**]
+
+Effect: You add Omniscient Salad Gu to a meal that you prepare. Affected creatures know everything that happens within 25 meters of themselves.
 
 ### Rabbit Feet Gu
 
@@ -1848,6 +1896,20 @@ Food: <!-- TODO ->
 Keywords: [**Ingredient**]
 
 Effect: A meal you prepare is made spicy and salty. Affected creatures gain the *Fundamental Fire Path Attainment* and *Fundamental Water Path Attainment* talents.
+
+### Stave Hunger Gu
+
+*Rank 1 Catalyst*
+
+Cost: 25 portions
+
+Range: Touch
+
+Health: 5
+
+Food: 500 grams of leather
+
+Effect: A Gu that you touch can go 1 extra day without being fed before dying. This effect ends when the Gu is fed, and can not be used on the same Gu more than one time between feedings.
 
 :::
 \newpage
@@ -2291,6 +2353,24 @@ Food: <!-- TODO ->
 
 Effect: Bright Pearl Gu flies around a Gu of rank {1, 2, 3} or lower that you touch, sealing it. While sealed by Bright Pearl Gu, the Gu's feeding threshold does not tick down. If the seal is attacked, the Gu inside is destroyed. Any Gu Master can infuse 1 portion of primeval essence into the seal to deactivate it. The Bright Pearl Gu remains under the original Gu Master's ownership.
 
+### Broadsword Light Gu
+
+*Rank 3 Manifestation*
+
+Cost: 6 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: You manifest a broadsword of sunlight in your hand while sustained. If you are wielding the sword and no other weapons, you may make two weapon attacks each turn instead of one. Melee attacks made with the sword have a range of 1 meter, deal 40 heat and 60 rending damage, and **Dodge** skill tests made to avoid attacks made with it are made with a +20 penalty.
+
+You do not add your strength to damage dealt by Broadsword Light Gu.
+
 ### Flash Blink Gu
 
 *Rank 1 attack*
@@ -2320,7 +2400,7 @@ Food: A handful of fine shattered glass (4 primeval stones)
 
 Keywords: [**Deductive**], [**Expendable**]
 
-Effect: You instantaneously perform a *Deduction* action with a -50 bonus. You may also activate this Gu without using an activation to immediately make a reaction without expending one of your reactions.
+Effect: You instantaneously perform a *Deduction* action with a -50 bonus. You may also activate Flash Inspiration Gu without using an activation to immediately make a reaction without expending one of your reactions.
 
 ### Footprint Gu
 
@@ -3500,7 +3580,7 @@ Keywords: [**Defensive**], [**Shield**], [**Sustained**]
 
 Effect: An invisible barrier protects you from attacks. You cannot be targeted by attacks with a range of touch. Reduce all heat and force damage dealt to Blast Shield Gu by {10, 20, 40}.
 
-You may activate this Gu when you fail a **Refinement** skill test. If you do, Blast Shield Gu takes the damage of the backlash instead of you and involved Gu, and you have an opportunity to save the refinement. Make a **Refinement** skill test with a penalty equal to your degrees of failure on the initial **Refinement** skill test times {40, 30, 20}. If you succeed, the refinement succeeds and you must roll the failure die as normal.
+You may activate Blast Shield Gu when you fail a **Refinement** skill test. If you do, Blast Shield Gu takes the damage of the backlash instead of you and involved Gu, and you have an opportunity to save the refinement. Make a **Refinement** skill test with a penalty equal to your degrees of failure on the initial **Refinement** skill test times {40, 30, 20}. If you succeed, the refinement succeeds and you must roll the failure die as normal.
 
 ### Catalog Gu
 
@@ -3585,7 +3665,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**], [**Extinct**]
 
-Effect: You may activate this Gu whenever you follow a recipe to refine a Gu. The refinement takes the full duration of the recipe, but you automatically succeed the **Refinement** skill test with a critical success and do not have to roll the failure die.
+Effect: You may activate Undefeated Hundred Battles Gu whenever you follow a recipe to refine a Gu. The refinement takes the full duration of the recipe, but you automatically succeed the **Refinement** skill test with a critical success and do not have to roll the failure die.
 
 :::
 \newpage
@@ -3610,8 +3690,6 @@ Keywords: [**Sustained**]
 
 Effect: Upon activation, choose any number of ranks {4, 5} or below. While sustained, you are surrounded by an invisible 2 meter radius sphere. Gu Masters of the chosen ranks cannot pass through the bounds of the sphere either way, but attacks can still pass through like normal.
 
-[**Upgrade Path: Hundred Meter Gu**]
-
 ### Big Gu
 
 *Rank 3 Catalyst*
@@ -3631,6 +3709,8 @@ Effect: Make the size of your next Gu activation bigger:
 If the Gu or killer move creates an area of effect, increase its size in all dimensions by double.
 
 If the Gu or killer move has the [**Transformation**] keyword, your size is changed to [**Large**]
+
+[**Upgrade Path: Hundred Meter Gu**]
 
 ### Millimeter Gu
 *Rank 2 Catalyst*
@@ -3694,6 +3774,34 @@ Effect: Change the range of your next Gu activation to 100 meters. Has no effect
 
 [**END**]
 
+### Immobilization Gu
+
+*Rank 4 Attack*
+
+Cost: 20 portions
+
+Range: 10 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: Immobilization Gu flies towards a creature within range. This action is reactable and Immobilization Gu can be hit with attacks while en route. If Immobilization Gu successfully reaches its target, the target gains the *restrained* and *stunned* conditions, and Immobilization Gu falls to the ground. The *restrained* condition lasts for 1 minute.
+
+### Inactive Gu
+
+*Rank 1-5 Guard*
+
+Cost: 50 portions
+
+Range: Touch
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: You touch a creature. If they are sustaining a Gu of rank {1, 2, 3, 4, 5} or lower, it deactivates and its effect ends. If they are sustaining multiple Gu of rank {1, 2, 3, 4, 5} or lower, one is selected at random.
+
 ### Sacrifice Gu
 *Rank 4 Catalyst*
 
@@ -3707,7 +3815,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
-Effect: Can only be activated as a reaction to yourself using an [**Expendable**] Gu. That [**Expendable**] Gu is not destroyed in the process of activation.
+Effect: Can only be activated as a reaction to yourself using an [**Expendable**] Gu of rank 4 or lower. That [**Expendable**] Gu is not destroyed in the process of activation.
 
 ### Small Gu
 
@@ -3840,7 +3948,7 @@ Keywords: [**Dao**]
 
 Effect: When activated, you take 100 damage to your soul, and it is slightly refined into a General soul. After 15 activations, you have the General soul; Whenever you would take damage to your soul from directing a creature or effect to act, reduce the damage by 1. Additionally, you may now safely increase your soul's maximum hit points beyond 1,009.
 
-If your soul has already been refined by another Gu, this Gu has no effect.
+If your soul has already been refined by another Gu, General Soul Gu has no effect.
 
 ### Ghost Eye Gu
 
@@ -3920,6 +4028,24 @@ Health: 2
 Food: <!-- TODO ->
 
 Effect: You scream. Enemies that can hear you within range take damage to their soul equal to 5 + 10% of your current soul (rounded down). Your voice is exhausted, only allowing you to speak in a whisper until you sleep for at least 4 hours. If you activate Piercing Shriek Gu again before resting your voice, you are permanently mute afterwards.
+
+### Soul Armor Gu
+
+*Rank 1-5 Guard*
+
+Cost: 7 portions
+
+Range: Self
+
+Health: {10, 25, 60, 150, 450}
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**], [**Shield**], [**Sustained**]
+
+Effect: Your soul is shrouded in a dense shield that blocks it from attacks. Soul Armor Gu cannot block any damage. Whenever you would take damage to your soul from an external source, you may instead assign it to Soul Armor Gu.
+
+*External source just means the damage originated from somewhere other than you. This means Soul Armor Gu can't block damage from refinement, cultivation, backlash, directing enslaved creatures, or Gu that you activate that deal damage to your own soul.*
 
 ### Soul Fly Gu
 
@@ -4652,6 +4778,20 @@ Keywords: [**Defensive**], [**Sustained**], [**Shield**]
 
 Effect: While sustained, a spectral sword and shield manifest in front of you. Whenever a creature makes a **Close Combat** roll against you, you may use a reaction to have the sword swing at the attacker, dealing {35, 80} rending damage on a hit. Reduce all rending damage dealt to Aegis Gu by {5, 15}. Aegis Gu cannot block sonic damage.
 
+### Consecutive Slash Gu
+
+*Rank 2-4 Attack*
+
+Cost: 14 portions
+
+Range: {1, 2, 3} meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: You slash a target within range with a burst of sword qi. Make an attack roll; on a hit deal {15, 40, 90} rending damage, increased by {15, 40, 90} for each time you've hit the target with Consecutive Slash Gu this turn.
+
 ### Flash Sword Gu
 *Rank 4 Celerity*
 
@@ -4698,7 +4838,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: You manifest an invisible sabre in one of your free hands while sustained. If you used the first activation on your turn to activate Sabre Gu, you may expend your remaining activations to make a melee attack against an adjacent creature as part of the *Activate Gu* combat action. Melee attacks made with the sabre have advantage and deal 30 rending damage and 20 force damage. If this damage is dealt to the target's hit points, they gain *bleeding 2.*
+Effect: You manifest an invisible sabre in one of your free hands while sustained. If you used the first activation on your turn to activate Sabre Gu, you may expend your remaining activations to make a melee attack against an adjacent creature as part of the *Activate Gu* combat action. Melee attacks made with the sabre deal 30 rending damage and 20 force damage. If this damage is dealt to the target's hit points, they gain *bleeding 2.*
 
 You don't add your Strength to the damage dealt by Sabre Gu.
 
@@ -5727,6 +5867,26 @@ Food: 1 kg of dried blood from a water path myriad beast king (500 primeval ston
 
 Effect: A creature you touch has their blood transmuted into water. In most cases, this kills the creature.
 
+### Blue Farm Slug Gu
+
+*A blue slug, larger than*
+
+*Rank 3 Container*
+
+Cost: 4 portions
+
+Range: Self
+
+Health: 350
+
+Food: <!-- TODO ->
+
+Keywords: [**Huge**], [**Steed**]
+
+Effect: You place items up to a cubic meter in volume inside of Blue Farm Slug Gu. Blue Farm Slug Gu can hold objects, Gu, and creatures, but creatures cannot breathe while inside. You may remove items from Blue Farm Slug Gu by reaching inside. Blue Farm Slug Gu can hold up to 2,000 kilograms.
+
+Blue Farm Slug Gu cannot be stored in an aperture and has a speed of 3 meters.
+
 ### Carapace Gu
 
 *Rank 2 Guard*
@@ -5756,6 +5916,20 @@ Health: 3
 Food: <!-- TODO ->
 
 Effect: A creature you touch has all instances of the *poisoned* condition removed if it was applied by a Gu of rank {4, 5} or lower.
+
+### Drown Gu
+
+*Rank 3 Attack*
+
+Cost: 75 portions
+
+Range: Touch
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: You touch a creature and its lungs fill with water. It must spend its entire next turn doubled over coughing and cannot use movement, combat actions, or bonus actions. If the creature is unable to, like if it were unconscious for example, it dies.
 
 ### Faucet Gu
 *Rank 1 Manifestation*
@@ -5902,17 +6076,17 @@ Effect: Water rushes from the earth in a line {4, 8} meters long and {4, 8} mete
 
 *Rank 2 Catalyst*
 
-Cost: <!-- TODO ->
+Cost: 4 portions
 
 Range: Self
 
-Health: <!-- TODO ->
+Health: 4
 
 Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, your movement makes no sound, including jumping, climbing, and sprinting. You also fall at a rate of 10 meters per turn (at the start of each of your turns) and take no damage from falling. If you have a flying speed greater than 10 meters, it is reduced to 10 meters.
+Effect: While sustained, your movement makes no sound, including jumping, climbing, and sprinting. You also fall at a rate of 10 meters per turn (at the start of each of your turns) and take no damage from falling. You may activate Air Resistance Gu as a reaction when you're sent *airborne.* If you have a flying speed greater than 10 meters, it is reduced to 10 meters.
 
 ### Feather Step Gu
 *Rank 1 Celerity*
@@ -5963,7 +6137,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**]
 
-Effect: Winds pick up in a 2 meter radius, centered on the square you were in when you activated Fierce Wind Gu. **Ranged Combat** attack rolls made against any creature within the area are made with a +20 penalty. The winds disperse after one minute.
+Effect: Winds pick up in a 2 meter radius, centered on the square you were in when you activated Fierce Wind Gu. **Ranged Attack** attack rolls made against any creature within the area are made with a +20 penalty. The winds disperse after one minute.
 
 ### Flying Cloud Gu
 
@@ -5992,7 +6166,9 @@ Health: 5
 
 Food: <!-- TODO ->
 
-Effect: Galeforce winds begin spinning within range. While sustained, all **Ranged Combat** attack rolls made by creatures within range are made with a +30 penalty. If the attack roll originates from a Gu of wind path, it instead gains a -30 bonus. If used in conjunction with large volumes of water, such as over a lake or using a Gu that produces large amounts of water, that water is spread over the area causing flooding.
+Keywords: [**Sustained**]
+
+Effect: Galeforce winds begin spinning within range. While sustained, the winds grow stronger at the start of each of your turns. **Ranged Attack** attack rolls made by creatures within range are made with a +10 penalty, with an additional +10 penalty for every time the winds have grown stronger (maximum of +30). If the attack roll originates from a Gu of wind path, it instead gains a -10 bonus, with an additional -10 bonus for every time the winds have grown stronger (maximum of -30). If used in conjunction with large volumes of water, such as over a lake or using a Gu that produces large amounts of water, that water is spread over the area, causing flooding.
 
 ### Strength Gust Gu
 
@@ -6007,6 +6183,22 @@ Health: 3
 Food: 100 g of feather soil (2 primeval stones)
 
 Effect: A huge gust of wind forces all [Large] or smaller creatures in a 3 meter wide, 5 meter long line to make an **Athletics** skill test. On a failure, they are pushed 2 meters away in the direction of the line and land *prone.*
+
+### Wind Sword Gu
+
+*Rank 2-4 Attack*
+
+Cost: 7 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: A sword of condensed wind protrudes from your hand. At the start of each of your turns while sustained, the sword grows larger and more violent. You can make melee weapon attacks with the sword with a range of 1 meter, and an additional meter of range for every time the sword has grown larger (maximum of 4 meters). On a hit, deal {10, 25, 60} rending damage, and an additional {10, 25, 60} rending damage for every time the sword has grown larger (maximum of {30, 75, 180} bonus damage).
 
 :::
 \newpage
@@ -6031,7 +6223,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you project your plan into the head of a willing creature within range. They gain a bonus to attack rolls made against creatures within your line of sight equal to -(your Cognition attribute). You may also communicate simple ideas nonverbally using this Gu.
+Effect: While sustained, you project your plan into the head of a willing creature within range. They gain a bonus to attack rolls made against creatures within your line of sight equal to -(your Cognition attribute). You may also communicate simple ideas nonverbally using Armchair General Gu.
 
 ### Awake Gu
 *Rank 1-3 Catalyst*
@@ -6106,7 +6298,7 @@ Keywords: [**Deductive**]
 
 Effect: Thoughts of roiling flame appear above your head. As an activation, you can touch a creature to apply the *ablaze* condition and end this effect.
 
-When you use this Gu to make a *Deduction* action, you gain a -5 bonus to **Deduction** skill tests and a -10 bonus to **Refinement** skill tests made to create or improve Fire, Light, and Lightning Path Gu recipes.
+When you use Blazing Thoughts Gu to make a *Deduction* action, you gain a -5 bonus to **Deduction** skill tests and a -10 bonus to **Refinement** skill tests made to create or improve Fire, Light, and Lightning Path Gu recipes.
 
 Blazing thoughts disappear after 1 hour. Activating Blazing Thoughts Gu while you already have blazing thoughts has no effect.
 
@@ -6151,6 +6343,22 @@ Food: <!-- TODO ->
 
 Effect: Make an attack roll against a creature within range. On a hit, the creature feels a strong bond of love between themselves and you. The affected creature cannot make any attacks against you, and will try its best to protect you, even risking its own life. If you are being attacked by the creature's allies, the creature will try to protect you without harming either side. At the end of each of its turns, the affected creature can make an **Insight** skill test, ending the effect on a success.
 
+### Detective Thoughts Gu
+
+*Rank 3-4 Divination*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Keywords: [**Deductive**]
+
+Effect: Thoughts like blue and purple question marks float above your head. When you use Detective Thoughts Gu to make a *Deduction* action, you gain a {-20, -40} bonus to **Deduction** skill tests made to determine the perpetrator of a crime.
+
 ### Freezing Thoughts Gu
 
 *Rank 2-4 Divination*
@@ -6167,7 +6375,7 @@ Keywords: [**Deductive**]
 
 Effect: Thoughts of freezing clouds appear above your head. As an activation, you may end this effect to freeze your surroundings; all other creatures within {1, 2, 4} meters of you take {8, 20, 50} cold damage. If this damage is dealt to their hit points, they gain the *fatigued* condition
 
-When you use this Gu to make a *Deduction* action, you gain a {-5, -10, -15} bonus to **Deduction** skill tests and a {-10, -15, -20} bonus to **Refinement** skill tests made to create or improve Ice, Water, and Wind Path Gu recipes.
+When you use Freezing Thoughts Gu to make a *Deduction* action, you gain a {-5, -10, -15} bonus to **Deduction** skill tests and a {-10, -15, -20} bonus to **Refinement** skill tests made to create or improve Ice, Water, and Wind Path Gu recipes.
 
 Freezing thoughts disappear after 1 hour. Activating Freezing Thoughts Gu while you already have freezing thoughts has no effect.
 
@@ -6270,7 +6478,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Deductive**]
 
-Effect: Your thoughts appear like curling white clouds above your head. When you use this Gu to make a *Deduction* action, you gain a {-10, -20, -30, -40, -50} bonus to **Deduction** skill tests made to deduce subjects with a physical location that is at least 100 kilometers away from you.
+Effect: Your thoughts appear like curling white clouds above your head. When you use Longing Thoughts Gu to make a *Deduction* action, you gain a {-10, -20, -30, -40, -50} bonus to **Deduction** skill tests made to deduce subjects with a physical location that is at least 100 kilometers away from you.
 
 ### Malicious Thoughts Gu 
 
@@ -6286,7 +6494,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Deductive**]
 
-Effect: Maroon thoughts like bubbles with protruding spikes appear above your head. When you use this Gu to make a *Deduction* action, you gain a {-10, -20, -30, -40, -50} bonus to **Deduction** skill tests made to deduce plans to foil or sabotage the plans of others.
+Effect: Maroon thoughts like bubbles with protruding spikes appear above your head. When you use Malicious Thoughts Gu to make a *Deduction* action, you gain a {-10, -20, -30, -40, -50} bonus to **Deduction** skill tests made to deduce plans to foil or sabotage the plans of others.
 
 ### Martial Art Mantis Gu
 *Rank 2 Catalyst*
@@ -6378,7 +6586,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Deductive**]
 
-Effect: Your emotional intelligence is vastly improved for an hour. You gain a -30 bonus to all **Insight** skill tests. If you take the **Deduction** action using this Gu, you gain a -20 bonus on the **Deduction** skill test as long as you are deducing the motivations of a creature.
+Effect: Your emotional intelligence is vastly improved for an hour. You gain a -30 bonus to all **Insight** skill tests. If you take the **Deduction** action using Sensitivity Gu, you gain a -20 bonus to **Deduction** skill tests made to deduce the motivations of a creature.
 
 ### Shared Sense Gu
 
@@ -6424,7 +6632,7 @@ Food: {1, 4, 9, 16, 25} kilograms of phantom soil
 
 Keywords: [**Deductive**]
 
-Effect: Your thoughts appear as pitch black bubbles above your head. If you use this Gu to deduce or improve a refinement recipe, you gain a {-10, -20, -30, -40, -50} bonus on the test if you own the Gu whose recipe you are deducing or improving. The Gu must also be of the appropriate rank; you do not gain the bonus if you are deducing a rank 3 recipe but only own the rank 2 version of the Gu.
+Effect: Your thoughts appear as pitch black bubbles above your head. If you use Space Thoughts Gu to deduce or improve a refinement recipe, you gain a {-10, -20, -30, -40, -50} bonus on the test if you own the Gu whose recipe you are deducing or improving. The Gu must also be of the appropriate rank; you do not gain the bonus if you are deducing a rank 3 recipe but only own the rank 2 version of the Gu.
 
 If the recipe belongs to Space Path, you gain the bonus whether or not you own the Gu.
 
@@ -6454,7 +6662,7 @@ Health: 4
 
 Food: Honest statements
 
-Effect: If a lie is told within range of Truthful Bone Gu, it detonates and dies. Truthful Bone Gu cannot hear lies from inside of an aperture. Activating this Gu has no effect.
+Effect: If a lie is told within range of Truthful Bone Gu, it detonates and dies. Truthful Bone Gu cannot hear lies from inside of an aperture. Activating Truthful Bone Gu has no effect.
 
 ### {Two, Three, Four, Five} Tasks at Once Gu
 
@@ -6766,7 +6974,7 @@ Health: 3
 
 Food: Sunlight
 
-Effect: You may take or stow an object in Flowerbud Gu at will. Flowerbud Gu can hold up to 50 kilograms of items, but each item can be no larger than 25 cubic centimeters in volume.
+Effect: You may take or stow an object in Flowerbud Gu at will. Flowerbud Gu can hold up to 100 kilograms of items, but each item can be no larger than 25 cubic centimeters in volume.
 
 ### Fragrant Daisy Gu
 *Rank 3 Concealment*

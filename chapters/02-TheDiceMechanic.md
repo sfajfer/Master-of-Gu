@@ -32,6 +32,9 @@ Penalties and bonuses are a number added or subtracted from the number you roll 
 ### Advantage and Disadvantage
 If you have advantage on a test, roll an additional td10 and take the lower of the two. You can stack advantages as long as they come from different sources. Disadvantage works the same way, but you take the higher of the td10 rolls.
 
+### Help
+You can help another creature with a skill test as a combat action. You must be able to explain what action you are taking to help them on the skill test, and if the GM allows it they can give the helped creature up to a -30 bonus on their skill test, depending on the action taken.
+
 ### Degrees of Success/Failure
 A success automatically has 1 degree of success, and a failure has 1 degree of failure. For every 10 you roll below/above your skill value, you gain an additional degree of success/failure, respectively. Some skill tests, such as an opposed Deception/Insight roll, do not take degrees of success into account; they're either deceived or they aren't. Many tests, however, will have different effects based on the degrees of success or failure.
 
