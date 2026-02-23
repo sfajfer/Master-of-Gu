@@ -8,7 +8,7 @@ Core Gu: Rank 4 Blood Sense Gu, Rank 4 Blood Brother Gu
 Supplementary Gu: Rank 3 Hundred Meter Gu x 2, 
 Total Activations: 4
 Activation Cost: 49 portions
-Keywords: [**Sustained**]
+Keywords: [**Investigative**], [**Sustained**]
 
 Effect: Any creatures within 100 meters have their blood tainted with yours. For 24 hours, these creatures are considered your siblings by blood path methods. While this killer move is sustained, you can sense the exact location of any of your blood relatives within 100 meters.
 
@@ -26,6 +26,15 @@ The activations stat is simply the number of Gu in the Killer Move. More complic
 
 #### Activation Cost
 The combined primeval essence cost of all Gu in the recipe. This number assumes the user is of the same rank as the killer move. If the user is of a higher or lower rank, adjust the cost accordingly.
+
+### Expendable Gu
+Gu with the [**Expendable**] keyword can be involved in a killer move even if killer moves themselves cannot have the [**Expendable**] keyword. When you activate the killer move, just expend the [**Expendable**] Gu as if you had activated it.
+
+### Shields
+If your killer move has the [**Shield**] keyword, you can only assign damage to Gu within the killer move that have the [**Shield**] keyword, and must still follow the damage assignment rules of the [**Shield**] keyword.
+
+### Restrictions
+Killer moves cannot be constructed using Gu with permanent body-altering effects such as Beast Strength Gu. Killer moves also cannot have any of the following keywords: [**Defensive**] [**Expendable**] [**Extinct**] [**Fast**] [**Ingredient**] [**Low Vitality**] [**Supplementary**] [**Unrefinable**] [**Vital**]
 
 ### Deducing a Killer Move
 To deduce a killer move, you must have the *Fundamental [Path] Attainment* talent in the paths of all Core Gu. You should prepare the killer move with the gamemaster first, making sure both of you agree on the Gu used and the final effect. Once you have the killer move prepared, your character has to then spend time experimenting to create the killer move. This takes 8 hours for each Gu in the killer move, whether it is core or supplementary. After spending the requisite time practicing, in a single session or multiple, make a **Deduction** skill test with a +10 penalty for each unique Gu in the killer move beyond 2. If you have a Gu with the [**Deductive**] keyword, you may deduce the killer move using that Gu to improve your skill test.

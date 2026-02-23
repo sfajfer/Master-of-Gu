@@ -940,9 +940,9 @@ Effect: Pick a creature enslaved by you that you can see within range. Your next
 
 Cost: 100 portions
 
-Range: 
+Range: Touch
 
-Health:
+Health: 3
 
 Food: <!-- TODO ->
 
@@ -1915,7 +1915,7 @@ Effect: A Gu that you touch can go 1 extra day without being fed before dying. T
 \newpage
 ## $\centerline{Human Path}$
 
-*Very rare and mysterious. The Legends of Ren Zu, a common myth, is a Human Path inheritance of deep profundity.*
+*Very rare and mysterious. The Legends of Ren Zu, a common myth, is a Human Path inheritance of deep profundity. All **Refinement** skill tests made to create or improve recipes for Human Path Gu are made with a +40 penalty.*
 
 ::: columns
 
@@ -2244,11 +2244,11 @@ Food: <!-- TODO ->
 
 Effect: You open your aperture, allowing Assessment Gu to see the target. Roll a d100 with a {+20, 0, -20, -40, -60} modifier; you immediately gain knowledge on the target based on the result:
 
-* **100-81:** You know what it looks like.
+* **81 and Above:** You know what it looks like.
 * **80-61:** You know how many hit points the target has remaining.
 * **60-41:** You know the target's maximum and current portions of primeval essence.
 * **40-10:** You know how many Gu the target has in their aperture and what ranks they are.
-* **9-1:** You know the target's immunities, invulnverabilities, resistances, vulnerabilities, damage reductions, and those of any [**Shield**] Gu they currently have activated. All damage dealt by you to the target or a [**Shield**] Gu that they activated ignores 5 damage reduction of each damage type.
+* **9 and Below:** You know the target's immunities, invulnverabilities, resistances, vulnerabilities, damage reductions, and those of any [**Shield**] Gu they currently have activated. All damage dealt by you to the target or a [**Shield**] Gu that they activated ignores 5 damage reduction of each damage type.
 
 You gain all the information from higher results as well.
 
@@ -2367,7 +2367,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: You manifest a broadsword of sunlight in your hand while sustained. If you are wielding the sword and no other weapons, you may make two weapon attacks each turn instead of one. Melee attacks made with the sword have a range of 1 meter, deal 40 heat and 60 rending damage, and **Dodge** skill tests made to avoid attacks made with it are made with a +20 penalty.
+Effect: You manifest a broadsword of sunlight in your hand while sustained. If you are wielding the sword and no other weapons, you may make two weapon attacks each turn instead of one. Melee attacks made with the sword have a range of 1 meter, deal 30 heat and 30 rending damage, and **Dodge** skill tests made to avoid attacks made with it are made with a +20 penalty.
 
 You do not add your strength to damage dealt by Broadsword Light Gu.
 
@@ -2473,7 +2473,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, a 1 meter radius sphere of light surrounds you and blocks attacks, creatures, and objects from entering (but not exiting). When an attack from outside the sphere hits a creature inside the sphere, the sphere takes the damage instead, though the defender can still dodge the attack. For every point of damage the sphere takes, you lose 1 portion of primeval essence. If the sphere takes more than 20 damage from a single attack, it breaks, the remainder of the damage is dealt to the defender, and One-stretch Golden Light Gu takes 2d6 damage as backlash. The sphere does not block sonic damage.
+Effect: While sustained, a 1 meter radius sphere of light surrounds you and blocks attacks, creatures, and objects from entering (but not exiting). When an attack from outside the sphere hits a creature inside the sphere, the sphere takes the damage instead, though the defender can still dodge the attack. For every point of damage the sphere takes, you lose 1 portion of primeval essence. If the sphere takes more than 15 damage from a single attack, it breaks, the remainder of the damage is dealt to the defender, and One-stretch Golden Light Gu takes 2d6 damage as backlash. The sphere does not block sonic damage.
 
 ### Rainbow Light Gu
 
@@ -2549,7 +2549,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, a 3 meter radius sphere of light surrounds you and blocks attacks, creatures, and objects from entering (but not exiting). When an attack from outside the sphere hits a creature inside the sphere, the sphere takes the damage instead, though the defender can still dodge the attack. For every 2 points of damage the sphere takes, you lose 1 portion of primeval essence. If the sphere takes more than 50 damage from a single attack, it breaks, the remainder of the damage is dealt to the defender, and Two-stretch Golden Light Gu takes 2d6 damage as backlash. The sphere does not block sonic damage.
+Effect: While sustained, a 3 meter radius sphere of light surrounds you and blocks attacks, creatures, and objects from entering (but not exiting). When an attack from outside the sphere hits a creature inside the sphere, the sphere takes the damage instead, though the defender can still dodge the attack. For every 2 points of damage the sphere takes, you lose 1 portion of primeval essence. If the sphere takes more than 30 damage from a single attack, it breaks, the remainder of the damage is dealt to the defender, and Two-stretch Golden Light Gu takes 2d6 damage as backlash. The sphere does not block sonic damage.
 
 :::
 \newpage
@@ -2971,7 +2971,7 @@ When the third lock closes, Aperture Lock Gu burrows into the target's aperture,
 
 Cost: 8 portions
 
-Range: 12 meters
+Range: 20 meters
 
 Health: 800
 
@@ -3800,7 +3800,7 @@ Health: 2
 
 Food: <!-- TODO ->
 
-Effect: You touch a creature. If they are sustaining a Gu of rank {1, 2, 3, 4, 5} or lower, it deactivates and its effect ends. If they are sustaining multiple Gu of rank {1, 2, 3, 4, 5} or lower, one is selected at random.
+Effect: You touch a creature. If they are sustaining a Gu of rank {1, 2, 3, 4, 5} or lower, it deactivates and its effect ends. If they are sustaining multiple Gu of rank {1, 2, 3, 4, 5} or lower, one is selected at random. Inactive Gu cannot deactivate Gu being used as part of a killer move.
 
 ### Sacrifice Gu
 *Rank 4 Catalyst*
@@ -4410,6 +4410,26 @@ Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. I
 If you have enough movement to put yourself into a square adjacent to a target at least 3 meters away, you gain the following unarmed attack option:
 
 **Charge:** You move at least 2 meters in a straight line towards a target. You and the target make an opposed **Close Combat** skill test. If you win, the target takes 1 force damage, +1 damage for every 10 points you have in Strength, and the target is knocked *prone*.
+
+### Crane Strength Gu
+
+*Rank 1 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 4
+
+Food: 10 kilograms of crane flesh
+
+Keywords: [**Dao**]
+
+Effect: Your Strength attribute permanently increases by 2, and your **Flying** skill permanently increases by 2. For 24 hours, you cannot gain strength or **Flying** from Crane Strength Gu. Once you’ve gained 10 Strength and 10 **Flying** from Crane Strength Gu, activating Crane Strength Gu further has no effect on you, but you permanently gain the following features:
+
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a Crane phantom appears behind you, increasing the damage of the attack by 2 force damage.
+
+If this phantom triggers, you may immediately move 1 meter without triggering attacks of opportunity.
 
 ### Crocodile Strength Gu
 *Rank 1 Carver*
@@ -5086,9 +5106,27 @@ Effect: Choose a target you can see within range. If the target currently has a 
 \newpage
 
 ## $\centerline{Time Path}$
-*Manipulates the River of Time to speed up, slow down, and even stop the passage of time.*
+*Manipulates the River of Time to speed up, slow down, and even stop the passage of time. Time Path methods and refinement materials are very rare, and the refinement cost and market price of Time Path Gu is quadruple the normal price that would be paid for the same rank of Gu.*
 
 ::: columns
+
+### Acceleration Fruit Gu
+
+*A bunch of grey berries that burst into freshwater when chewed.*
+
+*Rank 2 Catalyst*
+
+Cost: None
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable 5**]
+
+Effect: Eating a berry from Acceleration Fruit Gu counts as activating it once. You may eat a berry from Acceleration Fruit Gu as a bonus action. When you do, you may make an additional combat action this turn. Eating multiple berries on a single turn has no effect beyond the first.
 
 ### Autumn Cicada Gu
 
@@ -5104,11 +5142,39 @@ Food: Water from the River of Time (does not need fed)
 
 Effect: A creature that you touch immediately loses 5 years of their lifespan.
 
+### Backtrack Gu
+
+*Rank 4-5 Divination*
+
+Cost: 80 portions
+
+Range: 50 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: Backtrack Gu projects a hologram in front of you displaying the area within range. It begins by displaying the surroundings as they appeared {3 days, 1 year} ago, and you can speed up and slow down the video feed at will, displaying what occured in the area at any time within the duration. The video feed shows creatures concealed by Gu of rank {3, 4} or lower.
+
+### Gu as Before Gu
+
+*Rank 4-5 Tonic*
+
+Cost: 40 portions
+
+Range: Touch
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: A Gu or Gu corpse of rank {4, 5} or lower that you touch is returned to the state it was in 1 minute ago. This effect resurrects dead Gu if they were killed less than a minute ago.
+
 ### Man as Before Gu
 
 *Rank 5 Tonic*
 
-Cost: 50 portions
+Cost: 90 portions
 
 Range: 5 meters
 
@@ -5116,9 +5182,81 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: A creature or corpse within range is transported up the River of Time to their state 24 hours ago. Usually this means restoring their hit points, primeval essence, and removing any negative conditions.
+Effect: A creature or corpse within range is transported up the River of Time to their state exactly 5 minutes ago. This effect resurrects a corpse as long as they have been dead for less than 5 minutes and their soul has not been destroyed.
 
-### Slowness Gu
+### Mountain as Before Gu
+
+*Rank 5 Tonic*
+
+Cost: 70 portions
+
+Range: 100 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: A mountain that you can see within range is transported up the River of Time and reverted to the state it was in 1 year ago.
+
+### Rewind Gu
+
+*Rank 1-5 Guard*
+
+Cost: 90 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: Rewind Gu can only be activated as a reaction to another creature you can see within range activating a Gu of rank {1, 2, 3, 4, 5} or lower. The effect of that Gu is negated. Rewind Gu cannot be used to negate the effect of a killer move.
+
+### River as Before Gu
+
+*Rank 5 Tonic*
+
+Cost: 50 portions
+
+Range: 100 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: A river that you can see within range is transported up the River of Time and reverted to the state it was in 1 year ago. This effect reverts all portions of the river within 100 kilometers of you.
+
+### Self Acceleration Gu
+
+*Rank 3 Catalyst*
+
+Previous Rank: Acceleration Fruit Gu
+
+Cost: 25 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: You gain an additional combat action this turn. At the end of your turn, if you aren't under the effect of any [**Dao**] Gu belonging to Time Path, your body becomes chronologically confused and you gain the *fatigued* condition. If you already had the *fatigued* condition, you instead gain the *stunned* condition.
+
+### Slow Down Gu
+
+*Rank 3 Guard*
+
+Cost: 8 portions
+
+Range: 20 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: Slow Down Gu can only be activated as a reaction to an object you can see within range being thrown or launched. The object slows significantly, and **Dodge** tests made to avoid it can be made without expending a reaction and automatically succeed.
+
+### Slow Steps Gu
 
 *Rank 1-3 Attack*
 
@@ -5132,7 +5270,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Choose up to {1, 2, 5} creatures within range. While sustained, each target is slowed; their movement is reduced to half (rounded down to a minimum of 1), they have 1 fewer reaction each turn, and they gain a +20 penalty to all **Dodge** skill tests and attack rolls.w
+Effect: Choose up to {1, 2, 5} creatures that you can see within range. While sustained, each target is slowed; their movement is reduced to half (rounded down to a minimum of 1), they have 1 fewer reaction each turn, and they gain a +20 penalty to all **Dodge** skill tests and attack rolls.
 
 ### Split Second Gu
 
@@ -5148,7 +5286,7 @@ Health: 2
 
 Food: 1 lb of fine sand
 
-Effect: Use in response to an [**Unreactable**] Gu being activated. You make a reaction against it as normal. Skill tests made as part of the reaction have a {+80, +60, +30, +10, -10} modifier.
+Effect: Split Second Gu can be activated without using a reaction when an [**Unreactable**] Gu is activated by another creature you can see. You make a reaction against it as normal. Skill tests made as part of the reaction have a {+80, +60, +30, +10, -10} modifier.
 
 ### Spring Cicada Gu
 
@@ -5164,6 +5302,36 @@ Food: Water from the River of Time (does not need fed)
 
 Effect: Spring Cicada Gu can only be activated as a reaction to gaining a condition (including *dying* and *final stand*). Your body swims upwards on the River of Time to restore itself to a state before it received the condition, removing the condition and restoring your hit points to the number they were at before the triggering effect. Other creatures can still be affected by the original attack, and you can still be affected by its lingering effects.
 
+### Time Concealment Gu
+
+*Rank 3-4 Concealment*
+
+Cost: 9 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, creatures that perceive you instead see the area at a different point in time when you were not there. You are undetectable to [**Investigative**] Gu of rank {3, 4} or lower, unless that Gu belongs to Time Path.
+
+### Time Luck Gu
+
+*Rank 2 Catalyst*
+
+Cost: 5 portions
+
+Range: Self
+
+Health: 1
+
+Food: <!-- TODO ->
+
+Effect: Time Luck Gu can only be activated as a reaction to making or failing a skill test. You expend 6 months of your lifespan and gain a -50 bonus to the triggering skill test if you hadn't yet rolled it, or reroll the skill test if you had.
+
 ### Third Watch Gu
 *Rank 3 Carver*
 
@@ -5177,7 +5345,7 @@ Food: 100 g of silver (50 primeval stones)
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: A silver triangle tattoo permanently appears on your chest. Your body and aperture now flow 3 times as quickly down the River of Time. Your natural primeval essence recovery speed is tripled, the required time to break through large realms through cultivation is divided by 3 (rounded up), and every year that passes, your remaining lifespan is reduced by 3 years. 
+Effect: A silver triangle tattoo permanently appears on your chest. Your body and aperture now flow 3 times as quickly down the River of Time. Your natural primeval essence recovery speed is tripled, you may expend triple the normal maximum primeval essence when breaking through small realms through cultivation, the required time to break through large realms through cultivation is divided by 3 (rounded up), and every year that passes, your remaining lifespan is reduced by 3 years. 
 
 :::
 \newpage
@@ -6330,6 +6498,21 @@ Keywords: [**Expendable**]
 
 Effect: Activate before rolling the failure die of a refinement recipe for a Gu of rank 3 or lower. Increase the die by one stage (d2 -> d4 -> d6 -> d8 ->  d10 -> d12 -> d20 -> d100) to a maximum of a d100.
 
+### Deep Mind Gu
+*Rank 3 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [Dao], [Expendable]
+
+Effect: A blinding migraine grips you for 1 hour as your brain physically expands and Wisdom Path Dao is carved directly into your skull and grey matter. You are incapacitated for the duration, and when complete, your Cognition attribute is permanently increased by 10. The first time you fail a Deduction skill test each day, the dao marks correct your train of thought, allowing you to reroll the test.
+
 ### Enamor Gu
 *Rank 2 Attack*
 
@@ -6794,7 +6977,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Shield**], [**Sustained**]
 
-Effect: Your body is covered in wooden armor, and roots sprout from it into your blood vessels. While sustained, if you gain the *poisoned* condition from a Gu of rank 4 or lower, immmediately remove it and Blood Root Armor Gu regains 40 hit points. Blood Root Armor Gu cannot block heat or sonic damage.
+Effect: Your body is covered in wooden armor, and roots sprout from it into your blood vessels. While sustained, if you gain the *poisoned* condition from a Gu of rank 4 or lower, immmediately remove it and Blood Root Armor Gu regains hit points equal to the rank of the Gu applying the condition times 10. Blood Root Armor Gu cannot block heat or sonic damage.
 
 ### Bone Bamboo Gu
 
@@ -7174,7 +7357,7 @@ Health: 28
 
 Food: 500 g of roses
 
-Effect: A cloud of thorns bursts from your outstretched hand in a 5 meter long cone. Creatures in the area take 6 force damage.
+Effect: A cloud of thorns bursts from your outstretched hand in a 3 meter wide, 5 meter long line. Creatures in the area take 6 force damage.
 
 [**Upgrade Path: Three Star Cave Gu**]
 

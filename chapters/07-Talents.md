@@ -307,7 +307,7 @@ You gain access to the Yin Yang refinement technique. When you use the Yin Yang 
 
 It's difficult to use Gu of a path you aren't familiar with. Every character starts with *Fundamental* attainment in a single path. Oftentimes, a Gu Master that achieves master level attainment in any path gains great fame for their accomplishment, and may be contacted by other forces to refine Gu or complete difficult tasks related to the path.
 
-You cannot purchase a path attainment unless you have purchased all previous attainments in the same path. So you cannot purchase master attainment in a path unless you also have purchased fundamantal and intermediate attainment.
+You cannot purchase a path attainment unless you have purchased all previous attainments in the same path. So you cannot purchase master attainment in a path unless you also have purchased fundamantal and intermediate attainment. Finally, you cannot gain attainment in Human Path.
 
 ### [Path] Attainment
 

@@ -124,13 +124,13 @@ Taking the sprint action triples your non-flying movement until the end of your 
 ## Reactions
 You can react to most actions around you at any time other than during your turn. An exception is that you cannot react to someone activating a Gu, but you can react to them making an attack with one, manifesting an object with it, or applying any other effect. If a Gu has the [**Unreactable**] keyword, you cannot use a reaction in response to its effect. You cannot use multiple reactions to the same trigger, for example, dodging and activating a shield Gu when an attack hits you.
 
-### Activate a Shield Gu
-Unless specified otherwise by the Gu, shield Gu can be activated as a reaction, including after its determined an attack has hit you, but only before the damage has been rolled.
+### Activate a [**Defensive**] Gu
+[**Defensive**] Gu can be activated as a reaction, including after its determined an attack has hit you, but only before the damage has been dealt.
 
 ### Dodge
-The dodge reaction can be taken when its determined an attack has hit you and before the damage has been rolled. Make a **Dodge** skill test, opposing the opponent's attack roll if the attack required one. If you succeed, you successfully dodge the attack and take no damage. If you fail, you are hit and take the full damage of the attack.
+The dodge reaction can be taken when its determined an attack has hit you and before the damage has been rolled. Make a **Dodge** skill test; if you succeed, you successfully dodge the attack and take no damage. If you fail, you are hit and take the full damage of the attack.
 
-When you succeed a Dodge test, you MUST move at least 1 meter and at most 1/2 your movement (rounded down) in any direction. If you are unable to move, you are also unable to take the dodge reaction. If 1/2 of your movement is insufficient to escape an area of effect attack, you are struck by the attack regardless.
+When you succeed a **Dodge** reaction, you MUST move at least 1 meter and at most 1/2 your movement (rounded down) in any direction. If you are unable to move, you are also unable to take the dodge reaction. If 1/2 of your movement is insufficient to escape an area of effect attack, you are struck by the attack regardless.
 
 If you use a reaction to dodge for any trigger except an attack hitting you, you immediately move at least 1 meter and at most 1/2 your movement in any direction.
 
