@@ -60,6 +60,8 @@ When climbing a surface, your movement is halved, rounded down to a minimum of 1
 ### Swimming
 Non-aquatic creatures consider water to be difficult terrain. A creature can hold its breath for a number of minutes equal to 10% of their Fortitude attribute (rounded down) before falling unconscious. If the creature remains unable to breath for the same period of time after passing out, they die.
 
+When a creature enters the water, they gain the *doused* condition.
+
 ### Difficult Terrain
 If a creature is standing in difficult terrain, it costs 2 meters of movement instead of 1 to move to another square.
 
@@ -84,7 +86,7 @@ When you take an unarmed strike combat action, you may make a punch attack for e
 
 **Punch:** Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 1 force damage, +1 damage for every 10 points you have in Strength. For every 5 damage dealt, even if it is reduced, you take 1 force damage directly to your hit points. Gu such as Metal Skin Gu and Copper Tendons Gu are typically used to prevent your own strikes from hurting you.
 
-**Kick:** Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 1 force damage, +1 damage for every 5 points you have in Strength. If the target is [Large] or smaller, it is knocked backwards a number of meters equal to 1% of your Strength attribute (rounded down, minimum 1) and lands *prone*.
+**Kick:** Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 1 force damage, +1 damage for every 5 points you have in Strength. If the target is [Large] or smaller, it is knocked backwards a number of meters equal to 1% of your Strength attribute (rounded down, minimum 1) and lands *prone*. Upon striking a creature or object, the target and the creature or object crashed into both take force damage equal to 1% of your Strength attribute (rounded down, minimum 1).
 
 **Bite:** You viciously bite the target. Roll a **Close Combat** skill test against an enemy within 1 meter. On a hit, deal 2 rending damage, +1 damage for every 5 points you have in Strength. The target is inflicted with *bleeding X*, where X is equal to 20% of the rending damage dealt to their hit points, rounded down (to a minimum of 0).
 
@@ -250,6 +252,9 @@ A *dazed* creature's activations stat is reduced by 2. At the end of their turn,
 
 ### Deafened
 A *deafened* creature cannot hear, has resistance to sonic damage regardless of rank, and cannot make **Awareness** tests that rely on hearing.
+
+### Doused
+When a creature gains the *doused* condition, they immediately lose the *burning* and *ablaze* conditions if they have one of them. A creature with the *doused* condition is vulnerable to shock damage, resistant to heat damage, and immune to the *burning* condition. If a *doused* creature takes heat damage, they lose the *doused* condition. The *doused* condition lasts for 10 minutes. 
 
 ### Fatigued
 A *fatigued* creature's movement is reduced by 3 meters and makes all **Dodge** and **Athletics** skill tests with a +20 penalty. The *fatigued* condition lasts until the creature rests for at least an hour.

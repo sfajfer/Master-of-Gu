@@ -26,7 +26,7 @@ Primary attributes are a generalized measure of your body and mind. The base val
 Secondary attributes either have a flat base value or are derived from your primary attributes.
 
 ### Health
-You have a pool of Hit Points equal to your Fortitude. You can read about how damage, dying, and injury works in the combat chapter.
+You have a pool of Hit Points equal to your Fortitude. You can read about how damage, dying, and injury works in Chapter 4: Combat.
 
 ### Movement
 Your Movement is the number of meters you can move in a turn. Your Movement is 4 meters + 5% of your Agility (rounded down).
