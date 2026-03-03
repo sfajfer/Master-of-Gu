@@ -79,9 +79,11 @@ Your maximum hit points are 250.
 
 Your movement is reduced by 2 meters.
 
+You are not affected by any [**Dao**] Gu applied to your **Muscular System** or individual **Muscles**.
+
 As a bonus action, you can burrow your roots into a corpse and consume its blood to regain 30 hit points.
 
-When you use a combat action to make an unarmed melee attack, instead of striking with your fists you may extend your roots and attack up to 5 times. Your root attack range is 5 meters, and your root attacks deal 50 rending damage. If damage is dealt to a creature's hit points in this way, they gain the *bleeding 3*.
+When you use a combat action to make an unarmed melee attack, instead of striking with your fists you may extend your roots and attack up to 5 times. Your root attack range is 5 meters, and your root attacks deal 50 rending damage. If damage is dealt to a creature's hit points in this way, they gain *bleeding 3*.
 
 At the end of each of your turns, make a **Perseverance** attribute test with a +20 penalty. On a failure, you gain a **Blood Demon Flower Token** and your body becomes corrupted. If you ever have 10 **Blood Demon Flower Tokens**, your body is permanently transfigured into a blood demon flower.
 
@@ -114,7 +116,7 @@ Food: 120 severed hands soaked in the blood of a beast emperor.
 
 Keywords: [**Sustained**]
 
-Effect: You manifest a [**Large**] 2 meter tall hand made of blood mist in an unoccupied space within range. As a bonus action or activation, you may move the hand up to 10 meters through occupied or unoccupied spaces. Any creatures in the space moved through by the hand take 200 force damage. If this damage is dealt to their hit points and they have blood in their body, they turn into a puddle of blood and die.
+Effect: You manifest a [**Large**] 2 meter tall hand made of blood mist in an unoccupied square within range. While sustained, you may move the hand up to 10 meters through occupied or unoccupied squares as a bonus action or activation. Any creatures whose squares are moved through by the hand take 200 force damage. If this damage is dealt to their hit points and they have blood in their body, they turn into a puddle of blood and die.
 
 ### Blood Hatred Gu
 
@@ -450,6 +452,19 @@ Health: 4
 Food: <!-- TODO ->
 
 Effect: A fan of shadow swords fly sporadically in a line 6 meters wids and 10 meters long. Creatures in the area take 100 rending damage. Creatures have a +30 penalty on dodge tests made to avoid this attack. If this damage was dealt to their hit points, they gain *bleeding 6*.
+
+### Moonshadow Gu
+*Rank 4 Attack*
+
+Cost: 40 portions
+
+Range: 3 meters
+
+Health: 9
+
+Food: <!-- TODO ->
+
+Effect: Make an attack roll against a Gu Master within range. On a hit, their primeval sea is tainted and has only a quarter effectiveness, costing them 4 times as many portions to activate Gu as normal. To remove this effect, the defending Gu Master must empty their primeval sea completely.
 
 ### Overlapping Shadow Gu
 *Rank 4 Catalyst*
@@ -2452,9 +2467,57 @@ If you or the target break the vow through action or inaction, the vow breaker i
 \newpage
 ## $\centerline{Light Path}$
 
-*Speed is the theme of light path, with many Gu providing excellent movement or being unreactable. Light path also has superior cleansing methods, but its attacks are not very powerful and its defensive methods are few and far between.*
+*Light Path's characteristics are speed and purification. Its attacks are not very powerful but they often have support value attached.*
 
 ::: columns
+
+### Anonymous Aphid Gu
+
+*Rank 3 Concealment*
+
+Cost: 8 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: Light reflecting off your body becomes blurred while sustained, rendiering it impossible for you to be identified. Your facial features become indistinguishable, and your build shifts between various heights and weights. Attack rolls made against you are made with a +10 penalty.
+
+#### Aurora Curtain Gu
+
+*Rank 3 Guard*
+
+Cost: 15 portions
+
+Range: 10-meter wall
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: You manifest a shimmering curtain of multicolored light while sustained. The curtain takes up a 10 meter long line originating from a square you can see within range. **Ranged Attack** attack rolls made against a target on the other side of the curtain are made with a +30 penalty. Creatures that start their turn in or pass through the curtain gain the *dazed* condition as long as they are not *blinded* and have eyes.
+
+#### Blue Light Shield Gu
+
+*Rank 1-5 Guard*
+
+Cost: 10 portions
+
+Range: Self
+
+Health: {80, 200, 500, 1200, 2500}
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**], [**Shield**], [**Sustained**]
+
+Effect: You are surrounded by a translucent, hexagonal barrier of solid blue light while sustained. Whenever Blue Light Shield Gu takes damage, a flash of light bursts from it. Any creatures adjacent to you gain the *blinded* condition. Blue Light Shield Gu cannot block cold, heat, shock, or sonic damage.
 
 ### Bright Pearl Gu
 *Rank 1-3 Container*
@@ -2483,9 +2546,63 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: You manifest a broadsword of sunlight in your hand while sustained. If you are wielding the sword and no other weapons, you may make two weapon attacks each turn instead of one. Melee attacks made with the sword have a range of 1 meter, deal 30 heat and 30 rending damage, and **Dodge** skill tests made to avoid attacks made with it are made with a +20 penalty.
+Effect: You manifest a broadsword of sunlight in your hand while sustained. If you are wielding the sword and no other weapons, you may make two weapon attacks each turn instead of one. Melee attacks made with the sword have a range of 1 meter, deal 30 heat and 30 rending damage, and **Dodge** skill tests made to avoid attacks made with it are made with a +30 penalty.
 
 You do not add your strength to damage dealt by Broadsword Light Gu.
+
+### Daylight Gu
+
+*Rank 1-3 Manifestation*
+
+Cost: 1 portion
+
+Range: {10, 25, 100} meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: Every square within range is filled with bright light that spreads around corners while sustained.
+
+### Dazzling Lights Gu
+
+*Rank 2-3 Manifestation*
+
+Cost: 12 portions
+
+Range: 12 meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: Choose {1, 3} unoccupied squares that you can see within range. A brilliant orb of light appears in each. All creatures within 2 meters of a light gain the *dazed* condition immediately, and at the start of each of your turns while sustained.
+
+Creatures with the *blinded* condition or that lack eyes are immune to this effect.
+
+#### Deafening Flash Gu
+
+*Rank 2 Attack*
+
+Cost: 30 portions
+
+Range: 2 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: Light manifests in your hand, and after a short delay, you release a concussive burst in a 3 meter wide, 2 meter long line. Creatures in the area gain the *stunned* condition. **Dodge** skill tests made to avoid this attack are made with a -20 bonus.
+
+If the creature has the *blinded* condition or does not have eyes, they instead gain the *deafened* condition. 
+
+If the creature has the *deafened* condition or does not have ears, they instead gain the *blinded* condition.
+
+If both of these are true of the creature, Deafening Flash Gu has no effect on them.
 
 ### Flash Blink Gu
 
@@ -2534,6 +2651,36 @@ Keywords: [**Sustained**]
 
 Effect: While sustained, you can see footprints where any creature has stepped in the last hour. Different creature's footsteps appear as different colors.
 
+#### Gentle Light Gu
+
+*Rank 3-5 Tonic*
+
+Cost: 35 portions
+
+Range: 3 meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Light**]
+
+Effect: You emit a cleansing white light. Choose *fatigued*, *poisoned*, *dazed*, *stunned*, *deafened*, or *blinded*. All creatures within range lose the selected condition, unless that condition is *poisoned* and was applied by a Gu of a higher rank than Gentle Light Gu.
+
+### Lift Dao Gu
+
+*Rank 3 Catalyst*
+
+Cost: 30 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: Choose one [**Dao**] effect on your body and remove it.
+
 ### Light Source Gu
 
 *Rank 3 Catalyst*
@@ -2550,6 +2697,20 @@ Keywords: [**Supplementary**]
 
 Effect: The cost of your next Gu activation is halved (rounding down to a minimum of 1 portion) if the Gu belongs to Light Path.
 
+### Little Light Gu
+
+*Rank 1 Manifestation*
+
+Cost: 1 portion
+
+Range: 10 meters
+
+Health: 3
+
+Food: 3 drops of flammable oil.
+
+Effect: Little Light Gu emits 10 meters of bright light at all times. The light defaults to white, but activating Little Light Gu slightly shifts its color along the color wheel until it reaches your desired color.
+
 **Moonlight Gu**
 *Rank 1 Attack*
 
@@ -2563,21 +2724,10 @@ Food: 3 moon orchid petals (3 primeval stones)
 
 Effect: You hurl a flat, crescent-shaped beam of light. Make an attack roll with a -10 bonus. On a hit, deal 6 rending damage.
 
-### Moonshadow Gu
-*Rank 4 Attack*
-
-Cost: 40 portions
-
-Range: 3 meters
-
-Health: 9
-
-Food: <!-- TODO ->
-
-Effect: Make an attack roll against a Gu Master within range. On a hit, their primeval sea is tainted and has only a quarter effectiveness, costing them 4 times as many portions to activate Gu as normal. To remove this effect, the defending Gu Master must empty their primeval sea completely.
-
 ### One-stretch Golden Light Gu
 *Rank 1 Guard*
+
+Next Rank: Two-stretch Golden Light Gu
 
 Cost: 2 portions
 
@@ -2607,6 +2757,24 @@ Keywords: [**Dao**]
 
 Effect: Pick a square that you can see within range. You turn into a beam of light and nearly instantaneously move to the target square. You ignore effects that trigger when you move through their area of effect, but can still be stopped by barriers. The speed of travel is so fast that it disorients you and expends all of your reactions.
 
+#### Rainbow Prism Gu
+
+*Rank 1-5 Divination*
+
+Cost: 7 portions
+
+Range: 5 meters
+
+Health: 8
+
+Food: <!-- TODO ->
+
+Keywords: [**Investigative**]
+
+Effect: A floating prism manifests in a square adjacent to you, casting spectrums of light in a 5 meter radius. Anything within range being disguised or concealed by a Gu of rank {1, 2, 3, 4, 5} or lower is revealed, and any bodily fluid stains within range glow a dim blue.
+
+The prism disappears after 1 minute.
+
 ### Shimmer Gu
 *Rank 2 Concealment*
 
@@ -2621,6 +2789,25 @@ Food: <!-- TODO ->
 Keywords: [**Sustained**]
 
 Effect: Light bends around your body, making you invisible while sustained.
+
+#### Solar Flare Gu
+
+*Rank 3 Attack*
+
+Cost: 15 portions
+
+Range: 20 meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Unreactable**]
+
+Effect: You fire a concentrated beam of solar radiation. Make an attack roll against a target you can see within range. On a hit, deal 30 heat damage and the target gains the *poisoned* condition with the following effects:
+
+- You gain a +10 penalty to all skill tests
+- You have the *fatigued* condition
 
 ### Sunlight Pool Gu
 
@@ -2655,6 +2842,8 @@ Effect: Sunspot Gu must be activated outdoors. While sustained, a sunbeam envelo
 ### Two-stretch Golden Light Gu
 *Rank 2 Guard*
 
+Previous Rank: One-stretch Golden Light Gu
+
 Cost: 2 portions
 
 Range: Self
@@ -2666,6 +2855,20 @@ Food: <!-- TODO ->
 Keywords: [**Sustained**]
 
 Effect: While sustained, a 3 meter radius sphere of light surrounds you and blocks attacks, creatures, and objects from entering (but not exiting). When an attack from outside the sphere hits a creature inside the sphere, the sphere takes the damage instead, though the defender can still dodge the attack. For every 2 points of damage the sphere takes, you lose 1 portion of primeval essence. If the sphere takes more than 30 damage from a single attack, it breaks, the remainder of the damage is dealt to the defender, and Two-stretch Golden Light Gu takes 2d6 damage as backlash. The sphere does not block sonic damage.
+
+#### Zhulong Slither Snake Gu
+
+*Rank 3 Celerity*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 1
+
+Food: <!-- TODO ->
+
+Effect: Your base movement is doubled for 3 turns and you gain an additional Reaction each round. After the effect ends, you gain the *fatigued* condition.
 
 :::
 \newpage
@@ -2888,7 +3091,7 @@ Food: 50g of magnetite sand (2 primeval stones)
 
 Keywords: [**Unreactable**]
 
-Effect: You move instantly to an unoccupied space within range, leaving a crackle of static in your wake. If a creature makes a melee attack against you, you may activate Static Step Gu as a reaction; the attack automatically misses, and the attacker takes 10 shock damage.
+Effect: You blink to an unoccupied square within range, leaving a crackle of static in your wake. If a creature makes a melee attack against you, you may activate Static Step Gu as a reaction; the attack automatically misses, and the attacker takes 10 shock damage.
 
 ### Static Touch Gu
 
@@ -2920,7 +3123,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Nervous System** is permanently etched with Lightning Path Dao, making them transmit information nearly instantly between your brain and muscles. You can react to effects even if they have the [**Unreactable**] keyword and gain a -20 bonus to initiative tests.
+Effect: Your **Nervous System** is permanently etched with Lightning Path Dao, making it transmit information nearly instantly between your brain and muscles. You can react to effects even if they have the [**Unreactable**] keyword and gain a -20 bonus to initiative tests.
 
 ### Thunder Hammer Gu
 
@@ -3420,7 +3623,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Circulatory System** permanently harden into iron over the course of an hour. Whenever you gain the *bleeding* condition, reduce the number of *bleeding* stacks you receive by 2, to a minimum of 0.
+Effect: Your **Circulatory System** permanently hardens into iron over the course of an hour. Whenever you gain the *bleeding* condition, reduce the number of *bleeding* stacks you receive by 2, to a minimum of 0.
 
 ### Metal Skin Gu
 *Rank 1-3 Carver*
@@ -3730,7 +3933,7 @@ Range: Self
 
 Health: 4
 
-Food: 50 mL of venom from a Hundred Beast King snake
+Food: 50 milliliters of venom from a Hundred Beast King snake
 
 Keywords: [**Dao**], [**Expendable**]
 
@@ -4190,7 +4393,7 @@ Food: 3 human souls
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Skin** is carved with Soul Path dao. You can physically touch ethereal creatures and objects as if they were solid matter, and your unarmed strikes deal an additional 2 damage to the target's soul.
+Effect: Your **Skin** is carved with Soul Path dao. You can physically touch ethereal creatures and objects as if they were solid matter, and your unarmed attacks deal an additional 2 damage to the target's soul.
 
 ### Guts Gu
 *Small stones that only grow on Dang Hun Mountain, a secluded domain of Heaven and Earth. Currently, Dang Hun Mountain is in the control of Hu Land Spirit. Since Guts Gu degenerate when taken away from Dang Hun Mountain, they must be transported using special container Gu, and thus their market price is between 5 and 10 thousand primeval stones. The only market in Southern Border that regularly stocks them is in Shang Clan City.*
@@ -5704,11 +5907,11 @@ Range: Self
 
 Health: 6
 
-Food: 100 mL of reptile blood (1/4 Primeval Stone)
+Food: 100 milliliters of reptile blood (1/4 Primeval Stone)
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Blood** become cold blooded and you no longer have a heat signature. You gain vulnerability to cold damage and reduce all heat damage dealt to your hit points by 4.
+Effect: Your **Blood** becomes cold, completely erasing your heat signature. You gain vulnerability to cold damage and reduce all heat damage dealt to your hit points by 4.
 
 ### Frog Legs Gu
 *Rank 1 Carver*
@@ -5823,7 +6026,7 @@ Food: 5 kg of monkey flesh (1 primeval stone)
 
 Keywords: [**Sustained**]
 
-Effect: Your arms grow dramatically in length, increasing the range of all your melee attacks by 1 meter while sustained. Your touch range also increases by 1 meter.
+Effect: Your arms grow dramatically in length, increasing the range of your punching and weapon attacks by 1 meter while sustained. Your touch range also increases by 1 meter.
 
 ### Ram's Head Gu
 
@@ -7023,7 +7226,7 @@ Effect: You take {1, 2, 6} damage to your soul and create {2, 8, 30} Little Will
 
 When you activate or sustain a Gu with the [**Sustained**] keyword, you may expend a Little Will. The Gu will remain sustained until the start of your next turn and does not count towards your current number of sustained Gu.
 
-Little Wills can also be left pretty much anywhere along with a Gu. When a condition, set by you when you leave the Little Will, is fulfilled, the Will consumes itself to activate the Gu in a manner of your choosing.
+Little Wills can also be left pretty much anywhere along with a Gu. When a condition, set by you when you leave the Little Will, is fulfilled, the Little Will consumes itself to activate the Gu in a manner of your choosing.
 
 Little Wills can exist for up to 6 months before vanishing.
 
@@ -7041,7 +7244,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Deductive**]
 
-Effect: Your thoughts appear like curling white clouds above your head. When you use Longing Thoughts Gu to make a *Deduction* action, you gain a {-10, -20, -30, -40, -50} bonus to **Deduction** skill tests made to deduce subjects with a physical location that is at least 100 kilometers away from you.
+Effect: Your thoughts appear like curling white clouds above your head. When you use Longing Thoughts Gu to make a *Deduction* action, you gain a {-10, -20, -30, -40, -50} bonus to **Deduction** skill tests made to deduce subjects with a physical location that is at least 100 kilometers away from you. You must have seen the location or a detailed image of the location before.
 
 ### Malicious Thoughts Gu 
 
@@ -7072,7 +7275,7 @@ Food: 10 g of Purple Autumn Grass (3 primeval stones)
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, your unarmed strike **Close Combat** skill tests gain a (–5 × your maximum activations) bonus.
+Effect: While sustained, your unarmed **Close Combat** attack rolls gain a (–5 × your maximum activations) bonus.
 
 ### Mind Fortress Gu
 *Rank 1-5 Guard*
@@ -7090,7 +7293,7 @@ Keywords: [**Defensive**], [**Shield**], [**Sustained**]
 Effect: While sustained, if an effect would manipulate your thoughts, emotions, or will, and originates from a source of rank {1, 2, 3, 4, 5} or lower, it is negated on you. Mind Fortress Gu cannot block any damage. Whenever you take damage to your soul while sustained, you may instead assign that damage to Mind Fortress Gu. Mind Fortress Gu can be activated as a reaction to taking damage to your soul, with the triggering damage being redirected to Mind Fortress Gu.
 
 ### One Mind Gu
-*Rank 2 Catalyst*
+*Rank 2-5 Catalyst*
 
 Cost: 10X portions
 
@@ -7102,7 +7305,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
-Effect: You gain X activations until the end of your turn. Once you use an activation before the end of your turn, your subsequent activations must be used for the same effect, i.e. activating the same Gu.
+Effect: You gain X activations until the end of your turn. Once you use an activation before the end of your turn, your subsequent activations must be used for the same effect, i.e. activating the same Gu. If your next activation is used on a Gu of a higher rank than One Mind Gu, One Mind Gu has no effect.
 
 ### Future Market Gu
 
@@ -7130,7 +7333,7 @@ Cost: 5 portions
 Range: 4 meters
 
 Health: 8
-
+            
 Food: 100 g of sugar
 
 Effect: A creature of your choice within range regains 2 hit points.
@@ -7314,7 +7517,7 @@ Effect: After hitting a creature with an attack, you may activate Warrior's Intu
 :::
 \newpage
 ## $\centerline{Wood Path}$
-*Wood path was discovered by Genesis Lotus Immortal Venerable. It generally encompasses methods involving plants, and excels at support and healing, having marginal defense and lower attack power than other paths.*
+*Wood Path was discovered by Genesis Lotus Immortal Venerable. It generally encompasses methods involving plants, and excels at support and healing, having marginal defense and lower attack power than other paths.*
 
 ::: columns
 
@@ -7353,6 +7556,8 @@ Effect: You transform into a tree of your height, granting you the following fea
 
 Your maximum hit points are 25, and your base movement is 0 meters.
 
+You are not affected by any [**Dao**] Gu applied to specific body parts.
+
 You gain the *blinded* and *deafened* conditions.
 
 You gain resistance to cold, force, rending, shock, and sonic damage.
@@ -7387,7 +7592,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: A strong stalk of bamboo with a dense bone inside grows from the ground that you touch. The bamboo stalk is 1.5 meters long and can be wielded as a staff with a range of 2 meters. When you hit with a melee attack made with the bamboo, the target takes 10 force damage.
+Effect: A strong stalk of bamboo with a dense bone inside grows from the ground that you touch. The bamboo stalk is 1.5 meters long and can be wielded as a staff with a range of 2 meters and a base damage of 10 force damage.
 
 ### Branching Wings Gu
 *Rank 2 Manifestation*
@@ -7453,13 +7658,13 @@ Cost: 8 portions
 
 Range: Self
 
-Health: 14
+Health: 4
 
 Food: 10 g of Imperial Phoenix feathers (1,500 primeval stones)
 
 Keywords: [**Sustained**]
 
-Effect: A shawl of light wraps around your head, shedding sunlight in a 30 foot radius. While sustained, if your hit points would be reduced to 0, instead the shawl bursts into flames and your hit points are restored to their maximum. Phoenix Mantle Gu takes 13 damage and becomes unusable for 24 hours.
+Effect: A shawl of light wraps around your head, shedding sunlight in a 30 foot radius. While sustained, if your hit points would be reduced to 0, instead the shawl bursts into flames and your hit points are restored to their maximum. Phoenix Mantle Gu takes 1d4 damage and cannot be activated again for 24 hours.
 
 ### Burning Canopy Blessing Gu
 *Rank 5 Tonic*
@@ -7496,7 +7701,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
-Effect: You pluck the flower atop Cactus Pointer Gu. Cactus Pointer Gu withers and dies, and a word appears on the plucked flower. The word is chosen by the GM, and will be related to your current goal, pointing you in the right direction. It can be a name, object, or place, but must be a single word, or a single name if the name is more than one word.
+Effect: You pluck the flower atop Cactus Pointer Gu. Cactus Pointer Gu withers and dies, and a word appears on the plucked flower. The word is chosen by the Gamemaster, and will be related to your current goal, pointing you in the right direction. It can be a name, object, or place, but must be a single word, or a single name if the name is more than one word.
 
 ### Chloroplast Gu
 
@@ -7553,7 +7758,7 @@ Health: 8
 
 Food: 1 kilogram of grass and 1 kilogram of soil
 
-Keywords: [**Dao**] [**Investigative**], [**Sustained**]
+Keywords: [**Dao**], [**Investigative**], [**Sustained**]
 
 Effect: Before being activated, the user of Earth Communication Ear Grass Gu must cut off one of their **Ears** and allow Earth Communication Ear Grass Gu to take its place. While sustained, roots extend from the replaced ear and allow you to hear all noises, big or small, made within range. If you put the ear to the ground, the roots connect to it and extend the range to 100 meters, but you can only hear things on top of or in the earth.
 
@@ -7582,7 +7787,7 @@ Health: 5
 
 Food: <!-- TODO ->
 
-Effect: A large daisy grow out of a chunk of soil or stone that you touch, emitting a powerful fragrance in a 1 km circle centered on the daisy. All **Awareness** skill tests and Gu that rely on smelling automatically fail if used within the area. Nothing inside the area can be located by scent either, except for the daisy emitting the fragrance. The daisy has a 20 hit points and vulnerability to heat damage, and if it is killed or uprooted the effect ends. The fragrance does not cling to creatures that leave the area.
+Effect: A large daisy grows out of a chunk of soil or stone that you touch, emitting a powerful fragrance in a 1 kilometer radius centered on the daisy. All **Awareness** skill tests or Gu effects that rely on smelling automatically fail if used within the area. Nothing inside the area can be located by scent either, except for the daisy emitting the fragrance. The daisy has 20 hit points and vulnerability to heat damage; if it is killed or uprooted the effect ends. The fragrance does not cling to creatures that leave the area.
 
 ### Growing Power Gu
 
@@ -7600,7 +7805,7 @@ Food: 5 kg of seeds
 
 Keywords: [**Sustained**]
 
-Effect: When you activate Growing Power Gu and at the start of each of your turns while sustained, you gain 2 Fortitude, 20 Strength, and heal 2 hit points. At the end of each of your turns while sustained, your movement is reduced by 1. You lose all effects when you stop sustaining Growing Power Gu.
+Effect: When you activate Growing Power Gu and at the start of each of your turns while sustained, you gain 2 Fortitude, 20 Strength, and heal 2 hit points. At the end of each of your turns while sustained, your movement is reduced by 1. Growing Power Gu can increase your Fortitude and Strength and decrease your movement up to 10 times, at which point sustaining Growing Power Gu only serves to extend the duration.
 
 ### Healing Sprout Gu
 *Rank 1 Tonic*
@@ -7613,7 +7818,7 @@ Health: 7
 
 Food: <!-- TODO ->
 
-Effect: Healing Sprout Gu sprouts a healing leaf. The leaf can be plucked from Healing Sprout Gu. A creature can eat a healing leaf as a bonus action to regain 4 hit points.
+Effect: Healing Sprout Gu sprouts a healing leaf. The leaf can be plucked from Healing Sprout Gu and never expires. A creature can eat a healing leaf as a bonus action to regain 4 hit points.
 
 ### Heavenly Essence Treasure Lotus Gu
 *To refine the Heavenly Essence Treasure Lotus Gu, a Gu Master must use 3 fresh spirit springs as refinement materials. Spirit springs produce vast amounts of primeval stones, so few are willing to make that sacrifice.*
@@ -7862,7 +8067,7 @@ Health: 25
 
 Food: 1 kg of silk (5 primeval stones)
 
-Effect: Can store up to 50 kg of clothes and armor. Upon activation, a set of clothes stored inside Wardrobe Gu of your choice replaces whatever you are wearing, while the clothes you were wearing are stored within Wardrobe Gu. If you do not choose an outfit, you merely store the clothes you are wearing.
+Effect: Wardrobe Gu can store up to 50 kg of clothes and armor. Upon activation, a set of clothes stored inside Wardrobe Gu of your choice replaces whatever you are wearing, while the clothes you were wearing are stored within Wardrobe Gu. If you do not choose an outfit, you merely store the clothes you are wearing.
 
 ### Wine Sack Flower Gu
 *Rank 1 Manifestation*
@@ -7890,9 +8095,13 @@ Food: Natural primeval essence (none)
 
 Keywords: [**Dao**], [**Sustained**], [**Transformation**]
 
-Effect: While sustained, your skin becomes bark as you transform into a tree spirit and gain the ability to absorb primeval essence from the surroundings. 
+Effect: While sustained, you transform into a tree spirit and gain the ability to absorb primeval essence from the surroundings. 
 
 You have 300 hit points.
+
+You are [Large].
+
+You are not affected by any [**Dao**] Gu applied to your **Blood**, **Circulatory System**, **Heart**, or **Skin**.
 
 If you take heat damage, you gain the *burning* condition.
 
@@ -7917,7 +8126,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: You carve wood path dao into your **Torso**, gaining a **Wood Dao Token**. For every **Wood Dao Token** you have, you gain a -5 bonus to **Refinement** skill tests made to follow, create, or improve wood path Gu recipes and reduce the amount of primeval essence used to activate wood path Gu by 1 portion (to a minimum of 1). Additionally, each **Wood Dao Token** you have reduces your base movement by 1 as your skin and flesh hardens into bark and wood. You cannot have more than 5 **Wood Dao Tokens**.
+Effect: You carve Wood Path dao into your **Torso**, gaining a **Wood Dao Token**. For every **Wood Dao Token** you have, you gain a -5 bonus to **Refinement** skill tests made to follow, create, or improve wood path Gu recipes and reduce the amount of primeval essence used to activate Wood Path Gu by 1 portion (to a minimum of 1). Additionally, each **Wood Dao Token** you have reduces your base movement by 1 as your skin and flesh hardens into bark and wood. You cannot have more than 5 **Wood Dao Tokens**.
 
 
 :::

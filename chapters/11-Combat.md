@@ -124,7 +124,7 @@ Triggers can be specific or broad, ranging from "when the opponent uses Fire Pel
 Taking the sprint action triples your non-flying movement until the end of your turn.
 
 ## Reactions
-You can react to most actions around you at any time other than during your turn. An exception is that you cannot react to someone activating a Gu, but you can react to them making an attack with one, manifesting an object with it, or applying any other effect. If a Gu has the [**Unreactable**] keyword, you cannot use a reaction in response to its effect. You cannot use multiple reactions to the same trigger, for example, dodging and activating a shield Gu when an attack hits you.
+You can react to most actions around you at any time other than during your turn. An exception is that you cannot react to someone activating a Gu, but you can react to them making an attack with one, manifesting an object with it, or applying any other effect. You cannot use multiple reactions to the same trigger, for example, dodging and activating a shield Gu when an attack hits you.
 
 ### Activate a [**Defensive**] Gu
 [**Defensive**] Gu can be activated as a reaction, including after its determined an attack has hit you, but only before the damage has been dealt.
@@ -295,6 +295,6 @@ Lines have a height, width, and length. If the height is not specified, it is th
 
 **Radius**
 
-Circular area of effects will originate from a source square and have a radius. If an area of effect has a radius of 5 meters, it will effect the source square and any square that could be reached using 5 meters of movement from the source square. This means that the real shape on the board will be more like a four pointed star, with the radius reaching further diagonally.
+Circular area of effects will originate from a source square and have a radius. If an area of effect has a radius of 5 meters, it will effect the source square and any square that could be reached using 5 meters of movement from the source square. This translates to a square with a side length of 11 meters.
 
 \newpage
