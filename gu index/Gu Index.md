@@ -661,7 +661,7 @@ Effect: While sustained, your flesh is transmuted into a dense bedrock. You cann
 
 *Next Rank:* Mountain Pass Gu
 
-Cost: 12 portions
+Cost: 16 portions
 
 Range: Self
 
@@ -1209,7 +1209,7 @@ Effect: Six white orbs appear on your face in a spider-eye pattern. While sustai
 ### Ember Armor Gu
 *Rank 2-3 Guard*
 
-Cost: 11 portions  
+Cost: 20 portions  
 
 Range: Self  
 
@@ -1307,7 +1307,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Piercing**]
 
-Effect: Launch a lance of fire at a target. Make an attack roll; on a hit, deal 10 heat damage, or 25 heat damage if the target is *burning* or *ablaze*.
+Effect: Launch a lance of fire at a target within range. Make an attack roll; on a hit, deal 10 heat damage, or 25 heat damage if the target is *burning* or *ablaze*.
 
 ### Fire Pulse Gu
 *Rank 2 Attack*
@@ -1320,7 +1320,7 @@ Health: 13
 
 Food: <!-- TODO ->
 
-Effect: Release a pulse of fire in a straight line. All creatures in a 1 meter wide, 8 meter long line take 10 heat damage and gain the *burning* condition.
+Effect: You release a pulse of fire in a straight line. All creatures in a 1 meter wide, 8 meter long line take 10 heat damage and gain the *burning* condition.
 
 ### Fire Spark Gu
 *Rank 1 Attack*
@@ -1501,7 +1501,7 @@ Health: 10
 
 Food: <!-- TODO ->
 
-Effect: You attack with a whip of fire. Make an attack roll; on a hit, deal 16 heat damage and the target gains the *burning* and *restrained* conditions. As a bonus action on their turn, the affected creature can make an **Athletics** skill test with a -10 bonus. On a success, they lose both conditions applied by Flame Binding Gu.
+Effect: You attack a target within range with a whip of fire. Make an attack roll; on a hit, deal 16 heat damage and the target gains the *burning* and *restrained* conditions. As a bonus action on their turn, the affected creature can make an **Athletics** skill test with a -10 bonus. On a success, they lose both conditions applied by Flame Binding Gu.
 
 ### Flame Tongue Gu
 *Rank 3 Attack*
@@ -1514,7 +1514,7 @@ Health: 15
 
 Food: <!-- TODO ->
 
-Effect: You lash out with a tongue of flame. Make an attack roll; on a hit, deal 30 heat damage and the target gains the *burning* condition.
+Effect: You lash out with a tongue of flame towards a target within range. Make an attack roll; on a hit, deal 30 heat damage and the target gains the *burning* condition.
 
 ### Flame Veil Gu
 *Rank 1 Guard*
@@ -1601,7 +1601,7 @@ Effect: Your palm ignites with intense heat. A creature you touch takes 16 heat 
 ### Smoldering Cloak Gu
 *Rank 1 Guard*
 
-Cost: 6 portions  
+Cost: 14 portions  
 
 Range: Self
 
@@ -2211,7 +2211,7 @@ Health: 8
 
 Food: <!-- TODO ->
 
-Effect: You launch a sharp icicle at a target you can see within range. Make an attack roll; on a hit, deal 5 force damage and 5 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition.
+Effect: You launch a sharp icicle at a target within range. Make an attack roll; on a hit, deal 5 force damage and 5 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition.
 
 ### Spiral Icicle Gu
 
@@ -2229,7 +2229,7 @@ Health: 8
 
 Food: <!-- TODO ->
 
-Effect: You launch a spinning icicle at a target you can see within range. Make an attack roll; on a hit, deal 10 force damage and 10 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition.
+Effect: You launch a spinning icicle at a target within range. Make an attack roll; on a hit, deal 10 force damage and 10 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition.
 
 ### Spiral Ice Spear Gu
 
@@ -2247,7 +2247,7 @@ Health: 10
 
 Food: <!-- TODO ->
 
-Effect: You launch a spear made of ice at a target you can see within range. Make an attack roll; on a hit, deal 30 force damage and 20 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition. As long as the target is smaller than [**Large**], they are pushed backward 3 meters. If they collide with a wall, they are pinned to it and *restrained*. The spear can be removed by a creature as a combat action with a successful **Athletics** skill test.
+Effect: You launch a spear made of ice at a target within range. Make an attack roll; on a hit, deal 30 force damage and 20 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition. As long as the target is smaller than [**Large**], they are pushed backward 3 meters. If they collide with a wall, they are pinned to it and *restrained*. The spear can be removed by a creature as a combat action with a successful **Athletics** skill test.
 
 ### Spiral Ice Lance Gu
 
@@ -2263,7 +2263,7 @@ Health: 10
 
 Food: <!-- TODO ->
 
-Effect: You launch a large lance of ice at a target you can see within range. Make an attack roll; on a hit, deal 100 force damage and 50 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition. The target is pushed backward 8 meters. If they collide with a wall, they are pinned to it and *restrained*. The lance can be removed by a creature as a combat action with a successful **Athletics** skill test.
+Effect: You launch a large lance of ice at a target within range. Make an attack roll; on a hit, deal 100 force damage and 50 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition. The target is pushed backward 8 meters. If they collide with a wall, they are pinned to it and *restrained*. The lance can be removed by a creature as a combat action with a successful **Athletics** skill test.
 
 ### Spiral Icicle Swarm Gu
 
@@ -2281,7 +2281,7 @@ Health: 8
 
 Food: <!-- TODO ->
 
-Effect: You launch 5 spinning icicles, each at a target of your choice that you can see within range. Make an attack roll for each; on a hit, deal 10 force damage and 10 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition.
+Effect: You launch 5 spinning icicles, each at a target of your choice within range. Make an attack roll for each; on a hit, deal 10 force damage and 10 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition.
 
 The icicles are launched sequentially; dodging one icicle does not cause the rest targeting the creature to miss.
 
@@ -2301,7 +2301,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Pick a square you can see within range. While sustained, a storm of razor sharp icicles and cutting winds is manifested around it. Any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage. If the cold damage is dealt to a creature's hit points, they gain the *fatigued* condition.
+Effect: Pick a square you can see within range. While sustained, a storm of razor sharp icicles and cutting winds is manifested around it. The area is considered *Difficult Terrain* and any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage. If the cold damage is dealt to a creature's hit points, they gain the *fatigued* condition.
 
 [**END**]
 
@@ -2485,7 +2485,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Light reflecting off your body becomes blurred while sustained, rendiering it impossible for you to be identified. Your facial features become indistinguishable, and your build shifts between various heights and weights. Attack rolls made against you are made with a +10 penalty.
+Effect: Light reflecting off of your body becomes blurred while sustained, rendering it impossible for you to be identified. Your facial features become indistinguishable, and your build shifts between various heights and weights. Attack rolls made against you are made with a +10 penalty.
 
 #### Aurora Curtain Gu
 
@@ -2501,13 +2501,13 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: You manifest a shimmering curtain of multicolored light while sustained. The curtain takes up a 10 meter long line originating from a square you can see within range. **Ranged Attack** attack rolls made against a target on the other side of the curtain are made with a +30 penalty. Creatures that start their turn in or pass through the curtain gain the *dazed* condition as long as they are not *blinded* and have eyes.
+Effect: You manifest a shimmering curtain of multicolored light while sustained. The curtain takes up a 10 meter long line originating from a square you can see within range. **Ranged Attack** attack rolls made by creatures against a target on the opposite side of the curtain are made with a +30 penalty. Creatures that start their turn in or pass through the curtain gain the *dazed* condition as long as they can see.
 
 #### Blue Light Shield Gu
 
 *Rank 1-5 Guard*
 
-Cost: 10 portions
+Cost: 18 portions
 
 Range: Self
 
@@ -2517,7 +2517,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Shield**], [**Sustained**]
 
-Effect: You are surrounded by a translucent, hexagonal barrier of solid blue light while sustained. Whenever Blue Light Shield Gu takes damage, a flash of light bursts from it. Any creatures adjacent to you gain the *blinded* condition. Blue Light Shield Gu cannot block cold, heat, shock, or sonic damage.
+Effect: You are surrounded by a translucent, hexagonal barrier of solid blue light while sustained. Whenever Blue Light Shield Gu takes damage, a flash of light bursts from it, and any creatures adjacent to you gain the *blinded* condition until the end of their next turn. Blue Light Shield Gu cannot block cold, heat, shock, or sonic damage.
 
 ### Bright Pearl Gu
 *Rank 1-3 Container*
@@ -2598,11 +2598,11 @@ Food: <!-- TODO ->
 
 Effect: Light manifests in your hand, and after a short delay, you release a concussive burst in a 3 meter wide, 2 meter long line. Creatures in the area gain the *stunned* condition. **Dodge** skill tests made to avoid this attack are made with a -20 bonus.
 
-If the creature has the *blinded* condition or does not have eyes, they instead gain the *deafened* condition. 
+If the creature cannot see, they instead gain the *deafened* condition until the end of their next turn. 
 
-If the creature has the *deafened* condition or does not have ears, they instead gain the *blinded* condition.
+If the creature cannot hear, they instead gain the *blinded* condition until the end of their next turn.
 
-If both of these are true of the creature, Deafening Flash Gu has no effect on them.
+If the creature cannot see or hear, Deafening Flash Gu has no effect on them.
 
 ### Flash Blink Gu
 
@@ -2618,7 +2618,7 @@ Food: Natural light
 
 Keywords: [**Expendable**], [**Unreactable**]
 
-Effect: You explode with a blinding flash of light. All creatures that can see you immediately become *blinded* until the end of their next turn. Any darkness created by a Gu of rank 2 or lower is dispelled, and the source Gu takes 1d4 damage as backlash and cannot be activated again until fed.
+Effect: You explode with a blinding flash of light. All creatures that can see you immediately become *blinded* until the end of their next turn. Any darkness you can see that was created by a Gu of rank 2 or lower is dispelled, and the source Gu takes 1d4 damage as backlash and cannot be activated again until fed.
 
 ### Flash Inspiration Gu
 *Rank 3 Divination*
@@ -2633,7 +2633,7 @@ Food: A handful of fine shattered glass (4 primeval stones)
 
 Keywords: [**Deductive**], [**Expendable**]
 
-Effect: You instantaneously perform a *Deduction* action with a -50 bonus. You may also activate Flash Inspiration Gu without using an activation to immediately make a reaction without expending one of your reactions.
+Effect: You instantaneously perform a *Deduction* action with a -50 bonus. You may also activate Flash Inspiration Gu at any time without using an activation to immediately make a reaction without expending one of your reactions.
 
 ### Footprint Gu
 
@@ -2679,7 +2679,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Effect: Choose one [**Dao**] effect on your body and remove it.
+Effect: Choose one [**Dao**] effect permanently carved into your body and remove it.
 
 ### Light Source Gu
 
@@ -2695,7 +2695,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Supplementary**]
 
-Effect: The cost of your next Gu activation is halved (rounding down to a minimum of 1 portion) if the Gu belongs to Light Path.
+Effect: The cost of your next Gu activation is halved (rounded down, to a minimum of 1 portion) if the Gu belongs to Light Path and is rank 3 or lower.
 
 ### Little Light Gu
 
@@ -2722,7 +2722,7 @@ Health: 2
 
 Food: 3 moon orchid petals (3 primeval stones)
 
-Effect: You hurl a flat, crescent-shaped beam of light. Make an attack roll with a -10 bonus. On a hit, deal 6 rending damage.
+Effect: You hurl a flat, crescent-shaped beam of light. Make an attack roll against a target within range with a -10 bonus. On a hit, deal 6 rending damage.
 
 ### One-stretch Golden Light Gu
 *Rank 1 Guard*
@@ -2804,7 +2804,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Unreactable**]
 
-Effect: You fire a concentrated beam of solar radiation. Make an attack roll against a target you can see within range. On a hit, deal 30 heat damage and the target gains the *poisoned* condition with the following effects:
+Effect: You fire a concentrated beam of solar radiation. Make an attack roll against a target within range. On a hit, deal 30 heat damage and the target gains the *poisoned* condition with the following effects:
 
 - You gain a +10 penalty to all skill tests
 - You have the *fatigued* condition
@@ -3000,7 +3000,7 @@ Effect: While sustained, if a creature within range is dealt shock damage, the s
 
 *Rank 1-5 Guard*
 
-Cost: 8 portions
+Cost: 14 portions
 
 Range: Self
 
@@ -3026,7 +3026,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Piercing**], [**Unreactable**]
 
-Effect: You hurl a spear of lightning at a target you can see within range. Make an attack roll; on a hit, deal {12, 30, 75} shock damage and an additional {4, 10, 25} shock damage directly to their hit points.
+Effect: You hurl a spear of lightning at a target within range. Make an attack roll; on a hit, deal {12, 30, 75} shock damage and an additional {4, 10, 25} shock damage directly to their hit points.
 
 ### Lightning Wings Gu
 
@@ -3139,7 +3139,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Unreactable**]
 
-Effect: You launch a bolt of lightning and condensed thunder that strikes like a hammer towards a target that you can see within range. Make an attack roll; on a hit, deal 150 force damage, 150 shock damage, and 50 sonic damage. The target is thrown backwards 20 meters; if it collides with a creature or object, they both take 50 force damage and the target is stopped.
+Effect: You launch a bolt of lightning and condensed thunder that strikes like a hammer towards a target within range. Make an attack roll; on a hit, deal 150 force damage, 150 shock damage, and 50 sonic damage. The target is thrown backwards 20 meters; if it collides with a creature or object, they both take 50 force damage and the target is stopped.
 
 ### Thunderclap Gu
 
@@ -3793,7 +3793,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: Make an attack roll against a creature that you can see within range. On a hit, the target gains the *poisoned* condition with the following effects:
+Effect: Make an attack roll against a creature within range. On a hit, the target gains the *poisoned* condition with the following effects:
 
 - If a creature moves out of your melee range, you immediately make a weapon or punching attack as an attack of opportunity without using a reaction.
 - On your turn, you must move to and use the **Melee Attack** combat action on the closest creature to you. If multiple targets are the closest creature to you, you select one at random.
@@ -4593,7 +4593,7 @@ Effect: Reduce all sonic damage dealt within range by {15, 40, 100} while sustai
 
 *Rank 2-4 Guard*
 
-Cost: 8 portions
+Cost: 16 portions
 
 Range: Self
 
@@ -5706,7 +5706,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Choose up to {1, 2, 5} creatures that you can see within range. While sustained, each target is slowed; their movement is reduced to half (rounded down to a minimum of 1), they have 1 fewer reaction each turn, and they gain a +20 penalty to all **Dodge** skill tests and attack rolls.
+Effect: Choose up to {1, 2, 5} creatures that you can see within range. While sustained, each target is slowed while they remain within range; their movement is reduced to half (rounded down to a minimum of 1), they have 1 fewer reaction each turn, and they gain a +20 penalty to all **Dodge** skill tests and attack rolls.
 
 ### Split Second Gu
 
@@ -5931,7 +5931,7 @@ Effect: Your **Leg Muscles** grow thick and fibrous. Whenever you jump, double y
 ### Jade Skin Gu
 *Rank 1-5 Guard*
 
-Cost: 10 portions
+Cost: 16 portions
 
 Range: Self
 
@@ -5983,7 +5983,7 @@ Effect: Your teeth grow red hot and your saliva boils from your mouth while sust
 
 *Rank 2 Guard*
 
-Cost: 9 portions
+Cost: 10 portions
 
 Range: Self
 
@@ -6552,7 +6552,7 @@ Effect: 5 liters of fresh water pours from your fingertip. If poured on a creatu
 
 *Rank 1-3 Guard*
 
-Cost: 5 portions
+Cost: 10 portions
 
 Range: Self
 
@@ -6598,7 +6598,7 @@ Effect: A 1 meter radius geyser, centered on a square you can see within range, 
 ### Jelly Bubble Gu
 *Rank 2 Guard*
 
-Cost: 7 portions
+Cost: 10 portions
 
 Range: Self
 
@@ -6651,7 +6651,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Effect: An arrow of water spinning at breakneck speed is launched from your palm at a target you can see within range. Make an attack roll; on a hit, deal 70 force damage and the target gains the *doused* condition.
+Effect: An arrow of water spinning at breakneck speed is launched from your palm at a target within range. Make an attack roll; on a hit, deal 70 force damage and the target gains the *doused* condition.
 
 ### Spring Rain Gu
 
@@ -6720,7 +6720,7 @@ Effect: Water rushes from the earth in a line {4, 8} meters long and {4, 8} mete
 
 *Rank 3 Guard*
 
-Cost: 12 portions
+Cost: 25 portions
 
 Range: Self
 
@@ -6787,7 +6787,7 @@ Range: 5 meters
 Health: 4
 Food: <!-- TODO ->
 
-Effect: You condense a rope of clouds. You may throw the rope like a lasso at a creature you can see within range as a bonus action. Make an attack roll; on a hit, the creature gains the *restrained* condition. If you miss, the effect ends. The creature can attempt to break free by making an **Athletics** skill test with a +10 penalty. If they succeed, this effect ends.
+Effect: You condense a rope of clouds. You may throw the rope like a lasso at a creature within range as a bonus action. Make an attack roll; on a hit, the creature gains the *restrained* condition. If you miss, the effect ends. The creature can attempt to break free by making an **Athletics** skill test with a +10 penalty. If they succeed, this effect ends.
 
 As an activation, you may duplicate the cloud rope. Doing so increases the penalty on the **Athletics** test by +10, stacking up to a total of a +100 penalty.
 
@@ -7568,7 +7568,7 @@ As a bonus action, you may transform back into your original form and end this e
 
 *Rank 3 Guard*
 
-Cost: 5 portions
+Cost: 15 portions
 
 Range: Self
 
