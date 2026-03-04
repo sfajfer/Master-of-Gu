@@ -40,7 +40,7 @@ Taking flight no longer expends one of your Maneuvers per turn. Your **Flying** 
 
 ### Glib
 
-*Cost: 60 experience*
+*Cost:* 60 experience
 
 Your Attitude attribute is permanently increased by 5. You gain advantage on **Haggle** and **Persuasion** skill tests.
 
@@ -88,6 +88,8 @@ You may make the *Grapple* combat action as an attack of opportunity. You still 
 
 *Can be purchased up to 3 times*
 
+*Cannot be learned through downtime*
+
 Your maximum hit points are increased by 5, and you gain a -10 bonus to all **Perseverance** attribute tests.
 
 ### Partial Artist
@@ -113,6 +115,8 @@ Whenever a creature within your melee range makes a melee attack against your al
 ### Tough
 
 *Cost:* 60 experience
+
+*Cannot be learned through downtime*
 
 Your base hit points are equal to twice your Fortitude.
 
@@ -142,6 +146,8 @@ If a Gu is very close in form to the chosen weapon, you still get this bonus. Th
 *Requires Fundamental Food Path Attainment*
 
 *Can be purchased up to 3 times*
+
+*Cannot be learned through downtime*
 
 Your Fortitude is permanently increased by 5, your weight is increased by 25 kilograms, and your movement is reduced by 1. If you purchase this talent 3 times, your size becomes [**Large**].
 
@@ -303,23 +309,23 @@ You gain access to the Yin Yang refinement technique. When you use the Yin Yang 
 
 :::
 
-## Path Attainments
+## Attainment
 
-It's difficult to use Gu of a path you aren't familiar with. Every character starts with *Fundamental* attainment in a single path. Oftentimes, a Gu Master that achieves master level attainment in any path gains great fame for their accomplishment, and may be contacted by other forces to refine Gu or complete difficult tasks related to the path.
+It's difficult to use and improve Gu of a path you aren't familiar with. Every character starts with *Fundamental* Attainment in a single path. Oftentimes, a Gu Master that achieves Master Attainment in any path gains fame for their accomplishment, and may be contacted by other forces to refine Gu or complete difficult tasks related to the path.
 
-You cannot purchase a path attainment unless you have purchased all previous attainments in the same path. So you cannot purchase master attainment in a path unless you also have purchased fundamantal and intermediate attainment. Finally, you cannot gain attainment in Human Path.
+You cannot purchase Attainment unless you have purchased all previous Attainments in the same path. So you cannot purchase Master Attainment in a path unless you also have purchased Fundamantal and Intermediate Attainment. Finally, you cannot gain Attainment in Human Path.
 
 ### [Path] Attainment
 
 **Fundamental**
 
-*Cost:* 30 experience
+*Cost:* 45 experience
 
 You gain an additional bonus action that can only be used to activate a single [Path] Gu on your turn.
 
 **Intermediate**
 
-*Cost:* 50 experience
+*Cost:* 90 experience
 
 Your understanding of [Path] has reached a qualitative change, and you gain the following benefits:
 
@@ -329,7 +335,7 @@ Your understanding of [Path] has reached a qualitative change, and you gain the 
 
 **Master**
 
-*Cost:* 100 experience
+*Cost:* 135 experience
 
 Your understanding of [Path] reaches the apex of mortal comprehension. You gain the following benefits:
 

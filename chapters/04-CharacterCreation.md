@@ -34,6 +34,8 @@ Your Movement is the number of meters you can move in a turn. Your Movement is 4
 ### Strength
 Your body's physical power. Strength is often overlooked by Gu Masters, as even rank 1 Gu can overpower the strongest of mortals. But battles are unpredictable, and when primeval essence runs dry Gu Masters may resort to a fistfight. Though this statistic is more relevant at rank 1, some Gu Masters choose to use Gu to enhance their strength and rely on their own muscles to pound their enemies into meat paste. Your Strength score begins equal to your Fortitude and affects the amount of damage you deal with attacks where your physical strength is a factor.
 
+If your Strength attribute is ever reduced to 0, you immediately fall unconscious. If it remains 0 for a minute straight, you die.
+
 ### Perseverance 
 Your Perseverance is your ability to endure great pain and stress, and is equal to the sum of your Fortitude and 1/2 of your Attitude, rounded down. Perseverance is rolled when you hit 0 Hit Points.
 

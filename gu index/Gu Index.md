@@ -186,9 +186,9 @@ Health: 2
 
 Food: {4, 9, 16, 25} liters of blood
 
-Keywords: [**Investigative**]
+Keywords: [**Investigative: Detect**]
 
-Effect: You immediately sense the exact location of any creatures related to you by blood within range. You do not gain any information other than where they are.
+Effect: You immediately sense the exact location of any creatures related to you by blood within range.
 
 ### Blood Skull Gu
 *Rank 4-5 Carver*
@@ -437,7 +437,7 @@ Health: 5
 
 Food: <!-- TODO ->
 
-Effect: You touch a Gu and Dark Toss Gu wraps itself around it. That Gu cannot be detected by [**Investigative**] Gu at or below the rank of Dark Toss Gu. Dark Toss Gu can be deactivated by touching it and expending 1 portion of primeval essence.
+Effect: You touch a Gu and Dark Toss Gu wraps itself around it. Both that Gu and Dark Toss Gu cannot be detected by [**Investigative**] Gu at or below the rank of Dark Toss Gu. Dark Toss Gu can be deactivated by touching it and expending 1 portion of primeval essence.
 
 ### Multiple Sword Shadow Gu
 
@@ -1888,7 +1888,7 @@ If your cultivation increases while you have refined primeval essence, it become
 
 *Rank 5 Catalyst*
 
-Cost: 40 portions
+Cost: 300 portions
 
 Range: Touch
 
@@ -1896,9 +1896,9 @@ Health: 1
 
 Food: <!-- TODO ->
 
-Keywords: [**Expendable**], [**Ingredient**], [**Investigative**]
+Keywords: [**Expendable**], [**Ingredient**], [**Investigative: Detect**]
 
-Effect: You add Omniscient Salad Gu to a meal that you prepare. Affected creatures know everything that happens within 25 meters of themselves.
+Effect: You add Omniscient Salad Gu to a meal that you prepare. Affected creatures know everything that happens within 25 meters of themselves. They can react to [**Unreactable**] Gu as if they did not have the [**Unreactable**] keyword
 
 ### Rabbit Feet Gu
 
@@ -2769,7 +2769,7 @@ Health: 8
 
 Food: <!-- TODO ->
 
-Keywords: [**Investigative**]
+Keywords: [**Investigative: Sight**]
 
 Effect: A floating prism manifests in a square adjacent to you, casting spectrums of light in a 5 meter radius. Anything within range being disguised or concealed by a Gu of rank {1, 2, 3, 4, 5} or lower is revealed, and any bodily fluid stains within range glow a dim blue.
 
@@ -4345,7 +4345,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Keywords: [**Investigative**]
+Keywords: [**Investigative: Detect**]
 
 Effect: A spectral, invisible ghost eye appears next to you. You see through it as if it were your third eye, and can direct it to move up to 10 meters as an activation. The eye can move through walls and obstacles, as well as barriers created by Gu of rank {1, 2} or lower. The eye disappears {at the end of your next turn, after 1 hour}.
 
@@ -4490,7 +4490,7 @@ Health: 11
 
 Food: 5 maximum soul strength from a creature with a soul
 
-Keywords: [**Investigative**]
+Keywords: [**Investigative: Detect**]
 
 Effect: You immediately sense the precise location of any creature with a soul, so long as the creature is within (5 + creature's current soul strength) meters of you.
 
@@ -4507,7 +4507,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**]
 
-Effect: Your Strength attribute is permanently reduced by 5. Your maximum Soul is permanently increased by 5. If your Strength attribute is reduced to 0, you die. Soul Strength Gu's effect can stack any number of times.
+Effect: Your Strength attribute is permanently reduced by 5. Your maximum Soul is permanently increased by 5. Soul Strength Gu's effect can stack any number of times.
 
 ### Spirit Incubating Flea Gu
 *Rank 3 Catalyst*
@@ -4555,7 +4555,7 @@ Health: 4
 
 Food: 100 g Autumn Voice Grass (4 primeval stones)
 
-Keywords: [**Investigative**], [**Sustained**]
+Keywords: [**Investigative: Hearing**], [**Sustained**]
 
 Effect: While sustained, your hearing grows extremely sensitive. You can hear all noises made within range and judge their exact location. You have vulnerability to sonic damage.
 
@@ -5432,6 +5432,38 @@ Whenever you are targeted by an attack from a Sword Path Gu or a physical weapon
 
 ::: columns
 
+### Borrow {Ten, One Hundred} Jun Gu
+
+*Rank 3-4 Attack*
+
+Cost: 45 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: You touch a creature and violently extract their physical power. Their Strength attribute is reduced by {10, 100} (to a minimum of 0), and your Strength attribute is increased by {10, 100} while sustained.
+
+### Grand Thief Hand Gu
+
+*The pinnacle of Theft Path's extraction. A ghostly hand that bypasses defenses to plunge directly into an enemy's aperture.*
+
+*Rank 5 Attack*
+
+Cost: 80 portions
+
+Range: 3 meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: A ghostly hand materializes and plunges into the aperture of a Gu Master you can see within range. A Gu from their aperture is grabbed and teleported into your aperture. If you can see inside their aperture, you may pick a Gu; one is selected at random otherwise.
+
 ### Gu Laundering Gu
 
 *A shiny green dung beetle.*
@@ -5448,15 +5480,83 @@ Food: Activating Gu Laundering Gu counts as feeding it.
 
 Effect: Gu Laundering Gu devours a target Gu of rank {1, 2, 3, 4, 5} or lower. Over the course of an hour, it spins a silk sac and implants it with a number of primeval stones based the the devoured Gu's rank:
 
-Rank 1: 50 primeval stones
 
-Rank 2: 200 primeval stones
+\begin{tabular}{ll}
+\textbf{Rank} & \textbf{Primeval Stones} \\
+\hline
+1 & 50 \\
+2 & 200 \\
+3  & 1,000 \\
+4 & 5,000 \\
+5 & 25,000 \\
+\end{tabular}
 
-Rank 3: 1,000 primeval stones
+### Identity Theft Gu
 
-Rank 4: 5,000 primeval stones
+*Rank 4 Concealment*
 
-Rank 5: 25,000 primeval stones
+Cost: 60 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable**]
+
+Effect: You touch a human or variant human, or a corpse belonging to a human or variant human. Your face, body, voice, and even blood are permanently transformed to perfectly match theirs. You are completely indistinguishable from the target, fooling all [**Investigative**] Gu of rank 4 or lower. You retain your own attributes, skills, and memories.
+
+If you interact with a creature that knew the target, the GM may call you to make an opposed skill test of your **Deception** against that creature's **Insight**; You and the creature both gain a bonus or penalty depending on how well you each knew the target's mannerisms:
+
+\begin{tabular}{ll}
+\textbf{Familiarity} & \textbf{Bonus/Penalty} \\
+\hline
+Never met & +40 \\
+Met a few times & +20 \\
+Familiar  & 0 \\
+Friends & -20 \\
+Close friends & -40 \\
+Extremely close; family or spouse & -60 \\
+\end{tabular}
+
+If you lose the skill test, the creature becomes suspicious of you. If you had 4 or more degrees of failure or rolled a fumble, they realize you are an impostor.
+
+### Invade Aperture Gu
+
+*Rank 4 Divination*
+
+Previous Rank: Size Up Gu
+
+Cost: 40 portions
+
+Range: 5 meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Investigative: Detect**]
+
+Effect: Choose a Gu Master that you can see within range. You can sense everything in their aperture and their locations while sustained.
+
+### Least Resistance Gu
+
+*A silver stickbug.*
+
+*Rank 3 Divination*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Deductive**]
+
+Effect: Your thoughts bubble above your head. When you use Least Resistance Gu to make a *Deduction* action, you gain a -30 bonus to **Deduction** skill tests made to plan a stealthy infiltration.
 
 ### Leech Life Gu
 
@@ -5472,7 +5572,7 @@ Health: 6
 
 Food: <!-- TODO ->
 
-Effect: When you kill a creature, you may activate Leech Life Gu as a reaction to regain hit points equal to 10% of the dead creature's maximum HP.
+Effect: When you kill a creature, you may activate Leech Life Gu as a reaction to regain hit points equal to 10% of the dead creature's maximum hit points (rounded down to a minimum of 1).
 
 ### Plagiarism Gu
 
@@ -5484,7 +5584,7 @@ Cost: 5 portions
 
 Range: Touch
 
-Health: 8
+Health: 3
 
 Food: 5 written Gu recipes (not made by you)
 
@@ -5497,15 +5597,51 @@ Effect: When following a Gu refinement recipe, you may activate Plagiarism Gu to
 
 Cost: 5 portions
 
-Range: 4 meters
+Range: 3 meters
 
-Health: 8
+Health: 2
 
 Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you attempt to pull a random Gu from the aperture of a Gu Master within range at the start of each of your turns. You and the target make an opposed **Agility** skill test. If you win, you pull a random Gu from their aperture and into your own. If you leave your current square for any reason while sustaining Plunder Gu, it deactivates and takes 1d4 damage.
+Effect: While sustained, you wiggle your finger and attempt to pull a random Gu from the aperture of a Gu Master within range at the start of each of your turns. **Dodge** skill tests made to avoid this   you pull a random Gu from their aperture and into your own. If you leave your current square for any reason while sustaining Plunder Gu, it deactivates and takes 1d4 damage.
+
+### Size Up Gu
+
+*A tiny beetle with a pattern like shattered glass on its carapace.*
+
+*Rank 3 Divination*
+
+Next Rank: Invade Aperture Gu
+
+Cost: 8 portions
+
+Range: 10 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Investigative: Detect**]
+
+Effect: Choose a creature that you can see within range. You immediately know how many Gu are in their aperture as well as the highest rank between all Gu in their aperture.
+
+### Smuggler's Den Gu
+
+*Rank 1-5 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: A small pocket of Theft Path dao is placed within the primeval sea of your **Aperture**. [**Investigative**] Gu of rank {1, 2, 3, 4, 5} and lower that glimpse inside your aperture cannot see the pocket or anything inside of it. You can stow or withdraw an object or Gu of rank {1, 2, 3, 4, 5} or lower from the pocket as a bonus action. If an object, it must be smaller than 50 cubic centimeters in volume; the pocket can store up to {2, 5, 12, 30, 80} kilograms worth of objects and any number of Gu.
 
 ### Steal Luck Gu
 *Rank 1 attack*
@@ -5522,9 +5658,103 @@ Keywords: [**Undodgeable**]
 
 Effect: Choose a target you can see within range. If the target currently has a luck point and your luck points are below their maximum, you steal 1 luck point from the target.
 
+[**Upgrade Path: Steal Sense Gu**]
+
+### Steal Touch Gu
+
+*Rank 1 Tonic*
+
+Next Rank: Steal Hearing Gu, Steal Sight Gu
+
+Cost: 5 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: A creature you touch loses their sense of touch and taste while sustained. They gain advantage on **Perseverance** attribute tests made to overcome pain, such as from the *ablaze* condition and when they roll to see if they enter *Final Stand*.
+
+### Steal Hearing Gu
+
+*Rank 2 Attack*
+
+Previous Rank: Steal Touch Gu
+
+Next Rank: Steal Sense Gu
+
+Cost: 10 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: A creature you touch loses their sense of hearing. They gain the *deafened* condition while sustained.
+
+### Steal Sight Gu
+
+*Rank 2 Attack*
+
+Previous Rank: Steal Touch Gu
+
+Next Rank: Steal Sense Gu
+
+Cost: 25 portions
+
+Range: Touch
+
+Health: 1
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: A creature you touch loses their sense of sight. They gain the *blinded* condition while sustained.
+
+### Steal Sense Gu
+
+*Rank 3 Attack*
+
+Previous Rank: Steal Hearing Gu, Steal Sight Gu
+
+Cost: 15 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: A creature you touch loses all their senses while sustained. They gain the *blinded* and *deafened* conditions and gain advantage on **Perseverance** attribute tests made to overcome pain, such as from the *ablaze* condition and when they roll to see if they enter *Final Stand*.
+
+[**END**]
+
+### Transfer Momentum Gu
+
+*Rank 2 Guard*
+
+Cost: 4 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: Can only be activated as a reaction to a creature missing you with a melee attack. You steal the momentum of their strike, stopping them in their tracks and making you immediately move a number of meters equal to 2% of the triggering creature's Strength attribute (rounded down to a minimum of 1) in a straight line without triggering attacks of opportunity. If you hit a wall or creature, you and the wall or creature take force damage equal to 2% of the triggering creature's Strength attribute.
+
 ### Void Pocket Gu
 
-*Rank 3 Carver*
+*Rank 1 Carver*
 
 Cost: 50 portions
 
@@ -5536,7 +5766,7 @@ Food: A stolen Gu
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: A small "fold" is permanently created on your **Head** in the space behind your ear. This void pocket can store one [Small] object or Gu. Items stored here cannot be detected by [**Investigative**] Gu of Rank 3 or lower and do not count toward your carried weight.
+Effect: A small fold is permanently etched into your **Head** in the space behind your ear. This void pocket can store one Gu or object smaller than 10 cubic centimeters. Items stored here cannot be detected by [**Investigative**] Gu of rank 1 and do not count toward your carried weight.
 
 :::
 \newpage
@@ -7092,7 +7322,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Keywords: [**Investigative**]
+Keywords: [**Investigative: Detect**]
 
 Effect: You immediately detect the exact location of any Gu within range that are outside of an aperture.
 
@@ -7428,7 +7658,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Keywords: [**Dao**], [**Expendable**], [**Investigative**]
+Keywords: [**Dao**], [**Expendable**], [**Investigative: Sight**]
 
 Effect: A vertical **Eye** is permanently opened on your forehead, allowing you to see through it at all times, even when you're asleep.
 
@@ -7758,7 +7988,7 @@ Health: 8
 
 Food: 1 kilogram of grass and 1 kilogram of soil
 
-Keywords: [**Dao**], [**Investigative**], [**Sustained**]
+Keywords: [**Dao**], [**Investigative: Hearing**], [**Sustained**]
 
 Effect: Before being activated, the user of Earth Communication Ear Grass Gu must cut off one of their **Ears** and allow Earth Communication Ear Grass Gu to take its place. While sustained, roots extend from the replaced ear and allow you to hear all noises, big or small, made within range. If you put the ear to the ground, the roots connect to it and extend the range to 100 meters, but you can only hear things on top of or in the earth.
 

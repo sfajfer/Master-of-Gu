@@ -283,7 +283,7 @@ If a creature is only partially obscured by cover, they have partial cover; they
 
 ### Touch
 
-You must be within 1 meter of a creature to hit them with an attack with a range of *touch.* Touch attacks can be reacted to, but [**Shield**] Gu do not block touch attacks unless noted in the Gu's description, such as Jelly Bubble Gu.
+You must be within 1 meter of a creature to hit them with an attack with a range of *touch.* Touch attacks can be reacted to, but [**Shield**] Gu do not block touch attacks unless noted in the Gu's description, such as Jelly Bubble Gu. You can target yourself with Touch attacks.
 
 ### Area of Effect Attacks
 
