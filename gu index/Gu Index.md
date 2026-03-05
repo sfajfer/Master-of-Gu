@@ -7017,7 +7017,7 @@ Range: 5 meters
 Health: 4
 Food: <!-- TODO ->
 
-Effect: You condense a rope of clouds. You may throw the rope like a lasso at a creature within range as a bonus action. Make an attack roll; on a hit, the creature gains the *restrained* condition. If you miss, the effect ends. The creature can attempt to break free by making an **Athletics** skill test with a +10 penalty. If they succeed, this effect ends.
+Effect: You condense a rope of clouds. You may throw the rope like a lasso at a creature within range as a bonus action. Make an attack roll; on a hit, the creature gains the *restrained* condition. If you miss, the effect ends. The creature can use a combat action to attempt to break free by making an **Athletics** skill test with a +10 penalty. If they succeed, this effect ends.
 
 As an activation, you may duplicate the cloud rope. Doing so increases the penalty on the **Athletics** test by +10, stacking up to a total of a +100 penalty.
 

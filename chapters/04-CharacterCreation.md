@@ -75,7 +75,7 @@ Aptitude is just an arbitrary grading of the amount of primeval essence a Gu Mas
 **Grade - D:** 20%-39%
 
 ## Attainment
-Attainment is your understanding of the different Gu paths. That includes your knowledge of refining, using, and identifying Gu of the same path. You can find the different attainments in the Talents section (Chapter 2. Progression), and your character begins the game with *Fundamental* attainment in a single path.
+Attainment is your understanding of the different Gu paths. That includes your knowledge of refining, using, and identifying Gu of the same path. You can find the different Attainments in the Talents section (Chapter 2. Progression), and your character begins the game with 50 free experience invested in a single path.
 
 ## Starting Items
 All characters start with a Gu Master robe, a Vital Gu of rank 1, and 25 primeval stones. At the GM's discretion (for price and availability) you may trade your starting primeval stones for additional rank 1 Gu.

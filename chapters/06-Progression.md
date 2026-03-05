@@ -42,9 +42,9 @@ Gu Masters have many different activities available to them during downtime. Cul
 
 To study, you must first acquire a teacher or their recorded instructional material such as a book or Information Path Gu. Your progress is quickened or slowed depending on the quality of your teacher or reading material.
 
-For every 8 hours spent learning with a tutor, you gain 1, 3, or 9 experience, depending on if the teacher has Fundamental, Intermediate, or Master Attainment (respectively) in the path you are trying to learn. This experience should be tracked separately from your overall experience, as it can only be used to purchase Attainment in the path being studied.
+For every 8 hours spent learning with a tutor, you invest 2, 5, or 12 experience, depending on if the teacher has *Fundamental*, *Intermediate*, or *Master* Attainment (respectively) in the path you are trying to learn.
 
-Skilled tutors are available for hire in most mid to large-sized clans; Those with Fundamental Attainment charge around 50 primeval stones, while those with Intermediate Attainment charge around 200 primeval stones per 8 hour session. Masters of a path are difficult to find, often being highly ranked or very old lone cultivators. Many are in charge of entire forces, and unwilling to teach for mere primeval stones if anything at all. If you do find a master willing to teach you, they will often ask for a favor in return.
+Skilled tutors are available for hire in most mid to large-sized clans; Those with *Fundamental* Attainment charge around 50 primeval stones, while those with *Intermediate* Attainment charge around 200 primeval stones per 8 hour session. Masters of a path are difficult to find, often being highly ranked or very old lone cultivators. Many are in charge of entire forces, and unwilling to teach for mere primeval stones if anything at all. If you do find a master willing to teach you, they will often ask for a favor in return.
 
 When learning a path from recorded material, the experience gained is halved (to a minimum of 1), and is dependent on the Attainment of the author when it was created.
 
@@ -54,6 +54,6 @@ You can also learn Talents from others as long as they have purchased the Talent
 
 ### Instructing Others
 
-Personally instructing others can be fulfilling and a good learning experience. When you successfully teach someone else a Talent, you gain 2 experience. When you successfully teach someone an Attainment, you gain 5 experience.
+Personally instructing others can be fulfilling and a good learning experience. You gain 1 experience every 8 hour session spent teaching an Attainment. When you successfully teach someone else a Talent, you gain 2 experience.
 
 \newpage

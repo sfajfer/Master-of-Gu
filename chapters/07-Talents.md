@@ -309,23 +309,25 @@ You gain access to the Yin Yang refinement technique. When you use the Yin Yang 
 
 :::
 
+\newpage
+
 ## Attainment
 
-It's difficult to use and improve Gu of a path you aren't familiar with. Every character starts with *Fundamental* Attainment in a single path. Oftentimes, a Gu Master that achieves Master Attainment in any path gains fame for their accomplishment, and may be contacted by other forces to refine Gu or complete difficult tasks related to the path.
+It's difficult to use and improve Gu of a path you aren't familiar with. Oftentimes, a Gu Master that achieves Master Attainment in any path gains fame for their accomplishment, and may be contacted by other forces to refine Gu or complete difficult tasks related to the path.
 
-You cannot purchase Attainment unless you have purchased all previous Attainments in the same path. So you cannot purchase Master Attainment in a path unless you also have purchased Fundamantal and Intermediate Attainment. Finally, you cannot gain Attainment in Human Path.
+Attainment in each path is tracked on your character sheet by the amount of experience invested in it. Whenever you can spend experience to purchase talents or improve your attributes and skills, you may choose to invest experience in specific paths. When you reach the threshold of invested experience in a path, you gain the Attainment as if it were a Talent. This means once you have invested 250 total experience in a path, you will have *Fundamental*, *Intermediate*, and *Master* Attainment in that path. You can also gain experience in a path by creating and improving recipes, deducing killer moves, and refining Gu that belong to that path. Every character starts with 50 experience invested in a single path.
 
 ### [Path] Attainment
 
 **Fundamental**
 
-*Cost:* 45 experience
+*Threshold:* 50 experience
 
 You gain an additional bonus action that can only be used to activate a single [Path] Gu on your turn.
 
 **Intermediate**
 
-*Cost:* 90 experience
+*Threshold:* 120 experience
 
 Your understanding of [Path] has reached a qualitative change, and you gain the following benefits:
 
@@ -335,7 +337,7 @@ Your understanding of [Path] has reached a qualitative change, and you gain the 
 
 **Master**
 
-*Cost:* 135 experience
+*Threshold:* 250 experience
 
 Your understanding of [Path] reaches the apex of mortal comprehension. You gain the following benefits:
 

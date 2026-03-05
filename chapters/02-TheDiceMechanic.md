@@ -20,8 +20,10 @@ Penalties and bonuses are a number added or subtracted from the number you roll 
 
 | Penalty/Bonus | Difficulty |
 | ----- | ----- |
-|      +80       | Nearly Impossible (Traveling against the Reverse Flow River) |
-|      +60       | Extreme Difficulty (Refining an Immortal Gu) |
+|      +120      | Impossible (Traveling against the Reverse Flow River) |
+|      +100      | Unheard of (Refining an Immortal Gu) |
+|      +80       | Extreme Difficulty (Convincing a Wisdom Path master to change their plans) |
+|      +60       | Impossible for most without the use of Gu (Convincing a Wisdom Path master to change their plans) |
 |      +40       | High Difficulty (Convincing a Wisdom Path master to change their plans) |
 |      +20       | Difficult (Cultivating with minor distractions) |
 |       0        | Challenging (Cultivating in a secret room) |
