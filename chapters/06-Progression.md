@@ -1,7 +1,7 @@
 # Chapter 2 - Progression
 
 ## Cultivating
-The process of increasing your rank in small and large realms is called cultivating. To cultivate, you must meditate and will the primeval essence in your aperture to attack and weaken the aperture walls. To do so, first figure out how many portions of primeval essence will be required to break through the realm. For small realms, the amount is given by the table below. For large realms, the amount is (1000 * target rank) portions.
+The process of increasing your rank in small and large realms is called cultivating. To cultivate, you must meditate and will the primeval essence in your aperture to attack and weaken the aperture walls. To do so, first figure out how many portions of primeval essence will be required to break through the realm, as given by the table below:
 
 | Stage | Name | Aperture Wall | Wall Hit Points |
 | ----- | ----- | ----- | ----- | 

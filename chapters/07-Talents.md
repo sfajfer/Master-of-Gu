@@ -14,7 +14,7 @@ geometry:
 
 *Cost:* 20 experience
 
-When you take the *Sprint* combat action, you may make a single punching attack or activate a Gu with a range of *Touch* at some point during your turn. If you make a punching attack and it hits, the target is thrown backward a number of meters equal to 1% of your Strength attribute (rounded down), to a minimum of 0. Making the attack or activating a Gu with a range of *Touch* expends the remainder of your movement.
+When you take the *Sprint* combat action, you may make a single punch attack or activate a Gu with a range of *Touch* at some point during your turn. If you make a punch attack and it hits, the target is thrown backward a number of meters equal to 1% of your Strength attribute (rounded down), to a minimum of 0. Making the attack or activating a Gu with a range of *Touch* expends the remainder of your movement.
 
 ### Combat Absorption
 
@@ -30,7 +30,7 @@ You can multitask on absorbing primeval stones in the heat of combat. Absorbing 
 
 You gain access to the **Flurry** combat action.
 
-*Flurry:* For every arm you have, make two punching attacks against a creature within 1 meter. You gain a +20 penalty to **Dodge** skill tests and **Close Combat** skill tests made to parry attacks until the start of your next turn.
+*Flurry:* For every arm you have, make two punch attacks against a creature within 1 meter. You gain a +20 penalty to **Dodge** skill tests and **Close Combat** skill tests made to parry attacks until the start of your next turn.
 
 ### Flying Master
 
@@ -157,7 +157,7 @@ Your Fortitude is permanently increased by 5, your weight is increased by 25 kil
 
 *Requires Fundamental Strength Path Attainment*
 
-You gain a -10 bonus to **Athletics** skill tests resulting from a *Grapple* combat action. When you successfully grapple a creature, you may make a single punching attack against them as part of the *Grapple* combat action.
+You gain a -10 bonus to **Athletics** skill tests resulting from a *Grapple* combat action. When you successfully grapple a creature, you may make a single punch attack against them as part of the *Grapple* combat action.
 
 :::
 

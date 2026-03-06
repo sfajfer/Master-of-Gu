@@ -42,9 +42,9 @@ Taking flight can only be done when on the ground. You rise a number of meters i
 You move a number of meters equal to your flying speed in a straight line in any direction.
 
 #### Dive
-You must be at least 5 meters above the ground to perform a *Dive*. Make a **Flying** skill test. On a success, you dive down a distance of up to triple your flying speed, and can move up to your flying speed in meters forward. When you finish a *Dive*, you may make a single weapon or punching attack or activate a Gu with a range of touch targeting a creature within your melee range. Whether you do or not, you can try to execute a *Land* maneuver or else rise 1 meter directly upward at the end of the dive.
+You must be at least 5 meters above the ground to perform a *Dive*. Make a **Flying** skill test. On a success, you dive down a distance of up to triple your flying speed, and can move up to your flying speed in meters forward. When you finish a *Dive*, you may make a single weapon or punch attack or activate a Gu with a range of touch targeting a creature within your melee range. Whether you do or not, you can try to execute a *Land* maneuver or else rise 1 meter directly upward at the end of the dive.
 
-If you make a weapon or punching attack at the end of your dive, it deals additional force damage equal to your flying speed.
+If you make a weapon or punch attack at the end of your dive, it deals additional force damage equal to your flying speed.
 
 If you fail the test, you dive directly downward a number of meters equal to your flying speed before regaining control. If this would cause you to hit the ground, you do so, are no longer *airborne*, and take 4 force damage for every meter you dove.
 
@@ -102,7 +102,7 @@ When you make an attack roll against a creature, you can choose to pick a partic
 | Huge | -40 |
 
 ### Grapple
-Select an enemy of equal or lesser size in an adjacent square. Roll an opposed **Athletics** skill test against them. If you win, The creature is *restrained* and now occupies the same square as you while *restrained* in this way. While you are grappling a creature, you may not make kicking attacks and the number of free hands you can make punching attacks with using the **Melee Attack** action is reduced by 1. 
+Select an enemy of equal or lesser size in an adjacent square. Roll an opposed **Athletics** skill test against them. If you win, The creature is *restrained* and now occupies the same square as you while *restrained* in this way. While you are grappling a creature, you may not make kicking attacks and the number of free hands you can make punch attacks with using the **Melee Attack** action is reduced by 1. 
 
 You may expend your movement to make an **Athletics** skill test, with a +10 penalty for every 50 kilograms the grappled target weighs. On a success, you can move up to half your movement (rounded down).
 
@@ -236,7 +236,7 @@ When you sleep, you regain 1 hit point for every hour spent sleeping.
 ## Status Effects
 
 ### Ablaze
-A creature with the *ablaze* condition is completely engulfed in flames. An *ablaze* creature cannot have or gain the *burning* condition. If a creature with the *burning* condition gains the *ablaze* condition, the *burning* condition is removed. At the start of each of their turns, the creature takes 30 heat damage. If a creature takes heat damage to their hit points on a turn from the *ablaze* condition, at the end of the turn they must succeed a **Perseverance** attribute test or else fall unconscious. For creatures and Gu invulnerable or resistant to heat damage, consider damage dealt by the *ablaze* condition to be of the rank of the Gu that applied the *ablaze* condition, or rank 1 if the fire was natural. Being submerged in water removes the *ablaze* condition.
+A creature with the *ablaze* condition is completely engulfed in flames. An *ablaze* creature cannot have or gain the *burning* condition. If a creature with the *burning* condition gains the *ablaze* condition, the *burning* condition is removed. At the start of each of their turns, the creature takes 30 heat damage. If a human or variant human takes heat damage to their hit points on a turn from the *ablaze* condition, at the end of the turn they must succeed a **Perseverance** attribute test or else fall unconscious. For creatures and Gu invulnerable or resistant to heat damage, consider damage dealt by the *ablaze* condition to be of the rank of the Gu that applied the *ablaze* condition, or rank 1 if the fire was natural. Being submerged in water removes the *ablaze* condition.
 
 ### Bleeding X
 *Bleeding* creatures take 1 damage directly to their hit points at the start of each of their turns for every stack of *bleeding*. This damage has no type and cannot be reduced by Gu. Levels of *bleeding* can stack additively from the same or different sources. For every hit point a *bleeding* creature restores, reduce the number of *bleeding* stacks they have by 1.
@@ -248,7 +248,7 @@ A creature with the *ablaze* condition is completely engulfed in flames. An *abl
 *Burning* creatures take 10 heat damage at the start of each of their turns. For creatures and Gu invulnerable or resistant to heat damage, consider damage dealt by the *burning* condition to be of the rank of the Gu that applied the *burning* condition, or rank 1 if the fire was natural. Being submerged in water removes the *burning* condition. A creature can use their combat action to roll around on the ground, removing the *burning* condition.
 
 ### Dazed
-A *dazed* creature's activations stat is reduced by 2. At the end of their turn, they lose the *dazed* condition.
+A *dazed* creature has their Activations attribute reduced by 2 and gains a +10 penalty to all **Dodge** skill tests. At the end of their turn, they lose the *dazed* condition.
 
 ### Deafened
 A *deafened* creature cannot hear, has resistance to sonic damage regardless of rank, and cannot make **Awareness** tests that rely on hearing.
@@ -263,7 +263,7 @@ A *fatigued* creature's movement is reduced by 3 meters and makes all **Dodge** 
 Poison can have any number of effects, and a creature can gain multiple instances of the *poisoned* condition so long as each is unique. 
 
 ### Prone
-A *prone* creature has a +30 penalty to all skill tests and automatically fails all **Dodge** skill tests. **Close Combat** skill tests made to hit a *prone* creature are made with a -10 bonus. **Ranged Attack** skill tests made to hit a *prone* creature are made with a +10 penalty. A creature can expend half their movement to stand up.
+A *prone* creature has a +30 penalty to all skill tests and can only move 1 meter when they succeed a **Dodge** skill test. **Close Combat** skill tests made to hit a *prone* creature are made with a -10 bonus. **Ranged Attack** skill tests made to hit a *prone* creature are made with a +10 penalty. A creature can expend half their movement to stand up.
 
 ### Restrained
 A *restrained* creature's movement is 0. A *restrained* creature automatically fails all **Dodge** and **Flying** skill tests.
@@ -271,9 +271,12 @@ A *restrained* creature's movement is 0. A *restrained* creature automatically f
 ### Stunned
 A *stunned* creature cannot move or take any actions or reactions. At the end of their turn, they lose the *stunned* condition and gain the *dazed* condition.
 
+\newpage
+
 ## Attacks
 
 ### High Ground
+
 **Ranged Attack** skill tests are made with a -10 bonus if the target is at least 5 meters lower than you in elevation.
 
 ### Cover
@@ -289,12 +292,54 @@ You must be within 1 meter of a creature to hit them with an attack with a range
 
 When a creature is caught in an area of effect, they can dodge as a reaction, escaping the area of effect if they succeed and can move outside the area of effect.
 
+**Cone**
+
+A 3 meter long cone will spread to any square that could be reached using 3 meters of movement between two adjacent diagonals, such as pictured below:
+
+\begin{center}
+\includegraphics{./images/3mCone.png}
+\end{center}
+
 **Line**
 
-Lines have a height, width, and length. If the height is not specified, it is the same as the width. Usually, lines originate from a square adjacent to the Gu Master creating it, but some Gu such as Fire Curtain Gu allow the user to choose a source square. In that case, the source and end of the line must both be within the range of the Gu.
+Lines have a height, width, and length. If the height is not specified, it is the same as the width. Usually, lines originate from the Gu Master creating it, but some Gu such as Fire Curtain Gu allow the user to choose a source square. In that case, the source and end of the line must both be within the range of the Gu.
+
+::: columns
+
+*Valid 4 meter long lines*
+
+\begin{center}
+\includegraphics{./images/4x1LineLeft.png}
+\end{center}
+
+\begin{center}
+\includegraphics{./images/4x1LineCenter.png}
+\end{center}
+
+:::
+
+::: columns
+
+*Valid 5 meter long, 2 meter wide lines*
+
+\begin{center}
+\includegraphics{./images/5x2LineLeft.png}
+\end{center}
+
+\begin{center}
+\includegraphics{./images/5x2LineCenter.png}
+\end{center}
+
+:::
 
 **Radius**
 
-Circular area of effects will originate from a source square and have a radius. If an area of effect has a radius of 5 meters, it will effect the source square and any square that could be reached using 5 meters of movement from the source square. This translates to a square with a side length of 11 meters.
+Circular area of effects will originate from a source square and have a radius. If an area of effect has a radius of 3 meters, it will affect the source square and any square that could be reached using 3 meters of movement from the source square. This translates to a square with a side length of 7 meters.
+
+*3 meter radius*
+
+\begin{center}
+\includegraphics{./images/3mRadius.png}
+\end{center}
 
 \newpage

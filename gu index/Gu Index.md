@@ -69,6 +69,7 @@ Range: Self
 Health: 3
 
 Food: 50 liters of blood
+
 Keywords: [**Dao**], [**Sustained**], [**Transformation**]
 
 Effect: The roots of the blood demon flower pierce your flesh and wind around your limbs, and a great red flower sprouts from your head. Your flesh wrinkles and clings to your bones. 
@@ -691,7 +692,7 @@ Food: <!-- TODO ->
 
 Effect: Choose two 10 meter long, 1 meter wide lines. Large stones burst from the ground in the lines; any creatures that do not dodge are knocked *prone* to a random side of the line. The rocks are 5 meters tall and creatures have a +40 penalty to **Athletics** skill tests made to climb them. Dealing 50 hit points worth of damage to a square filled with rocks destroys them in that square, and the rocks have all damage dealt to them except sonic reduced by 100.
 
-While you remain within 2 meters of the square you originally activated Mountain Pass Gu, reduce all damage dealt to your hit points by 50. The rocks are permanent but the effect ends after 1 hour.
+While you remain within 2 meters of the square you originally activated Mountain Pass Gu, reduce all non-poison damage dealt to your hit points by 50. The rocks are permanent but the effect ends after 1 hour.
 
 ### Diaoyu Fortress Gu
 
@@ -709,7 +710,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**]
 
-Effect: Dense stone walls rise in a 5 meter by 5 meter square perimeter, centered on your square. Any creatures occupying a square the walls rise in that do not dodge are knocked *prone* to a random side of the wall. The walls are 3 meters high and **Athletics** skill tests made to climb them are made with a -10 bonus. While you are within the perimeter, including on top of the walls, you have resistance to all damage except for sonic and reduce all damage dealt to your hit points by 75. The walls are permanent but the effect ends after 1 day.
+Effect: Dense stone walls rise in a 5 meter by 5 meter square perimeter, centered on your square. Any creatures occupying a square the walls rise in that do not dodge are knocked *prone* to a random side of the wall. The walls are 3 meters high and **Athletics** skill tests made to climb them are made with a -10 bonus. While you are within the perimeter, including on top of the walls, you have resistance to all damage except for sonic and reduce all non-poison damage dealt to your hit points by 75. The walls are permanent but the effect ends after 1 day.
 
 [**END**]
 
@@ -742,7 +743,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: The knuckles on your **Hands** are permanently transformed into thick granite plates. Your punching attacks deal an additional 12 force damage, and you gain the following unarmed attack option:
+Effect: The knuckles on your **Hands** are permanently transformed into thick granite plates. Your punch attacks deal an additional 12 force damage, and you gain the following unarmed attack option:
 
 **Crush:** You slam your fists into either side of the target's head. Make a **Close Combat** skill test. On a success, deal 12 force damage, +1 damage for every 10 points you have in Strength.
 
@@ -833,6 +834,8 @@ Keywords: [**Sustained**]
 Effect: While sustained, you can sense the exact square a creature within range moves to as long as they are touching the ground. You also gain immunity to the *deafened* condition.
 
 ### Thousand-Li Earthwolf Spider Gu
+*Thousand-Li Earthwolf Spider Gu has an even temperament and does not often attack humans, but it goes berserk if exposed to light during refinement.*
+
 *Rank 5 Celerity*
 
 Cost: 1 portion
@@ -845,7 +848,47 @@ Food: 1000 kg of ordinary soil
 
 Keywords: [**Large**], [**Steed**], [**Sustained**]
 
-Effect: Thousand-Li Earthwolf Spider Gu has a base movement of 10 meters and can climb on walls and ceilings without making an **Athletics** skill test. Additionally, Thousand-Li Earthwolf Spider Gu has a digging speed of 3 meters in stone or soil. While sustained, Thousand-Li Earthwolf Spider Gu's movement becomes 50 meters and its digging speed becomes 15 meters.
+CR: 43
+
+\noindent
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Attributes} & \textbf{Value} \\ \hline
+HP & 500 \\ \hline
+Soul & - \\ \hline
+Movement & 10 \\ \hline
+Strength & 110 \\ \hline
+Agility & 90 \\ \hline
+Fortitude & 80 \\ \hline
+Cognition & 40 \\ \hline
+Wisdom & 80 \\ \hline
+Attitude & 10 \\ \hline
+\end{tabular}
+
+\vspace{0.5em}
+
+\noindent
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Skills} & \textbf{Value} \\ \hline
+Close Combat & 140 \\ \hline
+Ranged Attack & 90 \\ \hline
+Athletics & 145 \\ \hline
+Dodge & 90 \\ \hline
+Awareness & 80 \\ \hline
+\end{tabular}
+
+\vspace{0.5em}
+
+**Combat Actions**
+
+**Multiattack.** Thousand-Li Earthwolf Spider Gu makes 2 Bite attacks.
+
+**Bite.** *Melee Attack, 1 meter.* Thousand-Li Earthwolf Spider Gu bites a target with its fangs. On a hit, deal 70 force damage. If this damage is dealt to the target's hit points, they fall prone and gain the poisoned condition: You are paralyzed and cannot move or take any combat actions except Activate Gu.
+
+Thousand-Li Earthwolf Spider Gu can climb on walls and ceilings without making an **Athletics** skill test. Additionally, Thousand-Li Earthwolf Spider Gu has a digging speed of 3 meters in stone or soil.
+
+Effect: While sustained, Thousand-Li Earthwolf Spider Gu's movement becomes 50 meters and its digging speed becomes 15 meters.
 
 :::
 \newpage
@@ -1534,7 +1577,7 @@ Effect: A thin veil of flame surrounds you. While sustained, reduce all heat dam
 ### Immolate Gu
 *Rank 2 Attack*
 
-Cost: 10 portions
+Cost: 20 portions
 
 Range: Touch
 
@@ -1555,7 +1598,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Effect: You lob a ball of kerosene to a square within range. Creatures within 1 meter of the square become splattered in oil until it gets washed off. If a creature covered in oil takes heat damage or gains the *burning* condition, it gains the *ablaze* condition.
+Effect: You lob a ball of kerosene to a square within range. Creatures and objects within 1 meter of the square become splattered in oil until they gain the *doused* condition or it gets washed off, becoming highly flammable. If a creature covered in oil takes heat damage, gains the *burning* condition, or is otherwise ignited, they gain the *ablaze* condition.
 
 ### Lightning Charged Potato Gu
 *Rank 2 Attack*
@@ -1626,7 +1669,49 @@ Food: 1 kg ever-burning coals (30 primeval stones)
 
 Keywords: [**Steed**], [**Medium**]
 
-Effect: Sprinting Drake Gu has a speed of 4 meters. While riding it, you can move through hostile creatures' space (but cannot end your turn in their space). If you do, they take 10 heat damage and gain the *burning* condition. When you activate Sprinting Drake Gu while riding it, it immediately sprints up to {5, 20} meters in a straight line; moving through a creature's space with this movement deals 20 heat damage instead of 10 and applies *ablaze* instead of *burning*.
+CR: {21, 24}
+
+\noindent
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Attributes} & \textbf{Value} \\ \hline
+HP & \{25, 80\} \\ \hline
+Soul & - \\ \hline
+Movement & 5 \\ \hline
+Strength & \{40, 60\} \\ \hline
+Agility & 20 \\ \hline
+Fortitude & 50 \\ \hline
+Cognition & 30 \\ \hline
+Wisdom & 50 \\ \hline
+Attitude & 10 \\ \hline
+\end{tabular}
+
+\vspace{0.5em}
+
+\noindent
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Skills} & \textbf{Value} \\ \hline
+Close Combat & 60 \\ \hline
+Ranged Attack & 20 \\ \hline
+Athletics & \{40, 50\} \\ \hline
+Dodge & 20 \\ \hline
+Awareness & 50 \\ \hline
+\end{tabular}
+
+\vspace{0.5em}
+
+**Combat Actions**
+
+**Multiattack**. Sprinting Drake Gu makes a Bite attack or two Claw attacks.
+
+**Bite**. *Melee Attack, 1 meter.* Sprinting Drake Gu bites a target. On a hit, deal {10, 14} rending damage and {15, 40} heat damage. If this damage is dealt to the target's hit points, they gain bleeding X condition, where X is equal to 20% of the rending damage dealt to their hit points (rounded down to a minimum of 1).
+
+**Claw**. *Melee Attack, 1 meter.* Sprinting Drake Gu claws a target. On a hit, deal {5, 7} rending damage. If this damage is dealt to the target's hit points, they gain bleeding 2.
+
+Sprinting Drake Gu can move through hostile creature's spaces as long as it does not end its turn inside of one. When it does, they take {10, 25} heat damage and gain the *burning* condition.
+
+Effect: Sprinting Drake Gu immediately sprints up to 15 meters in a straight line; moving through a creature's space with this movement deals {20, 50} heat damage (instead of the normal damage) and applies the *ablaze* condition.
 
 ### Temper Soul Gu
 *Rank 3 Carver*
@@ -1661,7 +1746,7 @@ Food: 1 liter of boiling blood
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, your punching attacks deal an additional 4 heat damage.
+Effect: While sustained, your punch attacks deal an additional 4 heat damage.
 
 ### Coiled Flame Snake Gu
 
@@ -2179,6 +2264,37 @@ Keywords: [**Small**]
 
 Effect: You touch a willing creature and their body chills to subzero temperatures. They fall *unconscious* and Hibernation Gu curls up and goes to sleep. After 24 hours, the creature in hibernation fully restores its hit points, and all of the target's ailments caused by Gu of rank 3 or lower are cleansed. You may reactivate Hibernation Gu at any time to awaken the target. If you are the target, the only action you may take while unconscious is to activate Hibernation Gu and wake yourself up. A target under the effects of Hibernation Gu remains loosely aware of their surroundings. If Hibernation Gu dies, the target awakens immediately.
 
+### Ice Crystal Gu
+*Rank 2-4 Carver*
+
+Cost: 15 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Sustained**], [**Transformation**]
+
+Effect: You freeze in place and turn into a pillar of ice.
+
+While sustained, you gain the following effects:
+
+Your maximum hit points are {40, 80, 250}.
+
+You cannot move or take any combat actions except **Activate Gu**.
+
+You are not affected by any [**Dao**] Gu applied to specific body parts.
+
+You reduce all non-poison damage dealt to your hit points by {10, 20, 50}
+
+You are surrounded by an aura of dominating cold in a {3, 6, 20} meter radius. Any creature that starts its turn in or moves into the radius takes {10, 20, 50} cold damage. If this damage is dealt to their hit points, they gain the *fatigued* condition.
+
+At the end of each of your turns, make a **Perseverance** attribute test with a {+10, +20, +40} penalty. On a failure, you gain a **Ice Crystal Token** and your body becomes colder. If you ever have 10 **Ice Crystal Tokens**, your body is permanently transfigured into an ice crystal and you die.
+
+Every month you go without activating Ice Crystal Gu reduces the number of **Ice Crystal Tokens** you have by 1.
+
 ### Ice Muscles Gu
 *Rank 2 Carver*
 
@@ -2663,9 +2779,9 @@ Health: 2
 
 Food: <!-- TODO ->
 
-Keywords: [**Light**]
+Effect: You emit a cleansing white light. Choose *fatigued*, *poisoned*, *dazed*, *stunned*, *deafened*, or *blinded*. All creatures within range lose the selected condition and gain immunity to it until the start of their next turn.
 
-Effect: You emit a cleansing white light. Choose *fatigued*, *poisoned*, *dazed*, *stunned*, *deafened*, or *blinded*. All creatures within range lose the selected condition, unless that condition is *poisoned* and was applied by a Gu of a higher rank than Gentle Light Gu.
+Gentle Light Gu cannot cure the *poisoned* condition if it was applied by a Gu of a higher rank than Gentle Light Gu.
 
 ### Lift Dao Gu
 
@@ -2937,11 +3053,11 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Keywords: [**Dao**], [**Sustained**]
+Keywords: [**Dao**], [**Investigative: Sight**], [**Sustained**]
 
 Effect: To activate Lightning Eye Gu, you must remove an **Eye** and place Lightning Eye Gu in the socket. Upon activation, Lightning Eye Gu replaces the lost eye permanently, and you can see out of it with perfect vision whether or not it is activated. 
 
-While you sustain Lightning Eye Gu, your lightning eye can see through obscuring effects such as smoke and illusions produced by Gu of rank 3 or lower, and can see any object within 150 meters in fine detail. You gain immunity to the *blinded* condition, and you can react to [**Unreactable**] Gu so long as the Gu Master is within your line of sight.
+While you sustain Lightning Eye Gu, your lightning eye can see any object within 150 meters in fine detail, you gain immunity to the *blinded* condition, and you can react to [**Unreactable**] Gu so long as the Gu Master is within your line of sight.
 
 Removing Lightning Eye Gu from the socket kills it.
 
@@ -3042,7 +3158,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Wings of lightning appear on your back. While sustained, you gain a flying speed of 20 meters and can make 3 Maneuvers each turn. If you make a weapon attack, punching attack, or activate a Gu with a range of touch at the end of a dive Maneuver, you may treat the attack as though it had the [**Unreactable**] keyword.
+Effect: Wings of lightning appear on your back. While sustained, you gain a flying speed of 20 meters and can make 3 Maneuvers each turn. If you make a weapon attack, punch attack, or activate a Gu with a range of touch at the end of a dive Maneuver, you may treat the attack as though it had the [**Unreactable**] keyword.
 
 ### Rumbling Thunder Gu
 
@@ -3107,7 +3223,7 @@ Food: A piece of wool
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Hands** permanently carry a static charge. When you touch a creature or hit it with a punching attack, you may choose to release a small spark. This deals 1 shock damage and ignites flammable objects.
+Effect: Your **Hands** permanently carry a static charge. When you touch a creature or hit it with a punch attack, you may choose to release a small spark. This deals 1 shock damage and ignites flammable objects.
 
 ### Superconductor Gu
 
@@ -3578,7 +3694,7 @@ Keywords: [**Sustained**]
 
 Effect: While sustained, your hands are made entirely of a dense and hard iron. They are incredibly durable; if you would take damage to your hit points and that damage is being dealt specifically to your hands (a called shot, or touching something very hot, for example), reduce the damage taken by 80. You gain a -20 bonus to **Close Combat** tests made to parry an attack.
 
-You have advantage on **Athletics** skill tests resulting from the **Grapple** combat action, and your punching attacks deal an additional 5 force damage.
+You have advantage on **Athletics** skill tests resulting from the **Grapple** combat action, and your punch attacks deal an additional 5 force damage.
 
 ### Iron Hook Silver Slash Gu
 *Rank 5 Attack*
@@ -3608,7 +3724,7 @@ Food: 200 g of needles (1 primeval stone)
 
 Keywords: [**Piercing**]
 
-Effect: A cloud of needles bursts from your hand towards a creature within range. Make an attack roll with a -10 bonus. On a hit, deal 2d10 force damage.
+Effect: A cloud of needles bursts from your hand towards a creature within range. Make an attack roll. On a hit, deal 12 force damage.
 
 ### Iron Veins Gu
 *Rank 2 Carver*
@@ -3795,7 +3911,7 @@ Food: <!-- TODO ->
 
 Effect: Make an attack roll against a creature within range. On a hit, the target gains the *poisoned* condition with the following effects:
 
-- If a creature moves out of your melee range, you immediately make a weapon or punching attack as an attack of opportunity without using a reaction.
+- If a creature moves out of your melee range, you immediately make a weapon or punch attack as an attack of opportunity without using a reaction.
 - On your turn, you must move to and use the **Melee Attack** combat action on the closest creature to you. If multiple targets are the closest creature to you, you select one at random.
 
 This effect lasts for 3 turns.
@@ -3919,7 +4035,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: The fingernails on your **Hands** become 2 inches long. You may forego a punching attack made on your turn to rake the target with your claws. Make a **Close Combat** skill test. On a hit, deal {5, 20, 60} rending damage. If this damage is dealt to the target's hit points, they gain *bleeding {1, 2, 4}* and the *poisoned* condition with the following effects:
+Effect: The fingernails on your **Hands** become 2 inches long. You may forego a punch attack made on your turn to rake the target with your claws. Make a **Close Combat** skill test. On a hit, deal {5, 20, 60} rending damage. If this damage is dealt to the target's hit points, they gain *bleeding {1, 2, 4}* and the *poisoned* condition with the following effects:
 
 - You gain *bleeding {1, 2, 4}* at the start of each of your turns.
 
@@ -5876,7 +5992,7 @@ Health: 2
 
 Food: <!-- TODO ->
 
-Effect: Rewind Gu can only be activated as a reaction to another creature you can see within range activating a Gu of rank {1, 2, 3, 4, 5} or lower. The effect of that Gu is negated. Rewind Gu cannot be used to negate the effect of a killer move.
+Effect: Rewind Gu can only be activated as a reaction to you or a creature that you can see within range activating a Gu of rank {1, 2, 3, 4, 5} or lower. The effect of that Gu is negated and the Gu is deactivated if it has the [**Sustained**] keyword. Rewind Gu cannot be used to negate the effect of a killer move.
 
 ### River as Before Gu
 
@@ -6632,7 +6748,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, your hands grow to double their original size. You gain a -10 bonus to **Close Combat** skill tests on punching attacks and your punching attacks deal an additional 2 force damage.
+Effect: While sustained, your hands grow to double their original size. You gain a -10 bonus to **Close Combat** skill tests on punch attacks and your punch attacks deal an additional 2 force damage.
 
 [**Wind Scythe Bird Transformation**]
 
@@ -6673,7 +6789,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Your arms transform into wings with razor sharp feathers. While sustained, you have a flying speed of 15 meters and can make 3 Maneuvers every turn. You can no longer make punching attacks, but gain the following unarmed melee attack option:
+Effect: Your arms transform into wings with razor sharp feathers. While sustained, you have a flying speed of 15 meters and can make 3 Maneuvers every turn. You can no longer make punch attacks, but gain the following unarmed melee attack option:
 
 **Wings:** Make a **Close Combat** skill test against a creature within 1 meter of you. On a hit, deal 20 rending damage, increased to 50 rending damage if performed at the end of a *Dive* Maneuver. If this damage is dealt to the target's hit points, they gain *bleeding 4.*
 
@@ -6703,7 +6819,7 @@ Effect: A creature you touch has their blood transmuted into water. In most case
 
 ### Blue Farm Slug Gu
 
-*A blue slug, larger than*
+*A blue slug as large as a small home. Blue Farm Slug Gu is slow but quite durable and can hold a great deal of items, making it a common sight on caravans.*
 
 *Rank 3 Container*
 
@@ -6717,9 +6833,45 @@ Food: <!-- TODO ->
 
 Keywords: [**Huge**], [**Steed**]
 
-Effect: You place items up to a cubic meter in volume inside of Blue Farm Slug Gu. Blue Farm Slug Gu can hold objects, Gu, and creatures, but creatures cannot breathe while inside. You may remove items from Blue Farm Slug Gu by reaching inside. Blue Farm Slug Gu can hold up to 2,000 kilograms.
+CR: 23
 
-Blue Farm Slug Gu cannot be stored in an aperture and has a speed of 3 meters.
+\noindent
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Attributes} & \textbf{Value} \\ \hline
+HP & 500 \\ \hline
+Soul & - \\ \hline
+Movement & 3 \\ \hline
+Strength & 100 \\ \hline
+Agility & 5 \\ \hline
+Fortitude & 100 \\ \hline
+Cognition & 5 \\ \hline
+Wisdom & 20 \\ \hline
+Attitude & 5 \\ \hline
+\end{tabular}
+
+\vspace{0.5em}
+
+\noindent
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Skills} & \textbf{Value} \\ \hline
+Close Combat & 5 \\ \hline
+Ranged Attack & 5 \\ \hline
+Athletics & 55 \\ \hline
+Dodge & 5 \\ \hline
+Awareness & 30 \\ \hline
+\end{tabular}
+
+\vspace{0.5em}
+
+**Combat Actions**
+
+**Trample.** Blue Farm Slug Gu throws itself onto an adjacent creature. That creature takes 20 force damage and is knocked prone.
+
+Effect: You place up to a cubic meter of items inside of Blue Farm Slug Gu. Blue Farm Slug Gu can hold objects, Gu, and creatures, but creatures cannot breathe while inside. You may remove items from Blue Farm Slug Gu by reaching inside. Blue Farm Slug Gu can hold up to 2,000 kilograms.
+
+Blue Farm Slug Gu cannot be stored in an aperture while it has things stored inside of it.
 
 ### Carapace Gu
 
@@ -6763,10 +6915,12 @@ Health: 2
 
 Food: <!-- TODO ->
 
-Effect: You touch a creature and its lungs fill with water. It must spend its entire next turn doubled over coughing and cannot use movement, combat actions, or bonus actions. If the creature is unable to, like if it were unconscious for example, it dies.
+Effect: You touch a creature with lungs and its lungs fill with water. It must spend its entire next turn doubled over coughing and cannot use movement, combat actions, or bonus actions. If the creature is unable to, it dies.
 
 ### Faucet Gu
 *Rank 1 Manifestation*
+
+Next Rank: Hose Gu
 
 Cost: 4 portions
 
@@ -6824,6 +6978,20 @@ Range: 10 Meters
 Health: Food: 10 lbs of waterfall water
 
 Effect: A 1 meter radius geyser, centered on a square you can see within range, spouts 15 meters high. Creatures in the area gain the *doused* condition, and [Large] or smaller creatures in the area are thrown 15 meters up, becoming *airborne*. If already *airborne*, they must pass an **Athletics** or **Flying** skill test with a +25 penalty or fall as if they failed a dive Maneuver.
+
+### Hose Gu
+
+*Rank 2 Manifestation*
+
+Cost: 12 portions
+
+Range: 20 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: A 1 meter wide hose of pressurized water shoots from your palm in a 20 meter long line. Creatures in the line gain the *doused* condition and are pushed backward 10 meters, taking 10 force damage if they hit a wall or another creature.
 
 ### Jelly Bubble Gu
 *Rank 2 Guard*
@@ -6913,7 +7081,7 @@ Food: 100 g of smoldering stone (1 primeval stone)
 
 Keywords: [**Sustained**]
 
-Effect: A cloud of steam surrounds you in a 2 meter radius while you sustain Steam Burst Gu. Creatures cannot see through the steam; all creatures inside gain the *blinded* condition and have a +20 penalty to **Dodge** skill tests while in the steam. When a creature moves into or starts their turn in the steam (including you), they take 10 heat damage.
+Effect: A cloud of steam surrounds you in a 2 meter radius while you sustain Steam Burst Gu. Creatures cannot see through the steam; creatures have the *blinded* condition and a +20 penalty to **Dodge** skill tests while in the steam. When a creature moves into or starts their turn in the steam (including you), they take 10 heat damage.
 
 Creatures in the area are immune to the *burning* condition (but not *ablaze*).
 
@@ -7251,7 +7419,7 @@ Effect: All creatures within range, including yourself, become agitated and more
 
 *Rank 2 Divination*
 
-Cost: 15 portions
+Cost: 35 portions
 
 Range: Self
 
@@ -7522,6 +7690,22 @@ Keywords: [**Defensive**], [**Shield**], [**Sustained**]
 
 Effect: While sustained, if an effect would manipulate your thoughts, emotions, or will, and originates from a source of rank {1, 2, 3, 4, 5} or lower, it is negated on you. Mind Fortress Gu cannot block any damage. Whenever you take damage to your soul while sustained, you may instead assign that damage to Mind Fortress Gu. Mind Fortress Gu can be activated as a reaction to taking damage to your soul, with the triggering damage being redirected to Mind Fortress Gu.
 
+### Mind Reconstruction Gu
+
+*Rank 2 Tonic*
+
+Cost: 40 portions
+
+Range: Touch
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable**]
+
+Effect: A creature you touch has their brain destroyed and immediately reconstructed. They are cured of most mental illnesses and lose the *stunned* and *dazed* conditions. Any [**Dao**] effects applied to their **Brain** are removed.
+
 ### One Mind Gu
 *Rank 2-5 Catalyst*
 
@@ -7705,7 +7889,7 @@ Food: 1 hour of thoughts related to punching or souls.
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you have an additional two arms sprouting from your waist. They are a spectral blue color, and punching attacks made with them deal an additional 2 damage to the target's soul.
+Effect: While sustained, you have an additional two arms sprouting from your waist. They are a spectral blue color, and punch attacks made with them deal an additional 2 damage to the target's soul.
 
 ### Vajra Thoughts Gu
 *Rank 1-5 Divination*
