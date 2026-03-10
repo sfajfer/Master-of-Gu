@@ -7,7 +7,7 @@ At the beginning of combat, an initiative is rolled. If an enemy is within 2 met
 Surprised creatures have a +20 penalty to their initiative roll and cannot take reactions until the start of their first turn.
 
 ### Stealth
-There is no stealth skill in the game. Many Gu render your personal sneaking skills worthless, and so most Gu Masters that wish to walk unobserved will use concealment Gu to do so. In the case either party is not using these Gu, the creature you are trying to sneak past makes an awareness check with a penalty or bonus determined by the GM for the circumstance, including the stealthing party's measures to hide themselves.
+There is no stealth skill in the game. Many Gu render your personal sneaking skills worthless, and so most Gu Masters that wish to walk unobserved will use concealment Gu to do so. In the case either party is not using these Gu, the creature you are trying not to be detected by makes an **Awareness** skill test with a penalty or bonus determined by the GM for the circumstance, including the stealthing party's measures to hide themselves.
 
 ## The Turn
 One turn lasts 10 seconds. Gu Masters recover primeval essence at the beginning of each of their turns.
@@ -186,10 +186,13 @@ If a creature is immune to a condition, it cannot be applied to them regardless 
 If you take an amount of damage equal to double your maximum hit points from a single source, you instantly die, and do not get to roll to see if you enter *Final Stand*.
 
 ### Final Stand
-While you have the *Final Stand* condition, you cannot move or take combat actions or reactions other than to activate Gu or hold your action to do so. If you take any amount of damage to your hit points while in *Final Stand*, you enter the *Dying* state and fall unconscious. If you gain any hit points while in *Final Stand*, you are no longer in *Final Stand* and can act as normal.
+While you have the *Final Stand* condition, you cannot move or take combat actions or reactions other than to activate Gu or hold your action to do so. If you take any amount of damage to your hit points while in *Final Stand*, you enter the *Dying* state and fall *unconscious*. If you gain any hit points while in *Final Stand*, you are no longer in *Final Stand* and can act as normal.
 
 ### Dying
-If you are *Dying*, you are unconscious. At the end of each of your turns, roll a **Perseverance** attribute test. On a success, you gain a **Perseverance Token**. On a failure, you gain a **Predicament Token**. Critical successes and fumbles grant 2 of the respective token. When you have 3 **Perseverance Tokens**, you are no longer *Dying* and instead enter *Final Stand*, and your **Perseverance** token count resets to 0. If you ever have 5 **Predicament Tokens**, you die. **Predicament Tokens** are permanent unless removed by a Gu.
+If you are *Dying*, you are *unconscious*. At the end of each of your turns, roll a **Perseverance** attribute test. On a success, you gain a **Perseverance Token**. On a failure, you gain a **Predicament Token**. Critical successes and fumbles grant 2 of the respective token. When you have 3 **Perseverance Tokens**, you are no longer *Dying* and instead enter *Final Stand*, and your **Perseverance** token count resets to 0. If you ever have 5 **Predicament Tokens**, you die. **Predicament Tokens** are permanent unless removed by a Gu.
+
+### Non-Lethal Damage
+You may declare any melee attack to be non-lethal at any point up until the damage of the attack is dealt. If the damage reduces the target to 0 hit points, they roll to enter *Final Stand* like usual, becoming *unconscious* instead of *Dying*. If you hit a creature in *Final Stand* with a non-lethal attack, they automatically fall *unconscious*.
 
 ### Fall Damage
 When falling from a height of more than 2 meters, you take 3 force damage for every meter you fell. If a creature has a flying speed when it becomes *airborne* from anything other than the *Take Flight* Maneuver, it may immediately move up to half its flying speed. If a creature does not have a flying speed when it becomes *airborne,* it immediately falls up to 500 meters. If the creature is still falling, it falls 500 meters at the end of each of its turns until it hits the ground.
@@ -270,6 +273,11 @@ A *restrained* creature's movement is 0. A *restrained* creature automatically f
 
 ### Stunned
 A *stunned* creature cannot move or take any actions or reactions. At the end of their turn, they lose the *stunned* condition and gain the *dazed* condition.
+
+### Unconscious
+An *unconscious* creature cannot act in any manner. If *unconscious* as a result of sleeping, you can make an **Awareness** skill test to wake up when you hear something, with a penalty or bonus depending on the proximity and loudness of the sound. Very loud noises like the sound of nearby combat automatically wake up a sleeping a creature.
+
+Creatures that gain the *unconscious* condition as a result of non-lethal attacks wake up after 1 hour.
 
 \newpage
 

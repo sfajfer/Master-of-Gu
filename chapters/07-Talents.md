@@ -272,7 +272,7 @@ You gain access to the Sacrifice refinement technique. Whenever you use the Sacr
 ### Sauté
 *Cost:* 15 experience
 
-*Requires Fundemental Food Path Attainment*
+*Requires Fundamental Food Path Attainment*
 
 You gain access to the Sauté refinement technique. When you use the Sauté refinement technique, you gain a -10 bonus to all **Refinement** tests, and increase the primeval stone cost of the recipe by 50% (rounding down). For every Gu used in the recipe, roll 1d10. If you roll a 1, that Gu is not consumed during the refinement.
 

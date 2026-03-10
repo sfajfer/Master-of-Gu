@@ -3,11 +3,17 @@
 When multiple Gu are combined into a single effect it is colloquially known as a killer move. Killer moves have a core of 1 or more same-ranked Gu as well as any number of supplemental Gu. 
 
 ### Blood Vision
+
 *Rank 4 Divination Killer Move*
+
 Core Gu: Rank 4 Blood Sense Gu, Rank 4 Blood Brother Gu
+
 Supplementary Gu: Rank 3 Hundred Meter Gu x 2, 
+
 Total Activations: 4
+
 Activation Cost: 49 portions
+
 Keywords: [**Investigative**], [**Sustained**]
 
 Effect: Any creatures within 100 meters have their blood tainted with yours. For 24 hours, these creatures are considered your siblings by blood path methods. While this killer move is sustained, you can sense the exact location of any of your blood relatives within 100 meters.

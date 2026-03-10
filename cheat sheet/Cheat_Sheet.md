@@ -16,7 +16,7 @@ geometry:
   - Degrees of success/failure: Every 10 above/below skill value.
 - **Penalties/Bonuses:** Add/subtract from roll.  
   - +80: Nearly Impossible, 0: Challenging, -60: Trivial.
-- **Advantage:** Roll extra td10, take lower tens. Stackable from different sources.
+- **Advantage/Disadvantage:** Roll extra td10, take lower/higher tens. Stackable from different sources.
 
 ### Opposed Tests
 
@@ -26,10 +26,10 @@ geometry:
 
 ## Combat
 
-- **Initiative:** Roll Close Combat (if enemy <= 3m) or Ranged Attack. Most degrees of success acts first. In the case of ties, the lower number on the die goes first.
+- **Initiative:** Roll Close Combat (if enemy <= 2m) or Ranged Attack. Most degrees of success acts first. In the case of ties, the lower number on the die goes first.
 - **Turn:** 10 seconds.  
   - Actions: 1 Combat Action, 2 Reactions, 1 Bonus Action, Movement.
-- **Movement:** Move meters = movement stat. Jumping costs half movement.
+- **Movement:** Move meters = movement stat.
 - **Flying:** Use Flying skill for maneuvers (Take Flight, Fly, Dive, Evade, Land).
 - **Melee Attack:** Roll Close Combat vs enemy in range. Damage = weapon + 1 per 10 Strength.
 - **Grapple:** Opposed Athletics. Restrained if you win.
@@ -63,14 +63,14 @@ geometry:
 
 ## Cultivation & Progression
 
-- **Small Realm:** Spend primeval essence to reduce aperture wall health.
+- **Small Realm:** Spend primeval essence up to aptitude + recovery each hour to reduce aperture wall health.
 - **Large Realm:** Walls regenerate over time. Compare wall recovery to your primeval essence recovery; must be positive to break through.
-- **Cultivation Test:** Roll once per hour with {-50, -40, -20, -10, 0} bonus; fail = soul damage equal to degrees of failure (min 1).
+- **Cultivation Test:** Roll once per hour with {-20, -10, 0, +10, +20} bonus/penalty; fail = soul damage equal to degrees of failure (min 1).
 
 ## Gu Basics
 
 - **Rank:** 1–5 (higher = rarer, stronger).
-- **Activation Cost:** If Gu rank > user, cost ×4 per rank above. If Gu rank < user, cost = 1.
+- **Activation Cost:** If Gu rank > user, cost ×4 per rank above. If Gu rank < user, cost = 1 portion.
 - **Feeding Threshold:** {3 days, 7 days, 30 days, 250 days, 10 years}
 - **Refinement:** Roll Refinement test (penalty/bonus by recipe). On success: Roll failure die (1 = fail). On failure: Soul and Gu damaged by (degrees of failure * rank).
 - **Vital Gu:** First refined Gu; if it dies, you die. Cannot die from refinement backlash.
@@ -79,7 +79,7 @@ geometry:
 
 - **Deductive:** Unlocks Deduction action.
 - **Dao:** User cannot be affected by [**Dao**] Gu of different paths at same time.
-- **Defensive:** Can activate as a reaction.
+- **Defensive:** Can activate as a reaction to any event.
 - **Expendable X:** Destroyed after X uses (usually 1).
 - **Low Vitality:** Does not heal when fed.
 - **Piercing:** Ignores non-dao barriers.

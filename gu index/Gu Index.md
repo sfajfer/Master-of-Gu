@@ -634,6 +634,20 @@ Effect: Crystal Ladybug Gu drinks up to 10 liters of liquid it is submerged in, 
 
 Pushing your finger into Crystal Ladybug Gu's head causes it to expel any amount of stored liquid (depending on how hard you press).
 
+### Crystal Pillar Gu
+
+*Rank 2-3 Manifestation*
+
+Cost: {20, 5} portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: A {1, 2} meter radius pillar made of translucent blue crystal rises from the ground below your feet, raising you and any creatures in the area 2 meters into the air. If you activate Crystal Pillar Gu while standing on a crystal pillar created by Crystal Pillar Gu, it grows a further 2 meters into the air. **Athletics** tests made to climb the pillar are made with a +40 penalty.
+
 [**Upgrade Path: Diaoyu Fortress Gu**]
 
 ### Stoneflesh Gu
@@ -745,7 +759,7 @@ Keywords: [**Dao**], [**Expendable**]
 
 Effect: The knuckles on your **Hands** are permanently transformed into thick granite plates. Your punch attacks deal an additional 12 force damage, and you gain the following unarmed attack option:
 
-**Crush:** You slam your fists into either side of the target's head. Make a **Close Combat** skill test. On a success, deal 12 force damage, +1 damage for every 10 points you have in Strength.
+**Crush:** You slam your fists into either side of the target's head. Make a **Close Combat** skill test. On a success, deal 12 force damage, +1 damage for every 10 points you have in Strength. If this damage is dealt to the target's hit points, they gain the *dazed* condition.
 
 ### Life-retaining Jade Coffin Gu
 
@@ -1140,6 +1154,20 @@ Food: 1 g of determination glass (2 primeval stones)
 
 Effect: Unfinished Business Gu can only be activated as a reaction to a creature you can see making a **Perseverance** attribute test. That creature gains a {-10, -20} bonus to its **Perseverance** attribute test.
 
+### Watchdog Gu
+
+*Rank 1 Divination*
+
+Cost: 20 portions
+
+Range: Touch
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: You touch a beast enslaved by you and they freeze in place. Whenever the beast succeeds an **Awareness** skill test made to detect a creature, you know immediately, but learn no information about what creature was detected or where. The beast is incapable of moving or taking any actions or reactions. When you next touch the beast, the effect ends and the beast takes 5 damage to its soul for every 8 hours it has been under the effect of Watchdog Gu. If a beast is under the effect of Watchdog Gu for longer than 72 hours, it dies.
+
 :::
 \newpage
 ## $\centerline{Fire Path}$
@@ -1159,7 +1187,7 @@ Health: 8
 
 Food: 1 liter of blood from a fire path beast
 
-Effect: You immediately regain 10 hit points and 2 soul strength.
+Effect: You immediately regain 10 hit points and 1 soul strength.
 
 ### Blazing Lotus Gu
 *Rank 3 Carver*
@@ -1928,11 +1956,11 @@ Head: You pluck the target's eyes from their skull. They gain the *blinded* cond
 
 Torso: You slice open the target's belly, allowing their blood to drain. The target gains *bleeding 10*.
 
-Arm: You fillet the target's flesh from their arm. The target must succeed a **Perseverance** attribute test or else fall unconscious. The target gains *bleeding 3* and the arm is unusable.
+Arm: You fillet the target's flesh from their arm. The target must succeed a **Perseverance** attribute test or else fall *unconscious*. The target gains *bleeding 3* and the arm is unusable.
 
 Hand: You remove the extremity. The target loses the hand and gains *bleeding 5*.
 
-Leg: You fillet the target's flesh from their leg. The target must succeed a **Perseverance** attribute test or else fall unconscious. The target's movement is reduced by 4 meters (minimum of 1) and they gain *bleeding 3*.
+Leg: You fillet the target's flesh from their leg. The target must succeed a **Perseverance** attribute test or else fall *unconscious*. The target's movement is reduced by 4 meters (minimum of 1) and they gain *bleeding 3*.
 
 Foot: You remove the extremity. The target's movement is reduced by 4 meters (minimum of 1) and they gain *bleeding 5*.
 
@@ -2262,7 +2290,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Small**]
 
-Effect: You touch a willing creature and their body chills to subzero temperatures. They fall *unconscious* and Hibernation Gu curls up and goes to sleep. After 24 hours, the creature in hibernation fully restores its hit points, and all of the target's ailments caused by Gu of rank 3 or lower are cleansed. You may reactivate Hibernation Gu at any time to awaken the target. If you are the target, the only action you may take while unconscious is to activate Hibernation Gu and wake yourself up. A target under the effects of Hibernation Gu remains loosely aware of their surroundings. If Hibernation Gu dies, the target awakens immediately.
+Effect: You touch a willing creature and their body chills to subzero temperatures. They fall *unconscious* and Hibernation Gu curls up and goes to sleep. After 24 hours, the creature in hibernation fully restores its hit points, and all of the target's ailments caused by Gu of rank 3 or lower are cleansed. You may reactivate Hibernation Gu at any time to awaken the target. If you are the target, the only action you may take while *unconscious* is to activate Hibernation Gu and wake yourself up. A target under the effects of Hibernation Gu remains loosely aware of their surroundings. If Hibernation Gu dies, the target awakens immediately.
 
 ### Ice Crystal Gu
 *Rank 2-4 Carver*
@@ -2467,6 +2495,22 @@ Effect: You open your aperture, allowing Assessment Gu to see the target. Roll a
 
 You gain all the information from higher results as well.
 
+### Eating One's Words Gu
+
+*Rank 2 Catalyst*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable**], [**Extinct**]
+
+Effect: Remove the effect of a single Poison Vow Gu from your body.
+
 ### Encyclopedia Gu
 
 *Rank 3 Carver*
@@ -2516,7 +2560,7 @@ Effect: Your **Blood** is permanently turned into black ink. You can write on an
 
 *A wispy grey house spider.*
 
-*Rank 2-3 Attack*
+*Rank 2-3 Divination*
 
 Cost: 5 portions
 
@@ -2528,7 +2572,23 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, whenever a creature makes an attack roll, you may use a reaction to give them an **Analysis Token**. Skill tests made against creatures gain a {-5, -10} bonus for each **Analysis Token** they have. Creatures lose 1 **Analysis Token** at the end of each day.
+Effect: While sustained, whenever a creature makes an attack roll, you may use a reaction to give them an **Analysis Token**. Skill tests made against creatures gain a {-5, -10} bonus for each **Analysis Token** they have, up to a maximum of {-15, -30}. Creatures lose 1 **Analysis Token** at the end of each day.
+
+### Mountain Oath Gu
+
+*Rank 4 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: <!-- TODO ->
+
+Effect: This Gu has no effect unless used when standing on a mountain. A 1 meter radius perimeter of stones rises from the ground centered on you. If you or a creature standing in the circle recite an oath, they become bound by Mountain Oath Gu. As long as long the mountain still exists, affected creatures are erased from existence if they break their oath.
 
 ### Paper Crane Gu
 
@@ -2578,6 +2638,22 @@ Keywords: [**Expendable**]
 Effect: Poison Vow Gu begins to glow with a bright green light. You and another creature that you are touching must both recite conditions of a contract in sequence. If at any point during this process you or the target becomes unwilling to make the vow, the effect ends immediately and Poison Vow Gu is lost. If both parties recite their vows, Poison Vow Gu splits in two and attaches to both of your hearts. 
 
 If you or the target break the vow through action or inaction, the vow breaker immediately takes 200 poison damage directly to their hit points. The remaining half of Poison Vow Gu disintegrates.
+
+### Sword Tongue Gu
+
+*Rank 1-5 Attack*
+
+Cost: 35 portions
+
+Range: {3, 3, 5, 7, 10} meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Piercing**]
+
+Effect: You flick your tongue twice in rapid succession, launching 2 crimson sword lights each at a target within range. Make an attack roll for each; on a hit deal {8, 15, 30, 80, 200} rending damage.
 
 :::
 \newpage
@@ -2701,6 +2777,7 @@ Effect: Choose {1, 3} unoccupied squares that you can see within range. A brilli
 Creatures with the *blinded* condition or that lack eyes are immune to this effect.
 
 #### Deafening Flash Gu
+\break
 
 *Rank 2 Attack*
 
@@ -2907,6 +2984,7 @@ Keywords: [**Sustained**]
 Effect: Light bends around your body, making you invisible while sustained.
 
 #### Solar Flare Gu
+\break
 
 *Rank 3 Attack*
 
@@ -3422,7 +3500,7 @@ Health: 4
 
 Food: 150 portions of primeval essence. Once attached, feeds off the target's primeval essence.
 
-Effect: You touch a Gu Master with the *restrained* condition, and Aperture Lock Gu hovers above the target's chest. At the end of each of your turns, a lock snaps shut. If the target loses the *restrained* condition at any point, Aperture Lock Gu deactivates and takes 7 damage as backlash.
+Effect: You touch a Gu Master with the *restrained* or *stunned* condition, and Aperture Lock Gu hovers above the target's chest. At the end of each of your turns, a lock snaps shut. If the target is not either *restrained* or *stunned* at any point, Aperture Lock Gu deactivates and takes 7 damage as backlash.
 
 When the third lock closes, Aperture Lock Gu burrows into the target's aperture, and the target gains the following features while Aperture Lock Gu remains attached.
 
@@ -3848,7 +3926,7 @@ Health: 3
 
 Food: Rank 1 Metal Skin Gu
 
-Effect: Can only be activated as a reaction to getting hit by an attack or missing an attack against another creature. Regain 10 hit points. Until the start of your next turn, your body is covered in a metallic sheen. Reduce any damage except mental or poison dealt to your hit points by 15, to a minimum of 0.
+Effect: Can only be activated as a reaction to getting hit by an attack or missing an attack against another creature. Regain 10 hit points. Until the start of your next turn, your body is covered in a metallic sheen. Reduce any damage except poison dealt to your hit points by 15, to a minimum of 0.
 
 **[END]**
 
@@ -4413,7 +4491,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**]
 
-Effect: You eat a soul, either from a container Gu or the corpse of a creature that died less than a minute ago. Your maximum soul is increased by 10% of their current soul when they died.
+Effect: You eat a soul, either from a container Gu or the corpse of a creature that died less than a minute ago. Your maximum soul is increased by 10% of the creature's current soul and you immediately invest 1, 2, or 5 experience into your Attainment in every path they had Attainment in, depending if they have *Fundamental*, *Intermediate*, or *Master* Attainment in that path.
 
 ### Elusive Ghost Gu
 
@@ -4509,7 +4587,7 @@ Food: 3 human souls
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Skin** is carved with Soul Path dao. You can physically touch ethereal creatures and objects as if they were solid matter, and your unarmed attacks deal an additional 2 damage to the target's soul.
+Effect: Your **Skin** is carved with Soul Path dao. You can physically touch ethereal creatures, objects, and souls as if they were solid matter, and your unarmed attacks deal an additional 2 damage to the target's soul.
 
 ### Guts Gu
 *Small stones that only grow on Dang Hun Mountain, a secluded domain of Heaven and Earth. Currently, Dang Hun Mountain is in the control of Hu Land Spirit. Since Guts Gu degenerate when taken away from Dang Hun Mountain, they must be transported using special container Gu, and thus their market price is between 5 and 10 thousand primeval stones. The only market in Southern Border that regularly stocks them is in Shang Clan City.*
@@ -4578,6 +4656,20 @@ Effect: Your soul is shrouded in a dense shield that blocks it from attacks. Sou
 
 *External source just means the damage originated from somewhere other than you. This means Soul Armor Gu can't block damage from refinement, cultivation, backlash, directing enslaved creatures, or Gu that you activate that deal damage to your own soul.*
 
+### Soul Detonation Gu
+
+*Rank 2 Carver*
+
+Cost: 10 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: Your soul is permanently modified to detonate when you die, immediately being destroyed and irretrievable.
+
 ### Soul Fly Gu
 
 *Rank 4 Celerity*
@@ -4593,6 +4685,54 @@ Food: <!-- TODO ->
 Keywords: [**Sustained**]
 
 Effect: You gain a flying speed equal to 2 + (2% current soul) meters (rounded down) and can make 3 Maneuvers each turn while sustained.
+
+### Soul Language Gu
+
+*Rank 2 Divination*
+
+Cost: 10 portions
+
+Range: 3 meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, you can understand the screeching of all disembodied souls within range as long as their current strength is 3 or greater. You can converse with the souls as long as the soul belongs to a creature that could speak.
+
+### Soul Lantern Gu
+
+*A blue wrought-iron lantern.*
+
+*Rank 3 Divination*
+
+Cost: 100 portions
+
+Range: Touch
+
+Health: 8
+
+Food: <!-- TODO ->
+
+Effect: A creature you touch takes 1 damage to their soul. Their soul becomes linked with Soul Lantern Gu, and a blue flame burns inside of it for as long as that creature lives. If a creature has a Soul Lantern Gu in front of them when using the **Deduction** action, they gain a -20 bonus to **Deduction** skill tests made to deduce the location of the creature whose soul burns inside. Reduce all damage dealt to Soul Lantern Gu by 10.
+
+Activating Soul Lantern Gu while it has a soul inside of it has no effect. The lantern can be doused with 100 mL of calm water to extinguish the flame.
+
+### Soul Search Gu
+
+*Rank 3-5 Divination*
+
+Cost: A number of portions equal to the target's current soul.
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: You read through a soul that you touch over the course of {8 hours, 1 hour, 1 turn}. The first time you fully read through their soul, you learn surface level information from their memories, such as family members and business they are involved in. The second time you fully read through their soul, you learn many more details about their dealings and arrangements, anything that they would have thought to be important. The third time you fully search their soul, you are able to reverse engineer any refinement recipes or killer moves they knew. If the soul is a fragment with 3 or fewer current soul or belongs to a creature who had a current soul of 3 or less when they died, you are unable to read through the incomplete or weak soul.
 
 ### Soul Sense Gu
 
@@ -4624,6 +4764,22 @@ Food: <!-- TODO ->
 Keywords: [**Dao**]
 
 Effect: Your Strength attribute is permanently reduced by 5. Your maximum Soul is permanently increased by 5. Soul Strength Gu's effect can stack any number of times.
+
+### Soul Transposition Gu
+
+*A butterfly with black wings. Soul Transposition Gu allows for a pseudo immortality, jumping from your body to a younger one whenever is convenient. Though this action does anger Heaven's Will, and often brings calamity to the user.*
+
+*Rank 5 Attack*
+
+Cost: 200 portions
+
+Range: Touch
+
+Health: 1
+
+Food: <!-- TODO ->
+
+Effect: You touch a creature with the *restrained* or *stunned* condition. Your soul migrates to their body and their soul migrates to yours. You and the creature's Attitude, Wisdom, and Cognition attributes are transferred to the new body, but you each gain the Agility, Fortitude, and Strength attributes, rank and cultivation stage, aperture and aptitude, Gu, lifespan, and [**Dao**] Gu effects of the new body. The will inside the Gu you each recieve still belongs to the original owner, and so must be refined before they can be used. The first time you activate any Soul Transposition Gu, your maximum Luck is reduced to 0 and cannot be raised by any means. Every subsequent time, you gain a stacking disadvantage on all skill tests.
 
 ### Spirit Incubating Flea Gu
 *Rank 3 Catalyst*
@@ -4866,7 +5022,7 @@ Effect: While sustained, whenever you roll to activate a beast phantom from a St
 [**Beast Strength**]
 *Many Gu of Strength Path belong to the beast strength archetype; Gu that, over many uses, permanently grant the user the strength of a particular beast. Curiously, it also enables users to sporadically summon beast phantoms with their unarmed attacks, increasing their potency.*
 
-*While Beast Strength Gu do carve dao into the entire muscular system, they are still compatible with other muscle transformation [**Dao**] Gu, as long as that Gu is of a path compatible with Strength Path.*
+*While Beast Strength Gu do carve dao into the entire muscular system, they are still compatible with other muscle transformation [**Dao**] Gu, as long as that Gu is of a path compatible with Strength Path. Your Muscular System can have as many Beast Strength Gu effects applied as you wish.*
 
 ### Bear Strength Gu
 *Rank 1 Carver*
@@ -4960,9 +5116,9 @@ Keywords: [**Dao**]
 
 Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 2, and your **Flying** skill permanently increases by 2. For 24 hours, you cannot gain strength or **Flying** from Crane Strength Gu. Once you’ve gained 10 Strength and 10 **Flying** from Crane Strength Gu, activating Crane Strength Gu further has no effect on you, but you permanently gain the following features:
 
-Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a Crane phantom appears behind you, increasing the damage of the attack by 2 force damage.
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a crane phantom appears behind you, increasing the damage of the attack by 2 force damage.
 
-If this phantom triggers, you may immediately move 1 meter without triggering attacks of opportunity.
+When this phantom triggers, you may immediately move 1 meter without triggering attacks of opportunity.
 
 ### Crocodile Strength Gu
 *Rank 1 Carver*
@@ -5125,7 +5281,7 @@ Keywords: [**Dao**]
 
 Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength and Fortitude attributes permanently increase by 1. For 24 hours, you cannot gain Strength or Fortitude from Tortoise Strength Gu. Once you have gained 5 Strength and Fortitude from Tortoise Strength Gu, further activations have no effect, but you permanently gain the following features: 
 
-When not in combat and struck by an attack, you may use a reaction to turn your back and reduce the damage of the attack by 5.
+Whenever you are hit by an attack roll that was not a called shot, there is a 50% chance it hits your torso. Reduce all damage dealt to your torso by 5.
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a Tortoise phantom appears behind you, increasing the damage of the attack by 2 force damage.
 
@@ -5384,7 +5540,7 @@ Effect: A piercing light shoots from your finger at a target within range. Make 
 
 *Rank 2 Manifestation*
 
-Cost: 7 portions
+Cost: 18 portions
 
 Range: Self
 
@@ -5394,7 +5550,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: You manifest an invisible sabre in one of your free hands while sustained. If you used the first activation on your turn to activate Sabre Gu, you may expend your remaining activations to make a melee attack against an adjacent creature as part of the *Activate Gu* combat action. Melee attacks made with the sabre deal 30 rending damage and 20 force damage. If this damage is dealt to the target's hit points, they gain *bleeding 2.*
+Effect: You manifest an invisible sabre in one of your free hands while sustained. If you used the first activation of the *Activate Gu* combat action to activate Sabre Gu, you may expend your remaining activations to make a melee attack against an adjacent creature as part of the *Activate Gu* combat action. Melee attacks made with the sabre deal 30 rending damage and 20 force damage. If this damage is dealt to the target's hit points, they gain *bleeding 2.*
 
 You don't add your Strength to the damage dealt by Sabre Gu.
 
@@ -7037,6 +7193,20 @@ Keywords: [**Dao**], [**Expendable**]
 
 Effect: You are assailed with the feeling of your flesh and bones melting and reincorporating. Your **Muscles** and **Bones** are permanently carved with Water Path dao, becoming more malleable. Reduce all force damage dealt to your hit points or dealt by your unarmed attacks by 10. You can squeeze through gaps as small as 5 centimeters.
 
+### Soul Bubble Gu
+
+*Rank 2-3*
+
+Cost: 60 portions
+
+Range: Touch
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: You touch a creature that has been dead for no longer than {1, 7} days. Their soul is condensed into a durable, bouncy bubble 2 cm in diameter. The bubble is [Tiny] and bursts if it takes 10 or more damage from a single attack, destroying the soul.
+
 ### Spiral Water Arrow Gu
 
 *Rank 3 Attack*
@@ -7433,7 +7603,7 @@ Effect: Thoughts of roiling flame appear above your head. As an activation, you 
 
 When you use Blazing Thoughts Gu to make a *Deduction* action, you gain a -5 bonus to **Deduction** skill tests and a -10 bonus to **Refinement** skill tests made to create or improve Fire, Light, and Lightning Path Gu recipes.
 
-Blazing thoughts disappear after 1 hour. Activating Blazing Thoughts Gu while you already have blazing thoughts has no effect.
+Blazing thoughts disappear after 1 hour. Activating Blazing Thoughts Gu while you already have blazing thoughts refreshes the duration.
 
 ### Brain Explosion Gu
 *Rank 4 Attack*
@@ -7541,7 +7711,7 @@ Effect: Thoughts of freezing clouds appear above your head. As an activation, yo
 
 When you use Freezing Thoughts Gu to make a *Deduction* action, you gain a {-5, -10, -15} bonus to **Deduction** skill tests and a {-10, -15, -20} bonus to **Refinement** skill tests made to create or improve Ice, Water, and Wind Path Gu recipes.
 
-Freezing thoughts disappear after 1 hour. Activating Freezing Thoughts Gu while you already have freezing thoughts has no effect.
+Freezing thoughts disappear after 1 hour. Activating Freezing Thoughts Gu while you already have freezing thoughts refreshes the duration.
 
 ### Give Up Gu
 
@@ -7704,7 +7874,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
-Effect: A creature you touch has their brain destroyed and immediately reconstructed. They are cured of most mental illnesses and lose the *stunned* and *dazed* conditions. Any [**Dao**] effects applied to their **Brain** are removed.
+Effect: A creature you touch has their brain destroyed and immediately reconstructed. They are cured of most mental illnesses and lose the *stunned*, *dazed*, and *unconscious* conditions. Any [**Dao**] effects applied to their **Brain** are removed.
 
 ### One Mind Gu
 *Rank 2-5 Catalyst*
@@ -8317,7 +8487,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: You touch a Gu Master with the *restrained* condition between their eyes, and Problem Nipped in the Bud Gu attaches to their head. At the end of each of your turns, a random Gu is extracted from their aperture and the will inside is obliterated, turning the Gu wild. If the target loses the *restrained* condition, Problem Nipped in the Bud Gu deactivates.
+Effect: You touch a Gu Master with the *restrained* or *stunned* condition between their eyes, and Problem Nipped in the Bud Gu attaches to their head. At the end of each of your turns, a random Gu is extracted from their aperture and the will inside is obliterated, turning the Gu wild. If the target loses the *restrained* condition, Problem Nipped in the Bud Gu deactivates.
 
 ### Regrowth Gu
 *Rank 1 Tonic*
