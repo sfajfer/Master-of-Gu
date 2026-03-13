@@ -310,7 +310,7 @@ Health: 2
 
 Food: {4, 9, 16, 25} liters of blood from widowed women
 
-Effect: A 1 meter radius sphere of rotating blood surrounds you. For 10 minutes, all creatures inside the sphere become undetectable to [**Investigative**] Gu of rank {2, 3, 4, 5} or less. The veil of blood is still visible, but makes no sound.
+Effect: A 1 meter radius opaque sphere of rotating blood surrounds you. For 10 minutes, all creatures inside the sphere become undetectable to [**Investigative**] Gu of rank {2, 3, 4, 5} or less. The veil of blood is still visible, but blocks all sounds made from within.
 
 ### Flesh Bone Gu
 *Rank 3 Tonic*
@@ -452,7 +452,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: A fan of shadow swords fly sporadically in a line 6 meters wids and 10 meters long. Creatures in the area take 100 rending damage. Creatures have a +30 penalty on dodge tests made to avoid this attack. If this damage was dealt to their hit points, they gain *bleeding 6*.
+Effect: A fan of shadow swords fly sporadically in a line 6 meters wids and 10 meters long. Creatures in the area take 100 rending damage. Creatures have a +30 penalty to dodge tests made to avoid this attack. If this damage was dealt to their hit points, they gain *bleeding 6*.
 
 ### Moonshadow Gu
 *Rank 4 Attack*
@@ -1003,9 +1003,11 @@ Health: 3
 
 Food: The aperture of a rank {1, 2, 3, 4, 5} Gu Master.
 
-Effect: You create a false aperture and bond it to a creature that you touch. The creature must not have an aperture and cannot awaken an aperture while under the effects of False Aperture Gu.
+Effect: A freshly refined False Aperture Gu cannot be activated until it has been fed. 
 
-The false aperture can store {1, 1, 1, 2, 2} Gu of rank {1, 2, 3, 4, 5} or lower, and up to 100 portions of primeval essence of rank {1, 2, 3, 4, 5} or lower. You may infuse the aperture with primeval essence by touching the creature as a combat action and expending the number of portions taken.
+You create a false aperture and bond it to a creature that you touch. The creature must not have an aperture and cannot awaken an aperture while under the effects of False Aperture Gu.
+
+The false aperture can store {1, 1, 1, 2, 2} Gu of rank {1, 2, 3, 4, 5} or lower. Its primeval sea can store a number of portions of rank {1, 2, 3, 4, 5} or lower primeval essence equal to the maximum primeval essence of the creature whose aperture was last consumed to feed False Aperture Gu. You may infuse the aperture with primeval essence by touching the creature as a combat action and expending the number of portions taken.
 
 After creating a false aperture in this way, False Aperture Gu can no longer be activated until it is fed.
 
@@ -1744,17 +1746,17 @@ Effect: Sprinting Drake Gu immediately sprints up to 15 meters in a straight lin
 ### Temper Soul Gu
 *Rank 3 Carver*
 
-Cost: 25 portions
+Cost: 40 portions
 
 Range: Self
 
-Health: 7
+Health: 2
 
 Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your maximum soul is permanently increased by 8.
+Effect: Your maximum soul is permanently increased by 20.
 
 [**Upgrade Path: Vengeful Sun Gu**]
 
@@ -2525,7 +2527,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Brain** is permanently etched with Information Path dao. You have a photographic memory and a -20 bonus on all **Knowledge** skill tests.
+Effect: Your **Brain** is permanently etched with Information Path dao. You have a photographic memory and a -20 bonus to all **Knowledge** skill tests.
 
 ### Inscription Blade Gu
 *Rank 1 Manifestation*
@@ -2694,6 +2696,20 @@ Food: <!-- TODO ->
 Keywords: [**Sustained**]
 
 Effect: You manifest a shimmering curtain of multicolored light while sustained. The curtain takes up a 10 meter long line originating from a square you can see within range. **Ranged Attack** attack rolls made by creatures against a target on the opposite side of the curtain are made with a +30 penalty. Creatures that start their turn in or pass through the curtain gain the *dazed* condition as long as they can see.
+
+### Blink Gu
+
+*Rank 1 Celerity*
+
+Cost: 15 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: You teleport to an unoccupied adjacent square.
 
 #### Blue Light Shield Gu
 
@@ -3015,7 +3031,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: You touch a body of water at least 6 inches deep. In a 100 meter radius centered on you the water glows, casting bright light within 100 meters of it. For the next hour, any creature that enters the water has all negative effects and conditions applied by Gu of rank 3 or lower removed from them, excluding Gu with the [**Dao**] keyword.
+Effect: You touch a body of water at least 6 inches deep. In a 100 meter radius centered on you the water glows, casting bright light within 100 meters of it. For the next hour, any creature that enters the water has all negative effects and conditions applied by Gu of rank 3 or lower removed from them at the start of each of their turns, excluding Gu with the [**Dao**] keyword.
 
 ### Sunspot Gu
 
@@ -3048,7 +3064,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, a 3 meter radius sphere of light surrounds you and blocks attacks, creatures, and objects from entering (but not exiting). When an attack from outside the sphere hits a creature inside the sphere, the sphere takes the damage instead, though the defender can still dodge the attack. For every 2 points of damage the sphere takes, you lose 1 portion of primeval essence. If the sphere takes more than 30 damage from a single attack, it breaks, the remainder of the damage is dealt to the defender, and Two-stretch Golden Light Gu takes 2d6 damage as backlash. The sphere does not block sonic damage.
+Effect: While sustained, a 3 meter radius sphere of light surrounds you and blocks attacks, creatures, and objects from entering (but not exiting). When an attack from outside the sphere hits a creature inside the sphere, the sphere takes the damage instead, though the defender can still dodge the attack. For every 2 points of damage the sphere takes, you lose 1 portion of primeval essence. If the sphere takes more than 50 damage from a single attack, it breaks, the remainder of the damage is dealt to the defender, and Two-stretch Golden Light Gu takes 2d6 damage as backlash. The sphere does not block sonic damage.
 
 #### Zhulong Slither Snake Gu
 
@@ -3071,6 +3087,22 @@ Effect: Your base movement is doubled for 3 turns and you gain an additional Rea
 *An offensive path with focus on high speed attacks.*
 
 ::: columns
+
+### Buzzing Ears Gu
+
+*Rank 1 Divination*
+
+Cost: 3 portions
+
+Range: Self
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, you gain a -30 bonus to hearing-related **Awareness** skill tests.
 
 ### Chain Lightning Gu
 *Rank 3 Attack*
@@ -3401,7 +3433,7 @@ Health: 2
 
 Food: <!-- TODO ->
 
-Effect: Can only be activated as a reaction to you or another creature within range expending a luck point on a skill test. If the luck point was used to force a reroll, the target gains advantage on the reroll. If the luck point was used to give a -50 bonus on the skill test, it is instead made with a -80 bonus.
+Effect: Can only be activated as a reaction to you or another creature within range expending a luck point on a skill test. If the luck point was used to force a reroll, the target gains advantage on the reroll. If the luck point was used to give a -50 bonus to the skill test, it is instead made with a -80 bonus.
 
 ### Dumb Luck Gu
 
@@ -3559,7 +3591,7 @@ Keywords: [**Unreactable**]
 
 You fire a tiny shard of metal infused with your will at a beast within range. Make an attack roll with advantage; on a hit, it embeds itself deep into their muscle layer and maintains a semi-permanent link with the user.
 
-If the target was unaware of your attack, they must succeed an **Awareness** skill test with a +10 penalty or else remain unaware of the beast maddening bullet under their skin. The beast maddening bullet can be physically extracted, at which point it loses its effect. If the beast dies, the effect ends.
+If the target was unaware of your attack, they must succeed an **Awareness** skill test with a +10 penalty or else remain unaware of the beast maddening bullet under their skin. The beast maddening bullet can be physically extracted by another creature as a combat action, at which point it loses its effect. If the beast dies, the effect ends.
 
 While a creature is implanted by the beast maddening bullet, activating Beast Maddening Bullet Gu has the following effect:
 
@@ -3580,7 +3612,7 @@ Keywords: [**Unreactable**]
 
 You fire a tiny shard of metal at a target within range. Make an attack roll with advantage; on a hit, it embeds itself deep into their muscle layer and maintains a link with any beasts enslaved by you.
 
-If the target was unaware of your attack, they must succeed an **Awareness** skill test with a +10 penalty or else remain unaware of the beast tag bullet under their skin. Any beasts enslaved by you can sense the targets exact location as long as they are on the same continent. The beast tag bullet can be physically extracted, at which point it loses its effect. If the target dies, the effect ends.
+If the target was unaware of your attack, they must succeed an **Awareness** skill test with a +10 penalty or else remain unaware of the beast tag bullet under their skin. Any beasts enslaved by you can sense the targets exact location as long as they are on the same continent. The beast tag bullet can be physically extracted by another creature as a combat action, at which point it loses its effect. If the target dies, the effect ends.
 
 While a creature is implanted by the beast tag bullet, activating Beast Tag Bullet Gu has the following effect:
 
@@ -4604,7 +4636,7 @@ Food: Natural primeval essence (does not need fed)
 
 Keywords: [**Expendable**], [**Unrefinable**]
 
-Effect: Your current and maximum soul are permanently increased by 10.
+Effect: Your maximum soul is permanently increased by 10. The effects of multiple Guts Gu stack.
 
 ### Ironclad Soul Beetle Gu
 
@@ -4628,7 +4660,7 @@ Effect: Your soul develops an exoskeleton of Soul Path dao. Whenever your soul i
 
 *Rank 2 Attack*
 
-Cost: 12 portions
+Cost: 30 portions
 
 Range: 3 meters
 
@@ -4636,7 +4668,7 @@ Health: 2
 
 Food: <!-- TODO ->
 
-Effect: You scream. Enemies that can hear you within range take damage to their soul equal to 5 + 10% of your current soul (rounded down). Your voice is exhausted, only allowing you to speak in a whisper until you sleep for at least 4 hours. If you activate Piercing Shriek Gu again before resting your voice, you are permanently mute afterwards.
+Effect: Piercing Shriek Gu cannot be activated if you cannot speak. You scream, and all creatures that can hear you within range take damage to their soul equal to 5 + 10% of your current soul (rounded down). Your voice is exhausted, only allowing you to speak in a whisper until you sleep for at least 4 hours. If you activate Piercing Shriek Gu again before resting your voice, you are permanently mute afterwards.
 
 ### Soul Armor Gu
 
@@ -4779,7 +4811,7 @@ Health: 1
 
 Food: <!-- TODO ->
 
-Effect: You touch a creature with the *restrained* or *stunned* condition. Your soul migrates to their body and their soul migrates to yours. You and the creature's Attitude, Wisdom, and Cognition attributes are transferred to the new body, but you each gain the Agility, Fortitude, and Strength attributes, rank and cultivation stage, aperture and aptitude, Gu, lifespan, and [**Dao**] Gu effects of the new body. The will inside the Gu you each recieve still belongs to the original owner, and so must be refined before they can be used. The first time you activate any Soul Transposition Gu, your maximum Luck is reduced to 0 and cannot be raised by any means. Every subsequent time, you gain a stacking disadvantage on all skill tests.
+Effect: You touch a creature with the *restrained*, *stunned*, or *unconscious* condition. Your soul migrates to their body and their soul migrates to yours. You and the creature's Attitude, Wisdom, and Cognition attributes are transferred to the new body, but you each gain the Agility, Fortitude, and Strength attributes, rank and cultivation stage, aperture and aptitude, Gu, lifespan, and [**Dao**] Gu effects of the new body. The will inside the Gu you each recieve still belongs to the original owner, and so must be refined before they can be used. The first time you activate any Soul Transposition Gu, your maximum Luck is reduced to 0 and cannot be raised by any means. Every subsequent time, you gain a stacking disadvantage on all skill tests.
 
 ### Spirit Incubating Flea Gu
 *Rank 3 Catalyst*
@@ -4793,6 +4825,22 @@ Health: 9
 Food:  <!-- TODO ->
 
 Effect: You transfer your soul into Spirit Incubating Flea Gu. Your body enters a catatonic state and effectively dies. If another Gu Master places Spirit Incubating Flea Gu into their aperture, you may converse with them in their head.
+
+### Tranquil Soul Gu
+
+*Rank 3 Carver*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Your **Brain** is carved with Soul Path dao, strengthening your soul and dampening your emotions. Your maximum soul is permanently increased by 30, your Cognition attribute is permanently increased by 10, and your Attitude attribute is permanently reduced by 15.
 
 ### Wicked Kiss Gu
 
@@ -4821,7 +4869,7 @@ Effect: Creatures have a -20 bonus to **Dodge** skill tests made to dodge your k
 
 Cost: 20 portions
 
-Range: 250 meters
+Range: 30 meters
 
 Health: 4
 
@@ -4829,7 +4877,7 @@ Food: 100 g Autumn Voice Grass (4 primeval stones)
 
 Keywords: [**Investigative: Hearing**], [**Sustained**]
 
-Effect: While sustained, your hearing grows extremely sensitive. You can hear all noises made within range and judge their exact location. You have vulnerability to sonic damage.
+Effect: While sustained, your hearing grows extremely sensitive. You can hear all noises made within range, including heartbeats, and judge their exact location. You have vulnerability to sonic damage. 
 
 ### Copper Warhorn Gu
 *Rank 1 Manifestation*
@@ -4918,6 +4966,8 @@ Range: Touch
 Health: 10
 
 Food: <!-- TODO ->
+
+Keywords: [**Investigative: Detect**]
 
 Effect: You attach one end of Tripwire Gu to a wall, and the other end to another wall within 1 meter, forming a tripwire. Tripwire Gu becomes invisible and intangible, and if a creature passes through it you hear the sound of a bell in your head that wakes you up if you are sleeping.
 
@@ -6802,9 +6852,9 @@ You gain immunity to the *bleeding*, *fatigued*, and *posioned* conditions.
 
 You gain vulnerability to heat and shock damage.
 
-While exposed to direct light, you gain a -20 bonus on all **Dodge**, **Flying**, **Close Combat** and **Ranged Attack** skill tests.
+While exposed to direct light, you gain a -20 bonus to all **Dodge**, **Flying**, **Close Combat** and **Ranged Attack** skill tests.
 
-While not exposed to direct light, you gain a -20 bonus on all **Awareness**, **Cultivation**, **Deduction**, and **Refinement** skill tests.
+While not exposed to direct light, you gain a -20 bonus to all **Awareness**, **Cultivation**, **Deduction**, and **Refinement** skill tests.
 
 Your lifespan is not consumed over time.
 
@@ -7332,6 +7382,8 @@ Effect: Your movement is increased by 2 meters while sustained. You no longer co
 
 *Rank 2 Catalyst*
 
+Previous Rank: Feather Step Gu
+
 Cost: 4 portions
 
 Range: Self
@@ -7342,7 +7394,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, your movement makes no sound, including jumping, climbing, and sprinting. You also fall at a rate of 10 meters per turn (at the start of each of your turns) and take no damage from falling. You may activate Air Resistance Gu as a reaction when you're sent *airborne.* If you have a flying speed greater than 10 meters, it is reduced to 10 meters.
+Effect: While sustained, your movement makes no sound. You also fall at a rate of 10 meters per turn (at the start of each of your turns) and take no damage from falling. You may activate Air Resistance Gu as a reaction when you're sent *airborne.* If you have a flying speed greater than 10 meters, it is reduced to 10 meters.
 
 ### Cloud Rope Gu
 
@@ -7357,7 +7409,7 @@ Food: <!-- TODO ->
 
 Effect: You condense a rope of clouds. You may throw the rope like a lasso at a creature within range as a bonus action. Make an attack roll; on a hit, the creature gains the *restrained* condition. If you miss, the effect ends. The creature can use a combat action to attempt to break free by making an **Athletics** skill test with a +10 penalty. If they succeed, this effect ends.
 
-As an activation, you may duplicate the cloud rope. Doing so increases the penalty on the **Athletics** test by +10, stacking up to a total of a +100 penalty.
+As an activation, you may duplicate the cloud rope. Doing so increases the penalty to the **Athletics** test by +10, stacking up to a total of a +100 penalty.
 
 ### Cyclone-Lung Gu
 
@@ -7377,6 +7429,8 @@ Effect: Your **Lungs** are permanently expanded to hold massive amounts of air. 
 
 ### Feather Step Gu
 *Rank 1 Celerity*
+
+Next Rank: Air Resistance Gu
 
 Cost: 2 portions
 
@@ -7982,7 +8036,7 @@ Food: {1, 4, 9, 16, 25} kilograms of phantom soil
 
 Keywords: [**Deductive**]
 
-Effect: Your thoughts appear as pitch black bubbles above your head. If you use Space Thoughts Gu to deduce or improve a refinement recipe, you gain a {-10, -20, -30, -40, -50} bonus on the test if you own the Gu whose recipe you are deducing or improving. The Gu must also be of the appropriate rank; you do not gain the bonus if you are deducing a rank 3 recipe but only own the rank 2 version of the Gu.
+Effect: Your thoughts appear as pitch black bubbles above your head. If you use Space Thoughts Gu to deduce or improve a refinement recipe, you gain a {-10, -20, -30, -40, -50} bonus to the test if you own the Gu whose recipe you are deducing or improving. The Gu must also be of the appropriate rank; you do not gain the bonus if you are deducing a rank 3 recipe but only own the rank 2 version of the Gu.
 
 If the recipe belongs to Space Path, you gain the bonus whether or not you own the Gu.
 
@@ -7998,7 +8052,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Effect: You gain a -20 bonus on your next **Deduction** or **Knowledge** skill test if it is your second time attempting it.
+Effect: You gain a -20 bonus to your next **Deduction** or **Knowledge** skill test if it is your second time attempting it.
 
 ### Third Eye Gu
 

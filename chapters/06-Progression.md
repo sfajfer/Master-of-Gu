@@ -42,7 +42,7 @@ Gu Masters have many different activities available to them during downtime. Cul
 
 To study, you must first acquire a teacher or their recorded instructional material such as a book or Information Path Gu. Your progress is quickened or slowed depending on the quality of your teacher or reading material.
 
-For every 8 hours spent learning with a tutor, you invest 2, 5, or 12 experience, depending on if the teacher has *Fundamental*, *Intermediate*, or *Master* Attainment (respectively) in the path you are trying to learn.
+For every 8 hours spent learning with a tutor, you invest 2, 5, or 12 experience, depending on if the teacher has *Fundamental*, *Intermediate*, or *Master* Attainment (respectively) in the path you are trying to learn. You cannot increase your Attainment in this way beyond the threshold of your teacher's Attainment level.
 
 Skilled tutors are available for hire in most mid to large-sized clans; Those with *Fundamental* Attainment charge around 50 primeval stones, while those with *Intermediate* Attainment charge around 200 primeval stones per 8 hour session. Masters of a path are difficult to find, often being highly ranked or very old lone cultivators. Many are in charge of entire forces, and unwilling to teach for mere primeval stones if anything at all. If you do find a master willing to teach you, they will often ask for a favor in return.
 
