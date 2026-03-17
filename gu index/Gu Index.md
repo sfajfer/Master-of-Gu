@@ -29,7 +29,7 @@ Range: 100 meters
 
 Health: 2
 
-Food: A 100,000 liter pond of human blood in a hole dug in Hemmorhage Soil
+Food: A 100,000 liter pond of *human* blood in a hole dug in Hemmorhage Soil
 
 Effect: You rupture the hearts of all *bleeding* creatures within range. They have a chance to react before they instantly die. Immediately following, make 3 attack rolls for each creature affected. The range of these attacks is 15 meters, measured from the original target or the square they were in when they died. On a hit, deal 80 rending damage. If damage is dealt to a creature's hit points in this way, they gain *bleeding 5*. If the damage kills the target, you may make an additional 3 attack rolls with the same properties and measured from the square the target was in when they died.
 
@@ -157,7 +157,7 @@ Range: Touch
 
 Health: 3
 
-Food: 1 liter of blood each from 3 unrelated humans
+Food: 1 liter of blood each from 3 unrelated *humans*
 
 Effect: The target of this effect must have an open wound. You pour blood infused with qi into the wound, restoring {6, 15, 45} hit points to the target and restoring their blood.
 
@@ -452,10 +452,12 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: A fan of shadow swords fly sporadically in a line 6 meters wids and 10 meters long. Creatures in the area take 100 rending damage. Creatures have a +30 penalty to dodge tests made to avoid this attack. If this damage was dealt to their hit points, they gain *bleeding 6*.
+Effect: A fan of shadow swords fly sporadically in a 8-meter cone. Creatures in the area take 100 rending damage. Creatures have a +20 penalty to dodge tests made to avoid this attack. If this damage was dealt to their hit points, they gain *bleeding 6*.
 
 ### Moonshadow Gu
 *Rank 4 Attack*
+
+Previous Rank: Illusory Moon Gu
 
 Cost: 40 portions
 
@@ -926,7 +928,7 @@ Food: {10, 30, 90, 300, 1000} kg of [Beast] Flesh
 
 Keywords: [**Expendable**]
 
-Effect: Target a [Beast] that you can see within range. [Beast] Enslavement Gu flies from your aperture in a straight line towards the target. Gu can be activated as a reaction if they make a targeted attack roll to hit [**Beast**] Enslavement Gu en route. If the Enslavement Gu successfully reaches its target, you attempt to dominate its mind, as long as the target's beast classification is at or below the rank of the Enslavement Gu:
+Effect: Target a [Beast] that you can see within range. [Beast] Enslavement Gu flies from your aperture in a straight line towards the target. Gu can be activated as a reaction if they make a targeted attack roll to hit [**Beast**] Enslavement Gu en route. If the Enslavement Gu successfully reaches its target, you attempt to dominate its mind, as long as the target's *beast* classification is at or below the rank of the Enslavement Gu:
 
 - Rank 1: Ordinary Beasts
 - Rank 2: Hundred Beast Kings
@@ -934,11 +936,11 @@ Effect: Target a [Beast] that you can see within range. [Beast] Enslavement Gu f
 - Rank 4: Myriad Beast Kings and Mutated Beasts
 - Rank 5: Beast Emperors and Mutated Hundred Beast Kings
 
-You and the target have a battle of souls. If your current soul value is greater than the beast's, subtract the beast's current soul value from your own and you successfully permanently enslave it. You can now control its actions with your mind from a distance of up to (Maximum Soul) meters, as long as you can see it.
+You and the target have a battle of souls. If your current soul value is greater than the *beast's*, subtract the *beast's* current soul value from your own and you successfully permanently enslave it. You can now control its actions with your mind from a distance of up to (Maximum Soul) meters, as long as you can see it.
 
 If the target is willing to be enslaved, they fail the battle of souls automatically and your soul takes no damage.
 
-If your current soul value is less than or equal to the beast's, you fail to enslave it, the beast's current soul value is reduced by your current soul value, and then your current soul value is reduced to 1.
+If your current soul value is less than or equal to the *beast's*, you fail to enslave it, the *beast's* current soul value is reduced by your current soul value, and then your current soul value is reduced to 1.
 
 ### Beholder Gu
 
@@ -954,7 +956,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Your left eye glows with a blue light as you connect telepathically with a beast enslaved by you that you can see within range. While sustained, you gain all observable information available to the target's left eye as long as they are within range. Your right eye remains normal, and continues intaking visual information in front of you. Your left eye swivels in unison with the target's, moving automatically and sometimes uncomfortably. You have one fewer reaction each turn from focusing on two sets of visual data.
+Effect: Your left eye glows with a blue light as you connect telepathically with a *beast* enslaved by you that you can see within range. While sustained, you gain all observable information available to the target's left eye as long as they are within range. Your right eye remains normal, and continues intaking visual information in front of you. Your left eye swivels in unison with the target's, moving automatically and sometimes uncomfortably. You have one fewer reaction each turn from focusing on two sets of visual data.
 
 ### Bonded Collar Gu
 *A collar made of whispy shadow, it's hard to see exactly where it begins or ends. Once accepted by a creature, an ethereal leash flickers out from the user's hand and ties itself to the collar before both fade and disappear. The creature is embued with some of your own soul, and will never turn against you.*
@@ -971,7 +973,7 @@ Food: 1 kg crimson akita wolf flesh (15 primeval stones)
 
 Keywords: [**Expendable**]
 
-Effect: Target an ordinary beast of CR 24 or lower within range. Your maximum Soul is permanently reduced by 5; the target is enslaved by you (see Enslavement Path, Ch. 3), raised to a Hundred Beast King, and its maximum soul is increased by 5. As part of this process, you may transfer the effect of a Gu with the [**Dao**] keyword from your body to the target's, as long as the target is not under the effect of a [**Dao**] Gu of an incompatible path.
+Effect: Target an ordinary *beast* of CR 24 or lower within range. Your Maximum Soul is permanently reduced by 5; the target is enslaved by you (see Enslavement Path, Ch. 3), raised to a Hundred Beast King, and its Maximum Soul is increased by 5. As part of this process, you may transfer the effect of a Gu with the [**Dao**] keyword from your body to the target's, as long as the target is not under the effect of a [**Dao**] Gu of an incompatible path.
 
 ### Chain of Command Gu
 
@@ -1042,9 +1044,34 @@ Food: <!-- TODO ->
 
 Keywords: [**Low Vitality**]
 
-Effect: Last Breath Gu's beak unhinges as it eats the head of a human or variant human that died due to your direct actions within the last hour. A shadowy maw emerges from the neck as the corpse rises from the dead as a Roaming Zombie (see Bestiary) under your control. The Roaming Zombie can percieve its surroundings in a 10 meter radius despite not having eyes, but permanently has the *deafened* condition. Its bite attacks deal an additional 4 damage to the target's soul.
+Effect: Last Breath Gu's beak unhinges as it eats the head of a *human* or *variant-human* that died due to your direct actions within the last hour. A shadowy maw emerges from the neck as the corpse rises from the dead as a Roaming Zombie (see Bestiary) under your control. The Roaming Zombie can percieve its surroundings in a 10 meter radius despite not having eyes, but permanently has the *deafened* condition. Its bite attacks deal an additional 4 damage to the target's soul.
 
 You may control the Roaming Zombie in the same way as other enslaved creatures. If you do not directly control the Roaming Zombie, it wanders about its surroundings and attacks any creatures besides you that it comes across.
+
+### Mysterious Vile Gu
+*A large insect the size of one's hand, it has a hard, thorny exoskeleton and a hollow thorax that leads to a horrendously long stinger.*
+
+*Rank 2-4 Carver*
+
+Cost: 60 portions
+
+Range: 8 meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable**]
+
+Effect: Mysterious Vile Gu bites you, and your Maximum Soul is reduced by 1. As an activation, you may send Mysterious Vile Gu to sting a *beast* with classification at or under the rank of Mysterious Vile Gu within range. If it reaches its target, it stings the *beast* and infuses your soul into it. The *beast's* Maximum Soul is increased by 1 and they become enslaved by you if they were not already.
+
+- Rank 1: Ordinary Beasts
+- Rank 2: Hundred Beast Kings
+- Rank 3: Thousand Beast Kings
+- Rank 4: Myriad Beast Kings and Mutated Beasts
+- Rank 5: Beast Emperors and Mutated Hundred Beast Kings
+
+Mysterious Vile Gu can be used in conjunction with any Gu of equal or lower rank with the [**Dao**] keyword and without the [**Transformation**] keyword to form the Familiar Vile killer move without it having to be deduced.
 
 ### Nurturing Nest Gu
 
@@ -1060,7 +1087,7 @@ Food: 100 g of soul-soothing incense (50 primeval stones)
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Aperture** is permanently modified to provide a nurturing environment for the souls of your enslaved creatures. You can store up to 3 enslaved [Medium] or smaller beasts directly within your aperture. While stored, they do not require food and regain hit points at double the natural rate. You may stow or withdraw a beast in an adjacent square as a bonus action.
+Effect: Your **Aperture** is permanently modified to provide a nurturing environment for the souls of your enslaved creatures. You can store up to 3 enslaved [Medium] or smaller *beasts* directly within your aperture. While stored, they do not require food and regain hit points at double the natural rate. You may stow or withdraw a *beast* in an adjacent square as a bonus action.
 
 ### Pack Leader Gu
 
@@ -1076,7 +1103,7 @@ Food: <!-- TODO ->
 
 Effect: You howl, shaking the surroundings. All creatures within range with less than {4, 10, 25, 80} current soul becomes submissive, laying *prone* and ceasing all hostilities. This effect lasts for 1 minute, and ends on a creature if you attack it.
 
-As long as a beast can hear the howl and has classification at or under the rank of Pack Leader Gu, they become frightened and attempt to flee the area, unless they are submissive.
+As long as a *beast* can hear the howl and has classification at or under the rank of Pack Leader Gu, they become frightened and attempt to flee the area, unless they are submissive.
 
 - Rank 1: Ordinary Beasts
 - Rank 2: Hundred Beast Kings
@@ -1138,7 +1165,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, the scents of creatures within range are undetectable to Thousand Beast Kings, Hundred Beast Kings, ordinary beasts, and [**Investigative**] Gu of rank 3 or lower.
+Effect: While sustained, the scents of creatures within range are undetectable to Thousand Beast Kings, Hundred Beast Kings, ordinary *beasts*, and [**Investigative**] Gu of rank 3 or lower.
 
 ### Unfinished Business Gu
 
@@ -1168,7 +1195,7 @@ Health: 2
 
 Food: <!-- TODO ->
 
-Effect: You touch a beast enslaved by you and they freeze in place. Whenever the beast succeeds an **Awareness** skill test made to detect a creature, you know immediately, but learn no information about what creature was detected or where. The beast is incapable of moving or taking any actions or reactions. When you next touch the beast, the effect ends and the beast takes 5 damage to its soul for every 8 hours it has been under the effect of Watchdog Gu. If a beast is under the effect of Watchdog Gu for longer than 72 hours, it dies.
+Effect: You touch a *beast* enslaved by you and they freeze in place. Whenever the *beast* succeeds an **Awareness** skill test made to detect a creature, you know immediately, but learn no information about what creature was detected or where. The *beast* is incapable of moving or taking any actions or reactions. When you next touch the *beast*, the effect ends and the *beast* takes 5 damage to its soul for every 8 hours it has been under the effect of Watchdog Gu. If a *beast* is under the effect of Watchdog Gu for longer than 72 hours, it dies.
 
 :::
 \newpage
@@ -1187,7 +1214,7 @@ Range: Self
 
 Health: 8
 
-Food: 1 liter of blood from a fire path beast
+Food: 1 liter of blood from a fire path *beast*
 
 Effect: You immediately regain 10 hit points and 1 soul strength.
 
@@ -1756,7 +1783,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your maximum soul is permanently increased by 20.
+Effect: Your Maximum Soul is permanently increased by 20.
 
 [**Upgrade Path: Vengeful Sun Gu**]
 
@@ -2117,7 +2144,7 @@ Food: Natural primeval essence (does not need fed)
 
 Keywords: [**Expendable**], [**Unrefinable**]
 
-Effect: Hope Gu cannot be activated or refined. Hope Gu attaches to the body of the first human or variant-human it comes across without an aperture. After 1 hour of the first Hope Gu attaching, the creature's aperture awakens with 1% aptitude for every Hope Gu attached to it. The maximum number of Hope Gu that can be attached to a creature is different for every creature and determined by the Gamemaster, with a maximum of 99. If a creature awakens their aperture with 19 or fewer Hope Gu attached to them, the awakening fails, and the creature cannot ever again awaken their aperture using Hope Gu.
+Effect: Hope Gu cannot be activated or refined. Hope Gu attaches to the body of the first *human* or *variant-human* it comes across without an aperture. After 1 hour of the first Hope Gu attaching, the creature's aperture awakens with 1% aptitude for every Hope Gu attached to it. The maximum number of Hope Gu that can be attached to a creature is different for every creature and determined by the Gamemaster, with a maximum of 99. If a creature awakens their aperture with 19 or fewer Hope Gu attached to them, the awakening fails, and the creature cannot ever again awaken their aperture using Hope Gu.
 
 ### Lifespan Gu
 *Lifespan Gu are extremely rare, produced by Heaven's Will according to the current deficits and surpluses in the world. Lifespan Gu are impossible to refine, and even a rank 1 Lifespan Gu is worth great fights between mortals and immortals alike.*
@@ -2150,7 +2177,7 @@ Food: Naturally occuring Human Qi (does not need fed)
 
 Keywords: [**Expendable**]
 
-Effect: A human or variant-human that you touch immediately awakens their aperture. The Gamemaster picks an aptitude for the newly awakened aperture. Man Triumphing Heaven Gu has no effect if the target already has an aperture.
+Effect: A *human* or *variant-human* that you touch immediately awakens their aperture. The Gamemaster picks an aptitude for the newly awakened aperture. Man Triumphing Heaven Gu has no effect if the target already has an aperture.
 
 ### Primeval Elder Gu
 *Primeval Elder Gu appears to be an old man sitting on a cloud meditating. When it contains few primeval stones, it has a frown that slowly grows into a smile as stones are added.*
@@ -2208,6 +2235,20 @@ Effect: Your current **Predicament Token** count is reset to 0.
 
 ::: columns
 
+### Blue Bird Ice Coffin Gu
+
+*Rank 3 Attack*
+
+Cost: 40 portions
+
+Range: 15 meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: A blue dove flies from you towards a target square within range before detonating in an 8-meter radius icy explosion. Creatures in the area take 30 cold damage, reduced to 15 cold damage if the creature is more than 4 meters from the target square.
+
 ### Blue Ice Skin Gu
 
 *Rank 1 Carver*
@@ -2238,7 +2279,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Lungs** are permanently modified to exhale sub-zero air. Your breath is always visible as a white mist. As a combat action, you may exhale freezing air in a line 2 meters wide and 5 meters long. All fires in the area are extinguished, and all creatures in the area lose the *burning* and *ablaze* conditions.
+Effect: Your **Lungs** are permanently modified to exhale sub-zero air. Your breath is always visible as a white mist. As a combat action, you may exhale freezing air in a 4-meter cone. All fires in the area are extinguished, and all creatures in the area lose the *burning* and *ablaze* conditions.
 
 ### Heat Sap Gu
 *Rank 3 Attack*
@@ -2497,6 +2538,52 @@ Effect: You open your aperture, allowing Assessment Gu to see the target. Roll a
 
 You gain all the information from higher results as well.
 
+### Author Gu
+
+*Rank 3 Divination*
+
+Cost: 30 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: You immediately know the birth name of the author of a piece of recorded information that you touch. If the information is on a Gu, you learn who stored the information on the Gu, not the original author.
+
+### Bamboo Gentleman Gu
+
+*Rank 4 Divination*
+
+Cost: 2 portions
+
+Range: Self
+
+Health: 5
+
+Food: Honest statements
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, you know immediately whether a verbal statement is true or not. Truth is determined by the speaker's intent, and if they are not sure of the honesty of their statement it would be detected as a lie. Bamboo Gentleman Gu can only be refined and fed by someone who has never told a lie.
+
+### [Beast] Language Gu
+
+*Rank 2 Divination*
+
+Cost: 3 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, you can communicate with [Beast]s. If a [Beast] has a Cognition attribute of 10 or lower, it is only capable of communicating simple words and ideas.
+
 ### Eating One's Words Gu
 
 *Rank 2 Catalyst*
@@ -2590,7 +2677,7 @@ Food: <!-- TODO ->
 
 Keywords: <!-- TODO ->
 
-Effect: This Gu has no effect unless used when standing on a mountain. A 1 meter radius perimeter of stones rises from the ground centered on you. If you or a creature standing in the circle recite an oath, they become bound by Mountain Oath Gu. As long as long the mountain still exists, affected creatures are erased from existence if they break their oath.
+Effect: This Gu has no effect unless activated while standing on a mountain. A 1 meter radius perimeter of stones rises from the ground centered on you. If you or a creature standing in the circle recite an oath, they become bound by Mountain Oath Gu. As long as long the mountain still exists, affected creatures are erased from existence if they break their oath through action or inaction.
 
 ### Paper Crane Gu
 
@@ -2605,6 +2692,22 @@ Health: 5
 Food: 1 kg of wood pulp (1/4 primeval stone)
 
 Effect: Summon a paper crane. Speak a message of up to 50 words. The paper crane records the spoken words before flying up to 10 kilometers in a direction of your choice.
+
+### Truthful Bone Gu
+
+*Rank 2 Divination*
+
+Cost: None
+
+Range: 2 meters
+
+Health: 4
+
+Food: Honest statements
+
+Effect: If a lie is told within range of Truthful Bone Gu, it detonates and dies. Truth is determined by the speaker's intent, and if they are not sure of the honesty of their statement it would be detected as a lie.
+
+Truthful Bone Gu cannot hear lies from inside of an aperture. Activating Truthful Bone Gu has no effect.
 
 ### Photo-audio Gu
 *Rank 2 Manifestation*
@@ -2656,6 +2759,22 @@ Food: <!-- TODO ->
 Keywords: [**Piercing**]
 
 Effect: You flick your tongue twice in rapid succession, launching 2 crimson sword lights each at a target within range. Make an attack roll for each; on a hit deal {8, 15, 30, 80, 200} rending damage.
+
+### Visual Calculus Gu
+
+*Rank 3 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Over the course of an hour, you are *blinded* while your **Eyes** are carved with Information Path dao, allowing you to visualize trajectories and perform rapid calculations. At the end of the hour, your **Ranged Attack** skill is permanently increased by 10. You gain a -15 bonus to **Dodge** skill tests made to avoid projectiles and a -30 bonus to **Deduction** skill tests made to determine the trajectory of a projectile.
 
 :::
 \newpage
@@ -2805,7 +2924,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Effect: Light manifests in your hand, and after a short delay, you release a concussive burst in a 3 meter wide, 2 meter long line. Creatures in the area gain the *stunned* condition. **Dodge** skill tests made to avoid this attack are made with a -20 bonus.
+Effect: Light manifests in your hand, and after a short delay, you release a concussive burst in a 3-meter cone. Creatures in the area gain the *stunned* condition. **Dodge** skill tests made to avoid this attack are made with a -20 bonus.
 
 If the creature cannot see, they instead gain the *deafened* condition until the end of their next turn. 
 
@@ -2920,18 +3039,220 @@ Food: 3 drops of flammable oil.
 
 Effect: Little Light Gu emits 10 meters of bright light at all times. The light defaults to white, but activating Little Light Gu slightly shifts its color along the color wheel until it reaches your desired color.
 
-**Moonlight Gu**
+[**Upgrade Tree: Moonlight Gu**]
+
+### Moonlight Gu
 *Rank 1 Attack*
+
+Next Rank: Moonscar Gu, Moonglow Gu, Moon Harbinger Gu, Moonwhirl Gu, Moon Raiment Gu, Moonveil Gu
 
 Cost: 6 portions
 
-Range: 10 meters
+Range: 5 meters
 
 Health: 2
 
 Food: 3 moon orchid petals (3 primeval stones)
 
-Effect: You hurl a flat, crescent-shaped beam of light. Make an attack roll against a target within range with a -10 bonus. On a hit, deal 6 rending damage.
+Effect: You hurl a flat, crescent-shaped beam of light. Make an attack roll against a target within range. On a hit, deal 8 rending damage. If this damage is dealt to the target's hit points, they gain *bleeding* 1.
+
+### Moonglow Gu
+
+*Rank 2 Attack*
+
+Next Rank: Blood Moon Gu, Golden Moon Gu
+
+Previous Rank: Moonlight Gu
+
+Cost: 20 portions
+
+Range: 5 meters
+
+Health: 2
+
+Food: 30 moon orchid petals (30 primeval stones)
+
+Effect: You hurl a flat, crescent-shaped beam of light. Make an attack roll against a target within range. On a hit, deal 25 rending damage. If this damage is dealt to the target's hit points, they gain *bleeding* 2.
+
+### Golden Moon Gu
+
+*Rank 3 Attack*
+
+Previous Rank: Moonglow Gu
+
+Cost: 20 portions
+
+Range: 5 meters
+
+Health: 2
+
+Food: 30 moon orchid petals (30 primeval stones)
+
+Effect: You hurl a tall, golden, crescent-shaped beam of light. Make an attack roll against a target within range. On a hit, deal 70 rending damage. If this damage is dealt to the target's hit points, they gain *bleeding* 4.
+
+### Moon Harbinger Gu
+
+*Rank 2 Carver*
+
+Previous Rank: Moonlight Gu
+
+Cost: None
+
+Range: Self
+
+Health: 1
+
+Food: 35 moon orchid petals (35 primeval stones)
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Your **Nervous System** is carved with Light Path dao over the course of an hour. Afterwards, your nervous system alerts you immediately before being attacked; you permanently gain immunity to the *surprised* condition.
+
+### Moonscar Gu
+
+*Rank 2 Attack*
+
+Next Rank: Blood Moon Gu, Frost Moon Gu
+
+Previous Rank: Moonlight Gu
+
+Cost: 2 portions
+
+Range: 10 meters
+
+Health: 3
+
+Food: 15 moon orchid petals (15 primeval stones)
+
+Effect: You hurl a flat, crescent-shaped beam of light. Make an attack roll against a target within range. On a hit, deal 10 rending damage. If this damage is dealt to the target's hit points, they gain *bleeding* 1.
+
+### Blood Moon Gu
+
+*Rank 3 Attack*
+
+Previous Rank: Moonglow Gu, Moonscar Gu
+
+Cost: 8 portions
+
+Range: 5 meters
+
+Health: 3
+
+Food: 3 moon orchid petals (3 primeval stones)
+
+Effect: You hurl a flat, blood-red, crescent-shaped beam of light. Make an attack roll against a target within range. On a hit, deal 60 rending damage. If this damage is dealt to the target's hit points, they gain *bleeding* 10.
+
+### Frost Moon Gu
+
+*Rank 3 Attack*
+
+Previous Rank: Moonscar Gu
+
+Cost: 14 portions
+
+Range: 5 meters
+
+Health: 2
+
+Food: 3 moon orchid petals (3 primeval stones)
+
+Effect: You hurl a flat, crescent-shaped beam of light. Make an attack roll against a target within range. On a hit, deal 50 rending damage and 25 cold damage.
+
+### Moonwhirl Gu
+
+*Rank 2 Attack*
+
+Previous Rank: Moonlight Gu
+
+Next Rank: Illusory Moon Gu
+
+Cost: 8 portions
+
+Range: 5 meters
+
+Health: 2
+
+Food: 30 moon orchid petals (30 primeval stones)
+
+Effect: A green moonblade is thrown in a curved trajectory towards a creature within range. Make an attack roll; on a hit, deal 18 rending damage. If this damage is dealt to the target's hit points, they gain *bleeding* 1. **Dodge** skill tests made to avoid this attack are made with a +20 penalty.
+
+### Illusory Moon Gu
+
+*Rank 3 Manifestation*
+
+Previous Rank: Moonwhirl Gu
+
+Next Rank: Moonshadow Gu (Dark Path)
+
+Cost: 12 portions
+
+Range: 10 meters
+
+Health: 3
+
+Food: 200 moon orchid petals (200 primeval stones)
+
+Keywords: [**Sustained**]
+
+Effect: A shadowy figure manifests in an unoccupied square within range while sustained, subtly influencing the minds of creatures that can see it. Whenever a creature targets another creature with an attack, if they can see the shadow and the shadow is within range of the attack, roll 1d4. On a 1, the creature attacks the shadow instead of the intended target. The shadow is incorporeal and cannot take damage, but light produced by Light Path Gu dispels the effect and deactivates this Gu.
+
+### Moon Raiment Gu
+
+*Rank 2 Guard*
+
+Previous Rank: Moonlight Gu
+
+Next Rank: Moon Blessing Gu
+
+Cost: 20 portions
+
+Range: 1 meter
+
+Health: 90
+
+Food: 20 moon orchid petals (20 primeval stones)
+
+Keywords: [**Defensive**], [**Shield**], [**Sustained**]
+
+Effect: A blue fog glinting with moonlight wraps around your body in a huge flowing robe. You and any creature within range have resistance to all damage. Whenever a creature within range takes damage, Moon Raiment Gu takes the same amount of damage.
+
+### Moon Blessing Gu
+
+*Rank 3 Guard*
+
+Previous Rank: Moon Raiment Gu
+
+Cost: 30 portions
+
+Range: 3 meters
+
+Health: 3
+
+Food: 250 moon orchid petals (250 primeval stones)
+
+Keywords: [**Defensive**], [**Sustained**]
+
+Effect: All creatures within range when you activate Moon Blessing Gu are enveloped in a foggy moonlight, gaining resistance to all damage while sustained, whether or not they remain within range.
+
+### Moonveil Gu
+
+*Rank 2-3 Concealment*
+
+Previous Rank: Moonlight Gu
+
+Cost: 3 portions
+
+Range: Self
+
+Health: 4
+
+Food: {20, 150} moon orchid petals ({20, 150} primeval stones)
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, you are invisible as along as you are lit by moonlight.
+
+[**END**]
 
 ### One-stretch Golden Light Gu
 *Rank 1 Guard*
@@ -2961,8 +3282,6 @@ Range: 50 meters
 Health: 4
 
 Food: Light from all colors of the rainbow, or light from White Heaven
-
-Keywords: [**Dao**]
 
 Effect: Pick a square that you can see within range. You turn into a beam of light and nearly instantaneously move to the target square. You ignore effects that trigger when you move through their area of effect, but can still be stopped by barriers. The speed of travel is so fast that it disorients you and expends all of your reactions.
 
@@ -3284,7 +3603,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Your movement is increased by 5 meters while sustained. Whenever you move, your footsteps rumble with the sound of thunder, audible up to 5 kilometers away. Ordinary beasts are frightened and flee the sound, but beast kings are sometimes attracted by the noise.
+Effect: Your movement is increased by 5 meters while sustained. Whenever you move, your footsteps rumble with the sound of thunder, audible up to 5 kilometers away. Ordinary *beasts* are frightened and flee the sound, but beast kings are sometimes attracted by the noise.
 
 ### Self Strike Gu
 *Rank 2 Attack*
@@ -3589,13 +3908,13 @@ Food: 100 g of will grass ashes (5 primeval stones)
 
 Keywords: [**Unreactable**]
 
-You fire a tiny shard of metal infused with your will at a beast within range. Make an attack roll with advantage; on a hit, it embeds itself deep into their muscle layer and maintains a semi-permanent link with the user.
+You fire a tiny shard of metal infused with your will at a *beast* within range. Make an attack roll with advantage; on a hit, it embeds itself deep into their muscle layer and maintains a semi-permanent link with the user.
 
-If the target was unaware of your attack, they must succeed an **Awareness** skill test with a +10 penalty or else remain unaware of the beast maddening bullet under their skin. The beast maddening bullet can be physically extracted by another creature as a combat action, at which point it loses its effect. If the beast dies, the effect ends.
+If the target was unaware of your attack, they must succeed an **Awareness** skill test with a +10 penalty or else remain unaware of the beast maddening bullet under their skin. The beast maddening bullet can be physically extracted by another creature as a combat action, at which point it loses its effect. If the *beast* dies, the effect ends.
 
 While a creature is implanted by the beast maddening bullet, activating Beast Maddening Bullet Gu has the following effect:
 
-The implanted beast immediately uses a reaction to make a melee attack against another creature of your choice within range.
+The implanted *beast* immediately uses a reaction to make a melee attack against another creature of your choice within range.
 
 ### Beast Tag Bullet Gu
 *Rank 2 Attack*
@@ -3610,13 +3929,13 @@ Food: 100 g of feather soil (2 primeval stones)
 
 Keywords: [**Unreactable**]
 
-You fire a tiny shard of metal at a target within range. Make an attack roll with advantage; on a hit, it embeds itself deep into their muscle layer and maintains a link with any beasts enslaved by you.
+You fire a tiny shard of metal at a target within range. Make an attack roll with advantage; on a hit, it embeds itself deep into their muscle layer and maintains a link with any *beasts* enslaved by you.
 
-If the target was unaware of your attack, they must succeed an **Awareness** skill test with a +10 penalty or else remain unaware of the beast tag bullet under their skin. Any beasts enslaved by you can sense the targets exact location as long as they are on the same continent. The beast tag bullet can be physically extracted by another creature as a combat action, at which point it loses its effect. If the target dies, the effect ends.
+If the target was unaware of your attack, they must succeed an **Awareness** skill test with a +10 penalty or else remain unaware of the beast tag bullet under their skin. Any *beasts* enslaved by you can sense the targets exact location as long as they are on the same continent. The beast tag bullet can be physically extracted by another creature as a combat action, at which point it loses its effect. If the target dies, the effect ends.
 
 While a creature is implanted by the beast tag bullet, activating Beast Tag Bullet Gu has the following effect:
 
-Any beasts enslaved by you that can see the target use a reaction to immediately move up to half of their movement towards the target before making a melee attack against the target if they are within range.
+Any *beasts* enslaved by you that can see the target use a reaction to immediately move up to half of their movement towards the target before making a melee attack against the target if they are within range.
 
 ### Bronze Transmission Gu
 
@@ -3918,7 +4237,7 @@ Effect: You launch a silver orb at incredibly high speeds. This attack always hi
 ### Silver Lining Gu
 *Rank 1 Tonic*
 
-Next Rank: Quicksilver Lining Gu, Resurgence Gu, Steel Lining Gu
+Next Rank: Quicksilver Lining Gu, Resurgence Gu (Wood Path), Steel Lining Gu
 
 Cost: 5 portions
 
@@ -4484,7 +4803,7 @@ Range: 3 meters
 
 Health: 25
 
-Food: {1, 5} human souls
+Food: {1, 5} *human* souls
 
 Keywords: [**Large**]
 
@@ -4501,7 +4820,7 @@ Range: Self
 
 Health: 4
 
-Food: 1 pound of the respective beast's flesh
+Food: 1 pound of the respective *beast's* flesh
 
 Keywords: [**Dao**]
 
@@ -4523,7 +4842,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**]
 
-Effect: You eat a soul, either from a container Gu or the corpse of a creature that died less than a minute ago. Your maximum soul is increased by 10% of the creature's current soul and you immediately invest 1, 2, or 5 experience into your Attainment in every path they had Attainment in, depending if they have *Fundamental*, *Intermediate*, or *Master* Attainment in that path.
+Effect: You eat a soul, either from a container Gu or the corpse of a creature that died less than a minute ago. Your Maximum Soul is increased by 10% of the creature's current soul and you immediately invest 1, 2, or 5 experience into your Attainment in every path they had Attainment in, depending if they have *Fundamental*, *Intermediate*, or *Master* Attainment in that path.
 
 ### Elusive Ghost Gu
 
@@ -4615,7 +4934,7 @@ Range: Self
 
 Health: 4
 
-Food: 3 human souls
+Food: 3 *human* souls
 
 Keywords: [**Dao**], [**Expendable**]
 
@@ -4636,7 +4955,7 @@ Food: Natural primeval essence (does not need fed)
 
 Keywords: [**Expendable**], [**Unrefinable**]
 
-Effect: Your maximum soul is permanently increased by 10. The effects of multiple Guts Gu stack.
+Effect: Your Maximum Soul is permanently increased by 10. The effects of multiple Guts Gu stack.
 
 ### Ironclad Soul Beetle Gu
 
@@ -4648,7 +4967,7 @@ Range: Self
 
 Health: 4
 
-Food: 1 human soul
+Food: 1 *human* soul
 
 Keywords: [**Dao**], [**Expendable**], [**Extinct**]
 
@@ -4776,7 +5095,7 @@ Range: Self
 
 Health: 11
 
-Food: 5 maximum soul strength from a creature with a soul
+Food: 5 Maximum Soul strength from a creature with a soul
 
 Keywords: [**Investigative: Detect**]
 
@@ -4795,7 +5114,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**]
 
-Effect: Your Strength attribute is permanently reduced by 5. Your maximum Soul is permanently increased by 5. Soul Strength Gu's effect can stack any number of times.
+Effect: Your Strength attribute is permanently reduced by 5. Your Maximum Soul is permanently increased by 5. Soul Strength Gu's effect can stack any number of times.
 
 ### Soul Transposition Gu
 
@@ -4840,7 +5159,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Brain** is carved with Soul Path dao, strengthening your soul and dampening your emotions. Your maximum soul is permanently increased by 30, your Cognition attribute is permanently increased by 10, and your Attitude attribute is permanently reduced by 15.
+Effect: Your **Brain** is carved with Soul Path dao, strengthening your soul and dampening your emotions. Your Maximum Soul is permanently increased by 30, your Cognition attribute is permanently increased by 10, and your Attitude attribute is permanently reduced by 15.
 
 ### Wicked Kiss Gu
 
@@ -4854,7 +5173,7 @@ Health: 1
 
 Food: <!-- TODO ->
 
-Effect: Creatures have a -20 bonus to **Dodge** skill tests made to dodge your kiss. A creature you kiss has their soul drained. Their maximum soul is reduced by 10, and you gain 1 maximum and current soul.
+Effect: Creatures have a -20 bonus to **Dodge** skill tests made to dodge your kiss. A creature you kiss has their soul drained. Their Maximum Soul is reduced by 10, and you gain 1 maximum and current soul.
 
 :::
 \newpage
@@ -5148,7 +5467,7 @@ Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. I
 
 If you have enough movement to put yourself into a square adjacent to a target at least 3 meters away, you gain the following unarmed attack option:
 
-**Charge:** You move at least 2 meters in a straight line towards a target. You and the target make an opposed **Close Combat** skill test. If you win, the target takes 1 force damage, +1 damage for every 10 points you have in Strength, and the target is knocked *prone*.
+**Charge:** You expend at least 2 meters of movement to move double that number of meters in a straight line towards a target. You and the target make an opposed **Close Combat** skill test. If you win, the target takes 1 force damage, +1 damage for every 10 points you have in Strength, and the target is knocked *prone*.
 
 ### Crane Strength Gu
 
@@ -5645,7 +5964,7 @@ Health: 5
 
 Food: A handful of ordinary grass
 
-Effect: You throw an invisible and sharp crescent at a creature within range. Make an attack roll. On a hit, deal 5 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 1*. **Dodge** skill tests to avoid this attack are made with a +20 penalty.
+Effect: You throw an invisible and sharp crescent at a creature within range. Make an attack roll. On a hit, deal 12 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 1*. **Dodge** skill tests to avoid this attack are made with a +20 penalty.
 
 ### Slash Gu
 *Rank 2 Attack*
@@ -5662,7 +5981,7 @@ Health: 4
 
 Food: 1 kg of shattered glass (1/4 primeval stone)
 
-Effect: You throw a 1 meter wide curved blade in an 8 meter long line. All creatures in the area take 15 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 2*.
+Effect: You throw a 1 meter wide curved blade in an 8 meter long line. The first creature hit takes 40 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 2*.
 
 ### Rend Gu
 *Rank 3 attack*
@@ -5679,7 +5998,7 @@ Health: 3
 
 Food: 1 kg of sharpened blades of any size (1/2 primeval stone)
 
-Effect: You throw a 1 meter wide curved blade in a 20 meter long line. All creatures in the area take 60 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 3*.
+Effect: You throw a 1 meter wide curved blade in a 20 meter long line. All creatures in the area take 80 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 3*.
 
 ### Split Hill Gu
 *Rank 4 Attack*
@@ -5827,7 +6146,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
-Effect: You touch a human or variant human, or a corpse belonging to a human or variant human. Your face, body, voice, and even blood are permanently transformed to perfectly match theirs. You are completely indistinguishable from the target, fooling all [**Investigative**] Gu of rank 4 or lower. You retain your own attributes, skills, and memories.
+Effect: You touch a *human* or *variant-human*, or a corpse belonging to a *human* or *variant-human*. Your face, body, voice, and even blood are permanently transformed to perfectly match theirs. You are completely indistinguishable from the target, fooling all [**Investigative**] Gu of rank 4 or lower. You retain your own attributes, skills, and memories.
 
 If you interact with a creature that knew the target, the GM may call you to make an opposed skill test of your **Deception** against that creature's **Insight**; You and the creature both gain a bonus or penalty depending on how well you each knew the target's mannerisms:
 
@@ -6612,7 +6931,7 @@ Range: Self
 
 Health: 
 
-Food: 10 kg rotting human flesh
+Food: 10 kg rotting *human* flesh
 
 Keywords: [**Dao**], [**Sustained**], [**Transformation**]
 
@@ -7396,6 +7715,22 @@ Keywords: [**Sustained**]
 
 Effect: While sustained, your movement makes no sound. You also fall at a rate of 10 meters per turn (at the start of each of your turns) and take no damage from falling. You may activate Air Resistance Gu as a reaction when you're sent *airborne.* If you have a flying speed greater than 10 meters, it is reduced to 10 meters.
 
+### Big Breath Gu
+
+*Rank 1 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 8
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Your **Lungs** are permanently expanded to hold massive amounts of air. You can hold your breath for up to 1 hour. As a combat action you can take a deep breath and blow the air from your lungs. All [Medium] or smaller creatures in a 2 meter cone must succeed an **Athletics** test or else be knocked 2 meters backward. They do not take additional force damage from colliding with creatures or objects.
+
 ### Cloud Rope Gu
 
 *Rank 4 Attack*
@@ -7411,24 +7746,8 @@ Effect: You condense a rope of clouds. You may throw the rope like a lasso at a 
 
 As an activation, you may duplicate the cloud rope. Doing so increases the penalty to the **Athletics** test by +10, stacking up to a total of a +100 penalty.
 
-### Cyclone-Lung Gu
-
-*Rank 1 Carver*
-
-Cost: 40 portions
-
-Range: Self
-
-Health: 8
-
-Food: <!-- TODO ->
-
-Keywords: [**Dao**], [**Expendable**]
-
-Effect: Your **Lungs** are permanently expanded to hold massive amounts of air. You can hold your breath for up to 1 hour. As a combat action you can take a deep breath and blow the air from your lungs. All [Medium] or smaller creatures in a 3 meter long line must succeed an **Athletics** test or else be knocked 2 meters backward. They do not take additional damage from colliding into creatures or objects.
-
 ### Feather Step Gu
-*Rank 1 Celerity*
+*Rank 2 Celerity*
 
 Next Rank: Air Resistance Gu
 
@@ -7624,7 +7943,7 @@ Food: 100 g of soul stricken grass (6 primeval stones)
 
 Keywords: [**Expendable**]
 
-Effect: Your maximum soul is increased by 4.
+Effect: Your Maximum Soul is increased by 4.
 
 ### Battle Will Gu
 *Rank 3 Catalyst*
@@ -7794,7 +8113,7 @@ Health: 1
 
 Food: 10 g of clear minded jade (150 primeval stones)
 
-Effect: You glow with a bright yellow light and read the thoughts of nearby people. If activated during a deduction, your deduction benefits from the combined knowledge of all humans and variant humans within range instead of just information available to you personally. Can also be used outside of deductions to read the thoughts of all humans and variant humans within range until the start of your next turn. While active, you may react to the thoughts of humans and variant humans, including the activation of Gu, even if they are [**Unreactable**]. Additionally, you gain a -50 bonus to all tests made to parry, dodge, or attack humans and variant humans within range.
+Effect: You glow with a bright yellow light and read the thoughts of nearby people. If activated during a deduction, your deduction benefits from the combined knowledge of all *humans* and *variant-humans* within range instead of just information available to you personally. Can also be used outside of deductions to read the thoughts of all *humans* and *variant-humans* within range until the start of your next turn. While active, you may react to the thoughts of *humans* and *variant-humans*, including the activation of Gu, even if they are [**Unreactable**]. Additionally, you gain a -50 bonus to all tests made to parry, dodge, or attack *humans* and *variant-humans* within range.
 
 ### Kind Thoughts Gu
 
@@ -8069,20 +8388,6 @@ Food: <!-- TODO ->
 Keywords: [**Dao**], [**Expendable**], [**Investigative: Sight**]
 
 Effect: A vertical **Eye** is permanently opened on your forehead, allowing you to see through it at all times, even when you're asleep.
-
-### Truthful Bone Gu
-
-*Rank 2 Divination*
-
-Cost: None
-
-Range: 2 meters
-
-Health: 4
-
-Food: Honest statements
-
-Effect: If a lie is told within range of Truthful Bone Gu, it detonates and dies. Truthful Bone Gu cannot hear lies from inside of an aperture. Activating Truthful Bone Gu has no effect.
 
 ### {Two, Three, Four, Five} Tasks at Once Gu
 

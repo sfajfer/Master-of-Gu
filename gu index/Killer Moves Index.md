@@ -1,3 +1,45 @@
+---
+geometry:
+    - top=2cm
+    - bottom=2.5cm
+    - left=1.5cm
+    - right=1.5cm
+---
+
+## $\centerline{Enslavement Path}$
+
+::: columns
+
+### Familiar Vile
+*Rank 2-4 Killer Move*
+
+Paths: Enslavement
+
+Core Gu: Rank 2-4 Mysterious Vile Gu, any Gu with the [**Dao**] keyword and not the [**Transformation**] keyword
+
+Supplementary Gu: None
+
+Total Activations: 2
+
+Activation Cost: Varies
+
+Range: 8 meters
+
+Effect: Mysterious Vile Gu bites you, and your Maximum Soul is reduced by 1. You also activate the [**Dao**] Gu, filling up Mysterious Vile Gu's thorax with dao and sending it towards a beast with classification at or under the rank of Mysterious Vile Gu within range. If it reaches its target, it stings the beast and infuses your soul into it. The beast's Maximum Soul is increased by 1 and they become enslaved by you if they were not already. The beast loses the *beast* creature type and gains the *familiar* creature type.
+
+- Rank 1: Ordinary Beasts
+- Rank 2: Hundred Beast Kings
+- Rank 3: Thousand Beast Kings
+- Rank 4: Myriad Beast Kings and Mutated Beasts
+
+While the *familiar* is within 2 meters of you, you gain the effects of the [**Dao**] Gu. Any bonuses, penalties, ranges, and damage numbers are reduced to 1/3 of their original value, rounded down to a minimum of 1. Any effects that increase your cultivation do not apply. You may be under the effect of up to {2, 3, 5} different *familiars* at a time.
+
+:::
+
+## $\centerline{Transformation Path}$
+
+::: columns
+
 ### Azure Wolf Transformation
 *Rank 4 Killer Move*
 
@@ -10,6 +52,8 @@ Supplementary Gu: None
 Total Activations: 3
 
 Activation Cost: 15 portions
+
+Range: Self
 
 Keywords: [**Sustained**], [**Transformation**]
 
@@ -37,6 +81,8 @@ Supplementary Gu: None
 Total Activations: 4
 
 Activation Cost: 42 portions
+
+Range: Self
 
 Keywords: [**Sustained**], [**Transformation**]
 
@@ -76,6 +122,8 @@ Total Activations: 3
 
 Activation Cost: 27 portions
 
+Range: Self
+
 Keywords: [**Sustained**], [**Transformation**]
 
 Effect: You transform into a Wind Scythe Bird, gaining the following features:
@@ -89,3 +137,5 @@ Creatures that hit you with unarmed melee attacks take 15 rending damage. If thi
 You can no longer make punching, kicking, or biting attacks, but gain the following unarmed melee attack option:
 
 **Wings:** Make a **Close Combat** skill test against a creature within 1 meter of you. On a hit, deal 30 rending damage, increased to 100 rending damage if performed at the end of a *Dive* Maneuver. If this damage is dealt to the target's hit points, they gain *bleeding 6.*
+
+:::
