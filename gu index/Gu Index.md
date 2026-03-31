@@ -102,12 +102,12 @@ Health: 5
 
 Food: <!-- TODO ->
 
-Effect: You immediately remove all instances of the *Poisoned* condition applied by Gu of rank {1, 2, 3, 4, 5} or lower. After activating Blood Filter Gu, you vomit a brown clump of blood and toxins and cannot use *Reactions* until the start of your next turn.
+Effect: You immediately remove all instances of the *Poisoned* condition applied by Gu of rank {1, 2, 3, 4, 5} or lower. After activating Blood Filter Gu, you vomit a brown clump of blood and toxins; you cannot use *Reactions* until the start of your next turn.
 
 ### Blood Handprint Gu
 *Rank 5 Manifestation*
 
-Cost: 80 portions
+Cost: 60 portions
 
 Range: 50 meters
 
@@ -325,6 +325,62 @@ Food: <!-- TODO ->
 
 Effect: You touch a creature or corpse and its body instantly regenerates all missing body parts. If it is alive, it regains 30 hit points.
 
+### Gore Hound Gu
+
+*Rank 3 Manifestation*
+
+Cost: 15 portions
+
+Range: 3 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: You touch a corpse and its flesh rearranges to form a Gore Hound under your control while sustained. It does not enter initiative; as a bonus action on your turn, you may direct the Gore Hound, taking its turn for it. When you stop sustaining Gore Hound Gu, the Gore Hound explodes; creatures in a 2-meter radius centered on the Gore Hound take 80 force damage, and Gore Hound Gu cannot be activated again until 4 hours have passed.
+
+\noindent
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Attributes} & \textbf{Value} \\ \hline
+HP & 300 \\ \hline
+Soul & - \\ \hline
+Movement & 10 \\ \hline
+Strength & 180 \\ \hline
+Agility & 120 \\ \hline
+Fortitude & 300 \\ \hline
+Cognition & - \\ \hline
+Wisdom & - \\ \hline
+Attitude & - \\ \hline
+\end{tabular}
+
+\vspace{0.5em}
+
+\noindent
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Skills} & \textbf{Value} \\ \hline
+Close Combat & 75 \\ \hline
+Ranged Attack & 25 \\ \hline
+Athletics & 210 \\ \hline
+Dodge & 120 \\ \hline
+Awareness & 30 \\ \hline
+\end{tabular}
+
+\vspace{0.5em}
+
+The Gore Hound is immune to the *bleeding*, *blinded*, *dazed*, *deafened*, *fatigued*, *poisoned*, *stunned*, and *unconscious* conditions.
+
+The Gore Hound cannot make *Reactions*, and does not move or take any actions unless directed. 
+
+***Combat Actions***
+
+**Multiattack.** The Gore Hound makes 2 **Bite** attacks.
+
+**Bite.** *Melee Attack, 1 Meter.* The Gore Hound bites the target; Make an attack roll. On a hit, the target takes 35 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 2*.
+
 ### Man-Beast Life Burial Gu
 *Man-Beast Life Burial Gu is very useful for a rank 2 Gu Master wanting to reach rank 3. Unfortunately, its refinement recipe involves feeding a maiden Gu Master to a beast through the use of Beast Enslavement Gu.*
 
@@ -342,6 +398,36 @@ Effect: Immediately convert 100 portions of your primeval essence into an equal 
 
 Black steel primeval essence cannot be used for any purpose other than to attack rank 2 aperture walls; each portion counts as 10 portions of primeval essence when used to cultivate. Every day at midnight, if you still have at least 1 portion of black steel primeval essence, your aptitude is permanently decreased by 1%.
 
+### Red Mist Gu
+
+*Rank 2-3 Celerity*
+
+Cost: 30 portions
+
+Range: {3, 20} meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: You disappear in a cloud of red mist and teleport to an unoccuped square that you can see within range. Red Mist Gu can also be activated as a *Reaction* to being targeted with an attack; the attack misses you as you disappear.
+
+### Remnant Life Gu
+
+*Rank 5 Tonic*
+
+Cost: 50 portions
+
+Range: Self
+
+Health: 1
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable**]
+
+Effect: The next time you die, your body reforms in the exact spot you used Remnant Life Gu after 30 days have passed, resurrecting you as long as you have not been resurrected in some other manner before then. Your new body is identical to your old one, but is formed without any [**Dao**] effects applied. Remnant Life Gu cannot resurrect you if you are out of lifespan.
+
 ### Rising Dead Gu
 
 *Rank 4 Tonic*
@@ -356,7 +442,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
-Effect: You touch the fully intact corpse of a creature dead for no longer than 14 hours. The dead creature is returned to life at its maximum hit points.
+Effect: You touch the fully intact corpse of a creature dead for no longer than 14 hours. The dead creature is returned to life at its maximum hit points. Rising Dead Gu cannot resurrect creatures that ran out of lifespan.
 
 ### Staunch Bleeding Gu
 *Rank 1 Tonic*
@@ -424,7 +510,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Space within range is filled with an inky, impermeable darkness while sustained. [**Investigative: Sight**] Gu of rank {2, 3, 4, 5, 5} and lower cannot see through darkness created by Dark Gu.
+Effect: Space within range is filled with an inky darkness while sustained. [**Investigative: Sight**] Gu of rank {2, 3, 4, 5, 5} and lower cannot see through darkness created by Dark Gu.
 
 ### Dark Toss Gu
 
@@ -439,6 +525,20 @@ Health: 5
 Food: <!-- TODO ->
 
 Effect: You touch a Gu and Dark Toss Gu wraps itself around it. Both that Gu and Dark Toss Gu cannot be detected by [**Investigative**] Gu at or below the rank of Dark Toss Gu. Dark Toss Gu can be deactivated by touching it and expending 1 portion of primeval essence.
+
+### Invisibility Gu
+
+*Rank 5 Concealment*
+
+Cost: 30 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: You become *inaudible*, *invisible* and *undetectable* for 1 hour.
 
 ### Laughter Meat Gu
 *A lump of flesh with a mouth on one end.*
@@ -467,7 +567,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: A fan of shadow swords fly sporadically in a 8-meter cone. Creatures in the area take 100 rending damage. Creatures have a +20 penalty to dodge tests made to avoid this attack. If this damage was dealt to their hit points, they gain *bleeding 6*.
+Effect: A fan of shadow swords fly sporadically in an 8-meter cone. Creatures in the area take 100 rending damage. Creatures have a +20 penalty to **Dodge** skill tests made to avoid this attack. If this damage was dealt to their hit points, they gain *bleeding 6*.
 
 ### Moonshadow Gu
 *Rank 4 Attack*
@@ -515,7 +615,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: After the sun sets, your shadow permanently splits in two. You permanently have a second shadow, even in direct sunlight, extending 2 meters from you in a direction of your choosing, which you can change as an Activation on your turn. Creatures in contact with your Second Shadow are considered to be in your touch range and have a +30 penalty to **Dodge** skill tests made to dodge your touch attacks.
+Effect: After the sun sets, your shadow splits in two. You permanently have a second shadow, even in direct sunlight, extending 2 meters from you in a direction of your choosing, which you can change as an activation on your turn. Creatures in contact with your Second Shadow are considered to be in your touch range and have a +30 penalty to **Dodge** skill tests made to dodge your touch attacks.
 
 ### Shadow Bond Gu
 *Rank 2 Guard*
@@ -551,7 +651,7 @@ Effect: Your shadow becomes the door to a pocket dimension that only living crea
 ### Shadow Follower Gu
 *Rank 2 Concealment*
 
-Cost: 10 portions
+Cost: 6 portions
 
 Range: Self
 
@@ -1350,9 +1450,9 @@ Health: 12
 
 Food: <!-- TODO ->
 
-Keywords: [**Sustained**]
+Keywords: [**Investigative: Sight**], [**Sustained**]
 
-Effect: Six white orbs appear on your face in a spider-eye pattern. While sustained, you can see all creatures with heat signatures within range, even through barriers.
+Effect: Six white orbs appear on your face in a spider-eye pattern. While sustained, you can see all heat signatures within range, even through barriers. Creatures without a heat signature cannot be seen using Eight Burning Eyes Gu.
 
 ### Ember Armor Gu
 *Rank 2-3 Guard*
@@ -2381,7 +2481,23 @@ Food: 1 kg of permafrost
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Skin** is permanently chilled and turns a pale, wintry blue over the course of an hour. You gain immunity to the *burning* condition and reduce all heat damage dealt to your hit points by 5. Any creature that hits you with an unarmed melee attack takes 2 cold damage.
+Effect: Your **Skin** is permanently chilled and turns a pale, wintry blue over the course of an hour. You gain immunity to the *burning* condition and reduce all heat damage dealt to your hit points by 5. Any creature that hits you with an unarmed melee attack takes 2 cold damage. You also no longer have a heat signature.
+
+### Chill Touch Gu
+
+*Rank 1-3 Attack*
+
+Cost: 16 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: A creature you touch takes {3, 6, 15} cold damage. As long as you maintain contact with them the entire turn, they take a further {10, 20, 50} cold damage at the start of each of your turns while sustained. This can usually only be done on targets that cannot move, such as a creature you're grappling.
 
 ### Cold Lungs Gu
 
@@ -2397,7 +2513,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Lungs** are permanently modified to exhale sub-zero air. Your breath is always visible as a white mist. As a *Combat Action*, you may exhale freezing air in a 4-meter cone. All fires in the area are extinguished, and all creatures in the area lose the *burning* and *ablaze* conditions.
+Effect: Your **Lungs** are permanently modified to exhale sub-zero air. Your breath is always visible as a white mist. As a *Combat Action*, you may exhale freezing air in a 4-meter cone. All fires in the area are extinguished, and all creatures in the area lose the *burning* and *ablaze* conditions. The surface of water is frozen and considered *Icy Terrain*
 
 ### Heat Sap Gu
 *Rank 3 Attack*
@@ -2552,7 +2668,9 @@ Health: 10
 
 Food: <!-- TODO ->
 
-Effect: You launch a spear made of ice at a target within range. Make an attack roll; on a hit, deal 30 force damage and 20 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition. As long as the target is smaller than [**Large**], they are pushed backward 3 meters. If they collide with a wall, they are pinned to it and *restrained*. The spear can be removed by a creature as a *Combat Action* with a successful **Athletics** skill test.
+Effect: You launch a spear made of ice at a target within range. Make an attack roll; on a hit, deal 30 force damage and 20 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition. 
+
+As long as the target is smaller than [**Large**], they are pushed backward 3 meters. If they collide with a wall, they are pinned to it and *restrained*. The spear can be removed by a creature as a *Combat Action* with a successful **Athletics** skill test.
 
 ### Spiral Ice Lance Gu
 
@@ -2568,7 +2686,9 @@ Health: 10
 
 Food: <!-- TODO ->
 
-Effect: You launch a large lance of ice at a target within range. Make an attack roll; on a hit, deal 100 force damage and 50 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition. The target is pushed backward 8 meters. If they collide with a wall, they are pinned to it and *restrained*. The lance can be removed by a creature as a *Combat Action* with a successful **Athletics** skill test.
+Effect: You launch a large lance of ice at a target within range. Make an attack roll; on a hit, deal 100 force damage and 50 cold damage. If the cold damage is dealt to the target's hit points, they gain the *fatigued* condition. 
+
+The target is pushed backward 8 meters. If they collide with a wall, they are pinned to it and *restrained*. The lance can be removed by a creature as a *Combat Action* with a successful **Athletics** skill test.
 
 ### Spiral Icicle Swarm Gu
 
@@ -2606,7 +2726,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Pick a square you can see within range. While sustained, a storm of razor sharp icicles and cutting winds is manifested around it. The area is considered *Difficult Terrain* and any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage. If the cold damage is dealt to a creature's hit points, they gain the *fatigued* condition.
+Effect: Pick a square you can see within range. While sustained, a storm of razor sharp icicles and cutting winds is manifested around it. The area is considered *Icy Terrain* and any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage. If the cold damage is dealt to a creature's hit points, they gain the *fatigued* condition.
 
 [**END**]
 
@@ -2747,6 +2867,23 @@ Food: <!-- TODO ->
 
 Effect: Carves a message or image into a surface, up to a square meter in area. Can be used on living beings to inflict great pain and scar the image into tissue. The image can be of anything you've seen or imagined, but will have less detail if you do not remember the scene perfectly.
 
+### Heart Engraved Gu
+*A deep red ladybug with a number of white, heart-shaped spots corresponding to its rank.*
+
+*Rank 1-5 Container*
+
+Cost: None
+
+Range: Self
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Effect: You learn the contents of Heart Engraved Gu and it becomes impossible to forget any of the information.
+
+Heart Engraved Gu will eat any parchment placed in its mouth, storing up to {1, 2, 5, 15, 50} refinement recipes, killer moves, gambling techniques, or pages of text. To remove the information stored inside Heart Engraved Gu, you must target Heart Engraved Gu with Nausea Gu (Poison Path), at which point Heart Engraved Gu vomits all of the stored parchment.
+
 ### Ink Blood Gu
 
 *Rank 1 Carver*
@@ -2795,7 +2932,7 @@ Food: <!-- TODO ->
 
 Keywords: <!-- TODO ->
 
-Effect: This Gu has no effect unless activated while standing on a mountain. A 1 meter radius perimeter of stones rises from the ground centered on you. If you or a creature standing in the circle recite an oath, they become bound by Mountain Oath Gu. As long as long the mountain still exists, affected creatures are erased from existence if they break their oath through action or inaction.
+Effect: This Gu has no effect unless activated while standing on a mountain. A 1 meter radius perimeter of stones rises from the ground centered on you. If you or a creature recite an oath within the next hour while standing in the circle, the reciter becomes bound by Mountain Oath Gu. As long as long the mountain still exists, affected creatures are erased from existence if they break their oath through action or inaction.
 
 ### Paper Crane Gu
 
@@ -2810,22 +2947,6 @@ Health: 5
 Food: 1 kg of wood pulp (1/4 primeval stone)
 
 Effect: You manifest a paper crane in your hand. The paper crane records up to 50 words spoken to it. When you throw it, it flies for a set distance of your choosing, up to 50 kilometers.
-
-### Truthful Bone Gu
-
-*Rank 2 Divination*
-
-Cost: None
-
-Range: 2 meters
-
-Health: 4
-
-Food: Honest statements
-
-Effect: If a lie is told within range of Truthful Bone Gu, it detonates and dies. Truth is determined by the speaker's intent, and if they are not sure of the honesty of their statement it would be detected as a lie.
-
-Truthful Bone Gu cannot hear lies from inside of an aperture. Activating Truthful Bone Gu has no effect.
 
 ### Photo-audio Gu
 *Rank 2 Manifestation*
@@ -2877,6 +2998,22 @@ Food: <!-- TODO ->
 Keywords: [**Piercing**]
 
 Effect: You flick your tongue twice in rapid succession, launching 2 crimson sword lights each at a target within range. Make an attack roll for each; on a hit deal {8, 15, 30, 80, 200} rending damage.
+
+### Truthful Bone Gu
+
+*Rank 2 Divination*
+
+Cost: None
+
+Range: 2 meters
+
+Health: 4
+
+Food: Honest statements
+
+Effect: If a lie is told within range of Truthful Bone Gu, it detonates and dies. Truth is determined by the speaker's intent, and if they are not sure of the honesty of their statement it would be detected as a lie.
+
+Truthful Bone Gu cannot hear lies from inside of an aperture. Activating Truthful Bone Gu has no effect.
 
 ### Visual Calculus Gu
 
@@ -4377,6 +4514,25 @@ Effect: While sustained, your hands are made entirely of a dense and hard iron. 
 
 You have advantage on **Athletics** skill tests resulting from the **Grapple** *Combat Action*, and your punch attacks deal an additional 5 force damage.
 
+### Iron Cabinet Gu
+*A hulking sarcophagus made of wrought iron. The door is much lighter than it appears.*
+
+*Rank 4 Container*
+
+Cost: 60 portions
+
+Range: None
+
+Health: 
+
+Food: 
+
+Keywords: [**Large**]
+
+Effect: Iron Cabinet Gu shuts closed; if a *human* or *variant-human* is inside, they are trapped within and cannot escape or be freed by methods below rank 6. 
+
+Iron Cabinet Gu can store a single *human* or *variant-human*. If a creature is unwilling, they must be *restrained* or incapable of moving to be placed inside of Iron Cabinet Gu, and a creature must use their *Combat Action* to place the creature inside. Stored creatures are fully aware and still require food and water to survive. Iron Cabinet Gu can be opened from the outside like an ordinary cabinet.
+
 ### Iron Hook Silver Slash Gu
 *Rank 5 Attack*
 
@@ -4422,6 +4578,20 @@ Keywords: [**Dao**], [**Expendable**]
 
 Effect: Your **Circulatory System** permanently hardens into iron over the course of an hour. Whenever you gain the *bleeding* condition, reduce the number of *bleeding* stacks you receive by 2, to a minimum of 0.
 
+### Magnet Fingers Gu
+
+*Rank 1 Manifestation*
+
+Cost: 8 portions
+
+Range: 10 meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: Choose a metal object that you can see within range. As long as it weighs less than 5 kilograms, it is pulled to your outstretched hand. If a creature is holding the object, they can attempt an **Athletics** test, keeping hold of the object on a success.
+
 ### Metal Skin Gu
 *Rank 1-3 Carver*
 
@@ -4438,7 +4608,7 @@ Keywords: [**Dao**], [**Expendable**]
 Effect: You are assailed with a horrendous pain for 1 hour while your **Skin** molts and is replaced with {iron, steel, titanium}. You are incapable of taking any actions except to speak for the entire duration. When the process is complete, your skin is permanently transmuted into a flexible membrane as strong as the respective metal. Whenever you take damage to your hit points, except shock or sonic, reduce it by {5, 12, 25}, to a minimum of 0. You have vulnerability to shock damage.
 
 ### Polished Gold Gu
-*As is the case with most cultivation improving Gu, Polished Gold Gu is exceptionally valuable. Despite only being rank 3, Polished Gold Gu's refinement recipe requires the sacrifice of a precious rank 4 Relic Gu.*
+*As is the case with most cultivation improving Gu, Polished Gold Gu is exceptionally valuable. Despite only being rank 3, Polished Gold Gu's refinement recipe requires the sacrifice of a precious rank 4 Relic Gu. While rarely sold, they can fetch prices as high as 100,000 primeval stones at auction.*
 
 *Rank 3 Carver*
 
@@ -4648,6 +4818,23 @@ Food: 1 liter of water from a Poison Path swamp (20 primeval stones)
 Keywords: [**Dao**], [**Expendable**]
 
 Effect: Your **Aperture** is etched with Poison Path dao, and you permanently gain 10% aptitude, to a maximum of 99%. Whenever you activate a Gu of any path other than Poison Path, their cost is doubled. Whenever you activate a Gu of Poison Path, it costs 3 fewer portions, to a minimum of 1. This reduction is applied before the cost is multiplied due to a difference in rank between you and the Gu.
+
+### Nausea Gu
+
+*Rank 2 Attack*
+
+Cost: 35 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: A creature you touch becomes nauseous; they gain the *poisoned* condition with the following effects:
+
+- You have a +20 penalty to all skill tests
+- Your Activations attribute is reduced by 1
 
 [**Single Gate Poison Gu**]
 
@@ -6161,7 +6348,9 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: You immediately make an **Athletics** skill test to lift, push, or pull an object within range, or you immediately make a **Grapple** *Combat Action* against a creature within range. If you successfully grapple a creature, they are *restrained* in their square while you sustain Extert Strength Gu. At the end of each of their turns, they can make an **Athletics** skill test with a +(10% of your Strength) (maximum of +40) penalty, deactivating Extert Strength Gu on a success.
+Effect: If you target an object that you can see within range, you immediately make an **Athletics** skill test to lift, push, or pull that object to a square adjacent to it, and you completely ignore the [**Sustained**] keyword on Exert Strength Gu. 
+
+You may alternatively target a creature that you can see within range to immediately make a **Grapple** *Combat Action* against them. If you successfully grapple a creature, they are *restrained* in their square while you sustain Extert Strength Gu. At the end of each of their turns, they can make an **Athletics** skill test with a +(10% of your Strength) (maximum of +40) penalty, deactivating Extert Strength Gu on a success.
 
 ### Ivory Armor Gu
 
@@ -6203,7 +6392,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Unreactable**]
 
-Effect: Can be activated as a *Reaction* to dealing damage with a punching or kicking attack. The force of the target's body that would resist your attack is instead redirected back towards the target. Double the damage dealt by the triggering attack. If the triggering attack was a kicking attack, the distance the target is knocked backwards is doubled.
+Effect: Can be activated as a *Reaction* to dealing damage to a target with a punching or kicking attack. The force of the target's body that would resist your attack is instead redirected back towards the target. The target takes force damage equal to the force damage dealt by the triggering attack. If the triggering attack was a kicking attack, the distance the target is knocked backwards is doubled.
 
 ### [Path] Strength Gu
 *A series of Gu worms that exists for most paths, save for Human and Heaven. Used to augment attacks from other paths with your own strength.*
@@ -6578,7 +6767,7 @@ Keywords: [**Expendable**]
 
 Effect: You touch a *human* or *variant-human*, or a corpse belonging to a *human* or *variant-human*. Your face, body, voice, and even blood are permanently transformed to perfectly match theirs. Every part of you except your soul is completely indistinguishable from the target, and you retain all of your own statistics.
 
-If you interact with a creature that knew the target, the GM may call you to make an opposed skill test of your **Deception** against that creature's **Insight**; You and the creature both gain a bonus or penalty depending on how well you each knew the target's mannerisms:
+If you interact with a creature that knew the target, the Gamemaster may call you to make an opposed skill test of your **Deception** against that creature's **Insight**; You and the creature both gain a bonus or penalty depending on how well you each knew the target's mannerisms:
 
 \begin{tabular}{ll}
 \textbf{Familiarity} & \textbf{Bonus/Penalty} \\
@@ -7229,6 +7418,22 @@ Keywords: [**Dao**], [**Expendable**]
 
 Effect: Your **Leg Muscles** grow thick and fibrous. Whenever you jump, double your jump distance upwards or forwards. You no longer take fall damage from falls of 15 meters or less. Falls of more than 15 meters deal 3 damage for every meter you fell more than 15.
 
+### Hand-ear Gu
+
+*Rank 2 Divination*
+
+Cost: 4 portions
+
+Range: 12 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: An ear sprouts from the palm of your hand while sustained, allowing you to hear all sounds made within range.
+
 ### Jade Skin Gu
 *Rank 1-5 Guard*
 
@@ -7770,7 +7975,7 @@ Health: 4
 
 Food: 1 kg of dried blood from a water path myriad beast king (500 primeval stones)
 
-Effect: A creature you touch has their blood transmuted into water. In most cases, this kills the creature.
+Effect: A creature you touch has their blood transmuted into water. In most cases, this kills the creature. You can also target a pool of blood of up to 1000 liters, transmuting it into an equal volume of water.
 
 ### Blue Farm Slug Gu
 
@@ -8159,7 +8364,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Lungs** are permanently expanded to hold massive amounts of air. You can hold your breath for up to 1 hour. As a *Combat Action* you can take a deep breath and blow the air from your lungs. All [Medium] or smaller creatures in a 2 meter cone must succeed an **Athletics** test or else be knocked 2 meters backward. They do not take additional force damage from colliding with creatures or objects.
+Effect: Your **Lungs** are permanently expanded to hold massive amounts of air. You can hold your breath for up to 1 hour. As a *Combat Action* you can take a deep breath and blow the air from your lungs. All [Medium] or smaller creatures in a 2-meter cone must succeed an **Athletics** test or else be knocked 2 meters backward. They do not take additional force damage from colliding with creatures or objects.
 
 ### Cloud Rope Gu
 
@@ -8593,7 +8798,7 @@ Food: <!-- TODO ->
 
 Keywords [**Expendable**]
 
-Effect: You take {1, 2, 6} damage to your soul and create {2, 8, 30} Little Wills. Little Wills are linked to you psychically and can help you multitask. When you take the *Activate Gu* *Combat Action*, you may consume any number of Little Wills to gain 1 Activation per Little Will consumed in this way.
+Effect: You take {1, 2, 6} damage to your soul and create {2, 8, 30} Little Wills. Little Wills are linked to you psychically and can help you multitask. When you take the **Activate Gu** *Combat Action*, you may consume any number of Little Wills to make an additional activation per Little Will consumed in this way.
 
 When you activate or sustain a Gu with the [**Sustained**] keyword, you may expend a Little Will. The Gu will remain sustained until the start of your next turn and does not count towards your current number of sustained Gu.
 
@@ -8766,7 +8971,7 @@ Health: 10
 
 Food: {3, 15} blades of Cutting-Edge Grass ({90, 450} primeval stones)
 
-Effect: You condense your will into swords, taking {3, 10} damage to your soul and manifesting {1, 5} Intent Blades. As an Activation, you can make an attack roll against a target within range with an Intent Blade, dealing {35, 100} rending damage on a hit. Each Intent Blade can only be used for one attack every turn. They may also be wielded as a melee weapon with a range of 1 meter, dealing {35, 100} rending damage on a successful melee attack. Intent Blades vanish after 1 minute.
+Effect: You condense your will into swords, taking {3, 10} damage to your soul and manifesting {1, 5} Intent Blades. As an activation, you can make an attack roll against a target within range with an Intent Blade, dealing {35, 100} rending damage on a hit. Each Intent Blade can only be used for one attack every turn. They may also be wielded as a melee weapon with a range of 1 meter, dealing {35, 100} rending damage on a successful melee attack. Intent Blades vanish after 1 minute.
 
 Whenever you make an attack roll from a Gu effect, you may consume an Intent Blade to gain a -30 bonus to that attack roll.
 
@@ -8867,7 +9072,7 @@ Effect: Manifest {3, 6, 20, 50, 100} Vajra Thoughts. Vajra Thoughts appear as sh
 
 When making the *Deduction* action, you may consume a number of Vajra thoughts up to your Cognition attribute to gain a bonus equal to -(Vajra thoughts consumed) on **Deduction** skill tests made to deduce killer moves. The thoughts consumed must be inside your mind.
 
-As an Activation, you can shoot a Vajra thought at any target within range. You may only shoot Vajra thoughts that exist outside your body in this way. Make an attack roll; on a hit, each Vajra thought deals 2 force damage directly to the targets hit points.
+As an activation, you can shoot a Vajra thought at any target within range. You may only shoot Vajra thoughts that exist outside your body in this way. Make an attack roll; on a hit, each Vajra thought deals 2 force damage directly to the targets hit points.
 
 Vajra thoughts vanish after 1 hour.
 
@@ -8885,7 +9090,7 @@ Health: 5
 
 Food: <!-- TODO ->
 
-Effect: After hitting a creature with an attack, you may activate Warrior's Intuition Gu without using an Activation. You gain a -10 bonus to the first skill test made as part of a *Reaction* against that creature before the start of your next turn.
+Effect: Warrior's Intuition Gu can only be activated after hitting a creature with an attack, but it does not cost an activation to activate. You gain a -10 bonus to the first skill test made as part of a *Reaction* against that creature before the start of your next turn.
 
 :::
 \newpage
@@ -8907,7 +9112,7 @@ Food: 5 kg of bark
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you skin grows a thick bark as strong as stone. When you take rending or force damage to your hit points, reduce the amount of damage taken by 3, to a minimum of 0. Additionally, reduce any amount of damage taken from the *bleeding* condition by 1, to a minimum of 0. You have vulnerability to heat damage.
+Effect: While sustained, you skin grows a thick bark as strong as stone. When you take rending or force damage to your hit points, reduce the amount of damage taken by 3, to a minimum of 0. Additionally, reduce any damage taken from the *bleeding* condition by 1. You have vulnerability to heat damage.
 
 ### Become Tree Gu
 
@@ -9374,6 +9579,26 @@ Health: 28
 Food: 500 g of roses
 
 Effect: A cloud of thorns bursts from your outstretched hand in a 5-meter cone. Creatures in the area take 6 force damage.
+
+### Thorn Whip Gu
+
+*Rank 2 Attack*
+
+Cost: 18 portions
+
+Range: 5 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: You attack a target within range with a thorny whip. Make an attack roll; on a hit, pick either *Crack*, *Trip*, or *Pull*.
+
+**Crack:** You strike the target, dealing 12 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 1*.
+
+**Trip:** You yank the leg out from under the target; they must succeed an **Athletics** skill test or else fall *prone*. This has no effect against objects or creatures without legs.
+
+**Pull:** The whip wraps around the target and constricts to pull them towards you. If the target is a creature, they must succeed an **Athletics** skill test or else be pulled to the closest square adjacent to you. The whip cannot pull objects or creatures that weigh more than 125 kilograms.
 
 [**Upgrade Path: Three Star Cave Gu**]
 
