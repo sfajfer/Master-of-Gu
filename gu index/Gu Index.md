@@ -649,6 +649,7 @@ Food: Complete darkness for 12 hours
 Effect: Laughter Meat Gu can store a single [Tiny] object or Gu. Objects do not deteriorate and Gu of rank 3 or lower do not need fed while inside.
 
 ### Medicine Leech Gu
+*When activated, this thin yellow leech dulls the senses and makes the user feel wobbly and intoxicated. The effect is well known to be addictive.*
 
 *Rank 1-2 Tonic*
 
@@ -661,6 +662,8 @@ Health: 3
 Food: <!-- TODO ->
 
 Effect: Medicine Leech Gu drains your vitality to heal you. You gain the *fatigued* condition and regain {15, 40} hit points. If you already had the *fatigued* condition, you instead regain {4, 9} hit points.
+
+For an hour, your senses are dulled and you gain advantage on **Perseverance** attribute tests made to overcome pain, such as from the *ablaze* condition and when you roll to see if you enter *Final Stand*.
 
 ### Multiple Sword Shadow Gu
 
