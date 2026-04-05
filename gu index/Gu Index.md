@@ -174,7 +174,7 @@ Food: 1 still beating heart
 
 Keywords: [**Sustained**]
 
-Effect: Dense red clouds manifest high above you in the sky. Blood pours from them in a thick and warm hurricane, covering the ground within range with a total of 1,000,000 gallons of blood.
+Effect: Dense red clouds manifest high above you in the sky. Blood pours from them in a thick and warm hurricane, covering the ground within range with a total of 1,000,000 liters of blood.
 
 ### Blood Sense Gu
 *Rank 2-5 Divination*
@@ -310,7 +310,7 @@ Health: 2
 
 Food: {4, 9, 16, 25} liters of blood from widowed women
 
-Effect: A 1 meter radius opaque sphere of rotating blood surrounds you. For 10 minutes, all creatures inside the sphere become *undetectable* and *inaudible*.
+Effect: A 1-meter radius sphere of rotating blood surrounds you for 10 minutes; all creatures inside the sphere are *undetectable* and *inaudible*. The sphere is opaque and cannot be seen through either way, though [**Investigative: Sight**] Gu of any rank can see through it.
 
 ### Flesh Bone Gu
 *Rank 3 Tonic*
@@ -483,6 +483,8 @@ Health: 5
 
 Food: <!-- TODO ->
 
+Keywords: [**Undodgeable**]
+
 Effect: Target creature within range has some of their blood vessels burst, taking 8 rending damage directly to their hit points.
 
 *A large quantity of Vein Burst Gu are required to refine the legendary Blood Battle Gu.*
@@ -495,6 +497,35 @@ Effect: Target creature within range has some of their blood vessels burst, taki
 *Subtle; the best concealments belong to Dark path. Marginally better defense than offense.*
 
 ::: columns
+
+### Breath Concealment Gu
+*Rank 3-5 Concealment*
+
+Cost: None
+
+Range: Self
+
+Health: 5
+
+Food: 1 hour of direct sunlight
+
+Keywords: [**Sustained**]
+
+Effect: If your current rank is equal to or below the rank of Breath Concealment Gu, the aura of your primeval essence is suppressed to a rank and stage of your choosing below your own cultivation while sustained. Your primeval essence's outward appearance remains as it was, however, so effects that glimpse inside your aperture will see your true cultivation. Sustaining Breath Concealment Gu does not count towards your number of currently sustained Gu.
+
+### Dark Aura Gu
+
+*Rank 2-3 Concealment*
+
+Cost: 70 portions
+
+Range: {1, 2} meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: All creatures and any objects they are carrying within range are *invisible* while within range. This effect lasts for 1 minute.
 
 ### Dark Gu
 
@@ -512,6 +543,24 @@ Keywords: [**Sustained**]
 
 Effect: Space within range is filled with an inky darkness while sustained. [**Investigative: Sight**] Gu of rank {2, 3, 4, 5, 5} and lower cannot see through darkness created by Dark Gu.
 
+### Dark Soul Gu
+
+*Rank 3 Carver*
+
+Cost: 100 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**]
+
+Effect: You may gain the effect of Dark Soul Gu up to 15 times. You take 100 unmitigatible damage to your soul. After you've activated Dark Soul Gu 15 times across any period, you have the Dark soul; your soul is *invisible* and *undetectable* to [**Investigative**] Gu of rank 4 or lower. Additionally, you may now safely increase your soul's maximum hit points beyond 1,009.
+
+If your soul has already been refined at least once by another Gu, Dark Soul Gu has no effect.
+
 ### Dark Toss Gu
 
 *Rank 1-5 Concealment*
@@ -526,6 +575,36 @@ Food: <!-- TODO ->
 
 Effect: You touch a Gu and Dark Toss Gu wraps itself around it. Both that Gu and Dark Toss Gu cannot be detected by [**Investigative**] Gu at or below the rank of Dark Toss Gu. Dark Toss Gu can be deactivated by touching it and expending 1 portion of primeval essence.
 
+### Dark Transposition Gu
+
+*Rank 2-4 Celerity*
+
+Cost: 20 portions
+
+Range: {3, 8, 20} meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: Dark Transposition Gu has no effect if you are in bright light. You and any objects you are carrying become *invisible.* As a reaction to any trigger, you may teleport to a square within range as long as that square is not in bright light and this effect ends. If you become lit by bright light, move, or take any actions before using the teleport, this effect ends.
+
+### Faceless Dung Beetle Gu
+
+*Rank 3 Carver*
+
+Cost: 100 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: You are assailed with a dark and gnawing pain as your **Skin** is carved with Dark Path dao over the course of an hour. You are incapable of taking any actions except to speak for the entire duration. When the process is complete, your skin saps the light from your surroundings. Light sources within 8 meters of you cannot radiate bright light, and instead radiate dim light.
+
 ### Invisibility Gu
 
 *Rank 5 Concealment*
@@ -538,7 +617,21 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: You become *inaudible*, *invisible* and *undetectable* for 1 hour.
+Effect: You and any objects you are carrying become *inaudible*, *invisible* and *undetectable* for 1 hour.
+
+### Invisible Cloak Gu
+
+*Rank 3 Concealment*
+
+Cost: 50 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: You manifest a thick, black, fur coat. Any [Large] or smaller creature that wears the cloak and any objects they are carrying become *invisible*. Only one creature can wear the cloak at a time, and the cloak becomes completely mundane after an hour.
 
 ### Laughter Meat Gu
 *A lump of flesh with a mouth on one end.*
@@ -555,11 +648,25 @@ Food: Complete darkness for 12 hours
 
 Effect: Laughter Meat Gu can store a single [Tiny] object or Gu. Objects do not deteriorate and Gu of rank 3 or lower do not need fed while inside.
 
+### Medicine Leech Gu
+
+*Rank 1-2 Tonic*
+
+Cost: 25 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: Medicine Leech Gu drains your vitality to heal you. You gain the *fatigued* condition and regain {15, 40} hit points. If you already had the *fatigued* condition, you instead regain {4, 9} hit points.
+
 ### Multiple Sword Shadow Gu
 
 *Rank 4 Attack*
 
-Cost: 15 portions
+Cost: 25 portions
 
 Range: 10 meters
 
@@ -661,7 +768,21 @@ Food: 2 eyeballs from any creature (1/4 primeval stone)
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you are enveloped in an inky darkness. As long as you are not in direct light, you are *invisible*.
+Effect: While sustained, you are enveloped in an inky darkness. As long as you are not in bright light, you and any objects you are carrying are *invisible*.
+
+### Shadow Sneak Gu
+
+*Rank 3 Attack*
+
+Cost: 12 portions
+
+Range: 5 meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: You teleport to a square within range that isn't in bright or dim light. If you used the first activation of the **Activate Gu** *Combat Action* to activate Shadow Sneak Gu, you may expend your remaining activations to make a punch or weapon attack against a creature within your melee range after teleporting.
 
 ### Sheep Clothes Gu
 
@@ -711,21 +832,6 @@ Keywords: [**Sustained**]
 
 Effect: A clone of yourself appearing like a black cloud splits from your body to an unoccupied square within 1 meter of you. When it splits from you, you can give it up to {1, 2, 3, 5} Gu from your aperture and any number of portions of primeval essence. The clone goes directly after you in initiative and is controlled by you. The clone shares all of your statistics, except that it has no soul or Strength attributes, has {1, 2, 3, 5} activations, and cannot physically interact with anything in the world. When you stop sustaining Split Shadow Gu, the Gu carried by your clone drop to the ground and you lose whatever primeval essence the clone still had.
 
-### Breath Concealment Gu
-*Rank 3-5 Concealment*
-
-Cost: None
-
-Range: Self
-
-Health: 5
-
-Food: 1 hour of direct sunlight
-
-Keywords: [**Sustained**]
-
-Effect: If your current rank is equal to or below the rank of Breath Concealment Gu, the aura of your primeval essence is suppressed to a rank and stage of your choosing below your own cultivation while sustained. Your primeval essence's outward appearance remains as it was, however, so effects that glimpse inside your aperture will see your true cultivation. Sustaining Breath Concealment Gu does not count towards your number of currently sustained Gu.
-
 :::
 \newpage
 ## $\centerline{Earth Path}$
@@ -733,6 +839,28 @@ Effect: If your current rank is equal to or below the rank of Breath Concealment
 *Great supporting path, allowing the manipulation of a battlefield. Well balanced between offense and defense.*
 
 ::: columns
+
+### Black Antlion Gu
+
+*Rank 1-3 Attack*
+
+Cost: 25 portions
+
+Range: 15 meters
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Effect: Pick a chunk of stone {[Small], [Medium], [Large]} or smaller that you can see within range.
+
+[Small]: Make an attack roll against a creature within 15 meters of the stone. That creature takes {6, 12, 30} force damage.
+
+[Medium]: Pick a 10-meter line originating from the stone. The stone is launched in that line, and if it hits a creature it stops in the square immediately before them and that creature takes {N/A, 15, 40} force damage and is knocked *prone* if they are [Medium] or smaller.
+
+[Large]: Pick a 5-meter line originating from the stone. The stone is launched in that line, and creatures in the line take 50 force damage and are pushed backwards to the end of the line and knocked *prone*, taking an additional 80 force damage if they are pushed into a wall or [Huge] creature. The stone also stops in the square immediately before the first [Huge] creature hit.
+
+Black Antlion Gu can be activated as a *Reaction* to being hit with a {[Small], [Medium] [Large]} or smaller stone, negating the attack and launching the stone to a valid target. 
 
 ### Crystal Ladybug  Gu
 *Rank 1 Container*
@@ -878,6 +1006,21 @@ Effect: The knuckles on your **Hands** are permanently transformed into thick gr
 
 **Crush:** You slam your fists into either side of the target's head. Make a **Close Combat** skill test. On a success, deal 12 force damage, +1 damage for every 10 points you have in Strength. If this damage is dealt to the target's hit points, they gain the *dazed* condition.
 
+### Gruel Mud Gu
+*Gruel mud is commonly used as a building material, as it dries into a very durable brick.*
+
+*Rank 1-5 Manifestation*
+
+Cost: 10 portions
+
+Range: {1, 2, 5, 20, 100} meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: {100, 200, 500, 2,000, 10,000} liters of gruel mud are manifested in a {1, 2, 5, 20, 100}-meter cone originating from you. Creatures in the area gain the *doused* condition and the area becomes *Difficult Terrain*. When gruel mud comes into contact with stone, it reacts and turns that stone into a rocky mud; a volume of gruel mud can only transmute an equal volume of stone, turning into ordinary mud when it reacts.
+
 ### Life-retaining Jade Coffin Gu
 
 *Rank 5 Manifestation*
@@ -905,6 +1048,20 @@ Food: 1 kg mound stone (2 primeval stones)
 
 Effect: You stomp, and the ground quakes; all creatures standing on solid ground within range of you must succeed an **Athletics** skill test with a +10 penalty or else be knocked *prone*.
 
+### Raise Earth Gu
+
+*Rank 1 Manifestation*
+
+Cost: 16 portions
+
+Range: 2 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: Soil or stone beneath your feet is pulled to an unoccupied square within range, forming a 40-centimeter tall wall that creatures [Medium] and smaller can hide behind. [Medium] creatures get partial cover from attackers on the opposite side, while [Small] and [Tiny] creatures get full cover.
+
 ### Rice Pouch Grass Gu
 *Rank 1 Manifestation*
 
@@ -921,7 +1078,7 @@ Effect: Rice Pouch Grass Gu fills iteself with 5 kg of long blades of rice.
 ### Stealth Rock Gu
 *Rank 1 Concealment*
 
-Cost: 1 portion
+Cost: 4 portions
 
 Range: Self
 
@@ -947,6 +1104,20 @@ Food: {1kg, 10kg, 100kg} of talc ({1, 10, 100} primeval stones)
 Keywords: [**Dao**], [**Expendable**]
 
 Effect: As long as you are of the same rank as Stone Aperture Gu, your **Aperture** walls shatter and are replaced with an unbreakable stone wall. Your cultivation immediately rises to peak stage, but you can no longer raise your rank through cultivation.
+
+### Trench Gu
+
+*Rank 2 Manifestation*
+
+Cost: 8 portions
+
+Range: 10 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: Choose a 10-meter long, 2-meter wide line. Any squares in the line with ground made of stone, sand, or soil are dug out, creating a 1-meter deep trench. Creatures standing in the line who have the trench dug from under them fall *prone* inside the trench.
 
 ### Tremor Sense Gu
 
@@ -1015,7 +1186,7 @@ Awareness & 80 \\ \hline
 
 **Multiattack.** Thousand-Li Earthwolf Spider Gu makes 2 Bite attacks.
 
-**Bite.** *Melee Attack, 1 meter.* Thousand-Li Earthwolf Spider Gu bites a target with its fangs. On a hit, deal 70 force damage. If this damage is dealt to the target's hit points, they fall prone and gain the poisoned condition: You are paralyzed and cannot move or take any *Combat Actions* except Activate Gu.
+**Bite.** *Melee Attack, 1 meter.* Thousand-Li Earthwolf Spider Gu bites a target with its fangs. On a hit, deal 70 force damage. If this damage is dealt to the target's hit points, they fall prone and gain the poisoned condition: You are paralyzed and cannot move or take any *Combat Actions* except **Activate Gu**.
 
 Thousand-Li Earthwolf Spider Gu can climb on walls and ceilings without making an **Athletics** skill test. Additionally, Thousand-Li Earthwolf Spider Gu has a digging speed of 3 meters in stone or soil.
 
@@ -3292,7 +3463,7 @@ Health: 3
 
 Food: 3 drops of flammable oil.
 
-Effect: Little Light Gu emits 10 meters of bright light at all times. The light defaults to white, but activating Little Light Gu slightly shifts its color along the color wheel until it reaches your desired color.
+Effect: Little Light Gu emits 3 meters of bright light at all times. The light defaults to white, but activating Little Light Gu slightly shifts its color along the color wheel until it reaches your desired color.
 
 [**Upgrade Tree: Moonlight Gu**]
 
@@ -3505,7 +3676,7 @@ Food: {20, 150} moon orchid petals ({20, 150} primeval stones)
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you are *invisible* as along as you are lit by moonlight.
+Effect: While sustained, you and any objects you are carrying are *invisible* as along as you are lit by moonlight.
 
 [**END**]
 
@@ -3573,7 +3744,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Light bends around your body, making you *invisible* while sustained.
+Effect: Light bends around your body, making you and any objects you are carrying *invisible* while sustained.
 
 #### Solar Flare Gu
 \break
@@ -5464,6 +5635,22 @@ Keywords: [**Dao**], [**Expendable**], [**Extinct**]
 
 Effect: Your soul develops an exoskeleton of Soul Path dao. Whenever your soul is dealt damage by an attack or refinement backlash, reduce that damage by 2.
 
+### Misshapen Soul Gu
+
+*Rank 3 Catalyst*
+
+Cost: 25 portions
+
+Range: Self
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable**]
+
+Effect: Your soul is molded and unrefined; any effects that have permanently refined your soul (such as General Soul or Dark Soul Gu) are removed.
+
 ### Piercing Shriek Gu
 
 *A dark purple cocoon warped to shape a shrieking face.*
@@ -6538,7 +6725,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: You manifest an *invisible* sabre in one of your free hands while sustained. If you used the first activation of the *Activate Gu* *Combat Action* to activate Sabre Gu, you may expend your remaining activations to make a weapon attack against an adjacent creature as part of the *Activate Gu* *Combat Action*. Melee attacks made with the sabre deal 20 rending damage and 20 force damage. If this damage is dealt to the target's hit points, they gain *bleeding 2.*
+Effect: You manifest an *invisible* sabre in one of your free hands while sustained. If you used the first activation of the **Activate Gu** *Combat Action* to activate Sabre Gu, you may expend your remaining activations to make a weapon attack against an adjacent creature as part of the **Activate Gu** *Combat Action*. Melee attacks made with the sabre deal 20 rending damage and 20 force damage. If this damage is dealt to the target's hit points, they gain *bleeding 2.*
 
 You don't add your Strength to the damage dealt by Sabre Gu.
 
@@ -6600,7 +6787,7 @@ Health: 4
 
 Food: 1 kg of shattered glass (1/4 primeval stone)
 
-Effect: You throw a 1 meter wide curved blade in an 8 meter long line. The first creature hit takes 30 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 2*.
+Effect: You throw an *invisible* 1 meter wide curved blade in an 8 meter long line. The first creature hit takes 30 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 2*.
 
 ### Rend Gu
 *Rank 3 attack*
@@ -6617,7 +6804,7 @@ Health: 3
 
 Food: 1 kg of sharpened blades of any size (1/2 primeval stone)
 
-Effect: You throw a 1 meter wide curved blade in a 20 meter long line. All creatures in the area take 80 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 3*.
+Effect: You throw an *invisible* 1 meter wide curved blade in a 20 meter long line. All creatures in the area take 80 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 3*.
 
 ### Split Hill Gu
 *Rank 4 Attack*
@@ -6634,7 +6821,7 @@ Health: 3
 
 Food: 10 Slash Gu
 
-Effect: You throw a 3 meter wide blade of supercondensed sword qi in a 100 meter long line. All creatures in the area take 200 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 5*. **Dodge** skill tests to avoid this attack are made with a +10 penalty.
+Effect: You throw an *invisible* 3 meter wide blade of supercondensed sword qi in a 100 meter long line. All creatures in the area take 200 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 5*.
 
 ### Split Mountain Gu
 *Rank 5 Attack*
@@ -6649,7 +6836,7 @@ Health: 3
 
 Food: 50 Rend Gu
 
-Effect: You launch an enormous burst of sword qi in a line 5 meters wide, 10 meters tall, and 500 meters long. All creatures in the area take 600 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 20*. **Dodge** skill tests to avoid this attack are made with a +20 penalty.
+Effect: You launch an enormous *invisible* burst of sword qi in a line 5 meters wide, 10 meters tall, and 500 meters long. All creatures in the area take 600 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 20*. **Dodge** skill tests to avoid this attack are made with a +20 penalty.
 
 *Discovered by Lord of Swords Jin Chang, Split Mountain Gu is named for his sundering of Mount Cao. To this day, a great ravine splits the mountain in two, with the Jin and Cao clans living on either side.*
 
@@ -6681,7 +6868,7 @@ Health: 12
 
 Food: <!-- TODO ->
 
-Whenever you are targeted by an attack from a Sword Path Gu or a physical weapon within range, you may activate Sword Sheathe Gu as a *Reaction* to cover the Gu or weapon in a formless sheath, negating the triggering attack. The Gu or weapon cannot be forced out or used and the sheath has {10, 30, 120} hit points. It remains sheathed until the sheath is broken.
+Whenever you are targeted by an attack from a Sword Path Gu or a non-Gu weapon within range, you may activate Sword Sheathe Gu as a *Reaction* to cover the Gu or weapon in a formless sheath, negating the triggering attack. The Gu or weapon cannot be forced out or used and the sheath has {10, 30, 120} hit points. It remains sheathed until the sheath is broken.
 
 :::
 \newpage
@@ -6721,6 +6908,8 @@ Range: 3 meters
 Health: 2
 
 Food: <!-- TODO ->
+
+Keywords: [**Undodgeable**]
 
 Effect: A ghostly hand materializes and plunges into the aperture of a Gu Master you can see within range. A Gu from their aperture is grabbed and teleported into your aperture. If you can see inside their aperture, you may pick a Gu; one is selected at random otherwise.
 
@@ -6865,7 +7054,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you wiggle your finger and attempt to pull a random Gu from the aperture of a Gu Master within range at the start of each of your turns. **Dodge** skill tests made to avoid this   you pull a random Gu from their aperture and into your own. If you leave your current square for any reason while sustaining Plunder Gu, it deactivates and takes 1d4 damage.
+Effect: At the start of each of your turns while sustained, you wiggle your finger at a Gu Master within range. Roll 1d4; on a 1, you pull a random Gu from their aperture and into your own. If you leave your current square for any reason while sustaining Plunder Gu, it deactivates and takes 1d4 damage.
 
 ### Size Up Gu
 
@@ -7026,7 +7215,7 @@ Food: A stolen Gu
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: A small fold is permanently etched into your **Head** in the space behind your ear. This void pocket can store one Gu or object smaller than 10 cubic centimeters. Items stored here cannot be detected by [**Investigative**] Gu of rank 1 and do not count toward your carried weight.
+Effect: A small fold is permanently etched into your **Head** in the space behind your ear. This void pocket can store one Gu or [Tiny] object. Items stored here cannot be detected by [**Investigative**] Gu of rank 2 or lower and do not count toward your carried weight.
 
 :::
 \newpage
@@ -7242,7 +7431,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, creatures that perceive you instead see the area at a different point in time when you were not there. You are *invisible*, *inaudible*, *odorless*, and *undetectable*, unless perceived by an [**Investigative**] Gu belonging to Time Path.
+Effect: While sustained, creatures that perceive you instead see the area at a different point in time when you were not there. You are *inaudible*, *odorless*, and *undetectable*, and you and any objects you are carrying are *invisible*. [**Investigative**] Gu belonging to Time Path ignore the effect of Time Concealment Gu.
 
 ### Time Luck Gu
 
@@ -7277,7 +7466,7 @@ Effect: A silver triangle tattoo permanently appears on your **Torso**. Your bod
 \newpage
 
 ## $\centerline{Transformation Path}$
-*Changing the users body temporarily. Transformation Path Gu Masters rely on acquiring a full set of Gu for a particular transformation. When using all component Gu together, they form a killer move that the Gu Master does not need to deduce. Transformation Path is very balanced, but each transformation has strengths and weaknesses.*
+*Changing the users body temporarily. Transformation Path Gu Masters rely on acquiring a full set of Gu for a particular transformation. When using all component Gu together, they form a killer move that the Gu Master does not need to deduce (see the Killer Move Index). Transformation Path is very balanced, but each transformation has strengths and weaknesses.*
 
 ::: columns
 
@@ -8493,7 +8682,7 @@ Food: 1 dandelion seed
 
 Keywords: [**Dao**], [**Expendable**], [**Investigative: Detect**]
 
-Effect: Your **Skin** is carved with Wind Path dao, permanently making your hairs extremely sensitive to air currents. You ignore any penalties from the *blinded* condition when attacking or being attacked by a creature within 3 meters of you and can sense the exact location of any creature or object that moves within 3 meters of you. You also gain a -5 bonus to **Dodge** tests.
+Effect: Your **Skin** is carved with Wind Path dao, permanently making your hairs extremely sensitive to air currents. You ignore any penalties from the *blinded* condition when attacking or being attacked by a creature within 3 meters of you and can sense the exact location of any creature or object that moves within 3 meters of you. You also gain a -5 bonus to **Dodge** skill tests.
 
 ### Wind Sword Gu
 
@@ -9321,7 +9510,7 @@ Health: 6
 
 Food: 5 kg of moss
 
-Effect: You or a creature you touch sprouts a thick moss for 1 hour that blends in with forestry. While in a wooded or grassy area, they are *invisible*.
+Effect: You or a creature you touch sprouts a thick moss for 1 hour that blends in with forestry. While in a wooded or grassy area, the target and any objects they are carrying are *invisible*.
 
 ### Earth Communication Ear Grass Gu
 *A large ear with roots growing from the eardrum. After a Gu Master replaces one of their ears with it, Earth Communication Ear Grass Gu slowly shrinks to fit their face and become more unassuming.*
@@ -9357,7 +9546,7 @@ Effect: You may take or stow an object in Flowerbud Gu at will. Flowerbud Gu can
 ### Fragrant Daisy Gu
 *Rank 3 Concealment*
 
-Cost: 10 portions
+Cost: 30 portions
 
 Range: Touch
 
