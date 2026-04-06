@@ -663,7 +663,7 @@ Food: <!-- TODO ->
 
 Effect: Medicine Leech Gu drains your vitality to heal you. You gain the *fatigued* condition and regain {15, 40} hit points. If you already had the *fatigued* condition, you instead regain {4, 9} hit points.
 
-For an hour, your senses are dulled and you gain advantage on **Perseverance** attribute tests made to overcome pain, such as from the *ablaze* condition and when you roll to see if you enter *Final Stand*.
+For the next hour, your senses are dulled and you gain advantage on **Perseverance** attribute tests made to overcome pain, such as from the *ablaze* condition and when you roll to see if you enter *Final Stand*.
 
 ### Multiple Sword Shadow Gu
 
